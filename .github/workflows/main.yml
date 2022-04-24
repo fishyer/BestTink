@@ -25,8 +25,6 @@ jobs:
         run: cp logseq/config-public.edn logseq/config.edn && cp logseq/custom-public.css logseq/custom.css
       - name: Logseq Publish 🚩
         uses: pengx17/logseq-publish@main
-        # with:
-        #   version: nightly
       - name: Inject Script
         run: sed -i "s@</body>@$( cat logseq/inject.html | tr '\n' ' ' | sed 's@&@\\&@g' )</body>@"  www/index.html
       - name: add a nojekyll file
