@@ -1,0 +1,3 @@
+- chrome本地插件路径
+	- ~/Library/Application Support/Google/Chrome/Default/Extensions
+- 常用Chrome插件

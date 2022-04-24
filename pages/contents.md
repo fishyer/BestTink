@@ -1,5 +1,45 @@
-- This [[Knowledge Garden]] is powered by [[Logseq]] using [[logseq dev theme]]
-- Published automatically using  [[Logseq Publish GitHub Action]]
-## Shortcuts
-	- [[About Me]]
-	- [[Blog Posts]]
+- [这是一个共建共享的工具和思维模型知识库](https://logseq.fishyer.com)
+- 笔记状态
+	- 7种任务状态 ``NOW LATER DONE WAITING CANCELLED``
+		- [[TODO]] 收集清单
+		- [[DOING]] 执行清单
+		- [[DONE]] 归档清单
+		- [[LATER]] 可能清单
+	- 任务属性
+		- [[Private]] 私有笔记
+		- [[Public]] 公开笔记
+		- 默认除去journals，全部公开
+- 快捷方式
+	- [[本地图片索引]]
+	- [[写作计划]]
+	- [[读书计划]]
+	- [[学习计划]]
+	- [[思维模型知识库]]
+	- [[编程知识库]]
+	- [[Android]]
+	- [[书单]]
+	- [[网课清单]]
+	- [[信源清单]]
+	- [[书签清单]]
+	- [[通识]]
+- 效能习惯
+	- 1-每天晚上6点之前，除非特别紧急，禁止回复微信
+	- 2-临时看到的网页、想到的任务，暂不处理，先加入稍后阅读清单、待办清单
+	- 3-每天早上列一份今天的待办计划，执行时记录下过程
+	- 4-白天收集信息，晚上整理信息；工作日收集信息，双休日整理信息
+	-
+- 精选工具
+	- [[葫芦笔记]]
+	- [[Logseq]]
+	- [[MWeb]]
+	- [[VSCode]]
+	- [[Cubox]]
+	- [[滴答清单]]
+	- [[Eagle]]
+	- [[Zotero]]
+	- [[Alfred]]
+	- [[uTools]]
+	- [[Chrome]]
+- 精选笔记
+	- [[读书笔记-如何成为学习高手]]
+	-

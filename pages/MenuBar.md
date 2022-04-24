@@ -1,0 +1,4 @@
+- this is menubar
+- menu1
+- menu2
+- menu3

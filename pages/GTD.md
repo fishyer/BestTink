@@ -1,0 +1,181 @@
+- Relate
+	- #PKM #滴答清单 #WorkFlowy
+- 资料
+	- [GTD 自我管理、时间管理教程【全 10 集】 | 远离瞎忙迷茫懒癌拖延症 | 从零开始，科学地认识和使用 GTD 时间管理法则。_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1wE411176Q?p=1)
+	  collapsed:: true
+		- 视频所用思维导图工具：XMind ZEN；
+			- [10 个人里 8 个人都在推荐的思维导图软件，到底有多好用？_哔哩哔哩_bilibili](https://www.bilibili.com/video/av30090146)
+	- [时间管理方法论 | 帮助中心 - 滴答清单](https://help.dida365.com/tasks)
+	- [Topbook | 高效生活视频书](https://topbook.cc/content)
+- 笔记
+	- 关于GTD，Getting Things Done，不能是做完，而是做好
+	- 当下人们的两种状态：累成狗，闲成猪
+	- 对不同的任务，其实应该有不同的应对方法
+	- 把你需要做的事情列出来并处理它们 ≠ 把事情做完
+	- 除机心，机巧功利之心
+		- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180435630.png){:height 399, :width 677}
+	- 人类的聪明在于会用工具，人类的错误在于只会用工具
+	- 时间管理、任务清单，可以反应一个人做事的方式
+	- 很多事情，仅仅只是想，不确定、没计划，放进可能清单
+	- 给项目清单做计划，可以放到 执行清单
+	- 人找书，很难，但书找书，却很容易
+	- 第一性原理，把事情简化为最基本的事实
+- 卡片
+	- GTD的2个目的
+	  collapsed:: true
+		- 1.清空大脑，不再混乱
+			- 短期记忆很有限，提取长期记忆很困难
+			- 大脑是一个不稳定的硬盘，不方便我们快速进行优先级排序，好记性不如烂笔头
+			- 过于混乱的待办事项， 会增加失控感，导致焦虑、拖延、压力山大，外部存储器有利于提升掌控感，进而提升幸福感
+		- 2.明确知道下一步应该做什么
+	- GTD的5个流程
+	  collapsed:: true
+		- 配图
+			- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180443642.png)
+			- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180443363.png)
+		- 1.捕获(Capture)-收集箱
+			- 插图
+				- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180443358.png){:height 125, :width 208}
+		- 2.明晰(Clarify)
+			- 执行清单("@Context"task)
+			- 委托清单("Waiting for"task)
+			- 项目清单("Plan project"plan)
+			- 可能清单(Someday/maybe)
+			- 参考资料(Reference)
+			- 回收箱(Trash)
+			- 日历/应用
+		- 3.组织(Organize)-部署到特定应用
+		- 4.回顾(Reflect)-设置回顾周期，每天晚上回顾、每周周天回顾、每月月底回顾
+			- 每天回顾
+				- ①收集箱清空没？⑤收集够没？
+				- ⑥等待清单下一步？在做吗？如何了？
+				- ⑦项目清单下一步？在做吗？如何了？
+				- ⑧可能清单下一步？在做吗？如何了？
+			- 每周回顾
+				- 查漏补缺、以保证万无一失
+				- 相比被动收集，更加主动：借助[[引子清单]]
+					- 类似查理芒格的检查清单
+						- 即便是最优秀的飞行员在起飞前，都会对照检查清单检查一遍飞机以确保万无一失，那么我们在生活或投资中做决策时，也应该有一份检查清单。
+					- 设置一份自己的专属引子清单
+		- 5.执行(Engage)-要主动拿结果，而非被动等结果
+	- GTD执行任务前的5个问题
+	  collapsed:: true
+		- 1.这件事可行动么？
+			- 否
+				- ==参考资料-Refrence==
+					- 特性
+						- 一切可被记录的，就可被参考
+						- 参考价值的高低是相对的，
+					- 如何准备参考资料
+						- 1.回归常识，避免追新、奇、怪；
+						- 2.提高信息的检索、辨别能力：
+						- 3.提高参考资料的存档标准。
+							- 搜索引擎能找到的、浅显平常的，不存档
+							- 新概念，但换汤不换药的，不存档。
+					- 现代人的参考资料
+						- 网络搜索引擎
+						- 个人知识库
+							- 现阶段工作所需参考资料
+							- 智慧或对智慧的见解-值得纪念、留存、回味、学习、反复诵读
+				- ==可能清单-Someday==/Maybe
+				- ==回收站-Trash==
+					- 被放弃的任务
+		- 2.这件事可以一步搞定么？
+			- 否
+				- ==项目清单-Plan Project==
+		- 3.这件事可以在2分钟内搞定么？能-==立即做==
+		- 4.这件事必须我做么？否-==等待清单 Waiting Task==
+		- 5.这件事有特定时限么？
+			- 否-==执行清单 @Context Task==
+			- 是-==日程表 Calendar Task==
+	- GTD的7个清单
+	  collapsed:: true
+		- 🔥 1.收集箱
+		- 2.可能清单
+		- ⭐️ 3.项目清单
+		- 4.等待清单
+		- ⭐️ 5.执行清单
+		- 6.参观资料
+		- 7.回收箱
+	- GTD的几个注意点
+	  collapsed:: true
+		- 1.从收集箱拿出的事项不能放回收集箱
+		- 2.主动拆解项目清单
+		- 3.更新等待清单、可能清单、参考资料、回收箱
+			- 等待清单≠确认别人完成与否，而是确保任务顺利完成
+				- 1.将与对方的确认时间提前到下午==四点==，并告知对方与其==利益==相关；
+				- 2.在明天下午上班时间（==两点==）再次告知对方，既起到==提醒==作用，又让对方感到==温暖==，提高任务完成的==可能性==。
+		- 4.确定日期设置恰当,可以从截止日期倒推启动时间和执行进度表
+	- GTD常用应用
+	  collapsed:: true
+		- Evernote
+		- OneNote
+		- Outlook
+		- iOS提醒事项
+		- OmniFocus
+		- Things
+		- Trello
+		- Wunderlist/Microsoft To-Do
+		- 滴答清单
+	- 选择GTD工具的原则
+	  collapsed:: true
+		- 1.没有100%契合任何人的应用，放弃一劳永逸
+		- 2.尽量参考官方推荐，总有其道理
+		- 3.考虑迁移成本、放弃成本
+		- 4.考虑你的硬件设备，全平台不一定好
+		- 5.给自己足够的时间去试错
+		- 6.不要看应用有什么功能，而要看你自己如何使用应用
+		- 7.便利≠高效，不要舍本逐末
+		- 8.GTD不一定必须使用某款应用，也不一定使用应用。
+	- 我们的常见日常
+	  collapsed:: true
+		- 按难易程度排序，琐事做得越多，反而离我们的目标越来越远
+		- 插图
+			- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180443645.png)
+	- 如何给任务清单排序？
+	  collapsed:: true
+		- 插图
+		  collapsed:: true
+			- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180444691.png)
+		- 2个基本原则
+			- 1.你不可能完成所有的事情
+				- 充足的睡眠，健康的身体；
+				- 不以牺牲个人合理的人际关系和幸福感为前提。
+			- 2.尽可能做离你目标更近的事情
+				- 执行清单可以有三个子分区：工作、学习、生活
+				- 最先做有产出、有价值的事
+		- 几个常见问题
+			- 为什么不可能做完所有的事情？
+				- [只顾着完成任务清单，可能会让你离目标越来越远。](https://topbook.cc/search/article?keywords=%E5%8F%AA%E9%A1%BE%E7%9D%80%E5%AE%8C%E6%88%90%E4%BB%BB%E5%8A%A1%E6%B8%85%E5%8D%95%EF%BC%8C%E5%8F%AF%E8%83%BD%E4%BC%9A%E8%AE%A9%E4%BD%A0%E7%A6%BB%E7%9B%AE%E6%A0%87%E8%B6%8A%E6%9D%A5%E8%B6%8A%E8%BF%9C%E3%80%82&selectedArticle=1247)
+			- 难道不应该“今日事今日毕”吗？
+			- 我应该如何确定自己的目标？
+			-
+	- 如何才能不饿死猫，GTD的4个注意事项
+		- 1.能被放进执行清单的，都是可以一步搞定的
+			- 如果用时较长
+				- 事情本身非常特殊
+				- 能力有问题
+					- 买粮等等事项特创简单
+					- 做计划、做方宾卖时德力？
+				- 态度有问题
+		- 2.做计划、做方案是每个人的必修课
+			- 插图
+			  collapsed:: true
+				- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180443423.png)
+			- “怎么做"是方法和歧巧-知识
+			- ”为什么“、“怎么来的”才和计划、方案有更紧密的联系-智慧
+		- 3.做好时间预估
+			- 可以先用前几个番茄钟来测试耗时，比如平均一个番茄钟能看一本书的多少页
+			- 给执行清单的每件事都可以设置估时
+		- 4.为特别的事预留时间
+			- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202204171455287.png){:height 543, :width 646}
+	- 如何保障执行清单的质量和效率？
+		- 1.一次只处理一件事
+		- 2.使用番茄钟提高效率
+		- 3.打破“负罪感幻觉”
+			- 无关紧要的消息，必须秒回，
+			- 突然交给你的任务，必须马士处理；
+			- 插图
+				- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180436025.png)
+				- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180436096.png)
+-

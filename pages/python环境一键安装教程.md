@@ -1,0 +1,10 @@
+- 1 Windows版本安装文档 （适用于win7，win8，win10）
+	- 《Python+pip+VSCode 一键安装》[https://shimo.im/docs/lgqAaLT0dRMVCEcC/](https://shimo.im/docs/lgqAaLT0dRMVCEcC/)
+	- 《Windows版本Python环境安装详细教程》[https://shimo.im/docs/uBqiJ9Cd7hw7DyYb/](https://shimo.im/docs/uBqiJ9Cd7hw7DyYb/)
+	- 《Anaconde 安装文档》[https://prod.pandateacher.com/python-manuscript/user-install-manual/](https://prod.pandateacher.com/python-manuscript/user-install-manual/)
+	- 《windows版本Anaconda+Pycharm安装手册》[https://shimo.im/docs/osGMxDe6E24hx6JT/](https://shimo.im/docs/osGMxDe6E24hx6JT/)
+- 2 Mac（苹果）版本安装文档
+	- 《Python+pip+VSCode Mac一键安装》[https://shimo.im/docs/OkFRtOFtfa4D4lw1/](https://shimo.im/docs/OkFRtOFtfa4D4lw1/)
+	- 《Mac版本Python环境安装详细教程》[https://shimo.im/docs/1fKiGSKtxnkiu5ZJ/](https://shimo.im/docs/1fKiGSKtxnkiu5ZJ/)
+	- 《Anaconde安装文档 》[https://prod.pandateacher.com/python-manuscript/user-install-manual/](https://prod.pandateacher.com/python-manuscript/user-install-manual/)
+	- ⭐️ 《Mac版本Anaconda+VSCode安装》[https://shimo.im/docs/yb2PpRwuAHcvoNB6/](https://shimo.im/docs/yb2PpRwuAHcvoNB6/)

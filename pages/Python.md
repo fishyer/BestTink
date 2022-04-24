@@ -1,0 +1,12 @@
+- 资料
+	- [Python、webdav 上传文件到坚果云_alin299的博客-CSDN博客_python webdav](https://blog.csdn.net/weixin_43117763/article/details/115079630)
+	- [当 Python + Notion API，你就可以用「Notion 助手」轻松调试自己的小机器人 - 少数派](https://sspai.com/post/68140)
+	- [利用Python爬虫+notion API实现在notion中自动收录看过的电影 - 知乎](https://zhuanlan.zhihu.com/p/425067213)
+- 摘要
+	-
+- 卡片
+	- [[python环境一键安装教程]]
+-
+-
+-
+-

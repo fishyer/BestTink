@@ -1,0 +1,10 @@
+- 书籍资源
+	- Zlibrary
+		- [1lib.domains-获取可用的域名](https://1lib.domains)
+		- 常用域名
+			- [zh.bookshome.net](https://zh.bookshome.net/)
+- 阅读工具
+	- Zotero
+	- 微信读书
+		- [Johnny学OB 在Obsidian里使用微信读书，真的得劲！_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1aa411v7pw?p=1)
+-

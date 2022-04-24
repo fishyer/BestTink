@@ -1,0 +1,17 @@
+- 资料
+	- [一步到位，让 Obsidian local REST API 插件和 Memos 联用起来 - 知乎](https://zhuanlan.zhihu.com/p/492508593)
+	- [Local Rest API for Obsidian: Interactive API Documentation](https://coddingtonbear.github.io/obsidian-local-rest-api/)
+	- [Plugins - Obsidian](https://obsidian.md/plugins)
+	-
+- 笔记
+	-
+- [[模仿flomo，实现飞书消息自动保存到Logseq]]
+- Logseq+Obsidan+VSCode联合管理本地MarkDown文件的好处
+	- Obsidian的优势
+		- 有Advanced URI插件，支持Url Schema，可以方便滴答清单等工具，点击链接跳转到Obsidian查看笔记
+		- 有Zhihu On VSCode
+	- Logseq的优势
+		- 可以导出html，发布可交互的博客站点，搭建个人的数字花园
+	- VSCode的优势
+		- 有Zhihu On VSCode插件，可
+	-

@@ -1,0 +1,13 @@
+- Relate
+	- #Obsidian #Logseq #Git
+- 资料
+	- [如何构建自己的笔记系统？ - 知乎](https://www.zhihu.com/question/23427617/answer/2411541757)
+- 笔记
+	-
+- TODO 如何做PDF笔记
+- TODO 如何做网页笔记
+- TODO 如何做视频笔记
+- TODO 如何做闪念笔记
+-
+-
+-

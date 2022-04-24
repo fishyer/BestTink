@@ -1,0 +1,28 @@
+public:: true
+
+- Chrome
+	- Tampermonkey
+	- OneTab
+	- TabCopy
+	- Cubox
+	- 彩云小译
+	- Adblock
+	- Eagle
+	- RSSHub Radar
+	- MarkDownLoad
+	- Downie
+- 微信
+- 滴答清单
+- Logseq
+- Eagle
+- Cubox
+- Zotero
+- Alfred
+- uTools
+- ClashX
+- 腾讯看图
+- IINA
+- Syncthing
+- 百度网盘
+- 小众软件
+	- FastStone Capture

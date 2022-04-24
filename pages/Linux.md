@@ -1,0 +1,13 @@
+- Relate
+	- [[VPS]]
+- 宝塔面板
+	- [DNS设置 · 宝塔面板手册 · 看云](https://www.kancloud.cn/chudong/bt2017/424326)
+	- [宝塔面板搭建网站教程 - v1tx](https://www.v1tx.com/post/bt-panel-create-website/)
+- 防火墙-端口
+	- [Linux服务器上防火墙开放端口的设置及启动](https://mp.weixin.qq.com/s/s4w7bWAMQOUBm0O9tTVQLg)
+- nginx配置文件路径
+	- /www/server/nginx/conf
+- SSH配置
+	- [生成/添加SSH公钥 - Gitee.com](https://gitee.com/help/articles/4181#article-header0)
+		- ssh-keygen -t rsa -C "fishyer@foxmail.com"
+-
