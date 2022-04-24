@@ -1,4 +1,6 @@
-{ ;; Currently, we support either "Markdown" or "Org".
+{:meta/version 1
+
+ ;; Currently, we support either "Markdown" or "Org".
  ;; This can overwrite your global preference so that
  ;; maybe your personal preferred format is Org but you'd
  ;; need to use Markdown for some projects.
@@ -11,7 +13,7 @@
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
-:hidden []
+ :hidden []
 
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
@@ -34,7 +36,7 @@
  ;; When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
- ;; :publishing/all-pages-public? true
+ :publishing/all-pages-public? true
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
@@ -46,11 +48,11 @@
  ;; If `:sidebar` is not set, sidebar will be hidden
  ;; Example:
  ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
-:default-home {:page "README":sidebar "TOC" }
+ ;; :default-home {:page "README", :sidebar "MenuBar"}
  ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
- ;; :default-home {:sidebar ["MyGTD" "MyPKM" "MyTag" "MyList"]}
+ ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
@@ -142,6 +144,13 @@
  :commands
  []
 
+ ;; By default, a block can only be collapsed if it has some children.
+ ;; `:outliner/block-title-collapse-enabled? true` enables a block with a title
+ ;; (multiple lines) can be collapsed too. For example:
+ ;; - block title
+ ;;   block content
+ :outliner/block-title-collapse-enabled? false
+
  ;; Macros replace texts and will make you more productive.
  ;; For example:
  ;; Add this to the macros below:
@@ -150,8 +159,6 @@
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
  :macros {}
-
- :markdown/version 2
 
  ;; The default level to be opened for the linked references.
  ;; For example, if we have some example blocks like this:
@@ -165,11 +172,8 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :publishing/all-pages-public? true
- :favorites ["README" "关于我" "如何参与到本知识库的创建" "Android"]
- :zotero/settings-v2 {"default" {:extra-tags "testLogTag", :overwrite-mode? true, :zotero-data-directory "/Users/yutianran/MyZotero", :zotero-linked-attachment-base-directory "/Users/yutianran/MyObsidian/MyZoteroFiles/zotero", :type-id "8661287", :notes-block-text "[[Note]]", :page-insert-prefix "@", :include-notes? true, :attachments-block-text "[[Attachments]]"}}
+ :favorites ["README" "Logseq知识库初始化笔记"]
  :journal/page-title-format "yyyy-MM-dd"
- :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 0}, :parentheses {:counts 0}, :command {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 0}, :tag {:counts 0}, :brackets {:counts 5}, :italic {:counts 0}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -191,4 +195,22 @@
  ;; Mobile photo uploading setup
  ;; :mobile/photo
  ;; {:allow-editing? true}
+
+ ;; Extra CodeMirror options
+ ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
+
+ ;; ignore #+keyword: for parsing page references in orgmode
+ ;; :ignored-page-references-keywords #{"author" "startup"}
+ 
+ ;; Quick capture templates on mobile for recieving contents from other apps.
+ ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
+ ;; by received contents from other apps. Note: the {} cannot be omitted.
+ ;; - {time}: capture time
+ ;; - {text}: text that users selected before sharing.
+ ;; - {url}: url or assets path for media files stored in Logseq.
+ ;; You can also reorder them, or even only use one or two of them in the template.
+ ;; You can also insert or format any text in the template as shown in the following examples.
+ ;; :quick-capture-templates
+ ;; {:text "[[quick capture]] **{time}**: \n - {text} from {url}"
+ ;;  :media "[[quick capture]] **{time}**: \n - {url}"}
  }
