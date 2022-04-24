@@ -1,5 +1,10 @@
-alias:: Logseq入门简介
+alias:: Logseq入门简介,Logseq知识大全
 
+- Logseq可以用来干嘛？
+	- 用来记日记，记录每天的各种零散想法
+	- 用来当做大纲来辅助思考，让思维不再混乱无序
+	- 用来当做MarkDown编辑器来写作，所见即所得
+	- 用来搭建个人wiki知识库，并用双链的潜在链接来自动聚合，防止笔记坟场
 - 基础教程
 	- 极简版
 		- [Logseq小白系列教程入门篇一 - 知乎](https://zhuanlan.zhihu.com/p/343854552)
@@ -12,19 +17,18 @@ alias:: Logseq入门简介
 		- 来源自Obsidan群的 #及时春雨
 		- [Logseq从入门到精通-15集视频-bilibili](https://www.bilibili.com/video/BV1144y14764)
 - 为什么推荐Logseq做笔记
-  collapsed:: true
 	- 1-它有大纲、MarkDown、双链等功能，还是本地的，免费的，开源的，编辑体验也超爽
 	- 2-它的自动聚合功能超爽，可以帮我们发现笔记之间的潜在链接，让以前的笔记不至于石沉大海
 		- 案例效果，来源于[双链笔记软件推荐：Logseq 和它的五种用法 - 少数派](https://sspai.com/post/69503)
 		  collapsed:: true
 			- ![](https://photo.fishyer.com/img/202204212126602.png)
 - 新手建议
-  collapsed:: true
 	- 1-就当一个普通的[[大纲]]软件来用就行了，Tab键变成下级节点，Shift+Tab变成上级节点
 	- 2-就当一个普通的[[MarkDown]]软件就行了，## 二级标题，### 三级标题，更多语法看[这里](https://cubox.pro/share/bWpE42)
 	- 3-就当一个普通的[[双链]]笔记软件来用 就行了，`[[]]`就是另一条笔记联系起来，可以当标签来用
 	- 4-多用`/`命令，里面有很多快捷输入的方法，不用自己记语法
 	- 不建议新手去玩的功能
+	  collapsed:: true
 		- 别名
 			- 比如给一个页面取多个标题，方便在不同地方引用它
 				- ```
@@ -44,11 +48,11 @@ alias:: Logseq入门简介
 - 高级搜索
   collapsed:: true
 	- 不建议新手去折腾高级搜索
-	-
 - 插件
   collapsed:: true
 	- 不建议新手去折腾插件，因为Logseq本身提供的功能已经足以满足我们的大多数笔记场景
 	- 不过这几个插件强烈建议安装一下
+	  collapsed:: true
 		- 只建议安装我现在依然启用的那几个
 			- ![](https://photo.fishyer.com/img/202204231748406.png)
 	-
@@ -74,6 +78,7 @@ alias:: Logseq入门简介
 	- DONE 目前Logseq还没有一键收藏别人分享的Logseq页面功能，复制粘贴时，会发现只能复制一个节点
 		- 好在可以借助Cubox的收藏，实现网页快照保存，以免别人的博客挂了导致链接失效
 	- TODO 准备发布文章时，如何将Logseq的大纲形式转换为标准MarkDown形式？
+	  collapsed:: true
 		- 自己刚准备用sed来做下批量替换时，突然发现网上已经有大神写好了脚本
 		  collapsed:: true
 			- [logseq转换为标准markdown脚本](https://xutuan.vercel.app/#/page/logseq%E8%BD%AC%E6%8D%A2%E4%B8%BA%E6%A0%87%E5%87%86markdown%E8%84%9A%E6%9C%AC)
@@ -117,7 +122,8 @@ alias:: Logseq入门简介
 			- cmd-cd进入待处理的文件夹路径
 			- 运行 > `convertlogseq.sh`
 		- 哈哈，感觉配合MWeb的发布前脚本配置，完美
-	- TODO 如何发布Logseq为博客？
+	- DONE 如何发布Logseq为博客？
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-04-23 Sat 18:20:56]--[2022-04-23 Sat 18:20:56] =>  00:00:00
 	  :END:
@@ -125,10 +131,10 @@ alias:: Logseq入门简介
 		  :LOGBOOK:
 		  CLOCK: [2022-04-23 Sat 18:44:26]--[2022-04-23 Sat 18:44:27] =>  00:00:01
 		  :END:
-		- DOING 2-直接用Github Action在远程导出html，提交即自动发布，后续步骤同1
+		- DONE 2-直接用Github Action在远程导出html，提交即自动发布，后续步骤同1
 		  id:: 6263d353-e761-406e-8b15-4a4f0528adb9
 		  :LOGBOOK:
-		  CLOCK: [2022-04-23 Sat 18:55:16]
+		  CLOCK: [2022-04-23 Sat 18:55:16]--[2022-04-24 Sun 19:34:03] =>  24:38:47
 		  :END:
 			- 参考资料
 				- [Logseq Publish · Actions · GitHub Marketplace](https://github.com/marketplace/actions/logseq-publish)
@@ -157,6 +163,7 @@ alias:: Logseq入门简介
 	  CLOCK: [2022-04-23 Sat 18:07:23]
 	  :END:
 	- DONE 如何定制首页
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-04-23 Sat 18:07:30]--[2022-04-23 Sat 18:07:30] =>  00:00:00
 	  :END:
@@ -165,6 +172,7 @@ alias:: Logseq入门简介
 			  :default-home {:page "overview":sidebar "Contents" }
 			  ```
 	- DONE 如何自定义主题
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-04-23 Sat 18:19:37]--[2022-04-23 Sat 18:19:38] =>  00:00:01
 	  :END:
@@ -172,6 +180,7 @@ alias:: Logseq入门简介
 		- 可以配置Github仓库里面的的远程文件做主题，[Logseq主题](https://gist.github.com/3e82a313a58b816a7ddf6de25a607977)
 			- 使用[[jsdelivr]]给github文件做cdn加速
 	- DONE 如何添加页面别名，方便在不同的引用地方使用不同的名称
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-04-23 Sat 18:17:47]--[2022-04-23 Sat 18:17:48] =>  00:00:01
 	  :END:
@@ -180,7 +189,7 @@ alias:: Logseq入门简介
 		  alias:: title1 title2
 		  ```
 - 网上的公开Logseq数字花园案例
-  collapsed:: true
+	- [fishyer.com](https://fishyer.com)
 	- [abosen-README](https://logseq.abosen.top/#/page/README)
 	- [xutuan-logseq使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
 	- [zhangxueshan246-Logseq](https://zhangxueshan246.github.io/#/)

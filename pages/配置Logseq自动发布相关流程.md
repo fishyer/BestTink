@@ -1,3 +1,6 @@
+- 来源
+	- [配置 Logseq 自动发布相关流程](https://logseq.abosen.top/#/page/%E9%85%8D%E7%BD%AE%20logseq%20%E8%87%AA%E5%8A%A8%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%B5%81%E7%A8%8B)
+		- 怕他删库，所以备份了一下，同时补充了一些注意点(高亮部分就是我补充的)
 - 核心Action
 	- [Logseq publish action](https://github.com/marketplace/actions/logseq-publish)
 - ## 发布到其他仓库
@@ -10,12 +13,13 @@
 		- 这里主要是解决 [[Logseq 接入评论系统]] 中的相关问题
 		- ==注意修改第11行，加入自己的giscus配置==
 			- [GitHub Discussions 快速入门 - GitHub Docs](https://docs.github.com/cn/discussions/quickstart)
-				- 此仓库是公开的，否则访客将无法查看 discussion。
-				- Discussions功能已在你的仓库中启用。
+			- 开启giscus的三个条件
+				- 1-此仓库是公开的，否则访客将无法查看 discussion。
+				- 2-Discussions功能已在你的仓库中启用。
 					- 在仓库的setting-General页面，往下翻，找到Discussions，按照引导开启并创建一个评论。
-				- giscus app 已安装否则访客将无法评论和回应。 [GitHub Apps - giscus](https://github.com/apps/giscus)
-				- 在这个页面- [giscus](https://giscus.app/zh-CN)，可以生成需要粘贴的代码
-					- 只需要填入仓库名和分类名即可，其它不要管，js代码会自动生成，复制即可
+				- 3-giscus app 已安装否则访客将无法评论和回应。 [GitHub Apps - giscus](https://github.com/apps/giscus)
+			- 在这个页面- [giscus](https://giscus.app/zh-CN)，可以生成需要粘贴的代码
+				- 只需要填入仓库名和分类名即可，其它不要管，js代码会自动生成，复制即可
 		- ``` html
 		  			  <!-- 评论系统放置在主内容区域 -->
 		  			  <script>

@@ -1,3 +1,5 @@
+alias:: Android知识库
+
 - 网站
 	- [玩Android - wanandroid.com - 每日推荐优质文章](https://www.wanandroid.com/)
 	- [慕课网](https://www.imooc.com/u/index/szcourses/list)
