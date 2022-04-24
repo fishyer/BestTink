@@ -1,0 +1,3 @@
+- https://github.com/pengx17/logseq-plugin-link-preview/issues/80
+-
+-
