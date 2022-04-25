@@ -1,0 +1,524 @@
+- 参考网课
+	- 慕课网-移动端架构师
+		- 阶段一：Kotlin x Java打造 UI 通用组件 6 
+		  collapsed:: true
+			- 01 走进移动端架构师
+				- 第1章、本周目标
+				- 第2章、移动端架构师需要具备的技术栈与能力
+				- 第3章、如何从0开始架构一个中大型APP
+				- 第4章、如何做好项目的技术选型
+				- 第5章、移动端架构师开发套件介绍
+				- 第6章、HiLog库架构设计与开发
+				- 第7章、本周总结
+			- 02 通用UI组件开发与基础框架设计
+				- 1-1 本周目标.mp4
+				- 2-1 HiTabBottom组件疑难点分析与架构设计.mp4
+				- 2-2 HiTabBottom的单Tab组件封装.mp4
+				- 2-3 HiTabBottomLayout封装与应用-1.mp4
+				- 2-4 HiTabBottomLayout封装与应用-2.mp4
+				- 3-1 APP基础框架结构设计.mp4
+				- 4-1 基于HiTabBottom实现APP底部导航框架-1.mp4
+				- 4-2 基于HiTabBottom实现APP底部导航框架-2.mp4
+				- 4-3 Fragment常见问题解决.mp4
+				- 5-1 HiTabTop架构设计与功能实现-1.mp4
+				- 5-2 HiTabTop架构设计与功能实现-2.mp4
+				- 5-3 HiTabTop自动滚动功能分析与实现.mp4
+				- 6-1 本周总结.mp4
+				- 6-2 本周作业.png
+			- 03 高级UI组件定制与解耦设计
+				- 1-1 本周目标.mp4
+				- 2-1 打造下拉刷新HiOverView视图.mp4
+				- 2-2 实现HiRefresh-1.mp4
+				- 2-3 实现HiRefresh-2.mp4
+				- 2-4 实现HiRefresh-3.mp4
+				- 2-5 实现HiRefresh-4.mp4
+				- 2-6 HiRefresh调试完善.mp4
+				- 3-1 HiBanner架构设计与ViewPager定制-1.mp4
+				- 3-2 HiBanner架构设计与ViewPager定制-2.mp4
+				- 4-1 打造高通用的HiBannerAdapter.mp4
+				- 4-2 实现HiBanner的高度定制.mp4
+				- 5-1 HiBannerDelegate封装与指示器HiIndicator定制-1.mp4
+				- 5-2 HiBannerDelegate封装与指示器HiIndicator定制-2.mp4
+				- 6-1 本周总结.mp4
+				- 6-2 本周作业.png
+			- 04 Android必备Kotlin核心技术
+				- 1-1 本周目标.mp4
+				- [COMPLETE] 2-1 以架构师角度认识Kotlin.mp4
+				- [COMPLETE] 3-1 Kotlin开发环境搭建技巧.mp4
+				- [COMPLETE] 3-2 Kotlin必备基础-1.mp4
+				- [COMPLETE] 3-3 Kotlin必备基础-2.mp4
+				- [COMPLETE] 4-1 Kotlin方法.mp4
+				- [COMPLETE] 4-2 Lambda表达式.mp4
+				- [COMPLETE] 5-1 Kotlin方法进阶-1.mp4
+				- [COMPLETE] 5-2 Kotlin方法进阶-2.mp4
+				- [COMPLETE] 5-3 Kotlin构造方法与继承.mp4
+				- [COMPLETE] 5-4 Kotlin抽象类与接口.mp4
+				- [COMPLETE] 5-5 小结.mp4
+				- [COMPLETE] 6-1 深入理解Kotlin泛型.mp4
+				- [COMPLETE] 6-2 深入理解Kotlin注解.mp4
+				- [COMPLETE] 6-3 Kotlin扩展技术探秘与应用-1.mp4
+				- [COMPLETE] 6-4 Kotlin扩展技术探秘与应用-2.mp4
+				- [COMPLETE] 6-5 Kotlin扩展案例.mp4
+				- [COMPLETE] 7-1 实战Kotlin重构HiCircleIndicator.mp4
+				- [COMPLETE] 7-2 Kotlin实用技巧.mp4
+				- [COMPLETE] 8-1 本周总结.mp4
+				- [COMPLETE] 8-2 本周作业.png
+			- [COMPLETE] 05 Android UI核心组件剖析与实战
+				- [COMPLETE] 1-1 本周目标.mp4
+				- [COMPLETE] 2-1 从开机到SystemServer进程及服务创建流程剖析.mp4
+				- [COMPLETE] 2-2 Launcher应用启动之进程启动-1.mp4
+				- [COMPLETE] 2-3 Launcher应用启动之进程启动-2.mp4
+				- [COMPLETE] 2-4 Launcher应用启动之ActivityThread源码分析.mp4
+				- [COMPLETE] 3-1 Activity之View树测绘流程分析-1.mp4
+				- [COMPLETE] 3-2 Activity之View树测绘流程分析-2.mp4
+				- [COMPLETE] 3-3 Activity之页面刷新机制概述.mp4
+				- [COMPLETE] 3-4 Activity之手势分发来源.mp4
+				- [COMPLETE] 3-5 Activity之任务栈管理.mp4
+				- [COMPLETE] 4-1 Fragment之FragmentTraction事务执行流程分析.mp4
+				- [COMPLETE] 4-2 Fragment之页面重叠与新版懒加载-1.mp4
+				- [COMPLETE] 4-3 Fragment之页面重叠与新版懒加载-2.mp4
+				- [COMPLETE] 5-1 RecyclerView家族图谱分析.mp4
+				- [COMPLETE] 5-2 RecyclerView源码解析.mp4
+				- [COMPLETE] 5-3 RecyclerView优化之回收复用机制探秘.mp4
+				- [COMPLETE] 6-1 高易用HiDataItem组件封装之需求分析.mp4
+				- [COMPLETE] 6-2 高易用HiDataItem组件封装-1.mp4
+				- [COMPLETE] 6-3 高易用HiDataItem组件封装-2.mp4
+				- [COMPLETE] 7-1 本周总结.mp4
+				- [COMPLETE] 7-2 本周作业.png
+			- [COMPLETE] 06 Android 导航架构探秘
+				- [COMPLETE] 1-1 本周目标.mp4
+				- [COMPLETE] 2-1 传统路由及路由的最佳实践.mp4
+				- [COMPLETE] 2-2 对比Navigation和ARouter的差异.mp4
+				- [COMPLETE] 2-3 如何做好技术选型.mp4
+				- [COMPLETE] 3-1 Navigation
+				- [COMPLETE] 3-2 Navigation
+				- [COMPLETE] 4-1 Navigation之自定义注解处理器.mp4
+				- [COMPLETE] 4-2 Navigation进阶改造.mp4
+				- [COMPLETE] 5-1 ARouter的配置用法.mp4
+				- [COMPLETE] 5-2 ARouter编译时原理分析.mp4
+				- [COMPLETE] 5-3 ARouter运行时实现原理分析-1.mp4
+				- [COMPLETE] 5-4 ARouter运行时实现原理分析-2.mp4
+				- [COMPLETE] 6-1 实战：需求疑难点分析及成果展示.mp4
+				- [COMPLETE] 6-2 实战：基于ARouter实现登录拦截与全局降级策略-1.mp4
+				- [COMPLETE] 6-3 实战：基于ARouter实现登录拦截与全局降级策略-2.mp4
+				- [COMPLETE] 7-1 本周总结.mp4
+				- [COMPLETE] 7-2 本周作业.png
+		- 阶段二：解锁Android高阶技能，探秘实战Jetpack 6
+		  collapsed:: true
+			- 07 线程与线程池核心技术
+				- 1-1 本周目标.mp4
+				- 2-1 多种线程创建方式与对比.mp4
+				- 2-2 线程优先级核心及应用技巧.mp4
+				- 2-3 线程状态剖析及四种方法应用.mp4
+				- 2-4 线程间通信核心.mp4
+				- 3-1 线程安全的本质.mp4
+				- 3-2 线程安全之原子类.mp4
+				- 3-3 线程安全之Synchronized.mp4
+				- 3-4 线程安全之ReentrantLock案例详解.mp4
+				- 3-5 线程安全之共享锁排他锁及锁的设计优化.mp4
+				- 4-1 线程池实现原理剖析.mp4
+				- 4-2 线程池源码分析.mp4
+				- 4-3 线程池中线程复用原理.mp4
+				- 5-1 实战：需求及设计思路分析.mp4
+				- 5-2 实战：简洁易用的多线程操作框架HiExecutor封装.mp4
+				- 6-1 大白话剖析Kotlin协程机制1.mp4
+				- 6-2 大白话剖析Kotlin协程机制2.mp4
+				- 6-3 Kotlin协程之挂起与恢复原理逆向剖析还原1.mp4
+				- 6-4 Kotlin协程之挂起与恢复原理逆向剖析还原2.mp4
+				- 6-5 Kotlin协程应用.mp4
+				- 7-1 架构师如何做多线程优化.mp4
+				- 8-1 本周总结.mp4
+			- 08 Android网络编程进阶
+				- 1-1 本周目标.mp4
+				- 2-1 Android网络编程核心.mp4
+				- 3-1 实战：HiRestful设计思想分析.mp4
+				- 3-2 实战：HiRestful之方法解析器-1.mp4
+				- 3-3 实战：HiRestful之方法解析器-2.mp4
+				- 3-4 实战：HiRestful之拦截器派发.mp4
+				- 4-1 从源码到原理剖析Retrofit核心【见微知著】-1.mp4
+				- 4-2 从源码到原理剖析retrofit核心【见微知著】-2.mp4
+				- 4-3 从源码到原理剖析retrofit核心【见微知著】-3.mp4
+				- 4-4 实战：为HiRestful添加Retrofit的支持-1.mp4
+				- 4-5 实战：为HiRestful添加Retrofit的支持-2.mp4
+				- 5-1 实战：自定义View之InputItemLayout-1.mp4
+				- 5-2 实战：自定义View之InputItemLayout-2.mp4
+				- 5-3 实战：自定义View之InputItemLayout-3.mp4
+				- 5-4 实战：登录模块实现-1.mp4
+				- 5-5 实战：登录模块实现-2.mp4
+				- 5-6 实战：注册模块实现.mp4
+				- 6-1 实战：接口拦截与路由处理.mp4
+				- 7-1 实战：个人中心模块实现-1.mp4
+				- 7-2 实战：个人中心模块实现-2.mp4
+				- 7-3 实战：个人中心模块实现-3.mp4
+				- 8-1 本周总结.mp4
+				- 8-2 本周作业.png
+			- 09+ 架构首页分类模块
+				- 1-1 本周目标.mp4
+				- 2-1 HiSlider样式定制-1.mp4
+				- 2-2 HiSlider样式定制-2.mp4
+				- 2-3 HiSlider数据适配.mp4
+				- 3-1 SpanSizeLoopUp不同寻常实现分组思路.mp4
+				- 3-2 SpanSizeLookUp不同寻常实现分组效果-1.mp4
+				- 3-3 SpanSizeLookUp不同寻常实现分组效果-2.mp4
+				- 3-4 ItemDecoration实现分组标题.mp4
+				- 4-1 基于HIAbsListFragment快速构建商品列表页.mp4
+				- 5-1 设计开发者支撑工具HiDebugTool并支持Https网络调试能力-1.mp4
+				- 5-2 设计开发者支撑工具HiDebugTool并支持Https网络调试能力-2.mp4
+				- 6-1 Https抓包原理与弱网络场景模拟-1.mp4
+				- 6-2 Https抓包原理与弱网络场景模拟-2.mp4
+				- 7-1 本周总结.mp4
+				- 7-2 本周作业.png
+			- 10 解密Jetpack工具库核心组件
+				- 1-1 本周目标.mp4
+				- 2-1 走进Jetpack架构.mp4
+				- 2-2 Jetpack架构组件库解析.mp4
+				- 3-1 Lifecycle组件架构实现原理-1.mp4
+				- 3-2 Lifecycle组件架构实现原理-2.mp4
+				- 4-1 LiveData组件架构实现原理.mp4
+				- 4-2 实战：实现不用反注册,不会内存泄露的消息总线.mp4
+				- 5-1 ViewModel实例复用原理新解析.mp4
+				- 5-2 SavedState组件数据存储与复用原理全解析.mp4
+				- 6-1 Room数据库高频用法讲解-1.mp4
+				- 6-2 Room数据库高频用法讲解-2.mp4
+				- 6-3 Room+LiveData监听数据库数据变更刷新页面原理分析.mp4
+				- 6-4 实战：基于Room封装APP离线缓存框架HiStorage.mp4
+				- 7-1 实战：基于HiStorage拓展HiRestful实现接口缓存能力-1.mp4
+				- 7-2 实战：基于HiStorage拓展HiRestful实现接口缓存能力-2.mp4
+				- 7-3 实战：首页缓存适配和ViewPager刷新调优.mp4
+				- 8-1 实战：基于LiveData实现登陆结果通知和账户信息管理.mp4
+				- 9-1 本周总结.mp4
+				- 9-2 本周作业.png
+			- 11 架构商品详情模块
+				- 1-1 本周目标.mp4
+				- 2-1 商品详情模块架构分析.mp4
+				- 2-2 搭建详情页整体结构.mp4
+				- 3-1 实战：基于HiBanner+HiDataItem实现列表主图轮播.mp4
+				- 4-1 实战：基于Chip组件实现商品评价模块.mp4
+				- 4-2 实战：店铺模块-1.mp4
+				- 4-3 实战：店铺模块-2.mp4
+				- 5-1 实战：商品属性模块.mp4
+				- 5-2 实战：商品相册与推荐商品模块.mp4
+				- 5-3 实战：商品收藏与标题栏滑动渐变.mp4
+				- 6-1 本周总结.mp4
+				- 6-2 本周作业.png
+			- 12 Android消息机制与虚拟机原理
+				- 1-1 本周目标.mp4
+				- 2-1 Android消息机制之消息生产-1.mp4
+				- 2-2 Android消息机制之消息生产-2.mp4
+				- 2-3 Android消息机制之消息消费.mp4
+				- 2-4 Android消息机制之ThreadLocal.mp4
+				- 3-1 Android类加载之双亲委派.mp4
+				- 3-2 Android类加载之高阶面试题与源码分析.mp4
+				- 4-1 走进Android热修复世界-1.mp4
+				- 4-2 走进Android热修复世界-2.mp4
+				- 5-1 实战：主项目接入Tinker.mp4
+				- 6-1 Tinker实现原理之补丁全量合成流程分析-1.mp4
+				- 6-2 Tinker实现原理之补丁全量合成流程分析-2.mp4
+				- 6-3 Tinker实现原理分析之动态加载dex实现热修复流程分析.mp4
+				- 7-1 本周总结.mp4
+				- 7-2 本周作业.png
+				- 7-3 本周讨论.png
+		- 阶段三：主流架构演进与项目架构改造 5
+		  collapsed:: true
+			- 第13周   玩转Kotlin x Java 设计模式
+				- 2-1 走进Kotlin
+				- 2-2 深入理解Kotlin
+				- 2-3 深入理解Kotlin
+				- 2-5 深入理解Kotlin
+				- 2-6 深入理解Kotlin
+			- 第14周   主流架构模式演进之路
+				- 1-1 本周目标.mp4
+				- 2-1 MVC和MVP分析手写实现.mp4
+				- 2-2 传统MVVM与Jetpack
+				- 3-1 DataBinding高频用法及传经送宝.mp4
+				- 3-2 实战：基于MVVM重构首页列表-1.mp4
+				- 3-3 实战：基于MVVM重构首页列表-2.mp4
+				- 4-1 单一工程+模块化+组件化+插件化及容器化分析.mp4
+				- 4-2 实战：基于模块化重构工程结构-1.mp4
+				- 4-3 实战：基于模块化重构工程结构-2.mp4
+				- 5-1 插件化发展的过去与未来.mp4
+				- 6-1 HiNavBar设计及实现思路分析.mp4
+				- 6-2 HiNavBar实现动态添加按钮&解决标题溢出-1.mp4
+				- 6-3 HiNavBar实现动态添加按钮&解决标题溢出-2.mp4
+				- 7-1 本周总结.mp4
+			- 第15周   主流架构实战搜索模块
+			- 第16周   IOC架构设计
+				- 1-1、本周目标_更多IT资源微信634631778.mp4
+				- 2-1、走进IOC的世界_更多IT资源微信634631778.mp4
+				- 3-1、Hilt DI库高频用法传经送宝_更多IT资源微信634631778.mp4
+				- 3-2、Hilt运行时依赖注入实现原理分析-1_更多IT资源微信634631778.mp4
+				- 3-3、Hilt运行时依赖注入实现原理分析-2_更多IT资源微信634631778.mp4
+				- 4-1、实战：AmountView通用计数器组件_更多IT资源微信634631778.mp4
+				- 4-2、实战：实现下单页面-1_更多IT资源微信634631778.mp4
+				- 4-3、实战：实现下单页面-2_更多IT资源微信634631778.mp4
+				- 5-1、实战：拓展HiRestful支持PUT,DELETE请求_更多IT资源微信634631778.mp4
+				- 5-2、实战：地址编辑器实现_更多IT资源微信634631778.mp4
+				- 6-1、城市选择器组件思路讲解_更多IT资源微信634631778.mp4
+				- 6-2、实战：城市数据预处理与持久化_更多IT资源微信634631778.mp4
+				- 6-3、实战：城市选择器组件-1_更多IT资源微信634631778.mp4
+				- 6-4、实战：城市选择器组件-2_更多IT资源微信634631778.mp4
+				- 6-5、实战：城市选择器组件-3_更多IT资源微信634631778.mp4
+				- 6-6、实战：城市选择器组件-4_更多IT资源微信634631778.mp4
+				- 7-1、实战：地址列表页设计与实现-1_更多IT资源微信634631778.mp4
+				- 7-2、实战：地址列表页设计与实现-2_更多IT资源微信634631778.mp4
+				- 7-3、实战：地址列表页设计与实现-3_更多IT资源微信634631778.mp4
+				- 8-1、本周总结_更多IT资源微信634631778.mp4
+			- 第17周   构建与打包能力
+				- 1-1 本周目标.mp4
+				- 2-1 高效构建渠道包-1.mp4
+				- 2-2 高效构建渠道包-2.mp4
+				- 3-1 Gradle项目构建基础.mp4
+				- 3-2 Gradle项目构建之Task任务.mp4
+				- 3-3 Gradle插件开发之Transform.mp4
+				- 3-4 Javassist字节码插桩技术实战-1.mp4
+				- 3-5 Javassist字节码插桩技术实战-2.mp4
+				- 3-6 Javassist字节码插桩技术实战-3.mp4
+				- 4-1 发布插件到Jcenter.mp4
+				- 5-1 Jenkins持续集成与自动化构建-1.mp4
+				- 5-2 Jenkins持续集成与自动化构建-2.mp4
+				- 6-1 直面底层还原apk打包流程-1.mp4
+				- 6-2 直面底层还原apk打包流程-2.mp4
+				- 6-3 apk攻与防-1.mp4
+				- 6-4 apk攻与防-2.mp4
+				- 7-1 本周总结.mp4
+		- 阶段四：混合架构设计与开发 5
+		  collapsed:: true
+			- 第18周   走进Flutter开发
+				- 1-1 本周目标.mp4
+				- 2-1 架构师该如何高效的学习Flutter.mp4
+				- 3-1 Flutter开发环境搭建及常见问题.mp4
+				- 3-2 走进Flutter的Widget世界.mp4
+				- 3-3 如何进行Flutter布局开发.mp4
+				- 3-4 轻松掌握Flutter调试技巧.mp4
+				- 4-1 实战：基于http库封装Flutter网络层框架-1.mp4
+				- 4-2 实战：基于http库封装Flutter网络层框架-2.mp4
+				- 4-3 实战：基于dio扩展网络层框架并编写单元测试.mp4
+				- 5-1 实战：推荐模块接口系分与Dao层设计-1.mp4
+				- 5-2 实战：推荐模块接口系分与Dao层设计-2.mp4
+				- 5-3 实战：推荐模块结构框架搭建.mp4
+				- 5-4 实战：推荐模块Item实现.mp4
+				- 6-1 本周总结.mp4
+			- 第19周   Flutter混合架构原理剖析与应用
+				- 1-1 本周目标.mp4
+				- 2-1 Flutter框架和原理剖析.mp4
+				- 2-2 探析Flutter渲染机制之三棵树.mp4
+				- 2-3 如何在已有的项目中集成Flutter.mp4
+				- 3-1 复杂场景下的Flutter混合架构设计.mp4
+				- 4-1 Flutter与Native通信原理剖析.mp4
+				- 4-2 实战：基于MethodChannel实现Flutter与Native通信架构HiFlutterBridge-1.mp4
+				- 4-3 实战：基于MethodChannel实现Flutter与Native通信架构HiFlutterBridge-2.mp4
+				- 5-1 Flutter推荐模块集成.mp4
+				- 5-2 实战：基于Flutter实现主流的首页架构-1.mp4
+				- 5-3 实战：基于Flutter实现主流的首页架构-2.mp4
+				- 6-1 本周总结.mp4
+			- 第20周   Flutter实战应用与性能优化
+				- 1-1 本周目标.mp4
+				- 2-1 实战：Flutter侧鉴权功能实现与登录态同步.mp4
+				- 3-1 收藏模块接口系分与Dao层设计.mp4
+				- 3-2 收藏模块结构框架搭建.mp4
+				- 3-3 收藏模块Item实现.mp4
+				- 4-1 复杂场景下Flutter嵌入Native组件实战-1.mp4
+				- 4-2 复杂场景下Flutter嵌入Native组件实战-2.mp4
+				- 4-3 Flutter
+				- 4-4 Flutter
+				- 5-1 playground模块设计-1.mp4
+				- 5-2 playground模块设计-2.mp4
+				- 6-1 Flutter性能调优.mp4
+				- 7-1 Flutter引擎加载机制与热更新方案探索.mp4
+				- 7-2 Flutter热更新方案实现与应用.mp4
+				- 8-1 本周总结.mp4
+			- 第21周、走进RN开发
+				- 1-1 本周目标.mp4
+				- 2-1 架构师该如何高效的学习RN.mp4
+				- 3-1 RN开发环境搭建及常见问题.mp4
+				- 4-1 实战：RN自定义组件封装.mp4
+				- 4-2 轻松掌握RN调试技巧.mp4
+				- 5-1 实战：基于fetch+promise库封装RN网络层框架.mp4
+				- 6-1 实战：浏览历史模块接口系分与Dao层设计.mp4
+				- 6-2 实战：浏览历史模块结构框架搭建.mp4
+				- 6-3 实战：浏览历史模块Item实现.mp4
+				- 7-1 走进RN的社区和它常见的组件-1.mp4
+				- 7-2 走进RN的社区和它常见的组件-2.mp4
+				- 8-1 本周总结.mp4
+			- 第22周   RN混合架构原理剖析与应用
+				- 1-1 本周目标.mp4
+				- 2-1 RN框架原理剖析-1.mp4
+				- 2-2 RN框架原理剖析-2.mp4
+				- 3-1 如何在原有的项目中集成RN？.mp4
+				- 3-2 RN混合架构开发实战技巧.mp4
+				- 4-1 RN与Native通信原理剖析-1.mp4
+				- 4-2 RN与Native通信原理剖析-2.mp4
+				- 4-3 基于NativeModule实现RN与Native通信架构HiRNBridge.mp4
+				- 5-1 实战：RN历史浏览模块集成-1.mp4
+				- 5-2 实战：RN历史浏览模块集成-2.mp4
+				- 6-1 实战：RN引擎预加载管理框架开发-1.mp4
+				- 6-2 实战：RN引擎预加载管理框架开发-2.mp4
+				- 6-3 实战：RN引擎预加载管理框架开发-3.mp4
+				- 7-1 实战：Native
+				- 7-2 Native
+				- 8-1 RN性能调优.mp4
+				- 9-1 本周总结.mp4
+		- 阶段五：稳定性及性能调优 3
+		  collapsed:: true
+			- 第23周、稳定性优化
+				- 1-1 本周目标.mp4
+				- 2-1 架构师如何提升APP的稳定性.mp4
+				- 3-1 建立有效的Code
+				- 4-1 Framework层对Java&Native异常的监控.mp4
+				- 4-2 Java异常监控与混淆代码还原-1.mp4
+				- 4-3 Java异常监控与混淆代码还原-2.mp4
+				- 5-1 Native异常监控与堆栈还原-1.mp4
+				- 5-2 Native异常监控与堆栈还原-2.mp4
+				- 6-1 实战：拓展HiDebugTool一键查看本地日志.mp4
+				- 7-1 本周总结.mp4
+			- 第24周、性能优化
+				- 1-1 本周目标
+				- 2-1 性能优化的重要性及方向-1.mp4
+				- 2-2 性能优化的重要性及方向-2.mp4
+				- 3-1 启动优化之耗时统计&启动白屏优化-1.mp4
+				- 3-2 启动优化之耗时统计&启动白屏优化-2.mp4
+				- 4-1 TaskFlow
+				- 4-2 TaskFlow筑基之Task任务-1.mp4
+				- 4-3 TaskFlow筑基之Task任务-2.mp4
+				- 4-4 TaskFlow合体之Project任务组-1.mp4
+				- 4-5 TaskFlow合体之Project任务组-2.mp4
+				- 4-6 TaskFlow灵魂之TaskRuntime调度器.mp4
+				- 4-7 TaskFlow涅槃之TaskRuntime依赖树检查.mp4
+				- 4-8 TaskFlow大乘之TaskFlowManager启动器-1.mp4
+				- 4-9 TaskFlow大乘之TaskFlowManager启动器-2.mp4
+				- 5-1 页面加载耗时优化实战-1.mp4
+				- 5-2 页面加载耗时优化实战-2.mp4
+				- 6-1 页面滑动流畅度FPS优化实战.mp4
+				- 7-1 内存泄漏排查定位.mp4
+				- 8-1 不合理大图检测插件-1.mp4
+				- 8-2 不合理大图检测插件-2.mp4
+				- 9-1 本周总结.mp4
+			- 第25周、开发技能拓展
+				- 1-1 本周目标.mp4
+				- 2-1 AndroidX升级适配的必要性.mp4
+				- 2-2 如何在老项目中使用AndroidX.mp4
+				- 2-3 升级适配常见问题解决及AndroidX库文件混淆.mp4
+				- 3-1 折叠屏适配方案.mp4
+				- 3-2 折叠屏适配实战-1.mp4
+				- 3-3 折叠屏适配实战-2.mp4
+				- 4-1 Android
+				- 4-2 Android
+				- 5-1 新一代组件化动态化方案App
+				- 5-2 AppBundle动态交付原理.mp4
+				- 5-3 AppBundle文件结构分析.mp4
+				- 5-4 使用Bundletool测试AppBundle.mp4
+				- 5-5 AppBundle拆分注意事项.mp4
+				- 6-1 Android权限治理.mp4
+				- 7-1 本周总结.mp4
+		- 阶段六：前后端接口设计与配置中心系统 5
+			- 第26周、后端-DAU超千万的移动端接口设计实现
+			  collapsed:: true
+				- 1-1 本周目标
+				- 2-1 移动端进行后端开发需要具备的技术栈和能力.mp4
+				- 2-2 前后端分离架构与高效的协作方式.mp4
+				- 3-1 SpringBoot2
+				- 3-2 基于PDMan工具实现数据库建模.mp4
+				- 3-3 基于BCrypt实现用户信息加密与注册功能实现-1.mp4
+				- 3-4 基于BCrypt实现用户信息加密与注册功能实现-2.mp4
+				- 3-5 整合与优化Swagger2文档Api.mp4
+				- 4-1 登录功能实现与Response设计.mp4
+				- 4-2 基于Redis实现高速的用户信息缓存.mp4
+				- 4-3 基于注解拦截器实现接口访问控制与登录态处理.mp4
+				- 5-1 用户列表API开发与分页功能实现-1.mp4
+				- 5-2 用户列表API开发与分页功能实现-2.mp4
+				- 5-3 用户管理API的设计与实现.mp4
+				- 6-1 商品类别模块建模与功能开发-1.mp4
+				- 6-2 商品类别模块建模与功能开发-2.mp4
+				- 6-3 商品类别管理API开发.mp4
+				- 7-1 城市服务模块功能实现.mp4
+				- 8-1 项目打包并部署到Tomcat服务器.mp4
+				- 8-2 基于Tomcat
+				- 9-1 本周总结.mp4
+			- 第27周、前端-管理后台设计实现
+				- 1-1 本周目标.mp4
+				- 2-1 前端开发需要具备的技术栈和能力.mp4
+				- 3-1 基于create-react-app搭建web工程.mp4
+				- 3-2 整合antd与less并搭建具有Ant
+				- 4-1 页面结构设计与框架搭建-1.mp4
+				- 4-2 页面结构设计与框架搭建-2.mp4
+				- 4-3 页面结构设计与框架搭建-3.mp4
+				- 4-4 导航架构模块设计与实现.mp4
+				- 4-5 基于react-router-dom实现路由模块.mp4
+				- 5-1 网络模块封装与service层实现-1.mp4
+				- 5-2 网络模块封装与service层实现-2.mp4
+				- 6-1 用户管理功能模块设计与实现-1.mp4
+				- 6-2 用户管理功能模块设计与实现-2.mp4
+				- 7-1 商品类别管理模块开发-1.mp4
+				- DOING 7-2 商品类别管理模块开发-2.mp4
+				  :LOGBOOK:
+				  CLOCK: [2022-04-25 Mon 15:31:25]
+				  :END:
+				- 7-3 添加商品类别功能实现-1.mp4
+				- 7-4 添加商品类别功能实现-2.mp4
+				- 7-5 添加商品类别功能实现-3.mp4
+				- 8-1 前端项目打包与部署.mp4
+				- 9-1 本周总结.mp4
+			- 第28周、【SDK+服务端+控台】配置中心架构实现
+				- 1-1 本周目标_21.mp4
+				- 2-1 配置中心架构及实现原理解析.mp4
+				- 2-2 配置中心系统数据建模.mp4
+				- 3-1 后端-查询配置接口设计与开发-1.mp4
+				- 3-2 后端-查询配置接口设计与开发-2.mp4
+				- 3-3 后端-更新配置接口设计与开发-1.mp4
+				- 3-4 后端-更新配置接口设计与开发-2.mp4
+				- 3-5 后端-配置持久化存储功能设计与实现-1.mp4
+				- 3-6 后端-配置持久化存储功能设计与实现-2.mp4
+				- 3-7 后端-如何实现高速缓存与探针功能？-1.mp4
+				- 3-8 后端-如何实现高速缓存与探针功能？-2.mp4
+				- 4-1 前端-配置列表设计与实现-1.mp4
+				- 4-2 前端-配置列表设计与实现-2.mp4
+				- 4-3 前端-搜索与过滤功能实现-1.mp4
+				- 4-4 前端-搜索与过滤功能实现-2.mp4
+				- 4-5 前端-添加配置与发布实现.mp4
+				- 4-6 前端-导航模块扩展与路由通知功能实现-1.mp4
+				- 4-7 前端-导航模块扩展与路由通知功能实现-2.mp4
+				- 4-8 前端-如何实现发布回滚的功能？.mp4
+				- 5-1 客户端SDK-HiConfig工程搭建与接口设计.mp4
+				- 5-2 客户端SDK-配置同步与更新功能实现-1.mp4
+				- 5-3 客户端SDK-配置同步与更新功能实现-2.mp4
+				- 5-4 客户端SDK-如何实现配置缓存与恢复功能？.mp4
+				- 5-5 客户端SDK-如何实现配置的高效获取与监听功能？-1.mp4
+				- 5-6 客户端SDK-如何实现配置的高效获取与监听功能？-2.mp4
+				- 6-1 基于HiConfig实现模块功能的动态化.mp4
+				- 7-1 本周总结.mp4
+			- 第29周、HiAbility SDK开发
+				- 1-1 本周目标
+				- 2-1 基础推送能力集成-1.mp4
+				- 2-2 基础推送能力集成-2.mp4
+				- 2-3 OEM厂商推送能力集成-1.mp4
+				- 2-4 OEM厂商推送能力集成-2.mp4
+				- 3-1 可配置化分享面板.mp4
+				- 3-2 分享卡片消息到QQ好友.mp4
+				- 3-3 分享卡片消息到微信.mp4
+				- 4-1 华为HMS扫码能力集成-1.mp4
+				- 4-2 华为HMS扫码能力集成-2.mp4
+				- 4-3 华为HMS扫码能力集成-3.mp4
+				- 5-1 数据统计与埋点-1.mp4
+				- 5-2 数据统计与埋点-2.mp4
+				- 6-1 支付宝支付-1.mp4
+				- 6-2 支付宝支付-2.mp4
+				- 6-3 支付宝支付-3.mp4
+				- 6-4 微信支付.mp4
+			- 第30周、学成“下山”
+				- 1-1 本周目标
+				- 2-1 如何设计高质量的简历.mp4
+				- 2-2 巧用简历投递渠道让机会找自己.mp4
+				- 3-1 移动端架构师常见面试分析-1.mp4
+				- 3-2 移动端架构师常见面试分析-2.mp4
+				- 3-3 移动端架构师面试技巧.mp4
+				- 3-4 善用面试复盘面试路上越战越勇.mp4
+				- 4-1 关于架构师的职业发展探讨.mp4
+				- 4-2 架构师该如何带团队.mp4
+				- 5-1 揭开项目管理面纱.mp4
+				- 5-2 项目管理五大阶段的最佳实践.mp4
+				- 5-3 项目管理的方法论.mp4
+				- 5-4 项目生命周期管理和风险控制.mp4
+				- 6-1 后续学习指南.mp4
+				- 6-2 本周总结.mp4
+- 个人精简
+	-
