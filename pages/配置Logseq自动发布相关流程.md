@@ -5,7 +5,6 @@
 	- [Logseq publish action](https://github.com/marketplace/actions/logseq-publish)
 - ## 发布到其他仓库
 	- 静态文件单独存储在了其他仓库，该仓库已经配置了发布到vercel的相关流程
-		-
 	- `JamesIves/github-pages-deploy-action@v4` 可以配置目标 `repository-name`, 以发布到其他仓库。
 	  默认的Action权限只限于当前仓库，要对其他仓库进行操作需要单独配置一个TOKEN。
 - ## 修改 `index.html` 以注入自定义功能

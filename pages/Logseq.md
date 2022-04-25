@@ -1,5 +1,17 @@
 alias:: Logseq入门简介,Logseq知识大全
 
+- 书签
+  collapsed:: true
+	- [Logseq中文文档-起步](https://logseq-documents-cn.fishyer.com/#/page/%E8%B5%B7%E6%AD%A5)
+	- [Quicker + zotero/Mdnotes 实现Logseq打开外部PDF并注释 - 分享 - Logseq 中文社区](https://cn.logseq.com/t/topic/1446)
+	- [如何发布logseq成为博客 - 知乎](https://zhuanlan.zhihu.com/p/344165645)
+	- [OKR + GTD + Note => Logseq · 构建我的被动收入](https://www.bmpi.dev/self/okr-gtd-note-logseq/)
+	- [logseq/awesome-logseq: Awesome Logseq resources created by the community <3](https://github.com/logseq/awesome-logseq)
+	- [Logseq使用教程之七：Telegram+IFTTT+Quicker实现Logseq速记 - 分享 - Logseq 中文社区](https://cn.logseq.com/t/topic/3369)
+	- [logseq使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
+- 笔记
+	- 补充一下,如果你修改了首页，然后想在首页上添加一个所有日记的链接，可以添加这一行代码到你首页的那个页面里：[:a {:href "/all-journals"} "所有日记"]
+	-
 - Logseq可以用来干嘛？
 	- 用来记日记，记录每天的各种零散想法
 	- 用来当做大纲来辅助思考，让思维不再混乱无序
@@ -194,14 +206,5 @@ alias:: Logseq入门简介,Logseq知识大全
 	- [xutuan-logseq使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
 	- [zhangxueshan246-Logseq](https://zhangxueshan246.github.io/#/)
 	- [tothegarden-All journals](https://tothegarden.vercel.app/all-journals)
-- 书签
-	- [Logseq中文文档-起步](https://logseq-documents-cn.fishyer.com/#/page/%E8%B5%B7%E6%AD%A5)
-	- [Quicker + zotero/Mdnotes 实现Logseq打开外部PDF并注释 - 分享 - Logseq 中文社区](https://cn.logseq.com/t/topic/1446)
-	- [如何发布logseq成为博客 - 知乎](https://zhuanlan.zhihu.com/p/344165645)
-	- [OKR + GTD + Note => Logseq · 构建我的被动收入](https://www.bmpi.dev/self/okr-gtd-note-logseq/)
-	- [logseq/awesome-logseq: Awesome Logseq resources created by the community <3](https://github.com/logseq/awesome-logseq)
-	- [Logseq使用教程之七：Telegram+IFTTT+Quicker实现Logseq速记 - 分享 - Logseq 中文社区](https://cn.logseq.com/t/topic/3369)
-	- [logseq使用经验分享](https://xutuan.vercel.app/#/page/logseq%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB)
-	-
 - {{embed [[欢迎加入]]}}
 -
