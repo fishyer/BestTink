@@ -172,7 +172,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites ["MenuBar" "README" "Logseq知识库初始化笔记"]
+ :favorites ["MenuBar" "README" "B站录制计划" "编程知识大纲" "通识知识大纲" "Python知识大纲" "Android知识大纲" "编程" "Logseq" "正则表达式"]
  :journal/page-title-format "yyyy-MM-dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)

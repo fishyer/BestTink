@@ -1,524 +1,2551 @@
-- 参考网课
-	- 慕课网-移动端架构师
-		- 阶段一：Kotlin x Java打造 UI 通用组件 6 
+- 制作大纲的目的
+	- 1-对于网课，可以直接点击大纲链接，打开网页或本地文件，继续学习
+	- 2-对于书籍，可以直接打开指定PDF的指定页码，继续学习
+	- 3-可以随时搜索指定关键词，方便综合和对比多个学习资料，做主题学习
+	- 4-可以将学习计划与笔记管理、任务管理结合起来
+- 学习资料
+	- 网课
+		- [慕课网-移动端架构师](https://class.imooc.com/sale/mobilearchitect)
 		  collapsed:: true
-			- 01 走进移动端架构师
-				- 第1章、本周目标
-				- 第2章、移动端架构师需要具备的技术栈与能力
-				- 第3章、如何从0开始架构一个中大型APP
-				- 第4章、如何做好项目的技术选型
-				- 第5章、移动端架构师开发套件介绍
-				- 第6章、HiLog库架构设计与开发
-				- 第7章、本周总结
-			- 02 通用UI组件开发与基础框架设计
-				- 1-1 本周目标.mp4
-				- 2-1 HiTabBottom组件疑难点分析与架构设计.mp4
-				- 2-2 HiTabBottom的单Tab组件封装.mp4
-				- 2-3 HiTabBottomLayout封装与应用-1.mp4
-				- 2-4 HiTabBottomLayout封装与应用-2.mp4
-				- 3-1 APP基础框架结构设计.mp4
-				- 4-1 基于HiTabBottom实现APP底部导航框架-1.mp4
-				- 4-2 基于HiTabBottom实现APP底部导航框架-2.mp4
-				- 4-3 Fragment常见问题解决.mp4
-				- 5-1 HiTabTop架构设计与功能实现-1.mp4
-				- 5-2 HiTabTop架构设计与功能实现-2.mp4
-				- 5-3 HiTabTop自动滚动功能分析与实现.mp4
-				- 6-1 本周总结.mp4
-				- 6-2 本周作业.png
-			- 03 高级UI组件定制与解耦设计
-				- 1-1 本周目标.mp4
-				- 2-1 打造下拉刷新HiOverView视图.mp4
-				- 2-2 实现HiRefresh-1.mp4
-				- 2-3 实现HiRefresh-2.mp4
-				- 2-4 实现HiRefresh-3.mp4
-				- 2-5 实现HiRefresh-4.mp4
-				- 2-6 HiRefresh调试完善.mp4
-				- 3-1 HiBanner架构设计与ViewPager定制-1.mp4
-				- 3-2 HiBanner架构设计与ViewPager定制-2.mp4
-				- 4-1 打造高通用的HiBannerAdapter.mp4
-				- 4-2 实现HiBanner的高度定制.mp4
-				- 5-1 HiBannerDelegate封装与指示器HiIndicator定制-1.mp4
-				- 5-2 HiBannerDelegate封装与指示器HiIndicator定制-2.mp4
-				- 6-1 本周总结.mp4
-				- 6-2 本周作业.png
-			- 04 Android必备Kotlin核心技术
-				- 1-1 本周目标.mp4
-				- [COMPLETE] 2-1 以架构师角度认识Kotlin.mp4
-				- [COMPLETE] 3-1 Kotlin开发环境搭建技巧.mp4
-				- [COMPLETE] 3-2 Kotlin必备基础-1.mp4
-				- [COMPLETE] 3-3 Kotlin必备基础-2.mp4
-				- [COMPLETE] 4-1 Kotlin方法.mp4
-				- [COMPLETE] 4-2 Lambda表达式.mp4
-				- [COMPLETE] 5-1 Kotlin方法进阶-1.mp4
-				- [COMPLETE] 5-2 Kotlin方法进阶-2.mp4
-				- [COMPLETE] 5-3 Kotlin构造方法与继承.mp4
-				- [COMPLETE] 5-4 Kotlin抽象类与接口.mp4
-				- [COMPLETE] 5-5 小结.mp4
-				- [COMPLETE] 6-1 深入理解Kotlin泛型.mp4
-				- [COMPLETE] 6-2 深入理解Kotlin注解.mp4
-				- [COMPLETE] 6-3 Kotlin扩展技术探秘与应用-1.mp4
-				- [COMPLETE] 6-4 Kotlin扩展技术探秘与应用-2.mp4
-				- [COMPLETE] 6-5 Kotlin扩展案例.mp4
-				- [COMPLETE] 7-1 实战Kotlin重构HiCircleIndicator.mp4
-				- [COMPLETE] 7-2 Kotlin实用技巧.mp4
-				- [COMPLETE] 8-1 本周总结.mp4
-				- [COMPLETE] 8-2 本周作业.png
-			- [COMPLETE] 05 Android UI核心组件剖析与实战
-				- [COMPLETE] 1-1 本周目标.mp4
-				- [COMPLETE] 2-1 从开机到SystemServer进程及服务创建流程剖析.mp4
-				- [COMPLETE] 2-2 Launcher应用启动之进程启动-1.mp4
-				- [COMPLETE] 2-3 Launcher应用启动之进程启动-2.mp4
-				- [COMPLETE] 2-4 Launcher应用启动之ActivityThread源码分析.mp4
-				- [COMPLETE] 3-1 Activity之View树测绘流程分析-1.mp4
-				- [COMPLETE] 3-2 Activity之View树测绘流程分析-2.mp4
-				- [COMPLETE] 3-3 Activity之页面刷新机制概述.mp4
-				- [COMPLETE] 3-4 Activity之手势分发来源.mp4
-				- [COMPLETE] 3-5 Activity之任务栈管理.mp4
-				- [COMPLETE] 4-1 Fragment之FragmentTraction事务执行流程分析.mp4
-				- [COMPLETE] 4-2 Fragment之页面重叠与新版懒加载-1.mp4
-				- [COMPLETE] 4-3 Fragment之页面重叠与新版懒加载-2.mp4
-				- [COMPLETE] 5-1 RecyclerView家族图谱分析.mp4
-				- [COMPLETE] 5-2 RecyclerView源码解析.mp4
-				- [COMPLETE] 5-3 RecyclerView优化之回收复用机制探秘.mp4
-				- [COMPLETE] 6-1 高易用HiDataItem组件封装之需求分析.mp4
-				- [COMPLETE] 6-2 高易用HiDataItem组件封装-1.mp4
-				- [COMPLETE] 6-3 高易用HiDataItem组件封装-2.mp4
-				- [COMPLETE] 7-1 本周总结.mp4
-				- [COMPLETE] 7-2 本周作业.png
-			- [COMPLETE] 06 Android 导航架构探秘
-				- [COMPLETE] 1-1 本周目标.mp4
-				- [COMPLETE] 2-1 传统路由及路由的最佳实践.mp4
-				- [COMPLETE] 2-2 对比Navigation和ARouter的差异.mp4
-				- [COMPLETE] 2-3 如何做好技术选型.mp4
-				- [COMPLETE] 3-1 Navigation
-				- [COMPLETE] 3-2 Navigation
-				- [COMPLETE] 4-1 Navigation之自定义注解处理器.mp4
-				- [COMPLETE] 4-2 Navigation进阶改造.mp4
-				- [COMPLETE] 5-1 ARouter的配置用法.mp4
-				- [COMPLETE] 5-2 ARouter编译时原理分析.mp4
-				- [COMPLETE] 5-3 ARouter运行时实现原理分析-1.mp4
-				- [COMPLETE] 5-4 ARouter运行时实现原理分析-2.mp4
-				- [COMPLETE] 6-1 实战：需求疑难点分析及成果展示.mp4
-				- [COMPLETE] 6-2 实战：基于ARouter实现登录拦截与全局降级策略-1.mp4
-				- [COMPLETE] 6-3 实战：基于ARouter实现登录拦截与全局降级策略-2.mp4
-				- [COMPLETE] 7-1 本周总结.mp4
-				- [COMPLETE] 7-2 本周作业.png
-		- 阶段二：解锁Android高阶技能，探秘实战Jetpack 6
-		  collapsed:: true
-			- 07 线程与线程池核心技术
-				- 1-1 本周目标.mp4
-				- 2-1 多种线程创建方式与对比.mp4
-				- 2-2 线程优先级核心及应用技巧.mp4
-				- 2-3 线程状态剖析及四种方法应用.mp4
-				- 2-4 线程间通信核心.mp4
-				- 3-1 线程安全的本质.mp4
-				- 3-2 线程安全之原子类.mp4
-				- 3-3 线程安全之Synchronized.mp4
-				- 3-4 线程安全之ReentrantLock案例详解.mp4
-				- 3-5 线程安全之共享锁排他锁及锁的设计优化.mp4
-				- 4-1 线程池实现原理剖析.mp4
-				- 4-2 线程池源码分析.mp4
-				- 4-3 线程池中线程复用原理.mp4
-				- 5-1 实战：需求及设计思路分析.mp4
-				- 5-2 实战：简洁易用的多线程操作框架HiExecutor封装.mp4
-				- 6-1 大白话剖析Kotlin协程机制1.mp4
-				- 6-2 大白话剖析Kotlin协程机制2.mp4
-				- 6-3 Kotlin协程之挂起与恢复原理逆向剖析还原1.mp4
-				- 6-4 Kotlin协程之挂起与恢复原理逆向剖析还原2.mp4
-				- 6-5 Kotlin协程应用.mp4
-				- 7-1 架构师如何做多线程优化.mp4
-				- 8-1 本周总结.mp4
-			- 08 Android网络编程进阶
-				- 1-1 本周目标.mp4
-				- 2-1 Android网络编程核心.mp4
-				- 3-1 实战：HiRestful设计思想分析.mp4
-				- 3-2 实战：HiRestful之方法解析器-1.mp4
-				- 3-3 实战：HiRestful之方法解析器-2.mp4
-				- 3-4 实战：HiRestful之拦截器派发.mp4
-				- 4-1 从源码到原理剖析Retrofit核心【见微知著】-1.mp4
-				- 4-2 从源码到原理剖析retrofit核心【见微知著】-2.mp4
-				- 4-3 从源码到原理剖析retrofit核心【见微知著】-3.mp4
-				- 4-4 实战：为HiRestful添加Retrofit的支持-1.mp4
-				- 4-5 实战：为HiRestful添加Retrofit的支持-2.mp4
-				- 5-1 实战：自定义View之InputItemLayout-1.mp4
-				- 5-2 实战：自定义View之InputItemLayout-2.mp4
-				- 5-3 实战：自定义View之InputItemLayout-3.mp4
-				- 5-4 实战：登录模块实现-1.mp4
-				- 5-5 实战：登录模块实现-2.mp4
-				- 5-6 实战：注册模块实现.mp4
-				- 6-1 实战：接口拦截与路由处理.mp4
-				- 7-1 实战：个人中心模块实现-1.mp4
-				- 7-2 实战：个人中心模块实现-2.mp4
-				- 7-3 实战：个人中心模块实现-3.mp4
-				- 8-1 本周总结.mp4
-				- 8-2 本周作业.png
-			- 09+ 架构首页分类模块
-				- 1-1 本周目标.mp4
-				- 2-1 HiSlider样式定制-1.mp4
-				- 2-2 HiSlider样式定制-2.mp4
-				- 2-3 HiSlider数据适配.mp4
-				- 3-1 SpanSizeLoopUp不同寻常实现分组思路.mp4
-				- 3-2 SpanSizeLookUp不同寻常实现分组效果-1.mp4
-				- 3-3 SpanSizeLookUp不同寻常实现分组效果-2.mp4
-				- 3-4 ItemDecoration实现分组标题.mp4
-				- 4-1 基于HIAbsListFragment快速构建商品列表页.mp4
-				- 5-1 设计开发者支撑工具HiDebugTool并支持Https网络调试能力-1.mp4
-				- 5-2 设计开发者支撑工具HiDebugTool并支持Https网络调试能力-2.mp4
-				- 6-1 Https抓包原理与弱网络场景模拟-1.mp4
-				- 6-2 Https抓包原理与弱网络场景模拟-2.mp4
-				- 7-1 本周总结.mp4
-				- 7-2 本周作业.png
-			- 10 解密Jetpack工具库核心组件
-				- 1-1 本周目标.mp4
-				- 2-1 走进Jetpack架构.mp4
-				- 2-2 Jetpack架构组件库解析.mp4
-				- 3-1 Lifecycle组件架构实现原理-1.mp4
-				- 3-2 Lifecycle组件架构实现原理-2.mp4
-				- 4-1 LiveData组件架构实现原理.mp4
-				- 4-2 实战：实现不用反注册,不会内存泄露的消息总线.mp4
-				- 5-1 ViewModel实例复用原理新解析.mp4
-				- 5-2 SavedState组件数据存储与复用原理全解析.mp4
-				- 6-1 Room数据库高频用法讲解-1.mp4
-				- 6-2 Room数据库高频用法讲解-2.mp4
-				- 6-3 Room+LiveData监听数据库数据变更刷新页面原理分析.mp4
-				- 6-4 实战：基于Room封装APP离线缓存框架HiStorage.mp4
-				- 7-1 实战：基于HiStorage拓展HiRestful实现接口缓存能力-1.mp4
-				- 7-2 实战：基于HiStorage拓展HiRestful实现接口缓存能力-2.mp4
-				- 7-3 实战：首页缓存适配和ViewPager刷新调优.mp4
-				- 8-1 实战：基于LiveData实现登陆结果通知和账户信息管理.mp4
-				- 9-1 本周总结.mp4
-				- 9-2 本周作业.png
-			- 11 架构商品详情模块
-				- 1-1 本周目标.mp4
-				- 2-1 商品详情模块架构分析.mp4
-				- 2-2 搭建详情页整体结构.mp4
-				- 3-1 实战：基于HiBanner+HiDataItem实现列表主图轮播.mp4
-				- 4-1 实战：基于Chip组件实现商品评价模块.mp4
-				- 4-2 实战：店铺模块-1.mp4
-				- 4-3 实战：店铺模块-2.mp4
-				- 5-1 实战：商品属性模块.mp4
-				- 5-2 实战：商品相册与推荐商品模块.mp4
-				- 5-3 实战：商品收藏与标题栏滑动渐变.mp4
-				- 6-1 本周总结.mp4
-				- 6-2 本周作业.png
-			- 12 Android消息机制与虚拟机原理
-				- 1-1 本周目标.mp4
-				- 2-1 Android消息机制之消息生产-1.mp4
-				- 2-2 Android消息机制之消息生产-2.mp4
-				- 2-3 Android消息机制之消息消费.mp4
-				- 2-4 Android消息机制之ThreadLocal.mp4
-				- 3-1 Android类加载之双亲委派.mp4
-				- 3-2 Android类加载之高阶面试题与源码分析.mp4
-				- 4-1 走进Android热修复世界-1.mp4
-				- 4-2 走进Android热修复世界-2.mp4
-				- 5-1 实战：主项目接入Tinker.mp4
-				- 6-1 Tinker实现原理之补丁全量合成流程分析-1.mp4
-				- 6-2 Tinker实现原理之补丁全量合成流程分析-2.mp4
-				- 6-3 Tinker实现原理分析之动态加载dex实现热修复流程分析.mp4
-				- 7-1 本周总结.mp4
-				- 7-2 本周作业.png
-				- 7-3 本周讨论.png
-		- 阶段三：主流架构演进与项目架构改造 5
-		  collapsed:: true
-			- 第13周   玩转Kotlin x Java 设计模式
-				- 2-1 走进Kotlin
-				- 2-2 深入理解Kotlin
-				- 2-3 深入理解Kotlin
-				- 2-5 深入理解Kotlin
-				- 2-6 深入理解Kotlin
-			- 第14周   主流架构模式演进之路
-				- 1-1 本周目标.mp4
-				- 2-1 MVC和MVP分析手写实现.mp4
-				- 2-2 传统MVVM与Jetpack
-				- 3-1 DataBinding高频用法及传经送宝.mp4
-				- 3-2 实战：基于MVVM重构首页列表-1.mp4
-				- 3-3 实战：基于MVVM重构首页列表-2.mp4
-				- 4-1 单一工程+模块化+组件化+插件化及容器化分析.mp4
-				- 4-2 实战：基于模块化重构工程结构-1.mp4
-				- 4-3 实战：基于模块化重构工程结构-2.mp4
-				- 5-1 插件化发展的过去与未来.mp4
-				- 6-1 HiNavBar设计及实现思路分析.mp4
-				- 6-2 HiNavBar实现动态添加按钮&解决标题溢出-1.mp4
-				- 6-3 HiNavBar实现动态添加按钮&解决标题溢出-2.mp4
-				- 7-1 本周总结.mp4
-			- 第15周   主流架构实战搜索模块
-			- 第16周   IOC架构设计
-				- 1-1、本周目标_更多IT资源微信634631778.mp4
-				- 2-1、走进IOC的世界_更多IT资源微信634631778.mp4
-				- 3-1、Hilt DI库高频用法传经送宝_更多IT资源微信634631778.mp4
-				- 3-2、Hilt运行时依赖注入实现原理分析-1_更多IT资源微信634631778.mp4
-				- 3-3、Hilt运行时依赖注入实现原理分析-2_更多IT资源微信634631778.mp4
-				- 4-1、实战：AmountView通用计数器组件_更多IT资源微信634631778.mp4
-				- 4-2、实战：实现下单页面-1_更多IT资源微信634631778.mp4
-				- 4-3、实战：实现下单页面-2_更多IT资源微信634631778.mp4
-				- 5-1、实战：拓展HiRestful支持PUT,DELETE请求_更多IT资源微信634631778.mp4
-				- 5-2、实战：地址编辑器实现_更多IT资源微信634631778.mp4
-				- 6-1、城市选择器组件思路讲解_更多IT资源微信634631778.mp4
-				- 6-2、实战：城市数据预处理与持久化_更多IT资源微信634631778.mp4
-				- 6-3、实战：城市选择器组件-1_更多IT资源微信634631778.mp4
-				- 6-4、实战：城市选择器组件-2_更多IT资源微信634631778.mp4
-				- 6-5、实战：城市选择器组件-3_更多IT资源微信634631778.mp4
-				- 6-6、实战：城市选择器组件-4_更多IT资源微信634631778.mp4
-				- 7-1、实战：地址列表页设计与实现-1_更多IT资源微信634631778.mp4
-				- 7-2、实战：地址列表页设计与实现-2_更多IT资源微信634631778.mp4
-				- 7-3、实战：地址列表页设计与实现-3_更多IT资源微信634631778.mp4
-				- 8-1、本周总结_更多IT资源微信634631778.mp4
-			- 第17周   构建与打包能力
-				- 1-1 本周目标.mp4
-				- 2-1 高效构建渠道包-1.mp4
-				- 2-2 高效构建渠道包-2.mp4
-				- 3-1 Gradle项目构建基础.mp4
-				- 3-2 Gradle项目构建之Task任务.mp4
-				- 3-3 Gradle插件开发之Transform.mp4
-				- 3-4 Javassist字节码插桩技术实战-1.mp4
-				- 3-5 Javassist字节码插桩技术实战-2.mp4
-				- 3-6 Javassist字节码插桩技术实战-3.mp4
-				- 4-1 发布插件到Jcenter.mp4
-				- 5-1 Jenkins持续集成与自动化构建-1.mp4
-				- 5-2 Jenkins持续集成与自动化构建-2.mp4
-				- 6-1 直面底层还原apk打包流程-1.mp4
-				- 6-2 直面底层还原apk打包流程-2.mp4
-				- 6-3 apk攻与防-1.mp4
-				- 6-4 apk攻与防-2.mp4
-				- 7-1 本周总结.mp4
-		- 阶段四：混合架构设计与开发 5
-		  collapsed:: true
-			- 第18周   走进Flutter开发
-				- 1-1 本周目标.mp4
-				- 2-1 架构师该如何高效的学习Flutter.mp4
-				- 3-1 Flutter开发环境搭建及常见问题.mp4
-				- 3-2 走进Flutter的Widget世界.mp4
-				- 3-3 如何进行Flutter布局开发.mp4
-				- 3-4 轻松掌握Flutter调试技巧.mp4
-				- 4-1 实战：基于http库封装Flutter网络层框架-1.mp4
-				- 4-2 实战：基于http库封装Flutter网络层框架-2.mp4
-				- 4-3 实战：基于dio扩展网络层框架并编写单元测试.mp4
-				- 5-1 实战：推荐模块接口系分与Dao层设计-1.mp4
-				- 5-2 实战：推荐模块接口系分与Dao层设计-2.mp4
-				- 5-3 实战：推荐模块结构框架搭建.mp4
-				- 5-4 实战：推荐模块Item实现.mp4
-				- 6-1 本周总结.mp4
-			- 第19周   Flutter混合架构原理剖析与应用
-				- 1-1 本周目标.mp4
-				- 2-1 Flutter框架和原理剖析.mp4
-				- 2-2 探析Flutter渲染机制之三棵树.mp4
-				- 2-3 如何在已有的项目中集成Flutter.mp4
-				- 3-1 复杂场景下的Flutter混合架构设计.mp4
-				- 4-1 Flutter与Native通信原理剖析.mp4
-				- 4-2 实战：基于MethodChannel实现Flutter与Native通信架构HiFlutterBridge-1.mp4
-				- 4-3 实战：基于MethodChannel实现Flutter与Native通信架构HiFlutterBridge-2.mp4
-				- 5-1 Flutter推荐模块集成.mp4
-				- 5-2 实战：基于Flutter实现主流的首页架构-1.mp4
-				- 5-3 实战：基于Flutter实现主流的首页架构-2.mp4
-				- 6-1 本周总结.mp4
-			- 第20周   Flutter实战应用与性能优化
-				- 1-1 本周目标.mp4
-				- 2-1 实战：Flutter侧鉴权功能实现与登录态同步.mp4
-				- 3-1 收藏模块接口系分与Dao层设计.mp4
-				- 3-2 收藏模块结构框架搭建.mp4
-				- 3-3 收藏模块Item实现.mp4
-				- 4-1 复杂场景下Flutter嵌入Native组件实战-1.mp4
-				- 4-2 复杂场景下Flutter嵌入Native组件实战-2.mp4
-				- 4-3 Flutter
-				- 4-4 Flutter
-				- 5-1 playground模块设计-1.mp4
-				- 5-2 playground模块设计-2.mp4
-				- 6-1 Flutter性能调优.mp4
-				- 7-1 Flutter引擎加载机制与热更新方案探索.mp4
-				- 7-2 Flutter热更新方案实现与应用.mp4
-				- 8-1 本周总结.mp4
-			- 第21周、走进RN开发
-				- 1-1 本周目标.mp4
-				- 2-1 架构师该如何高效的学习RN.mp4
-				- 3-1 RN开发环境搭建及常见问题.mp4
-				- 4-1 实战：RN自定义组件封装.mp4
-				- 4-2 轻松掌握RN调试技巧.mp4
-				- 5-1 实战：基于fetch+promise库封装RN网络层框架.mp4
-				- 6-1 实战：浏览历史模块接口系分与Dao层设计.mp4
-				- 6-2 实战：浏览历史模块结构框架搭建.mp4
-				- 6-3 实战：浏览历史模块Item实现.mp4
-				- 7-1 走进RN的社区和它常见的组件-1.mp4
-				- 7-2 走进RN的社区和它常见的组件-2.mp4
-				- 8-1 本周总结.mp4
-			- 第22周   RN混合架构原理剖析与应用
-				- 1-1 本周目标.mp4
-				- 2-1 RN框架原理剖析-1.mp4
-				- 2-2 RN框架原理剖析-2.mp4
-				- 3-1 如何在原有的项目中集成RN？.mp4
-				- 3-2 RN混合架构开发实战技巧.mp4
-				- 4-1 RN与Native通信原理剖析-1.mp4
-				- 4-2 RN与Native通信原理剖析-2.mp4
-				- 4-3 基于NativeModule实现RN与Native通信架构HiRNBridge.mp4
-				- 5-1 实战：RN历史浏览模块集成-1.mp4
-				- 5-2 实战：RN历史浏览模块集成-2.mp4
-				- 6-1 实战：RN引擎预加载管理框架开发-1.mp4
-				- 6-2 实战：RN引擎预加载管理框架开发-2.mp4
-				- 6-3 实战：RN引擎预加载管理框架开发-3.mp4
-				- 7-1 实战：Native
-				- 7-2 Native
-				- 8-1 RN性能调优.mp4
-				- 9-1 本周总结.mp4
-		- 阶段五：稳定性及性能调优 3
-		  collapsed:: true
-			- 第23周、稳定性优化
-				- 1-1 本周目标.mp4
-				- 2-1 架构师如何提升APP的稳定性.mp4
-				- 3-1 建立有效的Code
-				- 4-1 Framework层对Java&Native异常的监控.mp4
-				- 4-2 Java异常监控与混淆代码还原-1.mp4
-				- 4-3 Java异常监控与混淆代码还原-2.mp4
-				- 5-1 Native异常监控与堆栈还原-1.mp4
-				- 5-2 Native异常监控与堆栈还原-2.mp4
-				- 6-1 实战：拓展HiDebugTool一键查看本地日志.mp4
-				- 7-1 本周总结.mp4
-			- 第24周、性能优化
-				- 1-1 本周目标
-				- 2-1 性能优化的重要性及方向-1.mp4
-				- 2-2 性能优化的重要性及方向-2.mp4
-				- 3-1 启动优化之耗时统计&启动白屏优化-1.mp4
-				- 3-2 启动优化之耗时统计&启动白屏优化-2.mp4
-				- 4-1 TaskFlow
-				- 4-2 TaskFlow筑基之Task任务-1.mp4
-				- 4-3 TaskFlow筑基之Task任务-2.mp4
-				- 4-4 TaskFlow合体之Project任务组-1.mp4
-				- 4-5 TaskFlow合体之Project任务组-2.mp4
-				- 4-6 TaskFlow灵魂之TaskRuntime调度器.mp4
-				- 4-7 TaskFlow涅槃之TaskRuntime依赖树检查.mp4
-				- 4-8 TaskFlow大乘之TaskFlowManager启动器-1.mp4
-				- 4-9 TaskFlow大乘之TaskFlowManager启动器-2.mp4
-				- 5-1 页面加载耗时优化实战-1.mp4
-				- 5-2 页面加载耗时优化实战-2.mp4
-				- 6-1 页面滑动流畅度FPS优化实战.mp4
-				- 7-1 内存泄漏排查定位.mp4
-				- 8-1 不合理大图检测插件-1.mp4
-				- 8-2 不合理大图检测插件-2.mp4
-				- 9-1 本周总结.mp4
-			- 第25周、开发技能拓展
-				- 1-1 本周目标.mp4
-				- 2-1 AndroidX升级适配的必要性.mp4
-				- 2-2 如何在老项目中使用AndroidX.mp4
-				- 2-3 升级适配常见问题解决及AndroidX库文件混淆.mp4
-				- 3-1 折叠屏适配方案.mp4
-				- 3-2 折叠屏适配实战-1.mp4
-				- 3-3 折叠屏适配实战-2.mp4
-				- 4-1 Android
-				- 4-2 Android
-				- 5-1 新一代组件化动态化方案App
-				- 5-2 AppBundle动态交付原理.mp4
-				- 5-3 AppBundle文件结构分析.mp4
-				- 5-4 使用Bundletool测试AppBundle.mp4
-				- 5-5 AppBundle拆分注意事项.mp4
-				- 6-1 Android权限治理.mp4
-				- 7-1 本周总结.mp4
-		- 阶段六：前后端接口设计与配置中心系统 5
-			- 第26周、后端-DAU超千万的移动端接口设计实现
+			- 阶段一：Kotlin x Java打造 UI 通用组件 6 
 			  collapsed:: true
-				- 1-1 本周目标
-				- 2-1 移动端进行后端开发需要具备的技术栈和能力.mp4
-				- 2-2 前后端分离架构与高效的协作方式.mp4
-				- 3-1 SpringBoot2
-				- 3-2 基于PDMan工具实现数据库建模.mp4
-				- 3-3 基于BCrypt实现用户信息加密与注册功能实现-1.mp4
-				- 3-4 基于BCrypt实现用户信息加密与注册功能实现-2.mp4
-				- 3-5 整合与优化Swagger2文档Api.mp4
-				- 4-1 登录功能实现与Response设计.mp4
-				- 4-2 基于Redis实现高速的用户信息缓存.mp4
-				- 4-3 基于注解拦截器实现接口访问控制与登录态处理.mp4
-				- 5-1 用户列表API开发与分页功能实现-1.mp4
-				- 5-2 用户列表API开发与分页功能实现-2.mp4
-				- 5-3 用户管理API的设计与实现.mp4
-				- 6-1 商品类别模块建模与功能开发-1.mp4
-				- 6-2 商品类别模块建模与功能开发-2.mp4
-				- 6-3 商品类别管理API开发.mp4
-				- 7-1 城市服务模块功能实现.mp4
-				- 8-1 项目打包并部署到Tomcat服务器.mp4
-				- 8-2 基于Tomcat
-				- 9-1 本周总结.mp4
-			- 第27周、前端-管理后台设计实现
-				- 1-1 本周目标.mp4
-				- 2-1 前端开发需要具备的技术栈和能力.mp4
-				- 3-1 基于create-react-app搭建web工程.mp4
-				- 3-2 整合antd与less并搭建具有Ant
-				- 4-1 页面结构设计与框架搭建-1.mp4
-				- 4-2 页面结构设计与框架搭建-2.mp4
-				- 4-3 页面结构设计与框架搭建-3.mp4
-				- 4-4 导航架构模块设计与实现.mp4
-				- 4-5 基于react-router-dom实现路由模块.mp4
-				- 5-1 网络模块封装与service层实现-1.mp4
-				- 5-2 网络模块封装与service层实现-2.mp4
-				- 6-1 用户管理功能模块设计与实现-1.mp4
-				- 6-2 用户管理功能模块设计与实现-2.mp4
-				- 7-1 商品类别管理模块开发-1.mp4
-				- DOING 7-2 商品类别管理模块开发-2.mp4
-				  :LOGBOOK:
-				  CLOCK: [2022-04-25 Mon 15:31:25]
-				  :END:
-				- 7-3 添加商品类别功能实现-1.mp4
-				- 7-4 添加商品类别功能实现-2.mp4
-				- 7-5 添加商品类别功能实现-3.mp4
-				- 8-1 前端项目打包与部署.mp4
-				- 9-1 本周总结.mp4
-			- 第28周、【SDK+服务端+控台】配置中心架构实现
-				- 1-1 本周目标_21.mp4
-				- 2-1 配置中心架构及实现原理解析.mp4
-				- 2-2 配置中心系统数据建模.mp4
-				- 3-1 后端-查询配置接口设计与开发-1.mp4
-				- 3-2 后端-查询配置接口设计与开发-2.mp4
-				- 3-3 后端-更新配置接口设计与开发-1.mp4
-				- 3-4 后端-更新配置接口设计与开发-2.mp4
-				- 3-5 后端-配置持久化存储功能设计与实现-1.mp4
-				- 3-6 后端-配置持久化存储功能设计与实现-2.mp4
-				- 3-7 后端-如何实现高速缓存与探针功能？-1.mp4
-				- 3-8 后端-如何实现高速缓存与探针功能？-2.mp4
-				- 4-1 前端-配置列表设计与实现-1.mp4
-				- 4-2 前端-配置列表设计与实现-2.mp4
-				- 4-3 前端-搜索与过滤功能实现-1.mp4
-				- 4-4 前端-搜索与过滤功能实现-2.mp4
-				- 4-5 前端-添加配置与发布实现.mp4
-				- 4-6 前端-导航模块扩展与路由通知功能实现-1.mp4
-				- 4-7 前端-导航模块扩展与路由通知功能实现-2.mp4
-				- 4-8 前端-如何实现发布回滚的功能？.mp4
-				- 5-1 客户端SDK-HiConfig工程搭建与接口设计.mp4
-				- 5-2 客户端SDK-配置同步与更新功能实现-1.mp4
-				- 5-3 客户端SDK-配置同步与更新功能实现-2.mp4
-				- 5-4 客户端SDK-如何实现配置缓存与恢复功能？.mp4
-				- 5-5 客户端SDK-如何实现配置的高效获取与监听功能？-1.mp4
-				- 5-6 客户端SDK-如何实现配置的高效获取与监听功能？-2.mp4
-				- 6-1 基于HiConfig实现模块功能的动态化.mp4
-				- 7-1 本周总结.mp4
-			- 第29周、HiAbility SDK开发
-				- 1-1 本周目标
-				- 2-1 基础推送能力集成-1.mp4
-				- 2-2 基础推送能力集成-2.mp4
-				- 2-3 OEM厂商推送能力集成-1.mp4
-				- 2-4 OEM厂商推送能力集成-2.mp4
-				- 3-1 可配置化分享面板.mp4
-				- 3-2 分享卡片消息到QQ好友.mp4
-				- 3-3 分享卡片消息到微信.mp4
-				- 4-1 华为HMS扫码能力集成-1.mp4
-				- 4-2 华为HMS扫码能力集成-2.mp4
-				- 4-3 华为HMS扫码能力集成-3.mp4
-				- 5-1 数据统计与埋点-1.mp4
-				- 5-2 数据统计与埋点-2.mp4
-				- 6-1 支付宝支付-1.mp4
-				- 6-2 支付宝支付-2.mp4
-				- 6-3 支付宝支付-3.mp4
-				- 6-4 微信支付.mp4
-			- 第30周、学成“下山”
-				- 1-1 本周目标
-				- 2-1 如何设计高质量的简历.mp4
-				- 2-2 巧用简历投递渠道让机会找自己.mp4
-				- 3-1 移动端架构师常见面试分析-1.mp4
-				- 3-2 移动端架构师常见面试分析-2.mp4
-				- 3-3 移动端架构师面试技巧.mp4
-				- 3-4 善用面试复盘面试路上越战越勇.mp4
-				- 4-1 关于架构师的职业发展探讨.mp4
-				- 4-2 架构师该如何带团队.mp4
-				- 5-1 揭开项目管理面纱.mp4
-				- 5-2 项目管理五大阶段的最佳实践.mp4
-				- 5-3 项目管理的方法论.mp4
-				- 5-4 项目生命周期管理和风险控制.mp4
-				- 6-1 后续学习指南.mp4
-				- 6-2 本周总结.mp4
-- 个人精简
+				- 01 走进移动端架构师
+					- 第1章、本周目标
+					- 第2章、移动端架构师需要具备的技术栈与能力
+					- 第3章、如何从0开始架构一个中大型APP
+					- 第4章、如何做好项目的技术选型
+					- 第5章、移动端架构师开发套件介绍
+					- 第6章、HiLog库架构设计与开发
+					- 第7章、本周总结
+				- 02 通用UI组件开发与基础框架设计
+					- 1-1 本周目标.mp4
+					- 2-1 HiTabBottom组件疑难点分析与架构设计.mp4
+					- 2-2 HiTabBottom的单Tab组件封装.mp4
+					- 2-3 HiTabBottomLayout封装与应用-1.mp4
+					- 2-4 HiTabBottomLayout封装与应用-2.mp4
+					- 3-1 APP基础框架结构设计.mp4
+					- 4-1 基于HiTabBottom实现APP底部导航框架-1.mp4
+					- 4-2 基于HiTabBottom实现APP底部导航框架-2.mp4
+					- 4-3 Fragment常见问题解决.mp4
+					- 5-1 HiTabTop架构设计与功能实现-1.mp4
+					- 5-2 HiTabTop架构设计与功能实现-2.mp4
+					- 5-3 HiTabTop自动滚动功能分析与实现.mp4
+					- 6-1 本周总结.mp4
+					- 6-2 本周作业.png
+				- 03 高级UI组件定制与解耦设计
+					- 1-1 本周目标.mp4
+					- 2-1 打造下拉刷新HiOverView视图.mp4
+					- 2-2 实现HiRefresh-1.mp4
+					- 2-3 实现HiRefresh-2.mp4
+					- 2-4 实现HiRefresh-3.mp4
+					- 2-5 实现HiRefresh-4.mp4
+					- 2-6 HiRefresh调试完善.mp4
+					- 3-1 HiBanner架构设计与ViewPager定制-1.mp4
+					- 3-2 HiBanner架构设计与ViewPager定制-2.mp4
+					- 4-1 打造高通用的HiBannerAdapter.mp4
+					- 4-2 实现HiBanner的高度定制.mp4
+					- 5-1 HiBannerDelegate封装与指示器HiIndicator定制-1.mp4
+					- 5-2 HiBannerDelegate封装与指示器HiIndicator定制-2.mp4
+					- 6-1 本周总结.mp4
+					- 6-2 本周作业.png
+				- 04 Android必备Kotlin核心技术
+					- 1-1 本周目标.mp4
+					- 2-1 以架构师角度认识Kotlin.mp4
+					- 3-1 Kotlin开发环境搭建技巧.mp4
+					- 3-2 Kotlin必备基础-1.mp4
+					- 3-3 Kotlin必备基础-2.mp4
+					- 4-1 Kotlin方法.mp4
+					- 4-2 Lambda表达式.mp4
+					- 5-1 Kotlin方法进阶-1.mp4
+					- 5-2 Kotlin方法进阶-2.mp4
+					- 5-3 Kotlin构造方法与继承.mp4
+					- 5-4 Kotlin抽象类与接口.mp4
+					- 5-5 小结.mp4
+					- 6-1 深入理解Kotlin泛型.mp4
+					- 6-2 深入理解Kotlin注解.mp4
+					- 6-3 Kotlin扩展技术探秘与应用-1.mp4
+					- 6-4 Kotlin扩展技术探秘与应用-2.mp4
+					- 6-5 Kotlin扩展案例.mp4
+					- 7-1 实战Kotlin重构HiCircleIndicator.mp4
+					- 7-2 Kotlin实用技巧.mp4
+					- 8-1 本周总结.mp4
+					- 8-2 本周作业.png
+				- 05 Android UI核心组件剖析与实战
+					- 1-1 本周目标.mp4
+					- 2-1 从开机到SystemServer进程及服务创建流程剖析.mp4
+					- 2-2 Launcher应用启动之进程启动-1.mp4
+					- 2-3 Launcher应用启动之进程启动-2.mp4
+					- 2-4 Launcher应用启动之ActivityThread源码分析.mp4
+					- 3-1 Activity之View树测绘流程分析-1.mp4
+					- 3-2 Activity之View树测绘流程分析-2.mp4
+					- 3-3 Activity之页面刷新机制概述.mp4
+					- 3-4 Activity之手势分发来源.mp4
+					- 3-5 Activity之任务栈管理.mp4
+					- 4-1 Fragment之FragmentTraction事务执行流程分析.mp4
+					- 4-2 Fragment之页面重叠与新版懒加载-1.mp4
+					- 4-3 Fragment之页面重叠与新版懒加载-2.mp4
+					- 5-1 RecyclerView家族图谱分析.mp4
+					- 5-2 RecyclerView源码解析.mp4
+					- 5-3 RecyclerView优化之回收复用机制探秘.mp4
+					- 6-1 高易用HiDataItem组件封装之需求分析.mp4
+					- 6-2 高易用HiDataItem组件封装-1.mp4
+					- 6-3 高易用HiDataItem组件封装-2.mp4
+					- 7-1 本周总结.mp4
+					- 7-2 本周作业.png
+				- 06 Android 导航架构探秘
+					- 1-1 本周目标.mp4
+					- 2-1 传统路由及路由的最佳实践.mp4
+					- 2-2 对比Navigation和ARouter的差异.mp4
+					- 2-3 如何做好技术选型.mp4
+					- 3-1 Navigation
+					- 3-2 Navigation
+					- 4-1 Navigation之自定义注解处理器.mp4
+					- 4-2 Navigation进阶改造.mp4
+					- 5-1 ARouter的配置用法.mp4
+					- 5-2 ARouter编译时原理分析.mp4
+					- 5-3 ARouter运行时实现原理分析-1.mp4
+					- 5-4 ARouter运行时实现原理分析-2.mp4
+					- 6-1 实战：需求疑难点分析及成果展示.mp4
+					- 6-2 实战：基于ARouter实现登录拦截与全局降级策略-1.mp4
+					- 6-3 实战：基于ARouter实现登录拦截与全局降级策略-2.mp4
+					- 7-1 本周总结.mp4
+					- 7-2 本周作业.png
+			- 阶段二：解锁Android高阶技能，探秘实战Jetpack 6
+			  collapsed:: true
+				- 07 线程与线程池核心技术
+					- 1-1 本周目标.mp4
+					- 2-1 多种线程创建方式与对比.mp4
+					- 2-2 线程优先级核心及应用技巧.mp4
+					- 2-3 线程状态剖析及四种方法应用.mp4
+					- 2-4 线程间通信核心.mp4
+					- 3-1 线程安全的本质.mp4
+					- 3-2 线程安全之原子类.mp4
+					- 3-3 线程安全之Synchronized.mp4
+					- 3-4 线程安全之ReentrantLock案例详解.mp4
+					- 3-5 线程安全之共享锁排他锁及锁的设计优化.mp4
+					- 4-1 线程池实现原理剖析.mp4
+					- 4-2 线程池源码分析.mp4
+					- 4-3 线程池中线程复用原理.mp4
+					- 5-1 实战：需求及设计思路分析.mp4
+					- 5-2 实战：简洁易用的多线程操作框架HiExecutor封装.mp4
+					- 6-1 大白话剖析Kotlin协程机制1.mp4
+					- 6-2 大白话剖析Kotlin协程机制2.mp4
+					- 6-3 Kotlin协程之挂起与恢复原理逆向剖析还原1.mp4
+					- 6-4 Kotlin协程之挂起与恢复原理逆向剖析还原2.mp4
+					- 6-5 Kotlin协程应用.mp4
+					- 7-1 架构师如何做多线程优化.mp4
+					- 8-1 本周总结.mp4
+				- 08 Android网络编程进阶
+					- 1-1 本周目标.mp4
+					- 2-1 Android网络编程核心.mp4
+					- 3-1 实战：HiRestful设计思想分析.mp4
+					- 3-2 实战：HiRestful之方法解析器-1.mp4
+					- 3-3 实战：HiRestful之方法解析器-2.mp4
+					- 3-4 实战：HiRestful之拦截器派发.mp4
+					- 4-1 从源码到原理剖析Retrofit核心【见微知著】-1.mp4
+					- 4-2 从源码到原理剖析retrofit核心【见微知著】-2.mp4
+					- 4-3 从源码到原理剖析retrofit核心【见微知著】-3.mp4
+					- 4-4 实战：为HiRestful添加Retrofit的支持-1.mp4
+					- 4-5 实战：为HiRestful添加Retrofit的支持-2.mp4
+					- 5-1 实战：自定义View之InputItemLayout-1.mp4
+					- 5-2 实战：自定义View之InputItemLayout-2.mp4
+					- 5-3 实战：自定义View之InputItemLayout-3.mp4
+					- 5-4 实战：登录模块实现-1.mp4
+					- 5-5 实战：登录模块实现-2.mp4
+					- 5-6 实战：注册模块实现.mp4
+					- 6-1 实战：接口拦截与路由处理.mp4
+					- 7-1 实战：个人中心模块实现-1.mp4
+					- 7-2 实战：个人中心模块实现-2.mp4
+					- 7-3 实战：个人中心模块实现-3.mp4
+					- 8-1 本周总结.mp4
+					- 8-2 本周作业.png
+				- 09+ 架构首页分类模块
+					- 1-1 本周目标.mp4
+					- 2-1 HiSlider样式定制-1.mp4
+					- 2-2 HiSlider样式定制-2.mp4
+					- 2-3 HiSlider数据适配.mp4
+					- 3-1 SpanSizeLoopUp不同寻常实现分组思路.mp4
+					- 3-2 SpanSizeLookUp不同寻常实现分组效果-1.mp4
+					- 3-3 SpanSizeLookUp不同寻常实现分组效果-2.mp4
+					- 3-4 ItemDecoration实现分组标题.mp4
+					- 4-1 基于HIAbsListFragment快速构建商品列表页.mp4
+					- 5-1 设计开发者支撑工具HiDebugTool并支持Https网络调试能力-1.mp4
+					- 5-2 设计开发者支撑工具HiDebugTool并支持Https网络调试能力-2.mp4
+					- 6-1 Https抓包原理与弱网络场景模拟-1.mp4
+					- 6-2 Https抓包原理与弱网络场景模拟-2.mp4
+					- 7-1 本周总结.mp4
+					- 7-2 本周作业.png
+				- 10 解密Jetpack工具库核心组件
+					- 1-1 本周目标.mp4
+					- 2-1 走进Jetpack架构.mp4
+					- 2-2 Jetpack架构组件库解析.mp4
+					- 3-1 Lifecycle组件架构实现原理-1.mp4
+					- 3-2 Lifecycle组件架构实现原理-2.mp4
+					- 4-1 LiveData组件架构实现原理.mp4
+					- 4-2 实战：实现不用反注册,不会内存泄露的消息总线.mp4
+					- 5-1 ViewModel实例复用原理新解析.mp4
+					- 5-2 SavedState组件数据存储与复用原理全解析.mp4
+					- 6-1 Room数据库高频用法讲解-1.mp4
+					- 6-2 Room数据库高频用法讲解-2.mp4
+					- 6-3 Room+LiveData监听数据库数据变更刷新页面原理分析.mp4
+					- 6-4 实战：基于Room封装APP离线缓存框架HiStorage.mp4
+					- 7-1 实战：基于HiStorage拓展HiRestful实现接口缓存能力-1.mp4
+					- 7-2 实战：基于HiStorage拓展HiRestful实现接口缓存能力-2.mp4
+					- 7-3 实战：首页缓存适配和ViewPager刷新调优.mp4
+					- 8-1 实战：基于LiveData实现登陆结果通知和账户信息管理.mp4
+					- 9-1 本周总结.mp4
+					- 9-2 本周作业.png
+				- 11 架构商品详情模块
+					- 1-1 本周目标.mp4
+					- 2-1 商品详情模块架构分析.mp4
+					- 2-2 搭建详情页整体结构.mp4
+					- 3-1 实战：基于HiBanner+HiDataItem实现列表主图轮播.mp4
+					- 4-1 实战：基于Chip组件实现商品评价模块.mp4
+					- 4-2 实战：店铺模块-1.mp4
+					- 4-3 实战：店铺模块-2.mp4
+					- 5-1 实战：商品属性模块.mp4
+					- 5-2 实战：商品相册与推荐商品模块.mp4
+					- 5-3 实战：商品收藏与标题栏滑动渐变.mp4
+					- 6-1 本周总结.mp4
+					- 6-2 本周作业.png
+				- 12 Android消息机制与虚拟机原理
+					- 1-1 本周目标.mp4
+					- 2-1 Android消息机制之消息生产-1.mp4
+					- 2-2 Android消息机制之消息生产-2.mp4
+					- 2-3 Android消息机制之消息消费.mp4
+					- 2-4 Android消息机制之ThreadLocal.mp4
+					- 3-1 Android类加载之双亲委派.mp4
+					- 3-2 Android类加载之高阶面试题与源码分析.mp4
+					- 4-1 走进Android热修复世界-1.mp4
+					- 4-2 走进Android热修复世界-2.mp4
+					- 5-1 实战：主项目接入Tinker.mp4
+					- 6-1 Tinker实现原理之补丁全量合成流程分析-1.mp4
+					- 6-2 Tinker实现原理之补丁全量合成流程分析-2.mp4
+					- 6-3 Tinker实现原理分析之动态加载dex实现热修复流程分析.mp4
+					- 7-1 本周总结.mp4
+					- 7-2 本周作业.png
+					- 7-3 本周讨论.png
+			- 阶段三：主流架构演进与项目架构改造 5
+			  collapsed:: true
+				- 第13周   玩转Kotlin x Java 设计模式
+					- 2-1 走进Kotlin
+					- 2-2 深入理解Kotlin
+					- 2-3 深入理解Kotlin
+					- 2-5 深入理解Kotlin
+					- 2-6 深入理解Kotlin
+				- 第14周   主流架构模式演进之路
+					- 1-1 本周目标.mp4
+					- 2-1 MVC和MVP分析手写实现.mp4
+					- 2-2 传统MVVM与Jetpack
+					- 3-1 DataBinding高频用法及传经送宝.mp4
+					- 3-2 实战：基于MVVM重构首页列表-1.mp4
+					- 3-3 实战：基于MVVM重构首页列表-2.mp4
+					- 4-1 单一工程+模块化+组件化+插件化及容器化分析.mp4
+					- 4-2 实战：基于模块化重构工程结构-1.mp4
+					- 4-3 实战：基于模块化重构工程结构-2.mp4
+					- 5-1 插件化发展的过去与未来.mp4
+					- 6-1 HiNavBar设计及实现思路分析.mp4
+					- 6-2 HiNavBar实现动态添加按钮&解决标题溢出-1.mp4
+					- 6-3 HiNavBar实现动态添加按钮&解决标题溢出-2.mp4
+					- 7-1 本周总结.mp4
+				- 第15周   主流架构实战搜索模块
+				- 第16周   IOC架构设计
+					- 1-1、本周目标_更多IT资源微信634631778.mp4
+					- 2-1、走进IOC的世界_更多IT资源微信634631778.mp4
+					- 3-1、Hilt DI库高频用法传经送宝_更多IT资源微信634631778.mp4
+					- 3-2、Hilt运行时依赖注入实现原理分析-1_更多IT资源微信634631778.mp4
+					- 3-3、Hilt运行时依赖注入实现原理分析-2_更多IT资源微信634631778.mp4
+					- 4-1、实战：AmountView通用计数器组件_更多IT资源微信634631778.mp4
+					- 4-2、实战：实现下单页面-1_更多IT资源微信634631778.mp4
+					- 4-3、实战：实现下单页面-2_更多IT资源微信634631778.mp4
+					- 5-1、实战：拓展HiRestful支持PUT,DELETE请求_更多IT资源微信634631778.mp4
+					- 5-2、实战：地址编辑器实现_更多IT资源微信634631778.mp4
+					- 6-1、城市选择器组件思路讲解_更多IT资源微信634631778.mp4
+					- 6-2、实战：城市数据预处理与持久化_更多IT资源微信634631778.mp4
+					- 6-3、实战：城市选择器组件-1_更多IT资源微信634631778.mp4
+					- 6-4、实战：城市选择器组件-2_更多IT资源微信634631778.mp4
+					- 6-5、实战：城市选择器组件-3_更多IT资源微信634631778.mp4
+					- 6-6、实战：城市选择器组件-4_更多IT资源微信634631778.mp4
+					- 7-1、实战：地址列表页设计与实现-1_更多IT资源微信634631778.mp4
+					- 7-2、实战：地址列表页设计与实现-2_更多IT资源微信634631778.mp4
+					- 7-3、实战：地址列表页设计与实现-3_更多IT资源微信634631778.mp4
+					- 8-1、本周总结_更多IT资源微信634631778.mp4
+				- 第17周   构建与打包能力
+					- 1-1 本周目标.mp4
+					- 2-1 高效构建渠道包-1.mp4
+					- 2-2 高效构建渠道包-2.mp4
+					- 3-1 Gradle项目构建基础.mp4
+					- 3-2 Gradle项目构建之Task任务.mp4
+					- 3-3 Gradle插件开发之Transform.mp4
+					- 3-4 Javassist字节码插桩技术实战-1.mp4
+					- 3-5 Javassist字节码插桩技术实战-2.mp4
+					- 3-6 Javassist字节码插桩技术实战-3.mp4
+					- 4-1 发布插件到Jcenter.mp4
+					- 5-1 Jenkins持续集成与自动化构建-1.mp4
+					- 5-2 Jenkins持续集成与自动化构建-2.mp4
+					- 6-1 直面底层还原apk打包流程-1.mp4
+					- 6-2 直面底层还原apk打包流程-2.mp4
+					- 6-3 apk攻与防-1.mp4
+					- 6-4 apk攻与防-2.mp4
+					- 7-1 本周总结.mp4
+			- 阶段四：混合架构设计与开发 5
+			  collapsed:: true
+				- 第18周   走进Flutter开发
+					- 1-1 本周目标.mp4
+					- 2-1 架构师该如何高效的学习Flutter.mp4
+					- 3-1 Flutter开发环境搭建及常见问题.mp4
+					- 3-2 走进Flutter的Widget世界.mp4
+					- 3-3 如何进行Flutter布局开发.mp4
+					- 3-4 轻松掌握Flutter调试技巧.mp4
+					- 4-1 实战：基于http库封装Flutter网络层框架-1.mp4
+					- 4-2 实战：基于http库封装Flutter网络层框架-2.mp4
+					- 4-3 实战：基于dio扩展网络层框架并编写单元测试.mp4
+					- 5-1 实战：推荐模块接口系分与Dao层设计-1.mp4
+					- 5-2 实战：推荐模块接口系分与Dao层设计-2.mp4
+					- 5-3 实战：推荐模块结构框架搭建.mp4
+					- 5-4 实战：推荐模块Item实现.mp4
+					- 6-1 本周总结.mp4
+				- 第19周   Flutter混合架构原理剖析与应用
+					- 1-1 本周目标.mp4
+					- 2-1 Flutter框架和原理剖析.mp4
+					- 2-2 探析Flutter渲染机制之三棵树.mp4
+					- 2-3 如何在已有的项目中集成Flutter.mp4
+					- 3-1 复杂场景下的Flutter混合架构设计.mp4
+					- 4-1 Flutter与Native通信原理剖析.mp4
+					- 4-2 实战：基于MethodChannel实现Flutter与Native通信架构HiFlutterBridge-1.mp4
+					- 4-3 实战：基于MethodChannel实现Flutter与Native通信架构HiFlutterBridge-2.mp4
+					- 5-1 Flutter推荐模块集成.mp4
+					- 5-2 实战：基于Flutter实现主流的首页架构-1.mp4
+					- 5-3 实战：基于Flutter实现主流的首页架构-2.mp4
+					- 6-1 本周总结.mp4
+				- 第20周   Flutter实战应用与性能优化
+					- 1-1 本周目标.mp4
+					- 2-1 实战：Flutter侧鉴权功能实现与登录态同步.mp4
+					- 3-1 收藏模块接口系分与Dao层设计.mp4
+					- 3-2 收藏模块结构框架搭建.mp4
+					- 3-3 收藏模块Item实现.mp4
+					- 4-1 复杂场景下Flutter嵌入Native组件实战-1.mp4
+					- 4-2 复杂场景下Flutter嵌入Native组件实战-2.mp4
+					- 4-3 Flutter
+					- 4-4 Flutter
+					- 5-1 playground模块设计-1.mp4
+					- 5-2 playground模块设计-2.mp4
+					- 6-1 Flutter性能调优.mp4
+					- 7-1 Flutter引擎加载机制与热更新方案探索.mp4
+					- 7-2 Flutter热更新方案实现与应用.mp4
+					- 8-1 本周总结.mp4
+				- 第21周、走进RN开发
+					- 1-1 本周目标.mp4
+					- 2-1 架构师该如何高效的学习RN.mp4
+					- 3-1 RN开发环境搭建及常见问题.mp4
+					- 4-1 实战：RN自定义组件封装.mp4
+					- 4-2 轻松掌握RN调试技巧.mp4
+					- 5-1 实战：基于fetch+promise库封装RN网络层框架.mp4
+					- 6-1 实战：浏览历史模块接口系分与Dao层设计.mp4
+					- 6-2 实战：浏览历史模块结构框架搭建.mp4
+					- 6-3 实战：浏览历史模块Item实现.mp4
+					- 7-1 走进RN的社区和它常见的组件-1.mp4
+					- 7-2 走进RN的社区和它常见的组件-2.mp4
+					- 8-1 本周总结.mp4
+				- 第22周   RN混合架构原理剖析与应用
+					- 1-1 本周目标.mp4
+					- 2-1 RN框架原理剖析-1.mp4
+					- 2-2 RN框架原理剖析-2.mp4
+					- 3-1 如何在原有的项目中集成RN？.mp4
+					- 3-2 RN混合架构开发实战技巧.mp4
+					- 4-1 RN与Native通信原理剖析-1.mp4
+					- 4-2 RN与Native通信原理剖析-2.mp4
+					- 4-3 基于NativeModule实现RN与Native通信架构HiRNBridge.mp4
+					- 5-1 实战：RN历史浏览模块集成-1.mp4
+					- 5-2 实战：RN历史浏览模块集成-2.mp4
+					- 6-1 实战：RN引擎预加载管理框架开发-1.mp4
+					- 6-2 实战：RN引擎预加载管理框架开发-2.mp4
+					- 6-3 实战：RN引擎预加载管理框架开发-3.mp4
+					- 7-1 实战：Native
+					- 7-2 Native
+					- 8-1 RN性能调优.mp4
+					- 9-1 本周总结.mp4
+			- 阶段五：稳定性及性能调优 3
+			  collapsed:: true
+				- 第23周、稳定性优化
+					- 1-1 本周目标.mp4
+					- 2-1 架构师如何提升APP的稳定性.mp4
+					- 3-1 建立有效的Code
+					- 4-1 Framework层对Java&Native异常的监控.mp4
+					- 4-2 Java异常监控与混淆代码还原-1.mp4
+					- 4-3 Java异常监控与混淆代码还原-2.mp4
+					- 5-1 Native异常监控与堆栈还原-1.mp4
+					- 5-2 Native异常监控与堆栈还原-2.mp4
+					- 6-1 实战：拓展HiDebugTool一键查看本地日志.mp4
+					- 7-1 本周总结.mp4
+				- 第24周、性能优化
+					- 1-1 本周目标
+					- 2-1 性能优化的重要性及方向-1.mp4
+					- 2-2 性能优化的重要性及方向-2.mp4
+					- 3-1 启动优化之耗时统计&启动白屏优化-1.mp4
+					- 3-2 启动优化之耗时统计&启动白屏优化-2.mp4
+					- 4-1 TaskFlow
+					- 4-2 TaskFlow筑基之Task任务-1.mp4
+					- 4-3 TaskFlow筑基之Task任务-2.mp4
+					- 4-4 TaskFlow合体之Project任务组-1.mp4
+					- 4-5 TaskFlow合体之Project任务组-2.mp4
+					- 4-6 TaskFlow灵魂之TaskRuntime调度器.mp4
+					- 4-7 TaskFlow涅槃之TaskRuntime依赖树检查.mp4
+					- 4-8 TaskFlow大乘之TaskFlowManager启动器-1.mp4
+					- 4-9 TaskFlow大乘之TaskFlowManager启动器-2.mp4
+					- 5-1 页面加载耗时优化实战-1.mp4
+					- 5-2 页面加载耗时优化实战-2.mp4
+					- 6-1 页面滑动流畅度FPS优化实战.mp4
+					- 7-1 内存泄漏排查定位.mp4
+					- 8-1 不合理大图检测插件-1.mp4
+					- 8-2 不合理大图检测插件-2.mp4
+					- 9-1 本周总结.mp4
+				- 第25周、开发技能拓展
+					- 1-1 本周目标.mp4
+					- 2-1 AndroidX升级适配的必要性.mp4
+					- 2-2 如何在老项目中使用AndroidX.mp4
+					- 2-3 升级适配常见问题解决及AndroidX库文件混淆.mp4
+					- 3-1 折叠屏适配方案.mp4
+					- 3-2 折叠屏适配实战-1.mp4
+					- 3-3 折叠屏适配实战-2.mp4
+					- 4-1 Android
+					- 4-2 Android
+					- 5-1 新一代组件化动态化方案App
+					- 5-2 AppBundle动态交付原理.mp4
+					- 5-3 AppBundle文件结构分析.mp4
+					- 5-4 使用Bundletool测试AppBundle.mp4
+					- 5-5 AppBundle拆分注意事项.mp4
+					- 6-1 Android权限治理.mp4
+					- 7-1 本周总结.mp4
+			- 阶段六：前后端接口设计与配置中心系统 5
+			  collapsed:: true
+				- 第26周、后端-DAU超千万的移动端接口设计实现
+				  collapsed:: true
+					- 1-1 本周目标
+					- 2-1 移动端进行后端开发需要具备的技术栈和能力.mp4
+					- 2-2 前后端分离架构与高效的协作方式.mp4
+					- 3-1 SpringBoot2
+					- 3-2 基于PDMan工具实现数据库建模.mp4
+					- 3-3 基于BCrypt实现用户信息加密与注册功能实现-1.mp4
+					- 3-4 基于BCrypt实现用户信息加密与注册功能实现-2.mp4
+					- 3-5 整合与优化Swagger2文档Api.mp4
+					- 4-1 登录功能实现与Response设计.mp4
+					- 4-2 基于Redis实现高速的用户信息缓存.mp4
+					- 4-3 基于注解拦截器实现接口访问控制与登录态处理.mp4
+					- 5-1 用户列表API开发与分页功能实现-1.mp4
+					- 5-2 用户列表API开发与分页功能实现-2.mp4
+					- 5-3 用户管理API的设计与实现.mp4
+					- 6-1 商品类别模块建模与功能开发-1.mp4
+					- 6-2 商品类别模块建模与功能开发-2.mp4
+					- 6-3 商品类别管理API开发.mp4
+					- 7-1 城市服务模块功能实现.mp4
+					- 8-1 项目打包并部署到Tomcat服务器.mp4
+					- 8-2 基于Tomcat
+					- 9-1 本周总结.mp4
+				- 第27周、前端-管理后台设计实现
+					- 1-1 本周目标.mp4
+					- 2-1 前端开发需要具备的技术栈和能力.mp4
+					- 3-1 基于create-react-app搭建web工程.mp4
+					- 3-2 整合antd与less并搭建具有Ant
+					- 4-1 页面结构设计与框架搭建-1.mp4
+					- 4-2 页面结构设计与框架搭建-2.mp4
+					- 4-3 页面结构设计与框架搭建-3.mp4
+					- 4-4 导航架构模块设计与实现.mp4
+					- 4-5 基于react-router-dom实现路由模块.mp4
+					- 5-1 网络模块封装与service层实现-1.mp4
+					- 5-2 网络模块封装与service层实现-2.mp4
+					- 6-1 用户管理功能模块设计与实现-1.mp4
+					- 6-2 用户管理功能模块设计与实现-2.mp4
+					- 7-1 商品类别管理模块开发-1.mp4
+					- DOING 7-2 商品类别管理模块开发-2.mp4
+					  :LOGBOOK:
+					  CLOCK: [2022-04-25 Mon 15:31:25]
+					  :END:
+					- 7-3 添加商品类别功能实现-1.mp4
+					- 7-4 添加商品类别功能实现-2.mp4
+					- 7-5 添加商品类别功能实现-3.mp4
+					- 8-1 前端项目打包与部署.mp4
+					- 9-1 本周总结.mp4
+				- 第28周、【SDK+服务端+控台】配置中心架构实现
+					- 1-1 本周目标_21.mp4
+					- 2-1 配置中心架构及实现原理解析.mp4
+					- 2-2 配置中心系统数据建模.mp4
+					- 3-1 后端-查询配置接口设计与开发-1.mp4
+					- 3-2 后端-查询配置接口设计与开发-2.mp4
+					- 3-3 后端-更新配置接口设计与开发-1.mp4
+					- 3-4 后端-更新配置接口设计与开发-2.mp4
+					- 3-5 后端-配置持久化存储功能设计与实现-1.mp4
+					- 3-6 后端-配置持久化存储功能设计与实现-2.mp4
+					- 3-7 后端-如何实现高速缓存与探针功能？-1.mp4
+					- 3-8 后端-如何实现高速缓存与探针功能？-2.mp4
+					- 4-1 前端-配置列表设计与实现-1.mp4
+					- 4-2 前端-配置列表设计与实现-2.mp4
+					- 4-3 前端-搜索与过滤功能实现-1.mp4
+					- 4-4 前端-搜索与过滤功能实现-2.mp4
+					- 4-5 前端-添加配置与发布实现.mp4
+					- 4-6 前端-导航模块扩展与路由通知功能实现-1.mp4
+					- 4-7 前端-导航模块扩展与路由通知功能实现-2.mp4
+					- 4-8 前端-如何实现发布回滚的功能？.mp4
+					- 5-1 客户端SDK-HiConfig工程搭建与接口设计.mp4
+					- 5-2 客户端SDK-配置同步与更新功能实现-1.mp4
+					- 5-3 客户端SDK-配置同步与更新功能实现-2.mp4
+					- 5-4 客户端SDK-如何实现配置缓存与恢复功能？.mp4
+					- 5-5 客户端SDK-如何实现配置的高效获取与监听功能？-1.mp4
+					- 5-6 客户端SDK-如何实现配置的高效获取与监听功能？-2.mp4
+					- 6-1 基于HiConfig实现模块功能的动态化.mp4
+					- 7-1 本周总结.mp4
+				- 第29周、HiAbility SDK开发
+					- 1-1 本周目标
+					- 2-1 基础推送能力集成-1.mp4
+					- 2-2 基础推送能力集成-2.mp4
+					- 2-3 OEM厂商推送能力集成-1.mp4
+					- 2-4 OEM厂商推送能力集成-2.mp4
+					- 3-1 可配置化分享面板.mp4
+					- 3-2 分享卡片消息到QQ好友.mp4
+					- 3-3 分享卡片消息到微信.mp4
+					- 4-1 华为HMS扫码能力集成-1.mp4
+					- 4-2 华为HMS扫码能力集成-2.mp4
+					- 4-3 华为HMS扫码能力集成-3.mp4
+					- 5-1 数据统计与埋点-1.mp4
+					- 5-2 数据统计与埋点-2.mp4
+					- 6-1 支付宝支付-1.mp4
+					- 6-2 支付宝支付-2.mp4
+					- 6-3 支付宝支付-3.mp4
+					- 6-4 微信支付.mp4
+				- 第30周、学成“下山”
+					- 1-1 本周目标
+					- 2-1 如何设计高质量的简历.mp4
+					- 2-2 巧用简历投递渠道让机会找自己.mp4
+					- 3-1 移动端架构师常见面试分析-1.mp4
+					- 3-2 移动端架构师常见面试分析-2.mp4
+					- 3-3 移动端架构师面试技巧.mp4
+					- 3-4 善用面试复盘面试路上越战越勇.mp4
+					- 4-1 关于架构师的职业发展探讨.mp4
+					- 4-2 架构师该如何带团队.mp4
+					- 5-1 揭开项目管理面纱.mp4
+					- 5-2 项目管理五大阶段的最佳实践.mp4
+					- 5-3 项目管理的方法论.mp4
+					- 5-4 项目生命周期管理和风险控制.mp4
+					- 6-1 后续学习指南.mp4
+					- 6-2 本周总结.mp4
+		- [小专栏-重学Android](https://xiaozhuanlan.com/kunminx)
+		  collapsed:: true
+			- [重学安卓 基本功：是随时随地可受用的 深度思考原则 － 小专栏](https://xiaozhuanlan.com/topic/9837051426)
+			- [重学安卓：当面试官问 HTTP 时，到底是在问什么 － 小专栏](https://xiaozhuanlan.com/topic/7184635029)
+			- [重学安卓：项目重构 “自助攻略” 温柔救急版 － 小专栏](https://xiaozhuanlan.com/topic/2016584937)
+			- [重学安卓：吃透 LiveData 本质，享用可靠的消息鉴权机制 － 小专栏](https://xiaozhuanlan.com/topic/6017825943)
+			- [重学安卓：唯一可信源 读写分离设计 独家解析 － 小专栏](https://xiaozhuanlan.com/topic/2049857631)
+			- [重学安卓：架构组件 “一致性问题” 全面解析 － 小专栏](https://xiaozhuanlan.com/topic/9340256871)
+			- [重学安卓：豁然开朗 存储访问 适配解析 － 小专栏](https://xiaozhuanlan.com/topic/5240638917)
+			- [重学安卓：这是一份 “架构模式” 的自驾攻略 － 小专栏](https://xiaozhuanlan.com/topic/8204519736)
+			- [重学安卓：LiveData 数据倒灌 背景缘由全貌 独家解析 － 小专栏](https://xiaozhuanlan.com/topic/6719328450)
+			- [重学安卓：提神醒脑 MVP、MVVM 关系精讲 － 小专栏](https://xiaozhuanlan.com/topic/6105792348)
+			- [重学安卓 致创作者：免疫 “网络暴力和打压” 的高频认知补丁 － 小专栏](https://xiaozhuanlan.com/topic/3475690128)
+			- [重学安卓：是虽冷门但有用的 背景缘由拾遗 － 小专栏](https://xiaozhuanlan.com/topic/0378514692)
+			- [重学安卓：一通百通 “声明式 UI” 扫盲干货 － 小专栏](https://xiaozhuanlan.com/topic/2356748910)
+			- [重学安卓：过目难忘 Android GUI 关系梳理 － 小专栏](https://xiaozhuanlan.com/topic/2073915486)
+			- [重学安卓：百闻不如一见的 视图系统 架构全貌 － 小专栏](https://xiaozhuanlan.com/topic/6420935178)
+			- [重学安卓：不如我们 从零开始设计一套 视图系统 － 小专栏](https://xiaozhuanlan.com/topic/0162375948)
+			- [重学安卓：是难得一见的 Jetpack MVVM 最佳实践 － 小专栏](https://xiaozhuanlan.com/topic/5032186794)
+			- [重学安卓：滑动冲突 的快乐你不懂！ － 小专栏](https://xiaozhuanlan.com/topic/8796215034)
+			- [重学安卓：从 0 到 1 “自定义视图” 完整爬坑顺序 － 小专栏](https://xiaozhuanlan.com/topic/9361075842)
+			- [重学安卓：是让人耳目一新的 Jetpack MVVM 精讲 － 小专栏](https://xiaozhuanlan.com/topic/0129483567)
+			- [重学安卓：从被误解到 “真香” 的 Jetpack DataBinding － 小专栏](https://xiaozhuanlan.com/topic/9816742350)
+			- [重学安卓：这是一份 简洁有力的 认知地图 － 小专栏](https://xiaozhuanlan.com/topic/9074561823)
+			- [重学安卓：在页面开发中 左右逢源的 Jetpack ViewModel － 小专栏](https://xiaozhuanlan.com/topic/6257931840)
+			- [重学安卓：LiveData 鲜为人知的 身世背景 与 独特使命 － 小专栏](https://xiaozhuanlan.com/topic/0168753249)
+			- [重学安卓：柳暗花明 Jetpack Navigation 打开方式与缺陷分析 － 小专栏](https://xiaozhuanlan.com/topic/5860149732)
+			- [重学安卓：为你还原一个真实的 Jetpack Lifecycle － 小专栏](https://xiaozhuanlan.com/topic/3684721950)
+			- [重学安卓：我的碎片很听话，你的 Fragment 有自己的想法 － 小专栏](https://xiaozhuanlan.com/topic/0937256481)
+			- [重学安卓：Intent 好比你的择偶标准 － 小专栏](https://xiaozhuanlan.com/topic/2869301475)
+			- [重学安卓：你丢了 offer，只因拎不清 Activity 任务和返回栈 － 小专栏](https://xiaozhuanlan.com/topic/7812045693)
+			- [重学安卓：绝不丢失状态的 Activity 重建机制 － 小专栏](https://xiaozhuanlan.com/topic/7692814530)
+			- [重学安卓：Activity 生命周期的 3 个辟谣 － 小专栏](https://xiaozhuanlan.com/topic/0213584967)
+			- [重学安卓：Activity 的快乐你不懂！ － 小专栏](https://xiaozhuanlan.com/topic/4568971203)
+		- [HencoderPlus-Android高级开发瓶颈突破系列直播课](https://edu.rengwuxian.com/)
+		  collapsed:: true
+			- L01_HTTP 的概念、原理、工作机制、数据格式和 REST
+			- L02_编码、加密、Hash、序列化和字符集
+			- L03_登录与授权、HTTPS 和 TCPIP 协议族
+			- L04_从 Retrofit 的原理来看 HTTP
+			- L05_从 OkHttp 的原理来看 HTTP
+			- L06_绘制一：图形的位置测量及 Xfermode 的使用
+			- L07_文字的测量和几何变换的本质与实用技巧
+			- L08_属性动画和硬件加速
+			- L09_Bitmap 和 Drawable，以及手写 MaterialEditText
+			- L10_自定义尺寸和内部布局、手写 TagLayout
+			- L11_触摸反馈的机制和原理全解析、手写触摸反馈算法
+			- L12_手写双向滑动的 ScalableImageView
+			- L13_多点触控的原理和常见多点触控场景的写法
+			- L14_手写 ViewPager，以及 Android 中的拖拽操作
+			- L15-0南尘面试分享_模拟面试分享
+			- L15-1_Android 中的拖拽及嵌套滑动
+			- L16_Java 的多线程简介及线程同步的本质原理
+			- L17-0知乎大佬讲RecycleView
+			- L17-1_线程间通信的本质和原理，以及 Android 中的多线程
+			- L18_RxJava 的原理完全解析
+			- L19_Java IO 和 Okio
+			- L20_Gradle 配置文件拆解
+			- L21_Groovy 语法和自己编写 Gradle Plugin
+			- L22_Git 深入之核心概念：一切皆引用
+			- L23_Git 深入之二：交互式 rebase、交互式 add 和工作流
+			- L24_实用指令之二及 Git Flow
+			- L25_常见项目架构的示例及培养自己的架构思路
+			- L26_组件化、插件化和热更新
+			- L27_手写热更新
+			- L28_简历与面试，以及总结简历、面试与方向，以及总结
+		- [享学课堂-移动开发高级架构师](https://www.xiangxueketang.cn/android)
+		- [玩Android-每日一问](https://www.wanandroid.com/index?cid=440)
+		  collapsed:: true
+			- [每日一问 .class vs Class.forName() vs loadClass() 类加载傻傻分不清楚？ ](https://www.wanandroid.com/wenda/show/21251)
+			- [每日一问 | 脱糖对于Android 打包期间插桩的有什么影响？ ](https://www.wanandroid.com/wenda/show/20946)
+			- [每日一问 | 如何构造一个 hide interface 的实现类？ ](https://www.wanandroid.com/wenda/show/20867)
+			- [每日一问 | android hidden api 不是禁用反射，以及如何突破，「元反射」不行了？ ](https://wanandroid.com/wenda/show/20535)
+			- [每日一问 | Gson中序列化对象的操作有低侵入的优化方案吗？ ](https://wanandroid.com/wenda/show/19623)
+			- [每日一问 UndeclaredThrowableException 是什么异常？ ](https://www.wanandroid.com/wenda/show/20514)
+			- [【大家提问】 | ViewGroup 的 measureChild 方法和 measureChildWithMargins 方法的区别是什么？ ](https://wanandroid.com/wenda/show/20130)
+			- [每日一问 | 关于 Activity 重建，值得探究的几个问题 ](https://www.wanandroid.com/wenda/show/18965)
+			- [每日一问 | 好奇ActivityThread中为什么会有一个 Application的集合？ ](https://wanandroid.com/wenda/show/19550)
+			- [每日一问 | ViewModel 在什么情况下的「销毁重建」能够对数据进行无缝恢复？ ](https://www.wanandroid.com/wenda/show/18930)
+			- [每日一问 | Dialog 的构造方法的 context 必须传入 Activity吗？ ](https://www.wanandroid.com/wenda/show/18281)
+			- [每日一问 | 我们经常说到的 Android 脱糖指的是什么？ ](https://www.wanandroid.com/wenda/show/18615)
+			- [每日一问 | 极致的编译优化如何实现？ [更新] ](https://www.wanandroid.com/wenda/show/18453)
+			- [每日一问 | Android中的子窗口到底指的是什么？ ](https://wanandroid.com/wenda/show/18192)
+			- [每日一问 | 已经有了 Intent，那为啥还要 PendingIntent? ](https://www.wanandroid.com/wenda/show/18072)
+			- [每日一问 | view.requestLayout如果在灭屏或者切home之后调用会怎么样？ ](https://wanandroid.com/wenda/show/17956)
+			- [每日一问 | onMeasure()多次执行原因？ ](https://www.wanandroid.com/wenda/show/17920)
+			- [每日一问 | 听说你做过内存优化 之 Bitmap内存占用到底在哪？ ](https://wanandroid.com/wenda/show/17874)
+			- [每日一问 | onDraw 里面调用 invalidate 做动画，有什么问题？ ](https://www.wanandroid.com/wenda/show/17629)
+			- [每日一问 | Kotlin 空 与 非空类型的一些疑问 ](https://wanandroid.com/wenda/show/17800)
+			- [每日一问 | mipmap vs drawable，傻傻分不清楚？ ](https://wanandroid.com/wenda/show/17666)
+			- [每日一问 | Android 中线程与内存之间相关问题 ](https://wanandroid.com/wenda/show/17356)
+			- [每日一问 | 在做性能优化的时候，常常看到 Thread(Cpu) Time，Wall clock Time? ](https://www.wanandroid.com/wenda/show/17564)
+			- [每日一问 | 今天还探索一个 View 的方法 hasOverlappingRendering() ](https://wanandroid.com/wenda/show/17131)
+			- [每日一问 | 类要先加载、链接、初始化才能实例化，有特殊Case吗？ ](https://www.wanandroid.com/wenda/show/17083)
+			- [每日一问 | Java 中的 lambda 与 Android 中的 lambda 有什么不同？ ](https://www.wanandroid.com/wenda/show/16771)
+			- [每日一问 如何检测和避免 RxJava 的重复线程切换？ ](https://www.wanandroid.com/wenda/show/16929)
+			- [每日一问 | Android 中两种设置线程优先级的方式，有何区别？ ](https://www.wanandroid.com/wenda/show/16848)
+			- [每日一问 | Java中匿名内部类写成 lambda，真的只是语法糖吗？ ](https://www.wanandroid.com/wenda/show/16717)
+			- [每日一问 | RxJava中Observable、Flowable、Single、Maybe 有何区别? ](https://www.wanandroid.com/wenda/show/16634)
+			- [每日一问 | Call requires API level 23 (current min is 14) 扫描出来的原理是？ ](https://www.wanandroid.com/wenda/show/15949)
+			- [每日一问 | View invalidate() 相关的一些细节探究~ ](https://wanandroid.com/wenda/show/16190)
+			- [每日一问 | 当Unsafe遇上final，超神奇的事情发生了？ ](https://www.wanandroid.com/wenda/show/15797)
+			- [每日一问 | 属性动画与硬件加速的相遇，不是你想的那么简单？ ](https://wanandroid.com/wenda/show/15582)
+			- [每日一问 | 玩转 Gradle，可不能不熟悉 Transform，那么，我要开始问了。 ](https://www.wanandroid.com/wenda/show/15215)
+			- [每日一问 | 关于 RecyclerView$Adapter setHasStableIds(boolean)的一切 ](https://wanandroid.com/wenda/show/15514)
+			- [每日一问 | 启动了Activity 的 app 至少有几个线程？ ](https://www.wanandroid.com/wenda/show/15188)
+			- [每日一问 | 当JVM遇到桥接方法，暴露出了什么？ ](https://wanandroid.com/wenda/show/14990)
+			- [每日一问 | Java 泛型与接口碰撞出的火花！ ](https://wanandroid.com/wenda/show/14941)
+			- [每日一问 | 如何判断应用退出，或者到后台了？ ](https://wanandroid.com/wenda/show/14774)
+			- [每日一问 Java编译器背后干了多少活 之 「内部类构造」 ](https://wanandroid.com/wenda/show/14738)
+			- [每日一问 | apply plugin: 'com.android.application' 背后发生了什么？ ](https://wanandroid.com/wenda/show/14500)
+			- [每日一问| View 绘制的一个细节，如何修改 View 绘制的顺序？ ](https://www.wanandroid.com/wenda/show/14409)
+			- [每日一问 | 比 removeView 更轻量的操作，你了解过吗？ ](https://www.wanandroid.com/wenda/show/14256)
+			- [每日一问 | RecyclerView的多级缓存机制，每级缓存到底起到什么样的作用？ ](https://www.wanandroid.com/wenda/show/14222)
+			- [每日一问 | 曾经的记忆中“onSaveInstanceState 会在系统意外杀死 Activity 时调用”，正确吗？ ](https://wanandroid.com/wenda/show/13906)
+			- [每日一问 | 插桩之后，异常堆栈还能正确的定位到代码行吗？ ](https://www.wanandroid.com/wenda/show/14081)
+			- [每日一问 | Android P 上，需要配置 network_security_config ，才能抓包，正确吗？ ](https://www.wanandroid.com/wenda/show/13949)
+			- [每日一问 | Activity与Fragment的那些事，“用起来没问题，我都要走了，你崩溃了？” ](https://wanandroid.com/wenda/show/13775)
+			- [每日一问 | Java里面还能这么创建对象？ ](https://wanandroid.com/wenda/show/13785)
+			- [每日一问 | 自定义控件无法预览该怎么办？ ](https://www.wanandroid.com/wenda/show/13701)
+			- [每日一问 | Fragment 是如何被存储与恢复的？ 有更新 ](https://www.wanandroid.com/wenda/show/12574)
+			- [每日一问 在 Java 支持了 switch(字符串)之后，只是语法糖而已？ ](https://www.wanandroid.com/wenda/show/13627)
+			- [每日一问 | 主（UI）线程的系统bug我就不能拦截了？ ](https://www.wanandroid.com/wenda/show/13485)
+			- [博客收集 | 欢迎推荐优秀博主 ](https://wanandroid.com/wenda/show/13347)
+			- [每日一问 | 我们常说的dalvik虚拟机是基于寄存器的，而jvm是基于栈，到底指的是什么？ ](https://www.wanandroid.com/wenda/show/13383)
+			- [每日一问 | Activity 调用了finish()方法会立即调用onDestory()吗？ ](https://www.wanandroid.com/wenda/show/13244)
+			- [每日一问 try finally 都抛出异常，哪里停止呢？ ](https://wanandroid.com/wenda/show/13205)
+			- [每日一问 “PathClassLoader 只能加载已安裝到系統中（即/data/app目录下）的apk文件” 严谨吗？ ](https://wanandroid.com/wenda/show/13008)
+			- [每日一问 | “必须在UI线程才能更新控件/界面” 这句人人皆知的话，100%正确吗？ ](https://wanandroid.com/wenda/show/12922)
+			- [每日一问 | Activity 启动动画对页面打开速度有影响吗？ ](https://wanandroid.com/wenda/show/12502)
+			- [每日一问 LifeCycle 对于 Lifecycle.Event 为啥不直接分发，而是通过 Lifecycle.State 中转？ ](https://wanandroid.com/wenda/show/12230)
+			- [一期讨论 | 有趣的效果 小船儿游而游 ](https://wanandroid.com/wenda/show/12773)
+			- [每日一问 | 我们经常用的 String类型，你知道它更大可以放多长的字符串吗？ ](https://www.wanandroid.com/wenda/show/12701)
+			- [每日一问 | 上周出现了大规模的github证书不可用的状态...但是真的是github服务器被攻击了么？ ](https://wanandroid.com/wenda/show/12614)
+			- [每日一问 | 自定义控件测量模式真的和 match_parent，wrap_content 一一对应吗？ ](https://www.wanandroid.com/wenda/show/12489)
+			- [每日一问 ViewPager 这个流传广泛的写法，其实是有问题的！ ](https://wanandroid.com/wenda/show/12424)
+			- [每日一问 | RxJava2的一个常用姿势，可能隐藏着坑？ ](https://wanandroid.com/wenda/show/12471)
+			- [每日一问 今天考察下 Fragment 相关两个不常见 API ](https://wanandroid.com/wenda/show/12229)
+			- [每日一问 | 很久以前有Activity.onResume就是界面可见的说法，这种说法错了多少？ ](https://wanandroid.com/wenda/show/12175)
+			- [每日一问 RecyclerView卡片中持有的资源，到底该什么时候释放？ ](https://wanandroid.com/wenda/show/12148)
+			- [每日一问 | 事件到底是先到DecorView还是先到Window的？ ](https://wanandroid.com/wenda/show/12119)
+			- [每日一问 Android有个GestureDetector很好用？那么你知道它内部是如何实现的吗？ ](https://www.wanandroid.com/wenda/show/12018)
+			- [每日一问 很多时候我们说单例实现方式会提到「枚举实现」，那么枚举底层是如何实现的呢？ ](https://www.wanandroid.com/wenda/show/11689)
+			- [每日一问 2019年终致辞 支持编辑啦 ](https://www.wanandroid.com/wenda/show/11552)
+			- [每日一问 “别慌，你 post 一个 Runnable ，在下一帧就可以拿到了。”这种说法对吗？ ](https://www.wanandroid.com/wenda/show/11506)
+			- [每日一问 “你这个布局可以在进入这个页面之前预加载，这样页面渲染就快了”可能有什么潜在的问题吗？ ](https://www.wanandroid.com/wenda/show/11521)
+			- [每日一问 为什么 Dialog 默认弹出后 Activity 就无法响应用户事件了？ ](https://www.wanandroid.com/wenda/show/11363)
+			- [每日一问 据说很多 app 在 2019 年更后一周都出现了日期上的 bug ? ](https://www.wanandroid.com/wenda/show/11387)
+			- [每日一问 系统帮我们做了网络安全校验，那么还需要我们手动去做吗？ ](https://www.wanandroid.com/wenda/show/11476)
+			- [每日一问 很多书籍上写：“事件分发只有一次 ACTION_DOWN，一次 ACTION_UP”严谨吗？ ](https://www.wanandroid.com/wenda/show/11287)
+			- [每日一问 ViewPager 嵌套，“老子”怎么就没拦住你？ ](https://www.wanandroid.com/wenda/show/11159)
+			- [每日一问 Activity 都重建了，你 Fragment凭什么活着？ ](https://www.wanandroid.com/wenda/show/11077)
+			- [每日一问 | Activity 旋转啦，重新下载怪我咯？ ](https://www.wanandroid.com/wenda/show/10892)
+			- [每日一问 | 线程池中的线程是如何复用的？ ](https://www.wanandroid.com/wenda/show/10811)
+			- [每日一问 Android 签名机制 v1 v2 v3 ， 卧槽都 v3 了？ ](https://www.wanandroid.com/wenda/show/10669)
+			- [每日一问 精度到底是哪里丢失了？ ](https://www.wanandroid.com/wenda/show/10574)
+			- [每日一问 | Activity启动流程中，大部分都是用Binder通讯，为啥跟Zygote通信的时候要用socket呢？ ](https://www.wanandroid.com/wenda/show/10482)
+			- [每日一问 | butterknife 中真的没有反射吗？ ](https://www.wanandroid.com/wenda/show/10427)
+			- [每日一问 | Kotlin 中不需要写“ ; ”，但是有个场景意外？ ](https://wanandroid.com/wenda/show/10243)
+			- [每日一问 Kotlin中怎么给系统中的类，动态添加的方法？ ](https://www.wanandroid.com/wenda/show/10354)
+			- [每日一问 | 控件不都是矩形么？遇到多边形，这个怎么绘制，事件分发怎么处理嘞？ ](https://wanandroid.com/wenda/show/10174)
+			- [每日一问 你那么多手指在触摸屏幕，你叫我怎么选？ ](https://www.wanandroid.com/wenda/show/10049)
+			- [每日一问 这么多R.java 有卵用呀？ ](https://wanandroid.com/wenda/show/9974)
+			- [每日一问 WebView 相关你了解多少？ ](https://www.wanandroid.com/wenda/show/9883)
+			- [每日一问 SDK 的问题 怪我咯？ ](https://www.wanandroid.com/wenda/show/9844)
+			- [每日一问 BadTokenException 你知道多少？ ](https://www.wanandroid.com/wenda/show/9702)
+			- [每日一问 哪些依赖相关的问题会导致编译失败，该如何处理？ ](https://www.wanandroid.com/wenda/show/9655)
+			- [玩Android更新记录 [from 2019-10-02] ](https://wanandroid.com/wenda/show/9470)
+			- [每日一问 好用到你离不开的插件有哪些？ ](https://www.wanandroid.com/wenda/show/9286)
+			- [每日一问 屏蔽连续点击的方案有哪些？ ](https://www.wanandroid.com/wenda/show/9233)
+			- [每日一问 webview 加载的页面好像被劫持了？ ](https://www.wanandroid.com/wenda/show/9177)
+			- [每日一问 Gradle 构建过程中，我们可以做哪些事？ ](https://www.wanandroid.com/wenda/show/9113)
+			- [每日一问 gradle项目构建，需要经历哪些核心task，整个构建流程哪些我们可以干涉？ ](https://wanandroid.com/wenda/show/9112)
+			- [每日一问 我的资源去哪了？？？ ](https://www.wanandroid.com/wenda/show/9096)
+			- [每日一问 项目中同名资源，会不会覆盖，规则是怎么样的？ ](https://www.wanandroid.com/wenda/show/9088)
+			- [每日一问 equals vs hashcode ？ ](https://www.wanandroid.com/wenda/show/9078)
+			- [每日一问 关于 R.java 的生成规则，你知道多少？ ](https://www.wanandroid.com/wenda/show/9067)
+			- [每日一问 Parcelable 为什么效率高于 Serializable ？ ](https://www.wanandroid.com/wenda/show/9002)
+			- [每日一问 今天聊一下Gradle 相关，BuildConfig这个类是如何生成的？ ](https://www.wanandroid.com/wenda/show/8985)
+			- [每日一问 butterknife 中的黑科技 ](https://www.wanandroid.com/wenda/show/8926)
+			- [每日一问 Android 有哪些 位运算 的例子很值得借鉴？ ](https://wanandroid.com/wenda/show/8913)
+			- [每日一问 问答征集 ](https://www.wanandroid.com/wenda/show/8857)
+			- [每日一问 事件分发机制大家应该都熟记于心，默认事件分发是逆序的，有哪些方法可以修改分发顺序？ ](https://www.wanandroid.com/wenda/show/8852)
+			- [每日一问 匿名内部类访问的外部类局部变量为什么要用final 修饰，jdk8为啥不需要了？ 2/3 ](https://www.wanandroid.com/wenda/show/8836)
+			- [每日一问 AppCompatTextView 与 TextView 1/3 ](https://www.wanandroid.com/wenda/show/8832)
+			- [每日一问 大家应该都有泛型在编译期会被擦除的概念，那么为什么我们在运行时还能读取到呢？ 3/3 ](https://www.wanandroid.com/wenda/show/8821)
+			- [每日一问 app https 抓包，一定能抓到吗？ ](https://www.wanandroid.com/wenda/show/8812)
+			- [每日一问 很多时候我们说"Android16.6ms刷新一次屏幕" 正确吗？ ](https://www.wanandroid.com/wenda/show/8808)
+			- [每日一问 为什么Android app module下的R.java中变量为final，而lib module中R.java中的变量非final呢？ ](https://www.wanandroid.com/wenda/show/8735)
+			- [每日一问 听说过Handler中的IdleHandler吗？ ](https://www.wanandroid.com/wenda/show/8723)
+			- [每日问答 Handler应该是大家再熟悉不过的类了，那么其中有个同步屏障机制，你了解多少呢？ ](https://www.wanandroid.com/wenda/show/8710)
+			- [每日一问 Android 常见的制作圆角方案，有哪几种常见方式？ 在Android P上什么兼容性问题 ](https://www.wanandroid.com/wenda/show/8709)
+			- [每日一问 哪些 Context调用 startActivity 需要设置NEW_TASK，为什么？ ](https://www.wanandroid.com/wenda/show/8697)
+			- [每日一问 如果项目要开始做编译速度优化，你会考虑从哪些地方入手？ ](https://wanandroid.com/wenda/show/8694)
+			- [每日一问 Looper.loop为什么不会阻塞掉UI线程？ ](https://www.wanandroid.com/wenda/show/8685)
+			- [每日一问 在Activity 的 onResume 方法中 view.postRunnable 能获取到 View 宽高吗？ ](https://www.wanandroid.com/wenda/show/8680)
+			- [每日一问 在Activity 的 onResume 方法中 handler.postRunnable 能获取到 View 宽高吗？ ](https://www.wanandroid.com/wenda/show/8672)
+			- [每日一问 对于代码中有大量的 if/else 你有什么优化思路？ ](https://www.wanandroid.com/wenda/show/8665)
+			- [每日一问 | getWidth, getMeasuredWidth 有什么区别? ](https://www.wanandroid.com/wenda/show/8663)
+			- [每日一问 对于SharedPreferences你觉得有什么优缺点？ ](https://www.wanandroid.com/wenda/show/8656)
+			- [每日一问 ANR的产生的原理是什么，AMS中涉及ANR的代码有哪些？ ](https://www.wanandroid.com/wenda/show/8650)
+			- [每日一问 | 为什么属性动画移动一个控件后，目标位置仍然能响应用户事件？ ](https://www.wanandroid.com/wenda/show/8644)
+			- [每日一问 有没有使用过 DataBinding ，有什么优点、缺点，遇到过哪些坑？ ](https://www.wanandroid.com/wenda/show/8634)
+			- [每日一问 View中的getContext一定返回的是Activity对象吗？ ](https://www.wanandroid.com/wenda/show/8626)
+			- [每日一问 详细的描述下自定义 View 测量时 MesureSpec.UNSPECIFIED ](https://www.wanandroid.com/wenda/show/8613)
+			- [每日一问 自定义 ViewGroup 的时候，关于 LayoutParams 有哪些注意事项？ ](https://www.wanandroid.com/wenda/show/8603)
+			- [每日一问 gradle Transform API 和 Annotation Processor各有什么使用场景？能否相互替换与补充。 ](https://wanandroid.com/wenda/show/8602)
+			- [每日一问 谈谈你对 Binder 的理解 ](https://www.wanandroid.com/wenda/show/8494)
+			- [每日一问 View的onAttachedToWindow ,onDetachedFromWindow 调用时机，使用场景是什么？ ](https://wanandroid.com/wenda/show/8488)
+			- [每日一问 你有什么好的学习习惯 或者 不错的 app 推荐给大家？ ](https://www.wanandroid.com/wenda/show/8483)
+			- [每日一问 思考一下如果捕获一个 Activity页面上所有的点击行为？ ](https://www.wanandroid.com/wenda/show/8476)
+			- [每日一问 对于事件分发，嵌套滚动的了解 ](https://www.wanandroid.com/wenda/show/8463)
+			- [每日一问 | 并发专题 volatile，synchronize，cas，happens before, lost wake up ](https://www.wanandroid.com/wenda/show/8437)
+			- [每日一问 | 谈一下自定义 View 的流程 ](https://www.wanandroid.com/wenda/show/8419)
+			- [讨论 | Flutter Kotlin 如果二选一学习，你会怎么选？ ](https://wanandroid.com/wenda/show/8435)
+			- [每日一问 | Android 中关于内存泄露有哪些注意点？ ](https://www.wanandroid.com/wenda/show/8206)
+	- 书籍
+		- [Java编程思想-第4版.pdf](zotero://open-pdf/0_PKXNSH8C/1)
+		  collapsed:: true
+			- [前言](zotero://open-pdf/0_PKXNSH8C/1)
+			- [目录](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第1章 对象导论](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.1 抽象过程](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.2 每个对象都有一个接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.3 每个对象都提供服务](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.4 被隐藏的具体实现](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.5 复用具体实现](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.6 继承](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.7 伴随多态的可互换对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.8 单根继承结构](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.9 容器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.10 对象的创建和生命期](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.11 异常处理：处理错误](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.12 并发编程](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.13 Java与Internet](zotero://open-pdf/0_PKXNSH8C/1)
+				- [1.14 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第2章 一切都是对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.1 用引用操纵对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.2 必须由你创建所有对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.3 永远不需要销毁对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.4 创建新的数据类型：类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.5 方法、参数和返回值](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.6 构建一个Java程序](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.7 你的第一个Java程序](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.8 注释和嵌入式文档](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.9 编码风格](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.10 总结](zotero://open-pdf/0_PKXNSH8C/1)
+				- [2.11 练习](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第3章 操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.1 更简单的打印语句](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.2 使用Java操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.3 优先级](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.4 赋值](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.5 算术操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.6 自动递增和递减](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.7 关系操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.8 逻辑操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.9 直接常量](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.10 按位操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.11 移位操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.12 三元操作符 if-else](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.13 字符串操作符 + 和 +=](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.14 使用操作符时常犯的错误](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.15 类型转换操作符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.16 Java没有“sizeof”](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.17 操作符小结](zotero://open-pdf/0_PKXNSH8C/1)
+				- [3.18 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第4章 控制执行流程](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.1 true和false](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.2 if-else](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.3 迭代](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.4 Foreach语法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.5 return](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.6 break和 continue](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.7 臭名昭著的“goto”](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.8 switch](zotero://open-pdf/0_PKXNSH8C/1)
+				- [4.9 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第5章 初始化与清理](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.1 用构造器确保初始化](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.2 方法重载](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.3 缺省构造器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.4 this关键字](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.5 清理：终结处理和垃圾回收](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.6 成员初始化](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.7 构造器初始化](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.8 数组初始化](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.9 枚举类型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [5.10 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第6章 访问权限控制](zotero://open-pdf/0_PKXNSH8C/1)
+				- [6.1 包：库单元](zotero://open-pdf/0_PKXNSH8C/1)
+				- [6.2 Java访问权限修饰词](zotero://open-pdf/0_PKXNSH8C/1)
+				- [6.3 接口和实现](zotero://open-pdf/0_PKXNSH8C/1)
+				- [6.4 类的访问权限](zotero://open-pdf/0_PKXNSH8C/1)
+				- [6.5 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第7章 复用类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.1 组合语法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.2 继承语法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.3 代理](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.4 结合使用组合和继承](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.5 在组合与继承之间选择](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.6 protected关键字](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.7 向上转型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.8 final关键字](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.9 初始化及类的加载](zotero://open-pdf/0_PKXNSH8C/1)
+				- [7.10 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第8章 多态](zotero://open-pdf/0_PKXNSH8C/1)
+				- [8.1 再论向上转型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [8.2 转机](zotero://open-pdf/0_PKXNSH8C/1)
+				- [8.3 构造器和多态](zotero://open-pdf/0_PKXNSH8C/1)
+				- [8.4 协变返回类型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [8.5 用继承进行设计](zotero://open-pdf/0_PKXNSH8C/1)
+				- [8.6 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第9章 接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.1 抽象类和抽象方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.2 接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.3 完全解耦](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.4 Java的多重继承](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.5 通过继承来扩展接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.6 适配接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.7 接口中的域](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.8 嵌套接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.9 接口与工厂](zotero://open-pdf/0_PKXNSH8C/1)
+				- [9.10 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第10章 内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.1 创建内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.2 链接到外部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.3 使用this与new](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.4 内部类与向上转型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.5 在方法和作用域内的内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.6 匿名内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.7 嵌套类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.8 为什么需要内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.9 内部类的继承](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.10 内部类可以被覆盖吗](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.11 局部内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.12 内部类标识符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [10.13 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第11章 持有对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.1 泛型和类型安全的容器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.2 基本概念](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.3 添加一组元素](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.4 容器的打印](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.5 List](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.6 迭代器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.7 LinkedList](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.8 Stack](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.9 Set](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.10 Map](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.11 Queue](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.12 Collection和Iterator](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.13 Foreach与迭代器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [11.14 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第12章 通过异常处理错误](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.1 概念](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.2 基本异常](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.3 捕获异常](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.4 创建自定义异常](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.5 异常说明](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.6 捕获所有异常](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.7 Java标准异常](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.8 使用finally进行清理](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.9 异常的限制](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.10 构造器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.11 异常匹配](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.12 其他可选方式](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.13 异常使用指南](zotero://open-pdf/0_PKXNSH8C/1)
+				- [12.14 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第13章 字符串](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.1 不可变String](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.2 重载“+”与StringBuilder](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.3 无意识的递归](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.4 String上的操作](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.5 格式化输出](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.6 正则表达式](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.7 扫描输入](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.8 StringTokenizer](zotero://open-pdf/0_PKXNSH8C/1)
+				- [13.9 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第14章 类型信息](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.1 为什么需要RTTI](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.2 Class对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.3 类型转换前先做检查](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.4 注册工厂](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.5 instanceof与Class的等价性](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.6 反射：运行时的类信息](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.7 动态代理](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.8 空对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.9 接口与类型信息](zotero://open-pdf/0_PKXNSH8C/1)
+				- [14.10 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第15章 泛型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.1 与C++的比较](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.2 简单泛型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.3 泛型接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.4 泛型方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.5 匿名内部类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.6 构建复杂模型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.7 擦除的神秘之处](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.8 擦除的补偿](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.9 边界](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.10 通配符](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.11 问题](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.12 自限定的类型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.13 动态类型安全](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.14 异常](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.15 混型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.16 潜在类型机制](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.17 对缺乏潜在类型机制的补偿](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.18 将函数对象用作策略](zotero://open-pdf/0_PKXNSH8C/1)
+				- [15.19 总结：转型真的如此之糟吗？](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第16章 数组](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.1 数组为什么特殊](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.2 数组是第一级对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.3 返回一个数组](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.4 多维数组](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.5 数组与泛型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.6 创建测试数据](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.7 Arrays实用功能](zotero://open-pdf/0_PKXNSH8C/1)
+				- [16.8 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第17章 容器深入研究](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.1 完整的容器分类法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.2 填充容器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.3 Collection的功能方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.4 可选操作](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.5 List的功能方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.6 Set和存储顺序](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.7 队列](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.8 理解Map](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.9 散列与散列码](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.10 选择接口的不同实现](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.11 实用方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.12 持有引用](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.13 Java1.0/1.1的容器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [17.14 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第18章 Java I/O系统](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.1 File类](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.2 输入和输出](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.3 添加属性和有用的接口](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.4 Reader和Writer](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.5 自我独立的类：RandomAccessFile](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.6 I/O流的典型使用方式](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.7 文件读写的实用工具](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.8 标准I/O](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.9 进程控制](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.10 新I/O](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.11 压缩](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.12 对象序列化](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.13 XML](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.14 Preferences](zotero://open-pdf/0_PKXNSH8C/1)
+				- [18.15 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第19章 枚举类型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.1 基本enum特性](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.2 向enum中添加新方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.3 switch语句中的enum](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.4 values()的神秘之处](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.5 实现，而非继承](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.6 随机选取](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.7 使用接口组织枚举](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.8 使用EnumSet替代标志](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.9 使用EnumMap](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.10 常量相关的方法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.11 多路分发](zotero://open-pdf/0_PKXNSH8C/1)
+				- [19.12 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第20章 注解](zotero://open-pdf/0_PKXNSH8C/1)
+				- [20.1 基本语法](zotero://open-pdf/0_PKXNSH8C/1)
+				- [20.2 编写注解处理器](zotero://open-pdf/0_PKXNSH8C/1)
+				- [20.3 使用apt处理注解](zotero://open-pdf/0_PKXNSH8C/1)
+				- [20.4 将观察者模式用于apt](zotero://open-pdf/0_PKXNSH8C/1)
+				- [20.5 基于注解的单元测试](zotero://open-pdf/0_PKXNSH8C/1)
+				- [20.6 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第21章 并发](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.1 并发的多面性](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.2 基本的线程机制](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.3 共享受限资源](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.4 终结任务](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.5 线程之间的协作](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.6 死锁](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.7 新类库中的构件](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.8 仿真](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.9 性能调优](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.10 活动对象](zotero://open-pdf/0_PKXNSH8C/1)
+				- [21.11 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [第22章 图形化用户界面](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.1 applet](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.2 Swing基础](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.3 创建按钮](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.4 捕获事件](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.5 文本区域](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.6 控制布局](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.7 Swing事件模型](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.8 Swing组件一览](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.9 JNLP与Java Web Start](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.10 Swing与并发](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.11 可视化编程与JavaBean](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.12 Swing的可替代选择](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.13 用Flex构建Flash Web客户端](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.14 创建SWT应用](zotero://open-pdf/0_PKXNSH8C/1)
+				- [22.15 总结](zotero://open-pdf/0_PKXNSH8C/1)
+			- [附录A 补充材料](zotero://open-pdf/0_PKXNSH8C/1)
+			- [附录B 资源](zotero://open-pdf/0_PKXNSH8C/1)
+			- [索引](zotero://open-pdf/0_PKXNSH8C/1)
+		- [深入理解Java虚拟机-第二版.pdf](zotero://open-pdf/0_DW7JLJ8Y/20)
+		  collapsed:: true
+			- [前言](zotero://open-pdf/0_DW7JLJ8Y/10)
+				- [第2版与第1版的区别](zotero://open-pdf/0_DW7JLJ8Y/11)
+				- [本书面向的读者](zotero://open-pdf/0_DW7JLJ8Y/12)
+				- [如何阅读本书](zotero://open-pdf/0_DW7JLJ8Y/13)
+				- [语言约定](zotero://open-pdf/0_DW7JLJ8Y/13)
+				- [内容特色](zotero://open-pdf/0_DW7JLJ8Y/14)
+				- [参考资料](zotero://open-pdf/0_DW7JLJ8Y/16)
+				- [勘误和支持](zotero://open-pdf/0_DW7JLJ8Y/18)
+				- [致谢](zotero://open-pdf/0_DW7JLJ8Y/19)
+			- [第一部分　走近Java](zotero://open-pdf/0_DW7JLJ8Y/20)
+				- [第1章　走近Java](zotero://open-pdf/0_DW7JLJ8Y/21)
+					- [1.1　概述](zotero://open-pdf/0_DW7JLJ8Y/21)
+					- [1.2　Java技术体系](zotero://open-pdf/0_DW7JLJ8Y/23)
+					- [1.3　Java发展史](zotero://open-pdf/0_DW7JLJ8Y/25)
+					- [1.4　Java虚拟机发展史](zotero://open-pdf/0_DW7JLJ8Y/29)
+						- [1.4.1　Sun Classic/Exact VM](zotero://open-pdf/0_DW7JLJ8Y/29)
+						- [1.4.2　Sun HotSpot VM](zotero://open-pdf/0_DW7JLJ8Y/31)
+						- [1.4.3　Sun Mobile-Embedded VM/Meta-Circular VM](zotero://open-pdf/0_DW7JLJ8Y/32)
+						- [1.4.4　BEA JRockit/IBM J9 VM](zotero://open-pdf/0_DW7JLJ8Y/33)
+						- [1.4.5　Azul VM/BEA Liquid VM](zotero://open-pdf/0_DW7JLJ8Y/34)
+						- [1.4.6　Apache Harmony/Google Android Dalvik VM](zotero://open-pdf/0_DW7JLJ8Y/35)
+						- [1.4.7　Microsoft JVM及其他](zotero://open-pdf/0_DW7JLJ8Y/36)
+					- [1.5　展望Java技术的未来](zotero://open-pdf/0_DW7JLJ8Y/37)
+						- [1.5.1　模块化](zotero://open-pdf/0_DW7JLJ8Y/37)
+						- [1.5.2　混合语言](zotero://open-pdf/0_DW7JLJ8Y/38)
+						- [1.5.3　多核并行](zotero://open-pdf/0_DW7JLJ8Y/40)
+						- [1.5.4　进一步丰富语法](zotero://open-pdf/0_DW7JLJ8Y/41)
+						- [1.5.5　64位虚拟机](zotero://open-pdf/0_DW7JLJ8Y/42)
+					- [1.6　实战：自己编译JDK](zotero://open-pdf/0_DW7JLJ8Y/43)
+						- [1.6.1　获取JDK源码](zotero://open-pdf/0_DW7JLJ8Y/43)
+						- [1.6.2　系统需求](zotero://open-pdf/0_DW7JLJ8Y/46)
+						- [1.6.3　构建编译环境](zotero://open-pdf/0_DW7JLJ8Y/47)
+						- [1.6.4　进行编译](zotero://open-pdf/0_DW7JLJ8Y/48)
+					- [1.7　本章小结](zotero://open-pdf/0_DW7JLJ8Y/57)
+			- [第二部分　自动内存管理机制](zotero://open-pdf/0_DW7JLJ8Y/58)
+				- [第2章　Java内存区域与内存溢出异常](zotero://open-pdf/0_DW7JLJ8Y/59)
+					- [2.1　概述](zotero://open-pdf/0_DW7JLJ8Y/59)
+					- [2.2　运行时数据区域](zotero://open-pdf/0_DW7JLJ8Y/60)
+						- [2.2.1　程序计数器](zotero://open-pdf/0_DW7JLJ8Y/60)
+						- [2.2.2　Java虚拟机栈](zotero://open-pdf/0_DW7JLJ8Y/61)
+						- [2.2.3　本地方法栈](zotero://open-pdf/0_DW7JLJ8Y/62)
+						- [2.2.4　Java堆](zotero://open-pdf/0_DW7JLJ8Y/63)
+						- [2.2.5　方法区](zotero://open-pdf/0_DW7JLJ8Y/64)
+						- [2.2.6　运行时常量池](zotero://open-pdf/0_DW7JLJ8Y/65)
+						- [2.2.7　直接内存](zotero://open-pdf/0_DW7JLJ8Y/66)
+					- [2.3　HotSpot虚拟机对象探秘](zotero://open-pdf/0_DW7JLJ8Y/67)
+						- [2.3.1　对象的创建](zotero://open-pdf/0_DW7JLJ8Y/67)
+						- [2.3.2　对象的内存布局](zotero://open-pdf/0_DW7JLJ8Y/69)
+						- [2.3.3　对象的访问定位](zotero://open-pdf/0_DW7JLJ8Y/71)
+					- [2.4　实战：OutOfMemoryError异常](zotero://open-pdf/0_DW7JLJ8Y/73)
+						- [2.4.1　Java堆溢出](zotero://open-pdf/0_DW7JLJ8Y/74)
+						- [2.4.2　虚拟机栈和本地方法栈溢出](zotero://open-pdf/0_DW7JLJ8Y/76)
+						- [2.4.3　方法区和运行时常量池溢出](zotero://open-pdf/0_DW7JLJ8Y/78)
+						- [2.4.4　本机直接内存溢出](zotero://open-pdf/0_DW7JLJ8Y/80)
+					- [2.5　本章小结](zotero://open-pdf/0_DW7JLJ8Y/81)
+				- [第3章　垃圾收集器与内存分配策略](zotero://open-pdf/0_DW7JLJ8Y/82)
+					- [3.1　概述](zotero://open-pdf/0_DW7JLJ8Y/82)
+					- [3.2　对象已死吗](zotero://open-pdf/0_DW7JLJ8Y/83)
+					- [3.3　垃圾收集算法](zotero://open-pdf/0_DW7JLJ8Y/90)
+						- [3.3.1　标记-清除算法](zotero://open-pdf/0_DW7JLJ8Y/90)
+						- [3.3.2　复制算法](zotero://open-pdf/0_DW7JLJ8Y/91)
+						- [3.3.3　标记-整理算法](zotero://open-pdf/0_DW7JLJ8Y/93)
+						- [3.3.4　分代收集算法](zotero://open-pdf/0_DW7JLJ8Y/94)
+					- [3.4　HotSpot的算法实现](zotero://open-pdf/0_DW7JLJ8Y/95)
+						- [3.4.1　枚举根节点](zotero://open-pdf/0_DW7JLJ8Y/95)
+						- [3.4.2　安全点](zotero://open-pdf/0_DW7JLJ8Y/96)
+						- [3.4.3　安全区域](zotero://open-pdf/0_DW7JLJ8Y/97)
+					- [3.5　垃圾收集器](zotero://open-pdf/0_DW7JLJ8Y/98)
+						- [3.5.1　Serial收集器](zotero://open-pdf/0_DW7JLJ8Y/98)
+						- [3.5.2　ParNew收集器](zotero://open-pdf/0_DW7JLJ8Y/100)
+						- [3.5.3　Parallel Scavenge收集器](zotero://open-pdf/0_DW7JLJ8Y/102)
+						- [3.5.4　Serial Old收集器](zotero://open-pdf/0_DW7JLJ8Y/103)
+						- [3.5.5　Parallel Old收集器](zotero://open-pdf/0_DW7JLJ8Y/104)
+						- [3.5.6　CMS收集器](zotero://open-pdf/0_DW7JLJ8Y/105)
+						- [3.5.7　G1收集器](zotero://open-pdf/0_DW7JLJ8Y/107)
+						- [3.5.8　理解GC日志](zotero://open-pdf/0_DW7JLJ8Y/112)
+						- [3.5.9　垃圾收集器参数总结](zotero://open-pdf/0_DW7JLJ8Y/113)
+					- [3.6　内存分配与回收策略](zotero://open-pdf/0_DW7JLJ8Y/115)
+						- [3.6.1　对象优先在Eden分配](zotero://open-pdf/0_DW7JLJ8Y/115)
+						- [3.6.2　大对象直接进入老年代](zotero://open-pdf/0_DW7JLJ8Y/117)
+						- [3.6.3　长期存活的对象将进入老年代](zotero://open-pdf/0_DW7JLJ8Y/118)
+						- [3.6.4　动态对象年龄判定](zotero://open-pdf/0_DW7JLJ8Y/119)
+						- [3.6.5　空间分配担保](zotero://open-pdf/0_DW7JLJ8Y/120)
+					- [3.7　本章小结](zotero://open-pdf/0_DW7JLJ8Y/122)
+				- [第4章　虚拟机性能监控与故障处理工具](zotero://open-pdf/0_DW7JLJ8Y/123)
+					- [4.1　概述](zotero://open-pdf/0_DW7JLJ8Y/123)
+					- [4.2　JDK的命令行工具](zotero://open-pdf/0_DW7JLJ8Y/124)
+						- [4.2.1　jps：虚拟机进程状况工具](zotero://open-pdf/0_DW7JLJ8Y/126)
+						- [4.2.2　jstat：虚拟机统计信息监视工具](zotero://open-pdf/0_DW7JLJ8Y/128)
+						- [4.2.3　jinfo：Java配置信息工具](zotero://open-pdf/0_DW7JLJ8Y/130)
+						- [4.2.4　jmap：Java内存映像工具](zotero://open-pdf/0_DW7JLJ8Y/131)
+						- [4.2.5　jhat：虚拟机堆转储快照分析工具](zotero://open-pdf/0_DW7JLJ8Y/133)
+						- [4.2.6　jstack：Java堆栈跟踪工具](zotero://open-pdf/0_DW7JLJ8Y/135)
+						- [4.2.7　HSDIS：JIT生成代码反汇编](zotero://open-pdf/0_DW7JLJ8Y/137)
+					- [4.3　JDK的可视化工具](zotero://open-pdf/0_DW7JLJ8Y/139)
+						- [4.3.1　JConsole：Java监视与管理控制台](zotero://open-pdf/0_DW7JLJ8Y/139)
+						- [4.3.2　VisualVM：多合一故障处理工具](zotero://open-pdf/0_DW7JLJ8Y/147)
+					- [4.4　本章小结](zotero://open-pdf/0_DW7JLJ8Y/157)
+				- [第5章　调优案例分析与实战](zotero://open-pdf/0_DW7JLJ8Y/158)
+					- [5.1　概述](zotero://open-pdf/0_DW7JLJ8Y/158)
+					- [5.2　案例分析](zotero://open-pdf/0_DW7JLJ8Y/159)
+						- [5.2.1　高性能硬件上的程序部署策略](zotero://open-pdf/0_DW7JLJ8Y/159)
+						- [5.2.2　集群间同步导致的内存溢出](zotero://open-pdf/0_DW7JLJ8Y/162)
+						- [5.2.3　堆外内存导致的溢出错误](zotero://open-pdf/0_DW7JLJ8Y/164)
+						- [5.2.4　外部命令导致系统缓慢](zotero://open-pdf/0_DW7JLJ8Y/166)
+						- [5.2.5　服务器JVM进程崩溃](zotero://open-pdf/0_DW7JLJ8Y/167)
+					- [5.3　实战：Eclipse运行速度调优](zotero://open-pdf/0_DW7JLJ8Y/170)
+						- [5.3.1　调优前的程序运行状态](zotero://open-pdf/0_DW7JLJ8Y/170)
+						- [5.3.2　升级JDK 1.6的性能变化及兼容问题](zotero://open-pdf/0_DW7JLJ8Y/173)
+						- [5.3.3　编译时间和类加载时间的优化](zotero://open-pdf/0_DW7JLJ8Y/179)
+						- [5.3.4　调整内存设置控制垃圾收集频率](zotero://open-pdf/0_DW7JLJ8Y/182)
+						- [5.3.5　选择收集器降低延迟](zotero://open-pdf/0_DW7JLJ8Y/186)
+					- [5.4　本章小结](zotero://open-pdf/0_DW7JLJ8Y/189)
+			- [第三部分　虚拟机执行子系统](zotero://open-pdf/0_DW7JLJ8Y/190)
+				- [第6章　类文件结构](zotero://open-pdf/0_DW7JLJ8Y/191)
+					- [6.1　概述](zotero://open-pdf/0_DW7JLJ8Y/191)
+					- [6.2　无关性的基石](zotero://open-pdf/0_DW7JLJ8Y/192)
+					- [6.3　Class类文件的结构](zotero://open-pdf/0_DW7JLJ8Y/194)
+						- [6.3.1　魔数与Class文件的版本](zotero://open-pdf/0_DW7JLJ8Y/195)
+						- [6.3.2　常量池](zotero://open-pdf/0_DW7JLJ8Y/198)
+						- [6.3.3　访问标志](zotero://open-pdf/0_DW7JLJ8Y/204)
+						- [6.3.4　类索引、父类索引与接口索引集合](zotero://open-pdf/0_DW7JLJ8Y/205)
+						- [6.3.5　字段表集合](zotero://open-pdf/0_DW7JLJ8Y/206)
+						- [6.3.6　方法表集合](zotero://open-pdf/0_DW7JLJ8Y/209)
+						- [6.3.7　属性表集合](zotero://open-pdf/0_DW7JLJ8Y/211)
+					- [6.4　字节码指令简介](zotero://open-pdf/0_DW7JLJ8Y/226)
+						- [6.4.1　字节码与数据类型](zotero://open-pdf/0_DW7JLJ8Y/226)
+						- [6.4.2　加载和存储指令](zotero://open-pdf/0_DW7JLJ8Y/230)
+						- [6.4.3　运算指令](zotero://open-pdf/0_DW7JLJ8Y/231)
+						- [6.4.4　类型转换指令](zotero://open-pdf/0_DW7JLJ8Y/233)
+						- [6.4.5　对象创建与访问指令](zotero://open-pdf/0_DW7JLJ8Y/234)
+						- [6.4.6　操作数栈管理指令](zotero://open-pdf/0_DW7JLJ8Y/235)
+						- [6.4.7　控制转移指令](zotero://open-pdf/0_DW7JLJ8Y/236)
+					- [6.5　公有设计和私有实现](zotero://open-pdf/0_DW7JLJ8Y/240)
+					- [6.6　Class文件结构的发展](zotero://open-pdf/0_DW7JLJ8Y/241)
+					- [6.7　本章小结](zotero://open-pdf/0_DW7JLJ8Y/242)
+				- [第7章　虚拟机类加载机制](zotero://open-pdf/0_DW7JLJ8Y/243)
+					- [7.1　概述](zotero://open-pdf/0_DW7JLJ8Y/243)
+					- [7.2　类加载的时机](zotero://open-pdf/0_DW7JLJ8Y/244)
+					- [7.3　类加载的过程](zotero://open-pdf/0_DW7JLJ8Y/247)
+						- [7.3.1　加载](zotero://open-pdf/0_DW7JLJ8Y/247)
+						- [7.3.2　验证](zotero://open-pdf/0_DW7JLJ8Y/249)
+						- [7.3.3　准备](zotero://open-pdf/0_DW7JLJ8Y/252)
+						- [7.3.4　解析](zotero://open-pdf/0_DW7JLJ8Y/253)
+						- [7.3.5　初始化](zotero://open-pdf/0_DW7JLJ8Y/257)
+					- [7.4　类加载器](zotero://open-pdf/0_DW7JLJ8Y/259)
+						- [7.4.1　类与类加载器](zotero://open-pdf/0_DW7JLJ8Y/259)
+						- [7.4.2　双亲委派模型](zotero://open-pdf/0_DW7JLJ8Y/261)
+						- [7.4.3　破坏双亲委派模型](zotero://open-pdf/0_DW7JLJ8Y/264)
+					- [7.5　本章小结](zotero://open-pdf/0_DW7JLJ8Y/266)
+				- [第8章　虚拟机字节码执行引擎](zotero://open-pdf/0_DW7JLJ8Y/267)
+					- [8.1　概述](zotero://open-pdf/0_DW7JLJ8Y/267)
+					- [8.2　运行时栈帧结构](zotero://open-pdf/0_DW7JLJ8Y/268)
+						- [8.2.1　局部变量表](zotero://open-pdf/0_DW7JLJ8Y/269)
+						- [8.2.2　操作数栈](zotero://open-pdf/0_DW7JLJ8Y/273)
+						- [8.2.3　动态连接](zotero://open-pdf/0_DW7JLJ8Y/275)
+						- [8.2.4　方法返回地址](zotero://open-pdf/0_DW7JLJ8Y/276)
+						- [8.2.5　附加信息](zotero://open-pdf/0_DW7JLJ8Y/277)
+				- [第9章　类加载及执行子系统的案例与实战](zotero://open-pdf/0_DW7JLJ8Y/305)
+					- [9.1　概述](zotero://open-pdf/0_DW7JLJ8Y/305)
+					- [9.2　案例分析](zotero://open-pdf/0_DW7JLJ8Y/306)
+						- [9.2.1　Tomcat：正统的类加载器架构](zotero://open-pdf/0_DW7JLJ8Y/306)
+						- [9.2.2　OSGi：灵活的类加载器架构](zotero://open-pdf/0_DW7JLJ8Y/310)
+						- [9.2.3　字节码生成技术与动态代理的实现](zotero://open-pdf/0_DW7JLJ8Y/313)
+						- [9.2.4　Retrotranslator：跨越JDK版本](zotero://open-pdf/0_DW7JLJ8Y/316)
+					- [9.3　实战：自己动手实现远程执行功能](zotero://open-pdf/0_DW7JLJ8Y/319)
+						- [9.3.1　目标](zotero://open-pdf/0_DW7JLJ8Y/319)
+						- [9.3.2　思路](zotero://open-pdf/0_DW7JLJ8Y/320)
+						- [9.3.3　实现](zotero://open-pdf/0_DW7JLJ8Y/321)
+						- [9.3.4　验证](zotero://open-pdf/0_DW7JLJ8Y/324)
+					- [9.4　本章小结](zotero://open-pdf/0_DW7JLJ8Y/325)
+			- [第四部分　程序编译与代码优化](zotero://open-pdf/0_DW7JLJ8Y/326)
+				- [第10章　早期（编译期）优化](zotero://open-pdf/0_DW7JLJ8Y/327)
+					- [10.1　概述](zotero://open-pdf/0_DW7JLJ8Y/327)
+					- [10.2　Javac编译器](zotero://open-pdf/0_DW7JLJ8Y/328)
+						- [10.2.1　Javac的源码与调试](zotero://open-pdf/0_DW7JLJ8Y/328)
+						- [10.2.2　解析与填充符号表](zotero://open-pdf/0_DW7JLJ8Y/331)
+						- [10.2.3　注解处理器](zotero://open-pdf/0_DW7JLJ8Y/333)
+						- [10.2.4　语义分析与字节码生成](zotero://open-pdf/0_DW7JLJ8Y/334)
+					- [10.3　Java语法糖的味道](zotero://open-pdf/0_DW7JLJ8Y/337)
+						- [10.3.1　泛型与类型擦除](zotero://open-pdf/0_DW7JLJ8Y/337)
+						- [10.3.2　自动装箱、拆箱与遍历循环](zotero://open-pdf/0_DW7JLJ8Y/341)
+						- [10.3.3　条件编译](zotero://open-pdf/0_DW7JLJ8Y/343)
+					- [10.4　实战：插入式注解处理器](zotero://open-pdf/0_DW7JLJ8Y/345)
+						- [10.4.1　实战目标](zotero://open-pdf/0_DW7JLJ8Y/345)
+						- [10.4.2　代码实现](zotero://open-pdf/0_DW7JLJ8Y/347)
+						- [10.4.3　运行与测试](zotero://open-pdf/0_DW7JLJ8Y/350)
+					- [10.5　本章小结](zotero://open-pdf/0_DW7JLJ8Y/352)
+				- [第11章　晚期（运行期）优化](zotero://open-pdf/0_DW7JLJ8Y/353)
+					- [11.1　概述](zotero://open-pdf/0_DW7JLJ8Y/353)
+					- [11.2　HotSpot虚拟机内的即时编译器](zotero://open-pdf/0_DW7JLJ8Y/354)
+						- [11.2.1　解释器与编译器](zotero://open-pdf/0_DW7JLJ8Y/354)
+						- [11.2.2　编译对象与触发条件](zotero://open-pdf/0_DW7JLJ8Y/357)
+						- [11.2.3　编译过程](zotero://open-pdf/0_DW7JLJ8Y/363)
+						- [11.2.4　查看及分析即时编译结果](zotero://open-pdf/0_DW7JLJ8Y/365)
+					- [11.3　编译优化技术](zotero://open-pdf/0_DW7JLJ8Y/372)
+						- [11.3.1　优化技术概览](zotero://open-pdf/0_DW7JLJ8Y/372)
+						- [11.3.2　公共子表达式消除](zotero://open-pdf/0_DW7JLJ8Y/377)
+						- [11.3.3　数组边界检查消除](zotero://open-pdf/0_DW7JLJ8Y/378)
+						- [11.3.4　方法内联](zotero://open-pdf/0_DW7JLJ8Y/380)
+						- [11.3.5　逃逸分析](zotero://open-pdf/0_DW7JLJ8Y/382)
+					- [11.4　Java与C/C++的编译器对比](zotero://open-pdf/0_DW7JLJ8Y/384)
+					- [11.5　本章小结](zotero://open-pdf/0_DW7JLJ8Y/386)
+			- [第五部分　高效并发](zotero://open-pdf/0_DW7JLJ8Y/387)
+				- [第12章　Java内存模型与线程](zotero://open-pdf/0_DW7JLJ8Y/388)
+					- [12.1　概述](zotero://open-pdf/0_DW7JLJ8Y/388)
+					- [12.2　硬件的效率与一致性](zotero://open-pdf/0_DW7JLJ8Y/389)
+					- [12.3　Java内存模型](zotero://open-pdf/0_DW7JLJ8Y/391)
+						- [12.3.1　主内存与工作内存](zotero://open-pdf/0_DW7JLJ8Y/391)
+					- [12.4　Java与线程](zotero://open-pdf/0_DW7JLJ8Y/406)
+						- [12.4.1　线程的实现](zotero://open-pdf/0_DW7JLJ8Y/406)
+						- [12.4.2　Java线程调度](zotero://open-pdf/0_DW7JLJ8Y/410)
+						- [12.4.3　状态转换](zotero://open-pdf/0_DW7JLJ8Y/412)
+					- [12.5　本章小结](zotero://open-pdf/0_DW7JLJ8Y/414)
+				- [第13章　线程安全与锁优化](zotero://open-pdf/0_DW7JLJ8Y/415)
+					- [13.1　概述](zotero://open-pdf/0_DW7JLJ8Y/415)
+					- [13.2　线程安全](zotero://open-pdf/0_DW7JLJ8Y/416)
+						- [13.2.1　Java语言中的线程安全](zotero://open-pdf/0_DW7JLJ8Y/416)
+						- [13.2.2　线程安全的实现方法](zotero://open-pdf/0_DW7JLJ8Y/420)
+					- [13.3　锁优化](zotero://open-pdf/0_DW7JLJ8Y/426)
+						- [13.3.1　自旋锁与自适应自旋](zotero://open-pdf/0_DW7JLJ8Y/426)
+						- [13.3.2　锁消除](zotero://open-pdf/0_DW7JLJ8Y/427)
+						- [13.3.3　锁粗化](zotero://open-pdf/0_DW7JLJ8Y/428)
+						- [13.3.4　轻量级锁](zotero://open-pdf/0_DW7JLJ8Y/429)
+						- [13.3.5　偏向锁](zotero://open-pdf/0_DW7JLJ8Y/431)
+					- [13.4　本章小结](zotero://open-pdf/0_DW7JLJ8Y/433)
+			- [附录](zotero://open-pdf/0_DW7JLJ8Y/434)
+				- [附录A　编译Windows版的OpenJDK](zotero://open-pdf/0_DW7JLJ8Y/435)
+				- [A.1　获取JDK源码](zotero://open-pdf/0_DW7JLJ8Y/435)
+				- [A.2　系统需求](zotero://open-pdf/0_DW7JLJ8Y/436)
+				- [A.3　构建编译环境](zotero://open-pdf/0_DW7JLJ8Y/437)
+				- [A.4　准备依赖项](zotero://open-pdf/0_DW7JLJ8Y/440)
+				- [A.5　进行编译](zotero://open-pdf/0_DW7JLJ8Y/442)
+				- [附录B　虚拟机字节码指令表](zotero://open-pdf/0_DW7JLJ8Y/444)
+				- [附录C　HotSpot虚拟机主要参数表](zotero://open-pdf/0_DW7JLJ8Y/450)
+				- [C.1　内存管理参数](zotero://open-pdf/0_DW7JLJ8Y/450)
+				- [C.2　即时编译参数](zotero://open-pdf/0_DW7JLJ8Y/452)
+				- [C.3　类型加载参数](zotero://open-pdf/0_DW7JLJ8Y/453)
+				- [C.4　多线程相关参数](zotero://open-pdf/0_DW7JLJ8Y/454)
+				- [C.5　性能参数](zotero://open-pdf/0_DW7JLJ8Y/455)
+				- [C.6　调试参数](zotero://open-pdf/0_DW7JLJ8Y/456)
+				- [附录D　对象查询语言（OQL）简介](zotero://open-pdf/0_DW7JLJ8Y/457)
+				- [D.1　SELECT子句](zotero://open-pdf/0_DW7JLJ8Y/457)
+				- [D.2　FROM子句](zotero://open-pdf/0_DW7JLJ8Y/459)
+				- [D.3　WHERE子句](zotero://open-pdf/0_DW7JLJ8Y/461)
+				- [D.4　幠➋뾕](zotero://open-pdf/0_DW7JLJ8Y/462)
+				- [D.5　OQL语言的BNF范式](zotero://open-pdf/0_DW7JLJ8Y/464)
+				- [附录E　JDK历史版本轨迹](zotero://open-pdf/0_DW7JLJ8Y/467)
+		- [深入理解Android内核设计思想.pdf](zotero://open-pdf/0_HV8REL2Z/8)
+		  collapsed:: true
+			- [目录](zotero://open-pdf/0_HV8REL2Z/8)
+			- [第1篇](zotero://open-pdf/0_HV8REL2Z/14)
+				- [第1章Android系统简介](zotero://open-pdf/0_HV8REL2Z/15)
+				- [第2章Android源码下载及编译](zotero://open-pdf/0_HV8REL2Z/23)
+				- [第3章Android编译系统](zotero://open-pdf/0_HV8REL2Z/47)
+			- [第2篇 Android原理篇](zotero://open-pdf/0_HV8REL2Z/60)
+				- [第4章操作系统基础](zotero://open-pdf/0_HV8REL2Z/61)
+				- [第5章Android进程/线程管理](zotero://open-pdf/0_HV8REL2Z/102)
+				- [第6章进程间通信—Binder](zotero://open-pdf/0_HV8REL2Z/127)
+				- [第7章Android启动过程简析](zotero://open-pdf/0_HV8REL2Z/218)
+				- [第8章管理Activity和组件运行状态的系统进程Activity ManagerService (AMS)](zotero://open-pdf/0_HV8REL2Z/226)
+				- [第9章GUI系统之SurfaceFlinger](zotero://open-pdf/0_HV8REL2Z/242)
+				- [第10章GUI系统之“窗口管理员”WMS](zotero://open-pdf/0_HV8REL2Z/322)
+				- [第11章让你的界面炫彩起来的GUI系统之View体系](zotero://open-pdf/0_HV8REL2Z/390)
+				- [第12章“问渠哪得清如许，为有源头活水来”—InputManagerService与输人事件](zotero://open-pdf/0_HV8REL2Z/449)
+				- [第13章应用不再同质化一音频系统](zotero://open-pdf/0_HV8REL2Z/460)
+			- [第3篇应用原理篇](zotero://open-pdf/0_HV8REL2Z/550)
+				- [第14章Intent的匹配规则](zotero://open-pdf/0_HV8REL2Z/551)
+				- [第15章APK应用程序的资源适配](zotero://open-pdf/0_HV8REL2Z/564)
+				- [第16章Android字符编码格式](zotero://open-pdf/0_HV8REL2Z/585)
+				- [第17章Android和OpenGL ES](zotero://open-pdf/0_HV8REL2Z/596)
+				- [第18章“系统的UI”—SystemUI](zotero://open-pdf/0_HV8REL2Z/614)
+				- [第19章Android常用的工具“小插件”一Widget机制](zotero://open-pdf/0_HV8REL2Z/629)
+				- [第20章Android应用程序的编译和时打包](zotero://open-pdf/0_HV8REL2Z/637)
+			- [第4篇 Android系统工具](zotero://open-pdf/0_HV8REL2Z/654)
+				- [第21章软件版本管理](zotero://open-pdf/0_HV8REL2Z/655)
+				- [第22章系统调试辅助工具](zotero://open-pdf/0_HV8REL2Z/675)
+		- [Android 源码设计模式解析与实战.pdf](zotero://open-pdf/0_UEA6ASIQ/2)
+		  collapsed:: true
+			- [目录](zotero://open-pdf/0_UEA6ASIQ/2)
+			- [扉页](zotero://open-pdf/0_UEA6ASIQ/12)
+			- [版权](zotero://open-pdf/0_UEA6ASIQ/13)
+			- [推荐序](zotero://open-pdf/0_UEA6ASIQ/15)
+			- [自序一](zotero://open-pdf/0_UEA6ASIQ/17)
+			- [自序二](zotero://open-pdf/0_UEA6ASIQ/19)
+			- [前言](zotero://open-pdf/0_UEA6ASIQ/21)
+			- [致谢](zotero://open-pdf/0_UEA6ASIQ/24)
+			- [第1章 走向灵活软件之路——面向对象的六大原则](zotero://open-pdf/0_UEA6ASIQ/26)
+				- [1.1 优化代码的第一步——单一职责原则](zotero://open-pdf/0_UEA6ASIQ/26)
+				- [1.2 让程序更稳定、更灵活——开闭原则](zotero://open-pdf/0_UEA6ASIQ/32)
+				- [1.3 构建扩展性更好的系统——里氏替换原则](zotero://open-pdf/0_UEA6ASIQ/43)
+				- [1.4 让项目拥有变化的能力——依赖倒置原则](zotero://open-pdf/0_UEA6ASIQ/46)
+				- [1.5 系统有更高的灵活性——接口隔离原则](zotero://open-pdf/0_UEA6ASIQ/50)
+				- [1.6 更好的可扩展性——迪米特原则](zotero://open-pdf/0_UEA6ASIQ/54)
+				- [1.7 总结](zotero://open-pdf/0_UEA6ASIQ/60)
+			- [第2章 应用最广的模式——单例模式](zotero://open-pdf/0_UEA6ASIQ/62)
+				- [2.1 单例模式介绍](zotero://open-pdf/0_UEA6ASIQ/62)
+				- [2.2 单例模式的定义](zotero://open-pdf/0_UEA6ASIQ/62)
+				- [2.3 单例模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/63)
+				- [2.4 单例模式UML类图](zotero://open-pdf/0_UEA6ASIQ/63)
+				- [2.5 单例模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/64)
+				- [2.6 单例模式的其他实现方式](zotero://open-pdf/0_UEA6ASIQ/66)
+					- [2.6.1 懒汉模式](zotero://open-pdf/0_UEA6ASIQ/66)
+					- [2.6.2 DoubleCheckLock(DCL)实现单例](zotero://open-pdf/0_UEA6ASIQ/67)
+					- [2.6.3 静态内部类单例模式](zotero://open-pdf/0_UEA6ASIQ/69)
+					- [2.6.4 枚举单例](zotero://open-pdf/0_UEA6ASIQ/70)
+					- [2.6.5 使用容器实现单例模式](zotero://open-pdf/0_UEA6ASIQ/71)
+				- [2.7 Android源码中的单例模式](zotero://open-pdf/0_UEA6ASIQ/72)
+				- [2.8 无名英雄——深入理解LayoutInflater](zotero://open-pdf/0_UEA6ASIQ/78)
+				- [2.9 运用单例模式](zotero://open-pdf/0_UEA6ASIQ/89)
+				- [2.10 总结](zotero://open-pdf/0_UEA6ASIQ/92)
+			- [第3章 自由扩展你的项目——Builder模式](zotero://open-pdf/0_UEA6ASIQ/94)
+				- [3.1 Builder模式介绍](zotero://open-pdf/0_UEA6ASIQ/94)
+				- [3.2 Builder模式的定义](zotero://open-pdf/0_UEA6ASIQ/94)
+				- [3.3 Builder模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/95)
+				- [3.4 Builder模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/95)
+				- [3.5 Builder模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/96)
+				- [3.6 Android源码中的Builder模式实现](zotero://open-pdf/0_UEA6ASIQ/99)
+				- [3.7 深入了解WindowManager](zotero://open-pdf/0_UEA6ASIQ/109)
+				- [3.8 Builder模式实战](zotero://open-pdf/0_UEA6ASIQ/121)
+				- [3.9 总结](zotero://open-pdf/0_UEA6ASIQ/128)
+			- [第4章 使程序运行更高效——原型模式](zotero://open-pdf/0_UEA6ASIQ/130)
+				- [4.1 原型模式介绍](zotero://open-pdf/0_UEA6ASIQ/130)
+				- [4.2 原型模式的定义](zotero://open-pdf/0_UEA6ASIQ/130)
+				- [4.3 原型模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/131)
+				- [4.4 原型模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/131)
+				- [4.5 原型模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/132)
+				- [4.6 浅拷贝和深拷贝](zotero://open-pdf/0_UEA6ASIQ/136)
+				- [4.7 Android源码中的原型模式实现](zotero://open-pdf/0_UEA6ASIQ/140)
+				- [4.8 Intent的查找与匹配](zotero://open-pdf/0_UEA6ASIQ/145)
+					- [4.8.1 App信息表的构建](zotero://open-pdf/0_UEA6ASIQ/145)
+					- [4.8.2 精确匹配](zotero://open-pdf/0_UEA6ASIQ/155)
+				- [4.9 原型模式实战](zotero://open-pdf/0_UEA6ASIQ/161)
+				- [4.10 总结](zotero://open-pdf/0_UEA6ASIQ/165)
+			- [第5章 应用最广泛的模式——工厂方法模式](zotero://open-pdf/0_UEA6ASIQ/167)
+				- [5.1 工厂方法模式介绍](zotero://open-pdf/0_UEA6ASIQ/167)
+				- [5.2 工厂方法模式的定义](zotero://open-pdf/0_UEA6ASIQ/167)
+				- [5.3 工厂方法模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/168)
+				- [5.4 工厂方法模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/168)
+				- [5.5 模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/173)
+				- [5.6 Android源码中的工厂方法模式实现](zotero://open-pdf/0_UEA6ASIQ/176)
+				- [5.7 关于onCreate方法](zotero://open-pdf/0_UEA6ASIQ/179)
+				- [5.8 工厂方法模式实战](zotero://open-pdf/0_UEA6ASIQ/190)
+				- [5.9 总结](zotero://open-pdf/0_UEA6ASIQ/195)
+			- [第6章 创建型设计模式——抽象工厂模式](zotero://open-pdf/0_UEA6ASIQ/196)
+				- [6.1 抽象工厂模式介绍](zotero://open-pdf/0_UEA6ASIQ/196)
+				- [6.2 抽象工厂模式的定义](zotero://open-pdf/0_UEA6ASIQ/196)
+				- [6.3 抽象工厂模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/197)
+				- [6.4 抽象工厂模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/197)
+				- [6.5 抽象工厂方法模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/201)
+				- [6.6 Android源码中的抽象工厂方法模式实现](zotero://open-pdf/0_UEA6ASIQ/205)
+				- [6.7 总结](zotero://open-pdf/0_UEA6ASIQ/212)
+			- [第7章 时势造英雄——策略模式](zotero://open-pdf/0_UEA6ASIQ/214)
+				- [7.1 策略模式介绍](zotero://open-pdf/0_UEA6ASIQ/214)
+				- [7.2 策略模式的定义](zotero://open-pdf/0_UEA6ASIQ/215)
+				- [7.3 策略模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/215)
+				- [7.4 策略模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/215)
+				- [7.5 策略模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/216)
+				- [7.6 Android源码中的策略模式实现](zotero://open-pdf/0_UEA6ASIQ/223)
+					- [7.6.1 时间插值器](zotero://open-pdf/0_UEA6ASIQ/224)
+					- [7.6.2 动画中的时间插值器](zotero://open-pdf/0_UEA6ASIQ/225)
+				- [7.7 深入属性动画](zotero://open-pdf/0_UEA6ASIQ/232)
+					- [7.7.1 属性动画体系的总体设计](zotero://open-pdf/0_UEA6ASIQ/233)
+					- [7.7.2 属性动画的核心类介绍](zotero://open-pdf/0_UEA6ASIQ/234)
+					- [7.7.3 基本使用](zotero://open-pdf/0_UEA6ASIQ/235)
+					- [7.7.4 流程图](zotero://open-pdf/0_UEA6ASIQ/236)
+					- [7.7.5 详细设计](zotero://open-pdf/0_UEA6ASIQ/240)
+					- [7.7.6 核心原理分析](zotero://open-pdf/0_UEA6ASIQ/240)
+				- [7.8 策略模式实战应用](zotero://open-pdf/0_UEA6ASIQ/255)
+				- [7.9 总结](zotero://open-pdf/0_UEA6ASIQ/260)
+			- [第8章 随遇而安——状态模式](zotero://open-pdf/0_UEA6ASIQ/261)
+				- [8.1 状态模式介绍](zotero://open-pdf/0_UEA6ASIQ/261)
+				- [8.2 状态模式的定义](zotero://open-pdf/0_UEA6ASIQ/261)
+				- [8.3 状态模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/262)
+				- [8.4 状态模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/262)
+				- [8.5 状态模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/263)
+				- [8.6 Wi-Fi管理中的状态模式](zotero://open-pdf/0_UEA6ASIQ/268)
+				- [8.7 状态模式实战](zotero://open-pdf/0_UEA6ASIQ/284)
+				- [8.8 总结](zotero://open-pdf/0_UEA6ASIQ/298)
+			- [第9章 使编程更有灵活性——责任链模式](zotero://open-pdf/0_UEA6ASIQ/299)
+				- [9.1 责任链模式介绍](zotero://open-pdf/0_UEA6ASIQ/299)
+				- [9.2 责任链模式的定义](zotero://open-pdf/0_UEA6ASIQ/299)
+				- [9.3 责任链模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/300)
+				- [9.4 责任链模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/300)
+				- [9.5 责任链模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/307)
+				- [9.6 Android源码中的责任链模式实现](zotero://open-pdf/0_UEA6ASIQ/311)
+				- [9.7 责任链模式实战](zotero://open-pdf/0_UEA6ASIQ/318)
+				- [9.8 总结](zotero://open-pdf/0_UEA6ASIQ/322)
+			- [第10章 化繁为简的翻译机——解释器模式](zotero://open-pdf/0_UEA6ASIQ/323)
+				- [10.1 解释器模式介绍](zotero://open-pdf/0_UEA6ASIQ/323)
+				- [10.2 解释器模式的定义](zotero://open-pdf/0_UEA6ASIQ/323)
+				- [10.3 解释器模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/326)
+				- [10.4 解释器模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/328)
+				- [10.5 解释器模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/330)
+				- [10.6 Android源码中的解释器模式实现](zotero://open-pdf/0_UEA6ASIQ/336)
+				- [10.7 关于PackageManagerService](zotero://open-pdf/0_UEA6ASIQ/344)
+				- [10.8 总结](zotero://open-pdf/0_UEA6ASIQ/358)
+			- [第11章 让程序畅通执行——命令模式](zotero://open-pdf/0_UEA6ASIQ/359)
+				- [11.1 命令模式介绍](zotero://open-pdf/0_UEA6ASIQ/359)
+				- [11.2 命令模式的定义](zotero://open-pdf/0_UEA6ASIQ/359)
+				- [11.3 命令模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/360)
+				- [11.4 命令模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/360)
+				- [11.5 命令模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/364)
+				- [11.6 Android源码中的命令模式实现](zotero://open-pdf/0_UEA6ASIQ/370)
+				- [11.7 Android事件输入系统介绍](zotero://open-pdf/0_UEA6ASIQ/375)
+				- [11.8 命令模式实战](zotero://open-pdf/0_UEA6ASIQ/378)
+				- [11.9 总结](zotero://open-pdf/0_UEA6ASIQ/388)
+			- [第12章 解决、解耦的钥匙——观察者模式](zotero://open-pdf/0_UEA6ASIQ/389)
+				- [12.1 观察者模式介绍](zotero://open-pdf/0_UEA6ASIQ/389)
+				- [12.2 观察者模式的定义](zotero://open-pdf/0_UEA6ASIQ/389)
+				- [12.3 观察者模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/390)
+				- [12.4 观察者模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/390)
+				- [12.5 观察者模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/391)
+				- [12.6 Android源码分析](zotero://open-pdf/0_UEA6ASIQ/394)
+				- [12.7 观察者模式的深入拓展](zotero://open-pdf/0_UEA6ASIQ/399)
+				- [12.8 实战](zotero://open-pdf/0_UEA6ASIQ/412)
+				- [12.9 总结](zotero://open-pdf/0_UEA6ASIQ/423)
+			- [第13章 编程中的“后悔药”——备忘录模式](zotero://open-pdf/0_UEA6ASIQ/424)
+				- [13.1 备忘录模式介绍](zotero://open-pdf/0_UEA6ASIQ/424)
+				- [13.2 备忘录模式的定义](zotero://open-pdf/0_UEA6ASIQ/424)
+				- [13.3 备忘录模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/425)
+				- [13.4 备忘录模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/425)
+				- [13.5 备忘录模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/426)
+				- [13.6 Android源码中的备忘录模式](zotero://open-pdf/0_UEA6ASIQ/430)
+				- [13.7 深度拓展](zotero://open-pdf/0_UEA6ASIQ/440)
+					- [13.7.1 onSaveInstanceState调用的时机](zotero://open-pdf/0_UEA6ASIQ/440)
+					- [13.7.2 使用V4包存储状态的bug](zotero://open-pdf/0_UEA6ASIQ/441)
+				- [13.8 实战](zotero://open-pdf/0_UEA6ASIQ/445)
+				- [13.9 总结](zotero://open-pdf/0_UEA6ASIQ/459)
+			- [第14章 解决问题的“第三者”——迭代器模式](zotero://open-pdf/0_UEA6ASIQ/461)
+				- [14.1 迭代器模式介绍](zotero://open-pdf/0_UEA6ASIQ/461)
+				- [14.2 迭代器模式的定义](zotero://open-pdf/0_UEA6ASIQ/461)
+				- [14.3 迭代器模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/462)
+				- [14.4 迭代器模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/462)
+				- [14.5 模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/465)
+				- [14.6 Android源码中的模式实现](zotero://open-pdf/0_UEA6ASIQ/471)
+				- [14.7 总结](zotero://open-pdf/0_UEA6ASIQ/474)
+			- [第15章 抓住问题核心——模板方法模式](zotero://open-pdf/0_UEA6ASIQ/475)
+				- [15.1 模板方法模式介绍](zotero://open-pdf/0_UEA6ASIQ/475)
+				- [15.2 模板方法模式的定义](zotero://open-pdf/0_UEA6ASIQ/475)
+				- [15.3 模板方法模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/476)
+				- [15.4 模板方法模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/476)
+				- [15.5 模板方法模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/477)
+				- [15.6 Android源码中的模板方法模式](zotero://open-pdf/0_UEA6ASIQ/481)
+				- [15.7 深度拓展](zotero://open-pdf/0_UEA6ASIQ/486)
+				- [15.8 模板方法实战](zotero://open-pdf/0_UEA6ASIQ/507)
+				- [15.9 总结](zotero://open-pdf/0_UEA6ASIQ/514)
+			- [第16章 访问者模式](zotero://open-pdf/0_UEA6ASIQ/516)
+				- [16.1 访问者模式介绍](zotero://open-pdf/0_UEA6ASIQ/516)
+				- [16.2 访问者模式的定义](zotero://open-pdf/0_UEA6ASIQ/516)
+				- [16.3 访问者模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/517)
+				- [16.4 访问者模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/517)
+				- [16.5 访问者模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/519)
+				- [16.6 Android源码中的模式](zotero://open-pdf/0_UEA6ASIQ/525)
+				- [16.7 访问者模式实战](zotero://open-pdf/0_UEA6ASIQ/530)
+				- [16.8 总结](zotero://open-pdf/0_UEA6ASIQ/541)
+			- [第17章 “和事佬”——中介者模式](zotero://open-pdf/0_UEA6ASIQ/543)
+				- [17.1 中介者模式介绍](zotero://open-pdf/0_UEA6ASIQ/543)
+				- [17.2 中介者模式的定义](zotero://open-pdf/0_UEA6ASIQ/544)
+				- [17.3 中介者模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/545)
+				- [17.4 中介者模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/545)
+				- [17.5 中介者模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/549)
+				- [17.6 Android源码中的中介者模式实现](zotero://open-pdf/0_UEA6ASIQ/555)
+				- [17.7 中介者模式实战](zotero://open-pdf/0_UEA6ASIQ/557)
+				- [17.8 总结](zotero://open-pdf/0_UEA6ASIQ/562)
+			- [第18章 编程好帮手——代理模式](zotero://open-pdf/0_UEA6ASIQ/563)
+				- [18.1 代理模式介绍](zotero://open-pdf/0_UEA6ASIQ/563)
+				- [18.2 代理模式的定义](zotero://open-pdf/0_UEA6ASIQ/563)
+				- [18.3 代理模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/564)
+				- [18.4 代理模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/564)
+				- [18.5 代理模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/566)
+				- [18.6 Android源码中的代理模式实现](zotero://open-pdf/0_UEA6ASIQ/572)
+				- [18.7 Android中的Binder跨进程通信机制与AIDL](zotero://open-pdf/0_UEA6ASIQ/579)
+				- [18.8 代理模式实战](zotero://open-pdf/0_UEA6ASIQ/598)
+				- [18.9 总结](zotero://open-pdf/0_UEA6ASIQ/605)
+			- [第19章 物以类聚——组合模式](zotero://open-pdf/0_UEA6ASIQ/606)
+				- [19.1 组合模式介绍](zotero://open-pdf/0_UEA6ASIQ/606)
+				- [19.2 组合模式的定义](zotero://open-pdf/0_UEA6ASIQ/609)
+				- [19.3 组合模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/609)
+				- [19.4 组合模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/610)
+				- [19.5 组合模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/617)
+				- [19.6 Android源码中的模式实现](zotero://open-pdf/0_UEA6ASIQ/623)
+				- [19.7 为什么ViewGroup有容器的功能](zotero://open-pdf/0_UEA6ASIQ/626)
+				- [19.8 总结](zotero://open-pdf/0_UEA6ASIQ/628)
+			- [第20章 得心应手的“粘合剂”——适配器模式](zotero://open-pdf/0_UEA6ASIQ/630)
+				- [20.1 适配器模式介绍](zotero://open-pdf/0_UEA6ASIQ/630)
+				- [20.2 适配器模式的定义](zotero://open-pdf/0_UEA6ASIQ/631)
+				- [20.3 适配器模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/631)
+				- [20.4 适配器模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/631)
+				- [20.5 适配器模式应用的简单示例](zotero://open-pdf/0_UEA6ASIQ/633)
+					- [20.5.1 类适配器模式](zotero://open-pdf/0_UEA6ASIQ/633)
+					- [20.5.2 对象适配器模式](zotero://open-pdf/0_UEA6ASIQ/634)
+				- [20.6 Android源码中的适配器模式](zotero://open-pdf/0_UEA6ASIQ/637)
+				- [20.7 深度拓展](zotero://open-pdf/0_UEA6ASIQ/646)
+				- [20.8 实战演示](zotero://open-pdf/0_UEA6ASIQ/668)
+				- [20.9 总结](zotero://open-pdf/0_UEA6ASIQ/686)
+			- [第21章 装饰模式](zotero://open-pdf/0_UEA6ASIQ/687)
+				- [21.1 装饰模式介绍](zotero://open-pdf/0_UEA6ASIQ/687)
+				- [21.2 装饰模式的定义](zotero://open-pdf/0_UEA6ASIQ/687)
+				- [21.3 装饰模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/688)
+				- [21.4 装饰模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/688)
+				- [21.5 模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/692)
+				- [21.6 Android源码中的模式实现](zotero://open-pdf/0_UEA6ASIQ/695)
+				- [21.7 Context与ContextImpl](zotero://open-pdf/0_UEA6ASIQ/697)
+				- [21.8 模式实战](zotero://open-pdf/0_UEA6ASIQ/710)
+				- [21.9 总结](zotero://open-pdf/0_UEA6ASIQ/711)
+			- [第22章 对象共享，避免创建多对象——享元模式](zotero://open-pdf/0_UEA6ASIQ/712)
+				- [22.1 享元模式介绍](zotero://open-pdf/0_UEA6ASIQ/712)
+				- [22.2 享元模式定义](zotero://open-pdf/0_UEA6ASIQ/713)
+				- [22.3 享元模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/713)
+				- [22.4 享元模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/713)
+				- [22.5 享元模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/714)
+				- [22.6 Android源码中的享元模式](zotero://open-pdf/0_UEA6ASIQ/719)
+				- [22.7 深度拓展](zotero://open-pdf/0_UEA6ASIQ/728)
+					- [22.7.1 深入了解Android的消息机制](zotero://open-pdf/0_UEA6ASIQ/728)
+					- [22.7.2 子线程中创建Handler为何会抛出异常](zotero://open-pdf/0_UEA6ASIQ/743)
+				- [22.8 总结](zotero://open-pdf/0_UEA6ASIQ/745)
+			- [第23章 统一编程接口——外观模式](zotero://open-pdf/0_UEA6ASIQ/746)
+				- [23.1 外观模式介绍](zotero://open-pdf/0_UEA6ASIQ/746)
+				- [23.2 外观模式定义](zotero://open-pdf/0_UEA6ASIQ/746)
+				- [23.3 外观模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/747)
+				- [23.4 外观模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/747)
+				- [23.5 外观模式的简单示例](zotero://open-pdf/0_UEA6ASIQ/749)
+				- [23.6 Android源码中的外观模式](zotero://open-pdf/0_UEA6ASIQ/753)
+				- [23.7 深度拓展](zotero://open-pdf/0_UEA6ASIQ/761)
+					- [23.7.1 Android资源的加载与匹配](zotero://open-pdf/0_UEA6ASIQ/761)
+					- [23.7.2 动态加载框架的实现](zotero://open-pdf/0_UEA6ASIQ/772)
+				- [23.8 外观模式实战](zotero://open-pdf/0_UEA6ASIQ/784)
+				- [23.9 总结](zotero://open-pdf/0_UEA6ASIQ/789)
+			- [第24章 连接两地的交通枢钮——桥接模式](zotero://open-pdf/0_UEA6ASIQ/790)
+				- [24.1 桥接模式介绍](zotero://open-pdf/0_UEA6ASIQ/790)
+				- [24.2 桥接模式的定义](zotero://open-pdf/0_UEA6ASIQ/790)
+				- [24.3 桥接模式的使用场景](zotero://open-pdf/0_UEA6ASIQ/790)
+				- [24.4 桥接模式的UML类图](zotero://open-pdf/0_UEA6ASIQ/791)
+				- [24.5 桥接模式的简单实现](zotero://open-pdf/0_UEA6ASIQ/794)
+				- [24.6 Android源码中的桥接模式实现](zotero://open-pdf/0_UEA6ASIQ/798)
+				- [24.7 关于WindowManagerService](zotero://open-pdf/0_UEA6ASIQ/800)
+				- [24.8 桥接模式实战](zotero://open-pdf/0_UEA6ASIQ/812)
+				- [24.9 总结](zotero://open-pdf/0_UEA6ASIQ/816)
+			- [第25章 MVC的介绍与实战](zotero://open-pdf/0_UEA6ASIQ/817)
+				- [25.1 MVC的起源与历史](zotero://open-pdf/0_UEA6ASIQ/817)
+				- [25.2 MVC在Android中的实现](zotero://open-pdf/0_UEA6ASIQ/819)
+				- [25.3 总结](zotero://open-pdf/0_UEA6ASIQ/821)
+			- [第26章 MVP应用架构模式](zotero://open-pdf/0_UEA6ASIQ/823)
+				- [26.1 MVP模式介绍](zotero://open-pdf/0_UEA6ASIQ/823)
+				- [26.2 MVP模式的三个角色](zotero://open-pdf/0_UEA6ASIQ/825)
+				- [26.3 与MVC、MVVM的区别](zotero://open-pdf/0_UEA6ASIQ/826)
+				- [26.4 MVP的实现](zotero://open-pdf/0_UEA6ASIQ/829)
+				- [26.5 MVP与Activity、Fragment的生命周期](zotero://open-pdf/0_UEA6ASIQ/836)
+		- [Android开发艺术探索.pdf](zotero://open-pdf/0_7WCLQD7L/3)
+		  collapsed:: true
+			- [扉页](zotero://open-pdf/0_7WCLQD7L/3)
+			- [目录](zotero://open-pdf/0_7WCLQD7L/3)
+			- [版权页](zotero://open-pdf/0_7WCLQD7L/3)
+			- [内容简介](zotero://open-pdf/0_7WCLQD7L/3)
+			- [序言](zotero://open-pdf/0_7WCLQD7L/3)
+			- [前言](zotero://open-pdf/0_7WCLQD7L/3)
+			- [第1章 Activity的生命周期和启动模式](zotero://open-pdf/0_7WCLQD7L/3)
+				- [1.1 Activity的生命周期全面分析](zotero://open-pdf/0_7WCLQD7L/24)
+					- [1.1.1 典型情况下的生命周期分析](zotero://open-pdf/0_7WCLQD7L/24)
+					- [1.1.2 异常情况下的生命周期分析](zotero://open-pdf/0_7WCLQD7L/33)
+				- [1.2 Activity的启动模式](zotero://open-pdf/0_7WCLQD7L/45)
+					- [1.2.1 Activity的LaunchMode](zotero://open-pdf/0_7WCLQD7L/45)
+					- [1.2.2 Activity的Flags](zotero://open-pdf/0_7WCLQD7L/64)
+				- [1.3 IntentFilter的匹配规则](zotero://open-pdf/0_7WCLQD7L/66)
+			- [第2章 IPC机制](zotero://open-pdf/0_7WCLQD7L/3)
+				- [2.1 Android IPC简介](zotero://open-pdf/0_7WCLQD7L/79)
+				- [2.2 Android中的多进程模式](zotero://open-pdf/0_7WCLQD7L/81)
+					- [2.2.1 开启多进程模式](zotero://open-pdf/0_7WCLQD7L/81)
+					- [2.2.2 多进程模式的运行机制](zotero://open-pdf/0_7WCLQD7L/84)
+				- [2.3 IPC基础概念介绍](zotero://open-pdf/0_7WCLQD7L/90)
+					- [2.3.1 Serializable接口](zotero://open-pdf/0_7WCLQD7L/90)
+					- [2.3.2 Parcelable接口](zotero://open-pdf/0_7WCLQD7L/94)
+					- [2.3.3 Binder](zotero://open-pdf/0_7WCLQD7L/97)
+				- [2.4 Android中的IPC方式](zotero://open-pdf/0_7WCLQD7L/119)
+					- [2.4.1 使用Bundle](zotero://open-pdf/0_7WCLQD7L/119)
+					- [2.4.2 使用文件共享](zotero://open-pdf/0_7WCLQD7L/120)
+					- [2.4.3 使用Messenger](zotero://open-pdf/0_7WCLQD7L/124)
+					- [2.4.4 使用AIDL](zotero://open-pdf/0_7WCLQD7L/134)
+					- [2.4.5 使用ContentProvider](zotero://open-pdf/0_7WCLQD7L/166)
+					- [2.4.6 使用Socket](zotero://open-pdf/0_7WCLQD7L/186)
+				- [2.5 Binder连接池](zotero://open-pdf/0_7WCLQD7L/200)
+				- [2.6 选用合适的IPC方式](zotero://open-pdf/0_7WCLQD7L/213)
+			- [第3章 View的事件体系](zotero://open-pdf/0_7WCLQD7L/3)
+				- [3.1 View基础知识](zotero://open-pdf/0_7WCLQD7L/216)
+					- [3.1.1 什么是View](zotero://open-pdf/0_7WCLQD7L/216)
+					- [3.1.2 View的位置参数](zotero://open-pdf/0_7WCLQD7L/217)
+					- [3.1.3 MotionEvent和TouchSlop](zotero://open-pdf/0_7WCLQD7L/219)
+					- [3.1.4 VelocityTracker、GestureDetector和Scroller](zotero://open-pdf/0_7WCLQD7L/221)
+				- [3.2 View的滑动](zotero://open-pdf/0_7WCLQD7L/226)
+					- [3.2.1 使用scrollTo/scrollBy](zotero://open-pdf/0_7WCLQD7L/226)
+					- [3.2.2 使用动画](zotero://open-pdf/0_7WCLQD7L/229)
+					- [3.2.3 改变布局参数](zotero://open-pdf/0_7WCLQD7L/232)
+					- [3.2.4 各种滑动方式的对比](zotero://open-pdf/0_7WCLQD7L/233)
+				- [3.3 弹性滑动](zotero://open-pdf/0_7WCLQD7L/237)
+					- [3.3.1 使用Scroller](zotero://open-pdf/0_7WCLQD7L/237)
+					- [3.3.2 通过动画](zotero://open-pdf/0_7WCLQD7L/241)
+					- [3.3.3 使用延时策略](zotero://open-pdf/0_7WCLQD7L/243)
+				- [3.4 View的事件分发机制](zotero://open-pdf/0_7WCLQD7L/245)
+					- [3.4.1 点击事件的传递规则](zotero://open-pdf/0_7WCLQD7L/245)
+					- [3.4.2 事件分发的源码解析](zotero://open-pdf/0_7WCLQD7L/250)
+				- [3.5 View的滑动冲突](zotero://open-pdf/0_7WCLQD7L/268)
+					- [3.5.1 常见的滑动冲突场景](zotero://open-pdf/0_7WCLQD7L/268)
+					- [3.5.2 滑动冲突的处理规则](zotero://open-pdf/0_7WCLQD7L/270)
+					- [3.5.3 滑动冲突的解决方式](zotero://open-pdf/0_7WCLQD7L/271)
+			- [第4章 View的工作原理](zotero://open-pdf/0_7WCLQD7L/3)
+				- [4.1 初识ViewRoot和DecorView](zotero://open-pdf/0_7WCLQD7L/299)
+				- [4.2 理解MeasureSpec](zotero://open-pdf/0_7WCLQD7L/303)
+					- [4.2.1 MeasureSpec](zotero://open-pdf/0_7WCLQD7L/303)
+					- [4.2.2 MeasureSpec和LayoutParams的对应关系](zotero://open-pdf/0_7WCLQD7L/305)
+				- [4.3 View的工作流程](zotero://open-pdf/0_7WCLQD7L/314)
+					- [4.3.1 measure过程](zotero://open-pdf/0_7WCLQD7L/314)
+					- [4.3.2 layout过程](zotero://open-pdf/0_7WCLQD7L/330)
+					- [4.3.3 draw过程](zotero://open-pdf/0_7WCLQD7L/336)
+				- [4.4 自定义View](zotero://open-pdf/0_7WCLQD7L/340)
+					- [4.4.1 自定义View的分类](zotero://open-pdf/0_7WCLQD7L/340)
+					- [4.4.2 自定义View须知](zotero://open-pdf/0_7WCLQD7L/342)
+					- [4.4.3 自定义View示例](zotero://open-pdf/0_7WCLQD7L/343)
+					- [4.4.4 自定义View的思想](zotero://open-pdf/0_7WCLQD7L/367)
+			- [第5章 理解RemoteViews](zotero://open-pdf/0_7WCLQD7L/3)
+				- [5.1 RemoteViews的应用](zotero://open-pdf/0_7WCLQD7L/370)
+					- [5.1.1 RemoteViews在通知栏上的应用](zotero://open-pdf/0_7WCLQD7L/370)
+					- [5.1.2 RemoteViews在桌面小部件上的应用](zotero://open-pdf/0_7WCLQD7L/374)
+					- [5.1.3 PendingIntent概述](zotero://open-pdf/0_7WCLQD7L/386)
+				- [5.2 RemoteViews的内部机制](zotero://open-pdf/0_7WCLQD7L/390)
+				- [5.3 RemoteViews的意义](zotero://open-pdf/0_7WCLQD7L/404)
+			- [第6章 Android的Drawable](zotero://open-pdf/0_7WCLQD7L/24)
+				- [6.1 Drawable简介](zotero://open-pdf/0_7WCLQD7L/412)
+				- [6.2 Drawable的分类](zotero://open-pdf/0_7WCLQD7L/414)
+					- [6.2.1 BitmapDrawable](zotero://open-pdf/0_7WCLQD7L/414)
+					- [6.2.2 ShapeDrawable](zotero://open-pdf/0_7WCLQD7L/418)
+					- [6.2.3 LayerDrawable](zotero://open-pdf/0_7WCLQD7L/424)
+					- [6.2.4 StateListDrawable](zotero://open-pdf/0_7WCLQD7L/426)
+					- [6.2.5 LevelListDrawable](zotero://open-pdf/0_7WCLQD7L/429)
+					- [6.2.6 TransitionDrawable](zotero://open-pdf/0_7WCLQD7L/431)
+					- [6.2.7 InsetDrawable](zotero://open-pdf/0_7WCLQD7L/433)
+					- [6.2.8 ScaleDrawable](zotero://open-pdf/0_7WCLQD7L/434)
+					- [6.2.9 ClipDrawable](zotero://open-pdf/0_7WCLQD7L/438)
+				- [6.3 自定义Drawable](zotero://open-pdf/0_7WCLQD7L/442)
+			- [第7章 Android动画深入分析](zotero://open-pdf/0_7WCLQD7L/33)
+				- [7.1 View动画](zotero://open-pdf/0_7WCLQD7L/447)
+					- [7.1.1 View动画的种类](zotero://open-pdf/0_7WCLQD7L/447)
+					- [7.1.2 自定义View动画](zotero://open-pdf/0_7WCLQD7L/453)
+					- [7.1.3 帧动画](zotero://open-pdf/0_7WCLQD7L/457)
+				- [7.2 View动画的特殊使用场景](zotero://open-pdf/0_7WCLQD7L/459)
+					- [7.2.1 LayoutAnimation](zotero://open-pdf/0_7WCLQD7L/459)
+					- [7.2.2 Activity的切换效果](zotero://open-pdf/0_7WCLQD7L/462)
+				- [7.3 属性动画](zotero://open-pdf/0_7WCLQD7L/464)
+					- [7.3.1 使用属性动画](zotero://open-pdf/0_7WCLQD7L/464)
+					- [7.3.2 理解插值器和估值器](zotero://open-pdf/0_7WCLQD7L/470)
+					- [7.3.3 属性动画的监听器](zotero://open-pdf/0_7WCLQD7L/472)
+					- [7.3.4 对任意属性做动画](zotero://open-pdf/0_7WCLQD7L/473)
+					- [7.3.5 属性动画的工作原理](zotero://open-pdf/0_7WCLQD7L/481)
+				- [7.4 使用动画的注意事项](zotero://open-pdf/0_7WCLQD7L/490)
+			- [第8章 理解Window和WindowManager](zotero://open-pdf/0_7WCLQD7L/45)
+				- [8.1 Window和WindowManager](zotero://open-pdf/0_7WCLQD7L/494)
+				- [8.2 Window的内部机制](zotero://open-pdf/0_7WCLQD7L/499)
+					- [8.2.1 Window的添加过程](zotero://open-pdf/0_7WCLQD7L/499)
+					- [8.2.2 Window的删除过程](zotero://open-pdf/0_7WCLQD7L/504)
+					- [8.2.3 Window的更新过程](zotero://open-pdf/0_7WCLQD7L/508)
+				- [8.3 Window的创建过程](zotero://open-pdf/0_7WCLQD7L/511)
+					- [8.3.1 Activity的Window创建过程](zotero://open-pdf/0_7WCLQD7L/511)
+					- [8.3.2 Dialog的Window创建过程](zotero://open-pdf/0_7WCLQD7L/517)
+					- [8.3.3 Toast的Window创建过程](zotero://open-pdf/0_7WCLQD7L/521)
+			- [第9章 四大组件的工作过程](zotero://open-pdf/0_7WCLQD7L/45)
+				- [9.1 四大组件的运行状态](zotero://open-pdf/0_7WCLQD7L/532)
+				- [9.2 Activity的工作过程](zotero://open-pdf/0_7WCLQD7L/535)
+				- [9.3 Service的工作过程](zotero://open-pdf/0_7WCLQD7L/568)
+					- [9.3.1 Service的启动过程](zotero://open-pdf/0_7WCLQD7L/568)
+					- [9.3.2 Service的绑定过程](zotero://open-pdf/0_7WCLQD7L/581)
+				- [9.4 BroadcastReceiver的工作过程](zotero://open-pdf/0_7WCLQD7L/596)
+					- [9.4.1 广播的注册过程](zotero://open-pdf/0_7WCLQD7L/597)
+					- [9.4.2 广播的发送和接收过程](zotero://open-pdf/0_7WCLQD7L/603)
+				- [9.5 ContentProvider的工作过程](zotero://open-pdf/0_7WCLQD7L/614)
+			- [第10章 Android的消息机制](zotero://open-pdf/0_7WCLQD7L/45)
+				- [10.1 Android的消息机制概述](zotero://open-pdf/0_7WCLQD7L/633)
+				- [10.2 Android的消息机制分析](zotero://open-pdf/0_7WCLQD7L/636)
+					- [10.2.1 ThreadLocal的工作原理](zotero://open-pdf/0_7WCLQD7L/636)
+					- [10.2.2 消息队列的工作原理](zotero://open-pdf/0_7WCLQD7L/643)
+					- [10.2.3 Looper的工作原理](zotero://open-pdf/0_7WCLQD7L/648)
+					- [10.2.4 Handler的工作原理](zotero://open-pdf/0_7WCLQD7L/653)
+				- [10.3 主线程的消息循环](zotero://open-pdf/0_7WCLQD7L/659)
+			- [第11章 Android的线程和线程池](zotero://open-pdf/0_7WCLQD7L/64)
+				- [11.1 主线程和子线程](zotero://open-pdf/0_7WCLQD7L/665)
+				- [11.2 Android中的线程形态](zotero://open-pdf/0_7WCLQD7L/666)
+					- [11.2.1 AsyncTask](zotero://open-pdf/0_7WCLQD7L/666)
+					- [11.2.2 AsyncTask的工作原理](zotero://open-pdf/0_7WCLQD7L/670)
+					- [11.2.3 HandlerThread](zotero://open-pdf/0_7WCLQD7L/681)
+					- [11.2.4 IntentService](zotero://open-pdf/0_7WCLQD7L/682)
+				- [11.3 Android中的线程池](zotero://open-pdf/0_7WCLQD7L/688)
+					- [11.3.1 ThreadPoolExecutor](zotero://open-pdf/0_7WCLQD7L/688)
+					- [11.3.2 线程池的分类](zotero://open-pdf/0_7WCLQD7L/693)
+			- [第12章 Bitmap的加载和Cache](zotero://open-pdf/0_7WCLQD7L/64)
+				- [12.1 Bitmap的高效加载](zotero://open-pdf/0_7WCLQD7L/701)
+				- [12.2 Android中的缓存策略](zotero://open-pdf/0_7WCLQD7L/706)
+					- [12.2.1 LruCache](zotero://open-pdf/0_7WCLQD7L/707)
+					- [12.2.2 DiskLruCache](zotero://open-pdf/0_7WCLQD7L/710)
+					- [12.2.3 ImageLoader的实现](zotero://open-pdf/0_7WCLQD7L/717)
+				- [12.3 ImageLoader的使用](zotero://open-pdf/0_7WCLQD7L/746)
+					- [12.3.1 照片墙效果](zotero://open-pdf/0_7WCLQD7L/746)
+					- [12.3.2 优化列表的卡顿现象](zotero://open-pdf/0_7WCLQD7L/756)
+			- [第13章 综合技术](zotero://open-pdf/0_7WCLQD7L/66)
+				- [13.1 使用CrashHandler来获取应用的crash信息](zotero://open-pdf/0_7WCLQD7L/762)
+				- [13.2 使用multidex来解决方法数越界](zotero://open-pdf/0_7WCLQD7L/772)
+				- [13.3 Android的动态加载技术](zotero://open-pdf/0_7WCLQD7L/759)
+				- [13.4 反编译初步](zotero://open-pdf/0_7WCLQD7L/759)
+					- [13.4.1 使用dex2jar和jd-gui反编译apk](zotero://open-pdf/0_7WCLQD7L/759)
+					- [13.4.2 使用apktool对apk进行二次打包](zotero://open-pdf/0_7WCLQD7L/759)
+			- [第14章 JNI和NDK编程](zotero://open-pdf/0_7WCLQD7L/3)
+				- [14.1 JNI的开发流程](zotero://open-pdf/0_7WCLQD7L/809)
+				- [14.2 NDK的开发流程](zotero://open-pdf/0_7WCLQD7L/816)
+				- [14.3 JNI的数据类型和类型签名](zotero://open-pdf/0_7WCLQD7L/825)
+				- [14.4 JNI调用Java方法的流程](zotero://open-pdf/0_7WCLQD7L/828)
+			- [第15章 Android性能优化](zotero://open-pdf/0_7WCLQD7L/3)
+				- [15.1 Android的性能优化方法](zotero://open-pdf/0_7WCLQD7L/834)
+					- [15.1.1 布局优化](zotero://open-pdf/0_7WCLQD7L/834)
+					- [15.1.2 绘制优化](zotero://open-pdf/0_7WCLQD7L/838)
+					- [15.1.3 内存泄露优化](zotero://open-pdf/0_7WCLQD7L/839)
+					- [15.1.4 响应速度优化和ANR日志分析](zotero://open-pdf/0_7WCLQD7L/843)
+					- [15.1.5 ListView和Bitmap优化](zotero://open-pdf/0_7WCLQD7L/851)
+					- [15.1.6 线程优化](zotero://open-pdf/0_7WCLQD7L/852)
+					- [15.1.7 一些性能优化建议](zotero://open-pdf/0_7WCLQD7L/852)
+				- [15.2 内存泄露分析之MAT工具](zotero://open-pdf/0_7WCLQD7L/853)
+				- [15.3 提高程序的可维护性](zotero://open-pdf/0_7WCLQD7L/859)
+			- [反侵权盗版声明](zotero://open-pdf/0_7WCLQD7L/84)
+		- [Android面试知识大全.pdf](zotero://open-pdf/0_LBA3MLCP/1)
+		  collapsed:: true
+			- [2019 年百度 Android 面试题-公共技术点](zotero://open-pdf/0_LBA3MLCP/1)
+				- [1\. View 树的绘图流程](zotero://open-pdf/0_LBA3MLCP/1)
+				- [2\. 概念](zotero://open-pdf/0_LBA3MLCP/2)
+				- [3\. measure 核心方法](zotero://open-pdf/0_LBA3MLCP/5)
+				- [4\. layout 相关概念及核心方法](zotero://open-pdf/0_LBA3MLCP/10)
+				- [5\. 绘制流程相关概念及核心方法](zotero://open-pdf/0_LBA3MLCP/12)
+			- [你和你的女神之间，差了一个 OpenCV 口](zotero://open-pdf/0_LBA3MLCP/21)
+				- [先用番茄做个实验](zotero://open-pdf/0_LBA3MLCP/27)
+				- [进入正题!人像口红色号识别](zotero://open-pdf/0_LBA3MLCP/38)
+				- [误差分析](zotero://open-pdf/0_LBA3MLCP/44)
+				- [实时人像口红色号预测](zotero://open-pdf/0_LBA3MLCP/46)
+			- [AndroidBAT高级面试合集](zotero://open-pdf/0_LBA3MLCP/49)
+				- [一.详细说说 Binder 通信原理与机制](zotero://open-pdf/0_LBA3MLCP/49)
+					- [Binder 跨进程通信模型](zotero://open-pdf/0_LBA3MLCP/50)
+					- [Binder 通信原理](zotero://open-pdf/0_LBA3MLCP/52)
+					- [总结](zotero://open-pdf/0_LBA3MLCP/53)
+				- [二.Linux 自 带 多 种 进 程 通 信 方 式 ， 为 什 么](zotero://open-pdf/0_LBA3MLCP/55)
+					- [管道](zotero://open-pdf/0_LBA3MLCP/55)
+					- [消息队列](zotero://open-pdf/0_LBA3MLCP/56)
+					- [共享内存](zotero://open-pdf/0_LBA3MLCP/56)
+					- [套接字.信号量.信号](zotero://open-pdf/0_LBA3MLCP/57)
+					- [从 5 个角度来展开对 Binder 的分析](zotero://open-pdf/0_LBA3MLCP/57)
+						- [(1) 从性能的角度](zotero://open-pdf/0_LBA3MLCP/57)
+						- [(2) 从稳定性的角度](zotero://open-pdf/0_LBA3MLCP/58)
+						- [(3) 从安全的角度](zotero://open-pdf/0_LBA3MLCP/58)
+						- [(4）从语言层面的角度](zotero://open-pdf/0_LBA3MLCP/60)
+						- [(5) 从公司战略的角度](zotero://open-pdf/0_LBA3MLCP/60)
+				- [三.进程保活如何做到，你们保活率有多高](zotero://open-pdf/0_LBA3MLCP/62)
+					- [进程优先级](zotero://open-pdf/0_LBA3MLCP/62)
+					- [进程被 kill 的场景](zotero://open-pdf/0_LBA3MLCP/64)
+					- [进程唤醒](zotero://open-pdf/0_LBA3MLCP/73)
+					- [总结](zotero://open-pdf/0_LBA3MLCP/75)
+				- [四.谈一谈 Binder 的原理和实现一次拷贝的流](zotero://open-pdf/0_LBA3MLCP/76)
+					- [linux下传统的进程间通信原理](zotero://open-pdf/0_LBA3MLCP/76)
+					- [Binder 跨进程通信原理](zotero://open-pdf/0_LBA3MLCP/80)
+					- [Binder 通信模型](zotero://open-pdf/0_LBA3MLCP/83)
+					- [Binder 通信中的代理模式](zotero://open-pdf/0_LBA3MLCP/88)
+					- [Binder 的完整定义](zotero://open-pdf/0_LBA3MLCP/89)
+					- [手动编码实现跨进程调用](zotero://open-pdf/0_LBA3MLCP/90)
+				- [五.ButterKnife 为什么执行效率为什么比其他](zotero://open-pdf/0_LBA3MLCP/98)
+					- [Butterknife 注解处理器的例子](zotero://open-pdf/0_LBA3MLCP/100)
+					- [自定义注解处理器](zotero://open-pdf/0_LBA3MLCP/100)
+					- [添加注解](zotero://open-pdf/0_LBA3MLCP/102)
+					- [注解处理器](zotero://open-pdf/0_LBA3MLCP/103)
+					- [初始化](zotero://open-pdf/0_LBA3MLCP/105)
+					- [处理注解](zotero://open-pdf/0_LBA3MLCP/107)
+					- [生成类文件](zotero://open-pdf/0_LBA3MLCP/108)
+					- [调用生成类的方法](zotero://open-pdf/0_LBA3MLCP/109)
+					- [使用生成类](zotero://open-pdf/0_LBA3MLCP/110)
+					- [调试](zotero://open-pdf/0_LBA3MLCP/111)
+				- [六.组件化如何实现，组件化与插件化的差别在](zotero://open-pdf/0_LBA3MLCP/113)
+					- [组件化](zotero://open-pdf/0_LBA3MLCP/113)
+					- [插件化](zotero://open-pdf/0_LBA3MLCP/113)
+				- [七.说下组件之间的跳转和组件通信原理机制](zotero://open-pdf/0_LBA3MLCP/116)
+					- [思维导图](zotero://open-pdf/0_LBA3MLCP/116)
+					- [事件总线](zotero://open-pdf/0_LBA3MLCP/119)
+					- [组件总线](zotero://open-pdf/0_LBA3MLCP/119)
+					- [接口+路由](zotero://open-pdf/0_LBA3MLCP/121)
+					- [页面跳转](zotero://open-pdf/0_LBA3MLCP/124)
+					- [ARouter](zotero://open-pdf/0_LBA3MLCP/124)
+					- [ActivityRouter](zotero://open-pdf/0_LBA3MLCP/125)
+					- [小结](zotero://open-pdf/0_LBA3MLCP/125)
+				- [八.有没有使用过组件化，组件化通信如何做到](zotero://open-pdf/0_LBA3MLCP/127)
+					- [组件化](zotero://open-pdf/0_LBA3MLCP/127)
+					- [组件化通信](zotero://open-pdf/0_LBA3MLCP/128)
+					- [ARouter 组件通信框架](zotero://open-pdf/0_LBA3MLCP/129)
+					- [典型应用场景](zotero://open-pdf/0_LBA3MLCP/131)
+					- [基础功能](zotero://open-pdf/0_LBA3MLCP/131)
+					- [进阶用法](zotero://open-pdf/0_LBA3MLCP/133)
+					- [更多功能](zotero://open-pdf/0_LBA3MLCP/142)
+					- [附录](zotero://open-pdf/0_LBA3MLCP/144)
+				- [九.插件化你是如何理解的](zotero://open-pdf/0_LBA3MLCP/145)
+					- [插件化原理](zotero://open-pdf/0_LBA3MLCP/145)
+					- [资源加载](zotero://open-pdf/0_LBA3MLCP/146)
+					- [Activity 插件化](zotero://open-pdf/0_LBA3MLCP/147)
+					- [加载插件中的类](zotero://open-pdf/0_LBA3MLCP/148)
+					- [处理插件 Activity 的启动](zotero://open-pdf/0_LBA3MLCP/150)
+					- [处理插件 Activity 的生命周期](zotero://open-pdf/0_LBA3MLCP/154)
+					- [加载插件中的资源](zotero://open-pdf/0_LBA3MLCP/156)
+					- [插件工程](zotero://open-pdf/0_LBA3MLCP/158)
+					- [测试](zotero://open-pdf/0_LBA3MLCP/158)
+					- [总结](zotero://open-pdf/0_LBA3MLCP/159)
+				- [十.热修复连环炮(热修复是什么 有接触过](zotero://open-pdf/0_LBA3MLCP/160)
+					- [Tinker 源码分析](zotero://open-pdf/0_LBA3MLCP/161)
+					- [Tinker 原理](zotero://open-pdf/0_LBA3MLCP/167)
+					- [Tinker 源码分析之加载补丁 Patch 流程](zotero://open-pdf/0_LBA3MLCP/169)
+					- [Tinker 源码分析之合成补丁 Patch 流程](zotero://open-pdf/0_LBA3MLCP/178)
+				- [十一.增量升级为什么减少升级代价，增量升级原](zotero://open-pdf/0_LBA3MLCP/191)
+					- [什么是增量更新？](zotero://open-pdf/0_LBA3MLCP/191)
+					- [增量升级优势在哪里？](zotero://open-pdf/0_LBA3MLCP/191)
+					- [增量更新的原理](zotero://open-pdf/0_LBA3MLCP/192)
+					- [安装](zotero://open-pdf/0_LBA3MLCP/200)
+					- [增量更新的缺点](zotero://open-pdf/0_LBA3MLCP/203)
+				- [十二.PackageManagerService 运行流程详解](zotero://open-pdf/0_LBA3MLCP/205)
+					- [一概述](zotero://open-pdf/0_LBA3MLCP/206)
+						- [PKMS 启动](zotero://open-pdf/0_LBA3MLCP/207)
+					- [二.PKMS.main](zotero://open-pdf/0_LBA3MLCP/209)
+						- [2.1PMS\_START](zotero://open-pdf/0_LBA3MLCP/210)
+						- [2.2PMS\_SYSTEM\_SCAN\_START](zotero://open-pdf/0_LBA3MLCP/218)
+						- [2.3PMS\_DATA\_SCAN\_START](zotero://open-pdf/0_LBA3MLCP/228)
+						- [2.4PMS\_SCAN\_END](zotero://open-pdf/0_LBA3MLCP/231)
+						- [2.5PMS\_READY](zotero://open-pdf/0_LBA3MLCP/233)
+					- [三.操作 PKMS](zotero://open-pdf/0_LBA3MLCP/236)
+						- [3.1 getPackageManager](zotero://open-pdf/0_LBA3MLCP/236)
+					- [四. 总结](zotero://open-pdf/0_LBA3MLCP/247)
+						- [4.1 核心文件](zotero://open-pdf/0_LBA3MLCP/247)
+						- [4.2 dexopt](zotero://open-pdf/0_LBA3MLCP/248)
+				- [十三.AMS 在 Android 起到什么作用，简单的分析](zotero://open-pdf/0_LBA3MLCP/251)
+					- [概述](zotero://open-pdf/0_LBA3MLCP/251)
+					- [1\. 初识 ActivityManagerService 总结](zotero://open-pdf/0_LBA3MLCP/252)
+					- [2\. startActivity](zotero://open-pdf/0_LBA3MLCP/253)
+					- [3\. 广播处理总结](zotero://open-pdf/0_LBA3MLCP/258)
+					- [4\. startService 流程图](zotero://open-pdf/0_LBA3MLCP/259)
+					- [5\. AMS 中的进程管理](zotero://open-pdf/0_LBA3MLCP/262)
+					- [6\. App 的 Crash 处理总结](zotero://open-pdf/0_LBA3MLCP/263)
+				- [十四.你知道什么是 AOP 吗？AOP 与 OOP 有什么](zotero://open-pdf/0_LBA3MLCP/266)
+					- [一.AOP 概念](zotero://open-pdf/0_LBA3MLCP/266)
+						- [（1）AOP 与 OOP 的关系](zotero://open-pdf/0_LBA3MLCP/267)
+						- [（2）AOP 主要应用场景](zotero://open-pdf/0_LBA3MLCP/267)
+						- [（3）主要目标](zotero://open-pdf/0_LBA3MLCP/267)
+					- [二.AOP 代码注入时机](zotero://open-pdf/0_LBA3MLCP/269)
+					- [三.AOP 的几种实现方式](zotero://open-pdf/0_LBA3MLCP/270)
+					- [四.Android 中使用 AspectJ](zotero://open-pdf/0_LBA3MLCP/270)
+					- [五.总结](zotero://open-pdf/0_LBA3MLCP/276)
+				- [十五.手机 QQ 的换肤是怎么做到的，你对换肤有](zotero://open-pdf/0_LBA3MLCP/277)
+					- [1.load 包](zotero://open-pdf/0_LBA3MLCP/286)
+					- [2.base 包](zotero://open-pdf/0_LBA3MLCP/293)
+				- [十六.Android(虚拟机)内存模型](zotero://open-pdf/0_LBA3MLCP/299)
+					- [堆内存模型](zotero://open-pdf/0_LBA3MLCP/299)
+					- [可回收对象的判定](zotero://open-pdf/0_LBA3MLCP/300)
+					- [几种垃圾回收算法](zotero://open-pdf/0_LBA3MLCP/302)
+					- [深入理解分代回收算法](zotero://open-pdf/0_LBA3MLCP/305)
+					- [触发 GC 的类型](zotero://open-pdf/0_LBA3MLCP/308)
+				- [十七.数据库版本如何单独升级，并且将原有数据](zotero://open-pdf/0_LBA3MLCP/309)
+					- [数据库升级](zotero://open-pdf/0_LBA3MLCP/309)
+					- [数据库的迁移](zotero://open-pdf/0_LBA3MLCP/312)
+					- [多个数据库版本的升级](zotero://open-pdf/0_LBA3MLCP/313)
+				- [十八.谈谈 volatile 关键字与 synchronized 关键字](zotero://open-pdf/0_LBA3MLCP/317)
+				- [十九.synchronize 关键字在虚拟机执行原理是什](zotero://open-pdf/0_LBA3MLCP/322)
+					- [锁的内存语义](zotero://open-pdf/0_LBA3MLCP/322)
+					- [synchronized 锁](zotero://open-pdf/0_LBA3MLCP/323)
+					- [Mutex Lock](zotero://open-pdf/0_LBA3MLCP/324)
+					- [Java 对象头](zotero://open-pdf/0_LBA3MLCP/326)
+					- [锁优化](zotero://open-pdf/0_LBA3MLCP/326)
+					- [轻量级锁](zotero://open-pdf/0_LBA3MLCP/329)
+					- [重量级锁](zotero://open-pdf/0_LBA3MLCP/331)
+					- [偏向锁、轻量级锁、重量级锁之间转换](zotero://open-pdf/0_LBA3MLCP/331)
+					- [其他锁优化](zotero://open-pdf/0_LBA3MLCP/333)
+					- [锁粗化](zotero://open-pdf/0_LBA3MLCP/334)
+					- [自旋锁与自适应自旋锁](zotero://open-pdf/0_LBA3MLCP/335)
+					- [总结](zotero://open-pdf/0_LBA3MLCP/336)
+				- [二十.类比于微信，如何对 Apk 进行极限压缩,谈](zotero://open-pdf/0_LBA3MLCP/338)
+					- [分析 APK 资源占用](zotero://open-pdf/0_LBA3MLCP/338)
+					- [优化 APK 体积八大步](zotero://open-pdf/0_LBA3MLCP/339)
+						- [1\. 将图片转换为 webp 格式](zotero://open-pdf/0_LBA3MLCP/339)
+						- [2\. 去除多语言](zotero://open-pdf/0_LBA3MLCP/341)
+						- [3\. 去除不必要 so 库](zotero://open-pdf/0_LBA3MLCP/341)
+						- [4\. 去除无用资源 Link 检查（谨慎删除）](zotero://open-pdf/0_LBA3MLCP/342)
+						- [5\. 开启混淆](zotero://open-pdf/0_LBA3MLCP/343)
+						- [6.移除无用资源 shinkResource](zotero://open-pdf/0_LBA3MLCP/344)
+						- [7.开启删除无用资源 (严格模式和普通模式)](zotero://open-pdf/0_LBA3MLCP/345)
+						- [8\. AndResGuard 微信资源压缩方案](zotero://open-pdf/0_LBA3MLCP/347)
+				- [二十一.如何彻底防止反编译，dex 加密怎么做](zotero://open-pdf/0_LBA3MLCP/351)
+					- [原理解析](zotero://open-pdf/0_LBA3MLCP/351)
+					- [项目案例](zotero://open-pdf/0_LBA3MLCP/355)
+					- [运行程序](zotero://open-pdf/0_LBA3MLCP/371)
+				- [二十二.序 列 化 与 反 序 列 化 的 原 理 ， Android 的](zotero://open-pdf/0_LBA3MLCP/374)
+					- [一.序列化与反序列化](zotero://open-pdf/0_LBA3MLCP/374)
+					- [二.Serializable 接口](zotero://open-pdf/0_LBA3MLCP/374)
+					- [三.Parcelable 接口](zotero://open-pdf/0_LBA3MLCP/377)
+					- [四. Parcelable 和 Serializable 的区别](zotero://open-pdf/0_LBA3MLCP/379)
+				- [二十三.有设计过 App 的数据库框架吗?或者只是停](zotero://open-pdf/0_LBA3MLCP/381)
+					- [优点：](zotero://open-pdf/0_LBA3MLCP/383)
+					- [使用注意事项：](zotero://open-pdf/0_LBA3MLCP/384)
+				- [二十四.Android P 禁止了 http 对你们有影响吗？](zotero://open-pdf/0_LBA3MLCP/385)
+				- [二十五.什么是对称加密，什么是非对称加密，公钥](zotero://open-pdf/0_LBA3MLCP/393)
+				- [二十六.之前有做过直播吗?你们是通过什么方式实](zotero://open-pdf/0_LBA3MLCP/395)
+					- [视频直播流程](zotero://open-pdf/0_LBA3MLCP/395)
+						- [1.采集](zotero://open-pdf/0_LBA3MLCP/395)
+						- [2.处理](zotero://open-pdf/0_LBA3MLCP/396)
+						- [3.编码和封装](zotero://open-pdf/0_LBA3MLCP/396)
+						- [4.推流到服务器](zotero://open-pdf/0_LBA3MLCP/397)
+						- [5.服务器流分发](zotero://open-pdf/0_LBA3MLCP/398)
+						- [6.播放器流播放](zotero://open-pdf/0_LBA3MLCP/398)
+					- [第一部分：采集推流 SDK](zotero://open-pdf/0_LBA3MLCP/398)
+					- [第二部分：Nginx 服务器搭建](zotero://open-pdf/0_LBA3MLCP/418)
+					- [第三部分：直播流的播放](zotero://open-pdf/0_LBA3MLCP/419)
+				- [二十七.腾讯课堂-直播中 网速比较差的条件](zotero://open-pdf/0_LBA3MLCP/420)
+					- [1 编码优化](zotero://open-pdf/0_LBA3MLCP/421)
+					- [2 传输协议优化](zotero://open-pdf/0_LBA3MLCP/422)
+					- [3 传输网络优化](zotero://open-pdf/0_LBA3MLCP/423)
+					- [4 推流、播放优化](zotero://open-pdf/0_LBA3MLCP/423)
+				- [二十八.腾讯课堂-硬编码与软编码区别，录屏时如](zotero://open-pdf/0_LBA3MLCP/425)
+					- [视频编码器的选择](zotero://open-pdf/0_LBA3MLCP/425)
+						- [1MediaCodec（硬编）](zotero://open-pdf/0_LBA3MLCP/426)
+					- [2 FFMpeg+x264/openh264（软编）](zotero://open-pdf/0_LBA3MLCP/431)
+				- [二十九.对于 Tersorflow 你怎么理解的，有做过人工](zotero://open-pdf/0_LBA3MLCP/434)
+					- [一.数据集的收集](zotero://open-pdf/0_LBA3MLCP/434)
+					- [二.数据集的处理](zotero://open-pdf/0_LBA3MLCP/436)
+						- [2.1.缩放图片](zotero://open-pdf/0_LBA3MLCP/436)
+						- [2.2把图片转成 .h5 文件](zotero://open-pdf/0_LBA3MLCP/437)
+					- [三.训练模型](zotero://open-pdf/0_LBA3MLCP/439)
+					- [四..在 Android Studio 中调用训练好的模型](zotero://open-pdf/0_LBA3MLCP/447)
+				- [三十.给你一个 Demo 你如何快速定位 ANR](zotero://open-pdf/0_LBA3MLCP/450)
+					- [一.前期基础知识储备](zotero://open-pdf/0_LBA3MLCP/450)
+					- [二.ANR 定位方式及优化](zotero://open-pdf/0_LBA3MLCP/451)
+					- [三.辅助处理 ANR 问题的工具](zotero://open-pdf/0_LBA3MLCP/457)
+				- [三十一.Handler 中有 Loop 死循环.为什么没有阻塞](zotero://open-pdf/0_LBA3MLCP/460)
+					- [问题](zotero://open-pdf/0_LBA3MLCP/460)
+					- [1.Looper 死循环为什么不会导致应用卡死？](zotero://open-pdf/0_LBA3MLCP/461)
+					- [2.主线程的消息循环机制是什么？](zotero://open-pdf/0_LBA3MLCP/464)
+					- [3.ActivityThread 的动力是什么？](zotero://open-pdf/0_LBA3MLCP/468)
+					- [4.Handler如何能够线程切换](zotero://open-pdf/0_LBA3MLCP/468)
+					- [5.子线程有哪些更新 UI 的方法。](zotero://open-pdf/0_LBA3MLCP/470)
+					- [6.子线程中 Toast，showDialog，的方法。](zotero://open-pdf/0_LBA3MLCP/474)
+					- [7.如何处理 Handler 使用不当导致的内存泄露？](zotero://open-pdf/0_LBA3MLCP/479)
+				- [三十二.说说你对 Dalvik 虚拟机的认识 与 Java 虚拟](zotero://open-pdf/0_LBA3MLCP/483)
+					- [1 什么是 Dalvik 虚拟机](zotero://open-pdf/0_LBA3MLCP/483)
+					- [2 Dalvik 虚拟机的功能](zotero://open-pdf/0_LBA3MLCP/483)
+					- [3 Dalvik 虚拟机和 Java 虚拟机的区别](zotero://open-pdf/0_LBA3MLCP/484)
+					- [4 Dalvik 系统结构](zotero://open-pdf/0_LBA3MLCP/485)
+						- [4.1 dex 文件结构](zotero://open-pdf/0_LBA3MLCP/486)
+						- [4.2 Dalvik 类加载器](zotero://open-pdf/0_LBA3MLCP/487)
+						- [4.3 Dalvik 解释器](zotero://open-pdf/0_LBA3MLCP/489)
+						- [4.4 内存管理](zotero://open-pdf/0_LBA3MLCP/489)
+						- [4.5 Dalvik 的启动流程](zotero://open-pdf/0_LBA3MLCP/490)
+					- [5\. Android 的启动](zotero://open-pdf/0_LBA3MLCP/491)
+				- [三十三.为什么会用到 EventBus,EventBus 的源码详](zotero://open-pdf/0_LBA3MLCP/493)
+					- [EventBus 需要解决的问题](zotero://open-pdf/0_LBA3MLCP/493)
+					- [EventBus 带来的好处和引入的问题](zotero://open-pdf/0_LBA3MLCP/494)
+					- [EventBus 源码解析](zotero://open-pdf/0_LBA3MLCP/495)
+				- [三十四.谈谈你对 Android 线程池原理的理解](zotero://open-pdf/0_LBA3MLCP/507)
+					- [1.简介](zotero://open-pdf/0_LBA3MLCP/507)
+					- [2.继承体系](zotero://open-pdf/0_LBA3MLCP/507)
+					- [3.原理分析](zotero://open-pdf/0_LBA3MLCP/508)
+						- [3.1 核心参数分析](zotero://open-pdf/0_LBA3MLCP/508)
+						- [3.2 重要操作](zotero://open-pdf/0_LBA3MLCP/512)
+					- [4.几种线程池](zotero://open-pdf/0_LBA3MLCP/520)
+				- [三十五.谈下音视频同步原理，音频和视频能绝对同](zotero://open-pdf/0_LBA3MLCP/521)
+					- [以 fflay 来看音视频同步流程](zotero://open-pdf/0_LBA3MLCP/521)
+					- [delay 的计算](zotero://open-pdf/0_LBA3MLCP/525)
+				- [三十六.有做过直播特效吗? 说说直播特效的实现](zotero://open-pdf/0_LBA3MLCP/529)
+					- [直播特效的实现原理](zotero://open-pdf/0_LBA3MLCP/530)
+					- [开发中的难点](zotero://open-pdf/0_LBA3MLCP/531)
+						- [1.缺乏可扩展性、灵活性](zotero://open-pdf/0_LBA3MLCP/531)
+						- [2.需要大量修改源码](zotero://open-pdf/0_LBA3MLCP/532)
+						- [3.性能与功耗问题](zotero://open-pdf/0_LBA3MLCP/532)
+						- [4.硬件兼容性问题](zotero://open-pdf/0_LBA3MLCP/532)
+			- [算法合集](zotero://open-pdf/0_LBA3MLCP/533)
+				- [一.Hash](zotero://open-pdf/0_LBA3MLCP/533)
+				- [二.最小生成树算法](zotero://open-pdf/0_LBA3MLCP/534)
+				- [三. 最短路径算法](zotero://open-pdf/0_LBA3MLCP/536)
+				- [四. KMP 算法](zotero://open-pdf/0_LBA3MLCP/537)
+				- [五.查找算法](zotero://open-pdf/0_LBA3MLCP/538)
+					- [顺序查找](zotero://open-pdf/0_LBA3MLCP/539)
+					- [折半查找](zotero://open-pdf/0_LBA3MLCP/539)
+					- [分块查找](zotero://open-pdf/0_LBA3MLCP/540)
+				- [六.排序算法](zotero://open-pdf/0_LBA3MLCP/541)
+					- [常见排序算法](zotero://open-pdf/0_LBA3MLCP/541)
+						- [稳定排序](zotero://open-pdf/0_LBA3MLCP/541)
+						- [不稳定排序](zotero://open-pdf/0_LBA3MLCP/541)
+						- [交换排序](zotero://open-pdf/0_LBA3MLCP/541)
+						- [冒泡排序](zotero://open-pdf/0_LBA3MLCP/542)
+						- [快速排序](zotero://open-pdf/0_LBA3MLCP/542)
+						- [插入排序](zotero://open-pdf/0_LBA3MLCP/545)
+						- [希尔排序](zotero://open-pdf/0_LBA3MLCP/545)
+						- [选择排序](zotero://open-pdf/0_LBA3MLCP/546)
+						- [归并排序](zotero://open-pdf/0_LBA3MLCP/549)
+						- [基数排序](zotero://open-pdf/0_LBA3MLCP/550)
+						- [拓扑排序](zotero://open-pdf/0_LBA3MLCP/553)
+				- [七.跳跃表](zotero://open-pdf/0_LBA3MLCP/553)
+					- [实现](zotero://open-pdf/0_LBA3MLCP/554)
+			- [面试专题合集](zotero://open-pdf/0_LBA3MLCP/560)
+				- [一.线程、多线程和线程池面试专题](zotero://open-pdf/0_LBA3MLCP/560)
+					- [1、开启线程的三种方式？](zotero://open-pdf/0_LBA3MLCP/560)
+					- [2、run()和 start()方法区别](zotero://open-pdf/0_LBA3MLCP/560)
+					- [3、如何控制某个方法允许并发访问线程的个数？](zotero://open-pdf/0_LBA3MLCP/561)
+					- [4、在 Java 中 wait 和 seelp 方法的不同](zotero://open-pdf/0_LBA3MLCP/561)
+					- [5、谈谈 wait/notify 关键字的理解](zotero://open-pdf/0_LBA3MLCP/561)
+					- [6、什么导致线程阻塞？](zotero://open-pdf/0_LBA3MLCP/562)
+					- [7､线程如何关闭？](zotero://open-pdf/0_LBA3MLCP/563)
+					- [8、讲一下 java 中的同步的方法](zotero://open-pdf/0_LBA3MLCP/564)
+					- [9、如何保证线程安全？](zotero://open-pdf/0_LBA3MLCP/565)
+					- [10、两个进程同时要求写或者读，能不能实现？如何防止进程的同步？](zotero://open-pdf/0_LBA3MLCP/566)
+					- [11、线程间操作 List](zotero://open-pdf/0_LBA3MLCP/566)
+					- [12、Java 中对象的生命周期](zotero://open-pdf/0_LBA3MLCP/567)
+					- [13、static synchronized 方法的多线程访问和作用](zotero://open-pdf/0_LBA3MLCP/567)
+					- [14、同一个类里面两个 synchronized 方法，两个线程同时访问的问题](zotero://open-pdf/0_LBA3MLCP/568)
+					- [15、volatile 的原理](zotero://open-pdf/0_LBA3MLCP/568)
+					- [16、synchronized 原理](zotero://open-pdf/0_LBA3MLCP/568)
+					- [17、谈谈 NIO 的理解](zotero://open-pdf/0_LBA3MLCP/569)
+				- [二.Android 面试帮助篇](zotero://open-pdf/0_LBA3MLCP/572)
+					- [1、要做一个尽可能流畅的 ListView](zotero://open-pdf/0_LBA3MLCP/572)
+					- [2、对于 Android 的安全问题，你知道多少](zotero://open-pdf/0_LBA3MLCP/572)
+					- [3、如何缩减 APK 包大小？](zotero://open-pdf/0_LBA3MLCP/572)
+					- [4、Android 与服务器交互的方式中的对称加密和非对称加密是什么?](zotero://open-pdf/0_LBA3MLCP/573)
+					- [5、设备横竖屏切换的时候，接下来会发生什么？](zotero://open-pdf/0_LBA3MLCP/573)
+					- [6、Android 启动 Service 的两种方式是什么? 它们的适用情况是什么?](zotero://open-pdf/0_LBA3MLCP/574)
+					- [7、谈谈你对 Android 中 Context 的理解?](zotero://open-pdf/0_LBA3MLCP/574)
+					- [8、Service 的 onCreate 回调在 UI 线程中吗？](zotero://open-pdf/0_LBA3MLCP/574)
+					- [9、请介绍下 AsyncTask 的内部实现，适用的场景是？](zotero://open-pdf/0_LBA3MLCP/574)
+					- [10、谈谈你对 binder 机制的理解?](zotero://open-pdf/0_LBA3MLCP/575)
+					- [11、Android 中进程间通信有哪些实现方式？](zotero://open-pdf/0_LBA3MLCP/575)
+					- [12、介绍下实现一个自定义 view 的基本流程](zotero://open-pdf/0_LBA3MLCP/575)
+					- [13、Android 中 touch 事件的传递机制是怎样的?](zotero://open-pdf/0_LBA3MLCP/575)
+					- [14、Android 多线程的实现方式有哪些?](zotero://open-pdf/0_LBA3MLCP/576)
+					- [15、Android 开发中何时使用多进程？使用多进程的好处是什么？](zotero://open-pdf/0_LBA3MLCP/576)
+					- [16、ANR 是什么？怎样避免和解决 ANR?](zotero://open-pdf/0_LBA3MLCP/577)
+					- [17、Android 下解决滑动冲突的常见思路是什么?](zotero://open-pdf/0_LBA3MLCP/578)
+					- [18、如何把一个应用设置为系统应用？](zotero://open-pdf/0_LBA3MLCP/578)
+					- [19、Android 内存泄露研究](zotero://open-pdf/0_LBA3MLCP/578)
+					- [20、内存泄露检测有什么好方法？](zotero://open-pdf/0_LBA3MLCP/579)
+				- [三.Android 面试常见 58 题](zotero://open-pdf/0_LBA3MLCP/582)
+				- [四.初级面试专题（中小厂）](zotero://open-pdf/0_LBA3MLCP/593)
+					- [1、导致内存泄露的原因有哪些？](zotero://open-pdf/0_LBA3MLCP/593)
+					- [2、理解 Activity，View,Window 三者关系](zotero://open-pdf/0_LBA3MLCP/594)
+					- [3、Handler 的原理](zotero://open-pdf/0_LBA3MLCP/594)
+					- [4、View，ViewGroup 事件分发](zotero://open-pdf/0_LBA3MLCP/594)
+					- [5、onNewIntent()什么时候调用?(singleTask)](zotero://open-pdf/0_LBA3MLCP/595)
+					- [6、mvc 和 mvp mvvm](zotero://open-pdf/0_LBA3MLCP/595)
+					- [7、自定义控件](zotero://open-pdf/0_LBA3MLCP/596)
+					- [8、Serializable 和 Parcelable 的区别](zotero://open-pdf/0_LBA3MLCP/596)
+				- [五.小知识](zotero://open-pdf/0_LBA3MLCP/597)
+					- [1.面向对象和面向过程的区别](zotero://open-pdf/0_LBA3MLCP/597)
+					- [2\. Java 语言有哪些特点](zotero://open-pdf/0_LBA3MLCP/597)
+					- [3\. 关于 JVM JDK 和 JRE 最详细通俗的解答](zotero://open-pdf/0_LBA3MLCP/598)
+					- [4\. Oracle JDK 和 OpenJDK 的对比](zotero://open-pdf/0_LBA3MLCP/600)
+					- [5\. Java 和 C++的区别](zotero://open-pdf/0_LBA3MLCP/601)
+					- [6\. 什么是 Java 程序的主类 应用程序和小程序的主](zotero://open-pdf/0_LBA3MLCP/602)
+					- [7\. Java 应用程序与小程序之间有那些差别](zotero://open-pdf/0_LBA3MLCP/602)
+					- [8\. 字符型常量和字符串常量的区别](zotero://open-pdf/0_LBA3MLCP/602)
+					- [9\. 构造器 Constructor 是否可被 override](zotero://open-pdf/0_LBA3MLCP/603)
+					- [10\. 重载和重写的区别](zotero://open-pdf/0_LBA3MLCP/603)
+					- [11\. Java 面向对象编程三大特性: 封装 继承 多态](zotero://open-pdf/0_LBA3MLCP/604)
+					- [12\. String StringBuffer 和 StringBuilder 的区别](zotero://open-pdf/0_LBA3MLCP/604)
+					- [13\. 自动装箱与拆箱](zotero://open-pdf/0_LBA3MLCP/606)
+					- [14\. 在一个静态方法内调用一个非静态成员为什么是](zotero://open-pdf/0_LBA3MLCP/606)
+					- [15\. 在 Java 中定义一个不做事且没有参数的构造](zotero://open-pdf/0_LBA3MLCP/606)
+					- [16\. import java 和 javax 有什么区别](zotero://open-pdf/0_LBA3MLCP/607)
+					- [17\. 接口和抽象类的区别是什么](zotero://open-pdf/0_LBA3MLCP/607)
+					- [18\. 成员变量与局部变量的区别有那些](zotero://open-pdf/0_LBA3MLCP/607)
+					- [19\. 创建一个对象用什么运算符?对象实体与对象引](zotero://open-pdf/0_LBA3MLCP/608)
+					- [20\. 什么是方法的返回值?返回值在类的方法里的作](zotero://open-pdf/0_LBA3MLCP/608)
+					- [21\. 一个类的构造方法的作用是什么 若一个类没有](zotero://open-pdf/0_LBA3MLCP/608)
+					- [22\. 构造方法有哪些特性](zotero://open-pdf/0_LBA3MLCP/608)
+					- [23\. 静态方法和实例方法有何不同](zotero://open-pdf/0_LBA3MLCP/609)
+					- [24\. 对象的相等与指向他们的引用相等，两者有什么](zotero://open-pdf/0_LBA3MLCP/609)
+					- [25\. 在调用子类构造方法之前会先调用父类没有参数](zotero://open-pdf/0_LBA3MLCP/609)
+					- [26\. == 与 equals(重要)](zotero://open-pdf/0_LBA3MLCP/609)
+					- [27.hashCode 与 equals（重要）](zotero://open-pdf/0_LBA3MLCP/610)
+					- [28\. 为什么 Java 中只有值传递](zotero://open-pdf/0_LBA3MLCP/612)
+					- [29\. 简述线程，程序、进程的基本概念。以及他们之](zotero://open-pdf/0_LBA3MLCP/612)
+					- [30\. 线程有哪些基本状态?](zotero://open-pdf/0_LBA3MLCP/613)
+					- [31 关于 final 关键字的一些总结](zotero://open-pdf/0_LBA3MLCP/613)
+					- [32.Java 中的异常处理](zotero://open-pdf/0_LBA3MLCP/613)
+					- [33.Java 序列化中如果有些字段不想进行序列化 怎](zotero://open-pdf/0_LBA3MLCP/616)
+					- [进行序列化 怎](zotero://open-pdf/0_LBA3MLCP/616)
+				- [六.2019Android 设计模式总结](zotero://open-pdf/0_LBA3MLCP/618)
+					- [1\. 设计模式六大原则](zotero://open-pdf/0_LBA3MLCP/618)
+					- [2\. 设计模式的分类](zotero://open-pdf/0_LBA3MLCP/618)
+				- [七.数据结构面试专题](zotero://open-pdf/0_LBA3MLCP/620)
+					- [1、常用数据结构简介](zotero://open-pdf/0_LBA3MLCP/620)
+					- [2、并发集合了解哪些？](zotero://open-pdf/0_LBA3MLCP/620)
+					- [3、列举 java 的集合以及集合之间的继承关系](zotero://open-pdf/0_LBA3MLCP/621)
+					- [4.容器类介绍以及之间的区别](zotero://open-pdf/0_LBA3MLCP/621)
+					- [5.List,Set,Map 的区别](zotero://open-pdf/0_LBA3MLCP/622)
+					- [6.HashMap 的实现原理](zotero://open-pdf/0_LBA3MLCP/622)
+						- [6.1 HashMap 如何 put 数据（从 HashMap 源码角度讲解）？](zotero://open-pdf/0_LBA3MLCP/623)
+						- [6.2 HashMap 如何 get 数据？](zotero://open-pdf/0_LBA3MLCP/623)
+						- [6.3 当两个对象的 hashcode 相同，即发生碰撞时，HashMap 如何处理](zotero://open-pdf/0_LBA3MLCP/623)
+						- [6.4 如果两个键的 hashcode 相同，如何获取值对象？](zotero://open-pdf/0_LBA3MLCP/623)
+						- [6.5 hashMap 如何扩容](zotero://open-pdf/0_LBA3MLCP/623)
+					- [7.ConcurrentHashMap 的实现原理](zotero://open-pdf/0_LBA3MLCP/624)
+					- [8.ArrayMap 和 HashMap 的对比](zotero://open-pdf/0_LBA3MLCP/624)
+					- [9.HashTable 实现原理](zotero://open-pdf/0_LBA3MLCP/625)
+					- [10.HashMap 和 HashTable 的区别](zotero://open-pdf/0_LBA3MLCP/625)
+					- [11.HashMap 与 HashSet 的区别](zotero://open-pdf/0_LBA3MLCP/626)
+					- [12.HashSet 与 HashMap 怎么判断集合元素重复](zotero://open-pdf/0_LBA3MLCP/626)
+					- [13.集合 Set 实现 Hash 怎么防止碰撞](zotero://open-pdf/0_LBA3MLCP/626)
+					- [14.ArrayList 和 LinkedList 的区别，以及应用场景](zotero://open-pdf/0_LBA3MLCP/626)
+				- [八.小问题小问答](zotero://open-pdf/0_LBA3MLCP/628)
+				- [九.2019Android 网络编程总结](zotero://open-pdf/0_LBA3MLCP/631)
+					- [1\. 网络分层](zotero://open-pdf/0_LBA3MLCP/631)
+					- [2\. TCP/IP 五层模型](zotero://open-pdf/0_LBA3MLCP/631)
+					- [3\. 三次握手与四次挥手](zotero://open-pdf/0_LBA3MLCP/631)
+					- [4\. TCP 为什么三次握手不是两次握手，为什么两次握手不安全](zotero://open-pdf/0_LBA3MLCP/631)
+					- [5\. 为什么 TCP 是可靠的，UDP 早不可靠的?为什么 UDP 比 TCP 快?](zotero://open-pdf/0_LBA3MLCP/632)
+					- [6\. http 协议](zotero://open-pdf/0_LBA3MLCP/632)
+					- [7\. http 的 get 和 post 的区别](zotero://open-pdf/0_LBA3MLCP/632)
+					- [8\. socket 和 http 的区别](zotero://open-pdf/0_LBA3MLCP/633)
+					- [9\. TCP 与 UDP 区别总结](zotero://open-pdf/0_LBA3MLCP/634)
+					- [10\. https](zotero://open-pdf/0_LBA3MLCP/634)
+						- [1\. 对称加密：](zotero://open-pdf/0_LBA3MLCP/635)
+						- [2\. 非对称加密](zotero://open-pdf/0_LBA3MLCP/635)
+					- [11\. 加密算法](zotero://open-pdf/0_LBA3MLCP/636)
+						- [1\. 对称加密算法](zotero://open-pdf/0_LBA3MLCP/636)
+						- [2\. 非对称加密算法](zotero://open-pdf/0_LBA3MLCP/637)
+					- [12\. Volley](zotero://open-pdf/0_LBA3MLCP/638)
+						- [1、 Volley 的特点](zotero://open-pdf/0_LBA3MLCP/638)
+						- [2、 Volley 执行的过程](zotero://open-pdf/0_LBA3MLCP/638)
+						- [3、 Volley 为什么不适合下载上传大文件？为什么适合数据量小的频率高的请](zotero://open-pdf/0_LBA3MLCP/638)
+					- [13\. OKHttp](zotero://open-pdf/0_LBA3MLCP/639)
+						- [1、 OKHttp 的特点](zotero://open-pdf/0_LBA3MLCP/639)
+						- [2、 OkHttp 的缺点](zotero://open-pdf/0_LBA3MLCP/639)
+						- [3、 OkHttp 框架中都用到了哪些设计模式](zotero://open-pdf/0_LBA3MLCP/640)
+					- [14\. Retrofit](zotero://open-pdf/0_LBA3MLCP/640)
+						- [1、 原理](zotero://open-pdf/0_LBA3MLCP/640)
+						- [2、 Retrofit 流程](zotero://open-pdf/0_LBA3MLCP/640)
+						- [3、 Retrofit 优点](zotero://open-pdf/0_LBA3MLCP/640)
+				- [十.Android 源码相关面试专题](zotero://open-pdf/0_LBA3MLCP/642)
+					- [1、Android 属性动画实现原理](zotero://open-pdf/0_LBA3MLCP/642)
+					- [2、补间动画实现原理](zotero://open-pdf/0_LBA3MLCP/646)
+					- [3、Android 各个版本 API 的区别](zotero://open-pdf/0_LBA3MLCP/650)
+					- [4、Requestlayout，onlayout，onDraw，DrawChild 区别与联系](zotero://open-pdf/0_LBA3MLCP/651)
+					- [5、invalidate 和 postInvalidate 的区别及使用](zotero://open-pdf/0_LBA3MLCP/651)
+					- [6、Activity-Window-View 三者的差别](zotero://open-pdf/0_LBA3MLCP/653)
+					- [7、谈谈对 Volley 的理解](zotero://open-pdf/0_LBA3MLCP/654)
+					- [8、如何优化自定义 View](zotero://open-pdf/0_LBA3MLCP/654)
+					- [9、低版本 SDK 如何实现高版本 api？](zotero://open-pdf/0_LBA3MLCP/654)
+					- [10、描述一次网络请求的流程](zotero://open-pdf/0_LBA3MLCP/655)
+					- [11、HttpUrlConnection 和 okhttp 关系](zotero://open-pdf/0_LBA3MLCP/657)
+			- [高端技术面试试题](zotero://open-pdf/0_LBA3MLCP/660)
+				- [一.图片](zotero://open-pdf/0_LBA3MLCP/660)
+					- [1、图片库对比](zotero://open-pdf/0_LBA3MLCP/660)
+					- [2、LRUCache 原理](zotero://open-pdf/0_LBA3MLCP/660)
+					- [3、图片加载原理](zotero://open-pdf/0_LBA3MLCP/660)
+					- [4、自己去实现图片库，怎么做？](zotero://open-pdf/0_LBA3MLCP/660)
+					- [5、Glide 源码解析](zotero://open-pdf/0_LBA3MLCP/660)
+					- [6、Glide 使用什么缓存？](zotero://open-pdf/0_LBA3MLCP/661)
+					- [7、Glide 内存缓存如何控制大小？](zotero://open-pdf/0_LBA3MLCP/662)
+				- [二.网络和安全机制](zotero://open-pdf/0_LBA3MLCP/662)
+				- [三.数据库](zotero://open-pdf/0_LBA3MLCP/664)
+				- [四.算法](zotero://open-pdf/0_LBA3MLCP/664)
+				- [五.插件化、模块化、组件化、热修复、增量更新、Gradle](zotero://open-pdf/0_LBA3MLCP/665)
+				- [六.架构设计和设计模式](zotero://open-pdf/0_LBA3MLCP/666)
+				- [七.性能优化](zotero://open-pdf/0_LBA3MLCP/668)
+				- [八.NDK、jni、Binder、AIDL、进程通信有关](zotero://open-pdf/0_LBA3MLCP/669)
+				- [九.framework 层、ROM 定制、Ubuntu、Linux 之类的问题](zotero://open-pdf/0_LBA3MLCP/670)
+			- [混合开发面试试题](zotero://open-pdf/0_LBA3MLCP/671)
+			- [2019Android View 总结](zotero://open-pdf/0_LBA3MLCP/672)
+				- [1\. View 的滑动方式](zotero://open-pdf/0_LBA3MLCP/672)
+				- [2\. View 的事件分发机制](zotero://open-pdf/0_LBA3MLCP/672)
+				- [3\. View 的加载流程](zotero://open-pdf/0_LBA3MLCP/673)
+				- [4\. View 的 measure layout 和 draw 流程](zotero://open-pdf/0_LBA3MLCP/673)
+				- [5\. 自定义 view 需要注意的几点](zotero://open-pdf/0_LBA3MLCP/676)
+			- [Android 面试常问基础知识点](zotero://open-pdf/0_LBA3MLCP/678)
+				- [1、四大组件是什么](zotero://open-pdf/0_LBA3MLCP/678)
+				- [2、四大组件的生命周期和简单用法](zotero://open-pdf/0_LBA3MLCP/678)
+				- [3、Activity 之间的通信方式](zotero://open-pdf/0_LBA3MLCP/679)
+				- [4、Activity 各种情况下的生命周期](zotero://open-pdf/0_LBA3MLCP/679)
+				- [5、横竖屏切换的时候，Activity 各种情况下的生命周期](zotero://open-pdf/0_LBA3MLCP/680)
+				- [6、Activity 与 Fragment 之间生命周期比较](zotero://open-pdf/0_LBA3MLCP/680)
+				- [7、Activity 上有 Dialog 的时候按 Home 键时的生命周期](zotero://open-pdf/0_LBA3MLCP/681)
+				- [8、两个 Activity 之间跳转时必然会执行的是哪几个方法](zotero://open-pdf/0_LBA3MLCP/681)
+				- [9、前台切换到后台，然后再回到前台，Activity 生命周期回调方法。弹出 Dialog，生命值周](zotero://open-pdf/0_LBA3MLCP/681)
+				- [10、Activity 的四种启动模式对比](zotero://open-pdf/0_LBA3MLCP/681)
+				- [11、Activity 状态保存于恢复](zotero://open-pdf/0_LBA3MLCP/681)
+				- [12、fragment 各种情况下的生命周期](zotero://open-pdf/0_LBA3MLCP/682)
+				- [13、Fragment 状态保存 onSaveInstanceState 是哪个类的方法，在什么情况下使用？](zotero://open-pdf/0_LBA3MLCP/682)
+				- [14、Fragment.startActivityForResult 是和 FragmentActivity 的 startActivityForResult？](zotero://open-pdf/0_LBA3MLCP/682)
+				- [15、如何实现 Fragment 的滑动？](zotero://open-pdf/0_LBA3MLCP/682)
+				- [16、fragment 之间传递数据的方式？](zotero://open-pdf/0_LBA3MLCP/682)
+				- [17、service 和 activity 怎么进行数据交互？](zotero://open-pdf/0_LBA3MLCP/683)
+				- [18、说说 ContentProvider、ContentResolver、ContentObserver 之间的关系](zotero://open-pdf/0_LBA3MLCP/683)
+				- [19、请描述一下广播 BroadcastReceiver 的理解](zotero://open-pdf/0_LBA3MLCP/683)
+				- [20、广播的分类](zotero://open-pdf/0_LBA3MLCP/683)
+				- [21、广播使用的方式和场景](zotero://open-pdf/0_LBA3MLCP/683)
+				- [22、在 manifest 和代码中如何注册和使用 BroadcastReceiver?](zotero://open-pdf/0_LBA3MLCP/684)
+				- [23、本地广播和全局广播有什么差别？](zotero://open-pdf/0_LBA3MLCP/684)
+				- [24、AlertDialog,popupWindow,Activity 区别](zotero://open-pdf/0_LBA3MLCP/684)
+				- [25、Application 和 Activity 的 Context 对象的区别](zotero://open-pdf/0_LBA3MLCP/685)
+			- [java 深入源码级的面试题](zotero://open-pdf/0_LBA3MLCP/686)
+				- [1、哪些情况下的对象会被垃圾回收机制处理掉？](zotero://open-pdf/0_LBA3MLCP/686)
+					- [1.1 哪些对象可以被看做是 GC Roots 呢？](zotero://open-pdf/0_LBA3MLCP/686)
+					- [1.2 对象不可达，一定会被垃圾收集器回收么？](zotero://open-pdf/0_LBA3MLCP/686)
+				- [2、讲一下常见编码方式？](zotero://open-pdf/0_LBA3MLCP/686)
+				- [3、utf-8 编码中的中文占几个字节；int 型几个字节？](zotero://open-pdf/0_LBA3MLCP/687)
+				- [4、静态代理和动态代理的区别，什么场景使用？](zotero://open-pdf/0_LBA3MLCP/687)
+				- [5、Java 的异常体系](zotero://open-pdf/0_LBA3MLCP/687)
+				- [6、谈谈你对解析与分派的认识](zotero://open-pdf/0_LBA3MLCP/687)
+				- [7、修改对象 A 的 equals 方法的签名，那么使用 HashMap 存放这个对象实例的时候，会调](zotero://open-pdf/0_LBA3MLCP/688)
+				- [8、Java 中实现多态的机制是什么？](zotero://open-pdf/0_LBA3MLCP/688)
+				- [9、如何将一个 Java 对象序列化到文件里？](zotero://open-pdf/0_LBA3MLCP/688)
+				- [10、说说你对 Java 反射的理解](zotero://open-pdf/0_LBA3MLCP/688)
+				- [11、说说你对 Java 注解的理解](zotero://open-pdf/0_LBA3MLCP/689)
+				- [12、说一下泛型原理，并举例说明](zotero://open-pdf/0_LBA3MLCP/690)
+				- [13、Java 中 String 的了解](zotero://open-pdf/0_LBA3MLCP/690)
+				- [14、String 为什么要设计成不可变的？](zotero://open-pdf/0_LBA3MLCP/690)
+			- [Android 中高级面试题](zotero://open-pdf/0_LBA3MLCP/692)
+				- [1、Activity 生命周期？](zotero://open-pdf/0_LBA3MLCP/692)
+				- [2、Service 生命周期？](zotero://open-pdf/0_LBA3MLCP/692)
+				- [3、Activity 的启动过程（不要回答生命周期）](zotero://open-pdf/0_LBA3MLCP/692)
+				- [4、Broadcast 注册方式与区别](zotero://open-pdf/0_LBA3MLCP/693)
+				- [5、HttpClient 与 HttpUrlConnection 的区别](zotero://open-pdf/0_LBA3MLCP/693)
+				- [6、java 虚拟机和 Dalvik 虚拟机的区别](zotero://open-pdf/0_LBA3MLCP/694)
+				- [7、进程保活（不死进程）](zotero://open-pdf/0_LBA3MLCP/694)
+				- [8、讲解一下 Context](zotero://open-pdf/0_LBA3MLCP/696)
+				- [9、理解 Activity，View,Window 三者关系](zotero://open-pdf/0_LBA3MLCP/697)
+				- [10、四种 LaunchMode 及其使用场景](zotero://open-pdf/0_LBA3MLCP/697)
+				- [11、View 的绘制流程](zotero://open-pdf/0_LBA3MLCP/698)
+				- [12、View，ViewGroup 事件分发](zotero://open-pdf/0_LBA3MLCP/699)
+				- [13、保存 Activity 状态](zotero://open-pdf/0_LBA3MLCP/700)
+				- [14、Android 中的几种动画](zotero://open-pdf/0_LBA3MLCP/700)
+				- [15、Android 中跨进程通讯的几种方式](zotero://open-pdf/0_LBA3MLCP/700)
+				- [16、AIDL 理解](zotero://open-pdf/0_LBA3MLCP/701)
+				- [17、Handler 的原理](zotero://open-pdf/0_LBA3MLCP/701)
+				- [18、Binder 机制原理](zotero://open-pdf/0_LBA3MLCP/702)
+				- [19、热修复的原理](zotero://open-pdf/0_LBA3MLCP/702)
+				- [20、Android 内存泄露及管理](zotero://open-pdf/0_LBA3MLCP/703)
+				- [21、Fragment 与 Fragment、Activity 通信的方式](zotero://open-pdf/0_LBA3MLCP/704)
+				- [22、Android UI 适配](zotero://open-pdf/0_LBA3MLCP/704)
+				- [23、app 优化](zotero://open-pdf/0_LBA3MLCP/704)
+				- [24、图片优化](zotero://open-pdf/0_LBA3MLCP/707)
+				- [25、HybridApp WebView 和 JS 交互](zotero://open-pdf/0_LBA3MLCP/707)
+				- [26、JAVA GC 原理](zotero://open-pdf/0_LBA3MLCP/708)
+				- [27、ANR](zotero://open-pdf/0_LBA3MLCP/708)
+				- [28、设计模式](zotero://open-pdf/0_LBA3MLCP/709)
+				- [29、RxJava](zotero://open-pdf/0_LBA3MLCP/711)
+				- [30、MVP，MVC，MVVM](zotero://open-pdf/0_LBA3MLCP/711)
+				- [31、手写算法（选择冒泡必须要会）](zotero://open-pdf/0_LBA3MLCP/711)
+				- [32、JNI](zotero://open-pdf/0_LBA3MLCP/711)
+				- [33、RecyclerView 和 ListView 的区别](zotero://open-pdf/0_LBA3MLCP/711)
+				- [34、Universal-ImageLoader，Picasso，Fresco，Glide 对比](zotero://open-pdf/0_LBA3MLCP/712)
+				- [35、Xutils, OKhttp, Volley, Retrofit 对比](zotero://open-pdf/0_LBA3MLCP/715)
+			- [Java小知识](zotero://open-pdf/0_LBA3MLCP/716)
+				- [1、线程中 sleep 和 wait 的区别](zotero://open-pdf/0_LBA3MLCP/716)
+				- [2、Thread 中的 start()和 run()方法有什么区别](zotero://open-pdf/0_LBA3MLCP/716)
+				- [3、关键字 final 和 static 是怎么使用的](zotero://open-pdf/0_LBA3MLCP/716)
+				- [4、String,StringBuffer,StringBuilder 区别](zotero://open-pdf/0_LBA3MLCP/717)
+				- [5、Java 中重载和重写的区别：](zotero://open-pdf/0_LBA3MLCP/717)
+				- [6、Http https 区别](zotero://open-pdf/0_LBA3MLCP/718)
+				- [7、Http 位于 TCP/IP 模型中的第几层？为什么说 Http 是可靠的数据传输协议？](zotero://open-pdf/0_LBA3MLCP/719)
+				- [8、HTTP 链接的特点](zotero://open-pdf/0_LBA3MLCP/719)
+				- [9、TCP 和 UDP 的区别](zotero://open-pdf/0_LBA3MLCP/719)
+				- [10、Socket 建立网络连接的步骤](zotero://open-pdf/0_LBA3MLCP/719)
+				- [11、Tcp／IP 三次握手，四次挥手](zotero://open-pdf/0_LBA3MLCP/720)
+			- [Android 常见原理性面试专题](zotero://open-pdf/0_LBA3MLCP/721)
+				- [1.Handler 机制和底层实现](zotero://open-pdf/0_LBA3MLCP/721)
+				- [2.Handler、Thread 和 HandlerThread 的差别](zotero://open-pdf/0_LBA3MLCP/721)
+			- [何谓悲观锁与乐观锁](zotero://open-pdf/0_LBA3MLCP/725)
+				- [悲观锁](zotero://open-pdf/0_LBA3MLCP/725)
+				- [乐观锁](zotero://open-pdf/0_LBA3MLCP/725)
+				- [两种锁的使用场景](zotero://open-pdf/0_LBA3MLCP/725)
+				- [乐观锁常见的两种实现方式](zotero://open-pdf/0_LBA3MLCP/725)
+					- [1\. 版本号机制](zotero://open-pdf/0_LBA3MLCP/726)
+					- [2\. CAS 算法](zotero://open-pdf/0_LBA3MLCP/727)
+				- [乐观锁的缺点](zotero://open-pdf/0_LBA3MLCP/727)
+					- [1 ABA 问题](zotero://open-pdf/0_LBA3MLCP/727)
+					- [2 循环时间长开销大](zotero://open-pdf/0_LBA3MLCP/728)
+					- [3 只能保证一个共享变量的原子操作](zotero://open-pdf/0_LBA3MLCP/728)
+				- [CAS 与 synchronized 的使用情景](zotero://open-pdf/0_LBA3MLCP/728)
+			- [Android 开发中常见的一些问题面试专题](zotero://open-pdf/0_LBA3MLCP/730)
+			- [Java 基础知识点面试专题](zotero://open-pdf/0_LBA3MLCP/732)
+				- [1、java 中==和 equals 和 hashCode 的区别](zotero://open-pdf/0_LBA3MLCP/732)
+				- [2、int、char、long 各占多少字节数](zotero://open-pdf/0_LBA3MLCP/733)
+				- [3、int 与 integer 的区别](zotero://open-pdf/0_LBA3MLCP/733)
+				- [4、谈谈对 java 多态的理解](zotero://open-pdf/0_LBA3MLCP/734)
+				- [5、String、StringBuffer、StringBuilder 区别](zotero://open-pdf/0_LBA3MLCP/734)
+				- [6、什么是内部类？内部类的作用](zotero://open-pdf/0_LBA3MLCP/734)
+				- [7、抽象类和接口区别](zotero://open-pdf/0_LBA3MLCP/735)
+					- [7.1、抽象类的意义](zotero://open-pdf/0_LBA3MLCP/736)
+					- [7.2、抽象类与接口的应用场景](zotero://open-pdf/0_LBA3MLCP/737)
+					- [7.3、抽象类是否可以没有方法和属性？](zotero://open-pdf/0_LBA3MLCP/737)
+					- [7.4、接口的意义](zotero://open-pdf/0_LBA3MLCP/737)
+				- [8、泛型中 extends 和 super 的区别](zotero://open-pdf/0_LBA3MLCP/738)
+				- [9、父类的静态方法能否被子类重写？静态属性和静态方法是否可以被继承？](zotero://open-pdf/0_LBA3MLCP/738)
+				- [10、进程和线程的区别](zotero://open-pdf/0_LBA3MLCP/738)
+				- [11、final，finally，finalize 的区别](zotero://open-pdf/0_LBA3MLCP/739)
+				- [12、序列化 Serializable 和 Parcelable 的区别](zotero://open-pdf/0_LBA3MLCP/739)
+				- [13、谈谈对 kotlin 的理解](zotero://open-pdf/0_LBA3MLCP/741)
+				- [14、string 转换成 integer 的方式及原理](zotero://open-pdf/0_LBA3MLCP/741)
+			- [2019Android 高级面试题总结](zotero://open-pdf/0_LBA3MLCP/752)
+				- [1.说下你所知道的设计模式与使用场景](zotero://open-pdf/0_LBA3MLCP/752)
+				- [2\. java 语言的特点与 OOP 思想](zotero://open-pdf/0_LBA3MLCP/752)
+				- [3\. 说下 java 中的线程创建方式，线程池的工作原理。](zotero://open-pdf/0_LBA3MLCP/753)
+				- [4\. 说下 handler 原理](zotero://open-pdf/0_LBA3MLCP/753)
+				- [5\. 内存泄漏的场景和解决办法](zotero://open-pdf/0_LBA3MLCP/754)
+				- [6\. 如何避免 OOM?](zotero://open-pdf/0_LBA3MLCP/755)
+				- [7\. 说下 Activity 的启动模式](zotero://open-pdf/0_LBA3MLCP/756)
+				- [8\. onRestart 的调用场景](zotero://open-pdf/0_LBA3MLCP/757)
+				- [9\. 是否了 SurfaceView，它是什么？](zotero://open-pdf/0_LBA3MLCP/758)
+				- [10.如何实现进程保活](zotero://open-pdf/0_LBA3MLCP/758)
+				- [11.说下冷启动与热启动是什么，区别，如何优化，使用场景等](zotero://open-pdf/0_LBA3MLCP/759)
+				- [12\. 为什么冷启动会有白屏黑屏问题？](zotero://open-pdf/0_LBA3MLCP/760)
+				- [13\. Android 中的线程有那些,原理与各自特点](zotero://open-pdf/0_LBA3MLCP/761)
+				- [14\. ANR 的原因](zotero://open-pdf/0_LBA3MLCP/762)
+				- [15\. 三级缓存原理](zotero://open-pdf/0_LBA3MLCP/762)
+				- [16\. LruCache 底层实现原理](zotero://open-pdf/0_LBA3MLCP/762)
+				- [17\. 说下你对 Collection 这个类的理解](zotero://open-pdf/0_LBA3MLCP/762)
+				- [18\. JVM 老年代和新生代的比例](zotero://open-pdf/0_LBA3MLCP/764)
+				- [19\. jvm，jre 以及 jdk 三者之间的关系？](zotero://open-pdf/0_LBA3MLCP/764)
+				- [20\. 谈谈你对 JNIEnv 和 JavaVM 理解？](zotero://open-pdf/0_LBA3MLCP/765)
+				- [21.Serializable 与 Parcable 的区别？](zotero://open-pdf/0_LBA3MLCP/765)
+			- [2019Android 多线程总结](zotero://open-pdf/0_LBA3MLCP/766)
+				- [1\. 什么是线程](zotero://open-pdf/0_LBA3MLCP/766)
+				- [2\. 线程的状态](zotero://open-pdf/0_LBA3MLCP/766)
+				- [3\. 线程的创建](zotero://open-pdf/0_LBA3MLCP/766)
+				- [4\. 线程中断](zotero://open-pdf/0_LBA3MLCP/766)
+				- [5\. Thread 为什么不能用 stop 方法停止线程](zotero://open-pdf/0_LBA3MLCP/767)
+				- [6\. 重入锁与条件对象，同步方法和同步代码块](zotero://open-pdf/0_LBA3MLCP/768)
+				- [7\. volatile 关键字](zotero://open-pdf/0_LBA3MLCP/768)
+				- [8\. java 内存模型](zotero://open-pdf/0_LBA3MLCP/768)
+				- [9\. 原子性 可见性 有序性](zotero://open-pdf/0_LBA3MLCP/768)
+				- [10.线程池 ThreadPoolExecutor](zotero://open-pdf/0_LBA3MLCP/769)
+				- [11.线程池的种类](zotero://open-pdf/0_LBA3MLCP/769)
+				- [12.线程同步机制与原理，举例说明](zotero://open-pdf/0_LBA3MLCP/770)
+				- [13.arrayList 与 linkedList 的读写时间复杂度](zotero://open-pdf/0_LBA3MLCP/771)
+				- [14.为什么 HashMap 线程不安全（hash 碰撞与扩容导致）](zotero://open-pdf/0_LBA3MLCP/771)
+				- [15.进程线程的区别](zotero://open-pdf/0_LBA3MLCP/772)
+				- [16.Binder 的内存拷贝过程](zotero://open-pdf/0_LBA3MLCP/772)
+				- [17.传统 IPC 机制的通信原理（2 次内存拷贝](zotero://open-pdf/0_LBA3MLCP/773)
+				- [18.Java 内存模型（记住堆栈是内存分区，不是模型）](zotero://open-pdf/0_LBA3MLCP/773)
+				- [19.类的加载过程](zotero://open-pdf/0_LBA3MLCP/774)
+				- [20.什么情况下会触发类的初始化](zotero://open-pdf/0_LBA3MLCP/774)
+				- [21.双亲委托模式](zotero://open-pdf/0_LBA3MLCP/774)
+				- [22.双亲委托模式的好处](zotero://open-pdf/0_LBA3MLCP/775)
+				- [23.死锁的产生条件，如何避免死锁](zotero://open-pdf/0_LBA3MLCP/775)
+				- [24.App 启动流程](zotero://open-pdf/0_LBA3MLCP/776)
+				- [25.Android 单线程模型](zotero://open-pdf/0_LBA3MLCP/777)
+				- [26.RecyclerView 在很多方面能取代 ListView，Google 为什么没把](zotero://open-pdf/0_LBA3MLCP/777)
+				- [27.HashMap 如何保证元素均匀分布](zotero://open-pdf/0_LBA3MLCP/777)
+			- [Android面试突破专题课程](zotero://open-pdf/0_LBA3MLCP/778)
+				- [1\. 数据库的操作类型有哪些，如何导入外部数据库？](zotero://open-pdf/0_LBA3MLCP/778)
+				- [2\. 是否使用过本地广播，和全局广播有什么差别？](zotero://open-pdf/0_LBA3MLCP/779)
+				- [3\. 是否使用过 IntentService，作用是什么， AIDL 解决了什么问](zotero://open-pdf/0_LBA3MLCP/780)
+				- [4\. Activity、 Window、 View 三者的差别， fragment 的特点？](zotero://open-pdf/0_LBA3MLCP/780)
+				- [5\. 描述一次网络请求的流程（新浪）](zotero://open-pdf/0_LBA3MLCP/781)
+				- [6\. Handler、 Thread 和 HandlerThread 的差别（小米）](zotero://open-pdf/0_LBA3MLCP/781)
+				- [7\. 低版本 SDK 实现高版本 api（小米）](zotero://open-pdf/0_LBA3MLCP/781)
+				- [8\. launch mode 应用场景（百度、小米、乐视）](zotero://open-pdf/0_LBA3MLCP/781)
+				- [9\. touch 事件传递流程（小米）](zotero://open-pdf/0_LBA3MLCP/782)
+				- [10\. view 绘制流程（百度](zotero://open-pdf/0_LBA3MLCP/782)
+				- [11\. 什么情况导致内存泄漏（美团）](zotero://open-pdf/0_LBA3MLCP/782)
+				- [12\. ANR 定位和修正](zotero://open-pdf/0_LBA3MLCP/782)
+				- [13\. 什么情况导致 oom（乐视、美团）](zotero://open-pdf/0_LBA3MLCP/783)
+				- [14\. Android Service 与 Activity 之间通信的几种方式](zotero://open-pdf/0_LBA3MLCP/784)
+				- [15\. Android 各个版本 API 的区别](zotero://open-pdf/0_LBA3MLCP/784)
+				- [16.如何保证一个后台服务不被杀死,比较省电的方式是什么？（百度）](zotero://open-pdf/0_LBA3MLCP/784)
+				- [17\. Requestlayout， onlayout， onDraw， DrawChild 区别与](zotero://open-pdf/0_LBA3MLCP/784)
+				- [18\. invalidate()和 postInvalidate() 的区别及使用（百度）](zotero://open-pdf/0_LBA3MLCP/784)
+				- [19\. Android 动画框架实现原理（腾讯）](zotero://open-pdf/0_LBA3MLCP/785)
+				- [20\. Android 为每个应用程序分配的内存大小是多少？（美团）](zotero://open-pdf/0_LBA3MLCP/785)
+				- [21\. LinearLayout 对比 RelativeLayout（百度）](zotero://open-pdf/0_LBA3MLCP/785)
+				- [22\. 优化自定义 view（百度、乐视、小米）](zotero://open-pdf/0_LBA3MLCP/786)
+				- [24\. ContentProvider（乐视）](zotero://open-pdf/0_LBA3MLCP/786)
+				- [25.其他](zotero://open-pdf/0_LBA3MLCP/787)
+			- [Android 部分 Fragment 篇](zotero://open-pdf/0_LBA3MLCP/792)
+				- [1.Fragment 为什么会被称为第五大组件？](zotero://open-pdf/0_LBA3MLCP/792)
+					- [1.1 Fragment 加载到 Activity 的 2 种方式](zotero://open-pdf/0_LBA3MLCP/792)
+					- [1.2 Fragment 与 ViewPager 的搭配使用](zotero://open-pdf/0_LBA3MLCP/792)
+				- [2.Fragment 的生命周期](zotero://open-pdf/0_LBA3MLCP/793)
+				- [3.Fragment 的通信](zotero://open-pdf/0_LBA3MLCP/795)
+					- [3.1 在 Fragment 中调用 Activity 中的方法](zotero://open-pdf/0_LBA3MLCP/795)
+					- [3.2 在 Activity 中调用 Fragment 的方法](zotero://open-pdf/0_LBA3MLCP/795)
+					- [3.3 在 Fragment 中调用另外一个 Fragment 的方法](zotero://open-pdf/0_LBA3MLCP/795)
+				- [4.Fragment 的切换方式](zotero://open-pdf/0_LBA3MLCP/796)
+			- [Android 部分 Broadcast 篇](zotero://open-pdf/0_LBA3MLCP/797)
+				- [1.广播是什么](zotero://open-pdf/0_LBA3MLCP/797)
+				- [2 广播的种类](zotero://open-pdf/0_LBA3MLCP/797)
+				- [3.广播接收器](zotero://open-pdf/0_LBA3MLCP/798)
+				- [4.源码角度分析广播机制](zotero://open-pdf/0_LBA3MLCP/801)
+			- [设计模式等等](zotero://open-pdf/0_LBA3MLCP/803)
+				- [1、你所知道的设计模式有哪些？](zotero://open-pdf/0_LBA3MLCP/803)
+				- [2、谈谈 MVC、MVP 和 MVVM，好在哪里，不好在哪里 ？](zotero://open-pdf/0_LBA3MLCP/803)
+				- [3、封装 p 层之后.如果 p 层数据过大,如何解决?](zotero://open-pdf/0_LBA3MLCP/805)
+				- [4、是否能从 Android 中举几个例子说说用到了什么设计模式 ？](zotero://open-pdf/0_LBA3MLCP/806)
+				- [5、装饰模式和代理模式有哪些区别 ？](zotero://open-pdf/0_LBA3MLCP/806)
+				- [6、实现单例模式有几种方法 ？懒汉式中双层锁的目的是什么 ？两次判空的](zotero://open-pdf/0_LBA3MLCP/807)
+				- [7、用到的一些开源框架，介绍一个看过源码的，内部实现过程](zotero://open-pdf/0_LBA3MLCP/807)
+				- [8、Fragment 如果在 Adapter 中使用应该如何解耦？](zotero://open-pdf/0_LBA3MLCP/807)
+			- [Android 进阶延伸点](zotero://open-pdf/0_LBA3MLCP/809)
+				- [1、如何进行单元测试，如何保证 App 稳定 ？](zotero://open-pdf/0_LBA3MLCP/809)
+				- [2、Android 中如何查看一个对象的回收情况 ？](zotero://open-pdf/0_LBA3MLCP/809)
+				- [3、Apk 的大小如何压缩 ？](zotero://open-pdf/0_LBA3MLCP/810)
+				- [4、如何通过 Gradle 配置多渠道包？](zotero://open-pdf/0_LBA3MLCP/812)
+				- [5、插件化原理分析](zotero://open-pdf/0_LBA3MLCP/813)
+				- [6、组件化原理](zotero://open-pdf/0_LBA3MLCP/815)
+				- [7、跨组件通信](zotero://open-pdf/0_LBA3MLCP/817)
+				- [8、组件化中路由、埋点的实现](zotero://open-pdf/0_LBA3MLCP/819)
+				- [9、Hook 以及插桩技术](zotero://open-pdf/0_LBA3MLCP/820)
+				- [10、Android 的签名机制？](zotero://open-pdf/0_LBA3MLCP/821)
+				- [11、v3 签名 key 和 v2 还有 v1 有什么区别](zotero://open-pdf/0_LBA3MLCP/821)
+				- [12、Android5.0~10.0 之间大的变化](zotero://open-pdf/0_LBA3MLCP/823)
+				- [13、说下 Measurepec 这个类](zotero://open-pdf/0_LBA3MLCP/824)
+				- [14、请例举 Android 中常用布局类型，并简述其用法以及排版效率](zotero://open-pdf/0_LBA3MLCP/825)
+				- [15、区别 Animation 和 Animator 的用法，概述其原理](zotero://open-pdf/0_LBA3MLCP/826)
+				- [16、使用过什么图片加载库？Glide 的源码设计哪里很微妙？](zotero://open-pdf/0_LBA3MLCP/827)
+				- [17、如何绕过 9.0 限制？](zotero://open-pdf/0_LBA3MLCP/827)
+				- [18、用过哪些网络加载库？OkHttp、Retrofit 实现原理？](zotero://open-pdf/0_LBA3MLCP/828)
+				- [19、对于应用更新这块是如何做的？ （灰度，强制更新、分区域更新）](zotero://open-pdf/0_LBA3MLCP/828)
+				- [20、会用 Kotlin、Fultter 吗？ 谈谈你的理解](zotero://open-pdf/0_LBA3MLCP/829)
+			- [数据存储](zotero://open-pdf/0_LBA3MLCP/830)
+				- [1、描述一下 Android 数据持久存储方式？](zotero://open-pdf/0_LBA3MLCP/830)
+				- [2、SharedPreferences 的应用场景？注意事项？](zotero://open-pdf/0_LBA3MLCP/830)
+				- [3、SharedPrefrences 的 apply 和 commit 有什么区别？](zotero://open-pdf/0_LBA3MLCP/830)
+				- [4、了解 SQLite 中的事务操作吗？是如何做的](zotero://open-pdf/0_LBA3MLCP/831)
+				- [5、使用 SQLite 做批量操作有什么好的方法吗？](zotero://open-pdf/0_LBA3MLCP/831)
+				- [6、如何删除 SQLite 中表的个别字段](zotero://open-pdf/0_LBA3MLCP/831)
+				- [7、使用 SQLite 时会有哪些优化操作？](zotero://open-pdf/0_LBA3MLCP/831)
+			- [IPC](zotero://open-pdf/0_LBA3MLCP/831)
+				- [1、Android 中进程和线程的关系？ 区别？](zotero://open-pdf/0_LBA3MLCP/831)
+				- [2、如何开启多进程 ？ 应用是否可以开启 N 个进程 ？](zotero://open-pdf/0_LBA3MLCP/832)
+				- [3、为何需要 IPC？多进程通信可能会出现的问题？](zotero://open-pdf/0_LBA3MLCP/832)
+				- [4、Android 中 IPC 方式、各种方式优缺点，为什么选择 Binder？](zotero://open-pdf/0_LBA3MLCP/833)
+				- [5、Binder 机制的作用和原理？](zotero://open-pdf/0_LBA3MLCP/834)
+				- [6、Binder 框架中 ServiceManager 的作用？](zotero://open-pdf/0_LBA3MLCP/836)
+				- [7、Bundle 传递对象为什么需要序列化？Serialzable 和 Parcelable 的区别？](zotero://open-pdf/0_LBA3MLCP/837)
+				- [8、讲讲 AIDL？原理是什么？如何优化多模块都使用 AIDL 的情况？](zotero://open-pdf/0_LBA3MLCP/838)
+			- [View](zotero://open-pdf/0_LBA3MLCP/839)
+				- [1、讲下 View 的绘制流程？](zotero://open-pdf/0_LBA3MLCP/839)
+				- [2、MotionEvent 是什么？包含几种事件？什么条件下会产生？](zotero://open-pdf/0_LBA3MLCP/840)
+				- [3、描述一下 View 事件传递分发机制？](zotero://open-pdf/0_LBA3MLCP/840)
+				- [4、如何解决 View 的事件冲突 ？ 举个开发中遇到的例子 ？](zotero://open-pdf/0_LBA3MLCP/841)
+				- [5、scrollTo()和 scollBy()的区别？](zotero://open-pdf/0_LBA3MLCP/841)
+				- [6、Scroller 是怎么实现 View 的弹性滑动？](zotero://open-pdf/0_LBA3MLCP/842)
+				- [7、 invalidate()和 postInvalidate()的区别 ？](zotero://open-pdf/0_LBA3MLCP/842)
+				- [8、SurfaceView 和 View 的区别？](zotero://open-pdf/0_LBA3MLCP/843)
+				- [9、自定义 View 如何考虑机型适配 ?](zotero://open-pdf/0_LBA3MLCP/843)
+			- [Fragment](zotero://open-pdf/0_LBA3MLCP/844)
+				- [1、谈一谈 Fragment 的生命周期？](zotero://open-pdf/0_LBA3MLCP/844)
+				- [2、谈谈 Activity 和 Fragment 的区别？](zotero://open-pdf/0_LBA3MLCP/844)
+				- [3、Fragment 中 add 与 replace 的区别（Fragment 重叠）](zotero://open-pdf/0_LBA3MLCP/844)
+				- [4、getFragmentManager、getSupportFragmentManager 、](zotero://open-pdf/0_LBA3MLCP/845)
+				- [5、FragmentPagerAdapter 与 FragmentStatePagerAdapter 的区别与使用场景](zotero://open-pdf/0_LBA3MLCP/845)
+			- [Activity 生命周期](zotero://open-pdf/0_LBA3MLCP/847)
+			- [JNI](zotero://open-pdf/0_LBA3MLCP/852)
+				- [1、对 JNI 是否了解](zotero://open-pdf/0_LBA3MLCP/852)
+				- [2、如何加载 NDK 库 ？如何在 JNI 中注册 Native 函数，有几种注册方法 ？](zotero://open-pdf/0_LBA3MLCP/852)
+			- [Android 部分 ContentProvider 篇](zotero://open-pdf/0_LBA3MLCP/854)
+				- [1.内容提供者是什么？](zotero://open-pdf/0_LBA3MLCP/854)
+				- [2.内容提供者的使用](zotero://open-pdf/0_LBA3MLCP/854)
+				- [3.如何创建属于自己应用的内容提供者？](zotero://open-pdf/0_LBA3MLCP/856)
+				- [4.ContentPrivoder 的原理机制](zotero://open-pdf/0_LBA3MLCP/866)
+			- [Bitmap](zotero://open-pdf/0_LBA3MLCP/867)
+				- [1、Bitmap 使用需要注意哪些问题 ？](zotero://open-pdf/0_LBA3MLCP/867)
+				- [2、Bitmap.recycle()会立即回收么？](zotero://open-pdf/0_LBA3MLCP/868)
+				- [3、一张 Bitmap 所占内存以及内存占用的计算](zotero://open-pdf/0_LBA3MLCP/868)
+				- [4、Android 中缓存更新策略 ？](zotero://open-pdf/0_LBA3MLCP/870)
+				- [5、LRU 的原理 ？](zotero://open-pdf/0_LBA3MLCP/870)
+			- [Service](zotero://open-pdf/0_LBA3MLCP/872)
+			- [Broadcast Receiver](zotero://open-pdf/0_LBA3MLCP/875)
+			- [Handler](zotero://open-pdf/0_LBA3MLCP/877)
+				- [1、谈谈消息机制 Handler 作用 ？有哪些要素 ？流程是怎样的 ？](zotero://open-pdf/0_LBA3MLCP/877)
+				- [2、一个线程能否创建多个 Handler，Handler 跟 Looper 之间的对应关](zotero://open-pdf/0_LBA3MLCP/879)
+				- [3、软引用跟弱引用的区别](zotero://open-pdf/0_LBA3MLCP/879)
+				- [4、Handler 引起的内存泄露原因以及最佳解决方案](zotero://open-pdf/0_LBA3MLCP/880)
+				- [5、为什么系统不建议在子线程访问 UI？](zotero://open-pdf/0_LBA3MLCP/881)
+				- [6、Looper 死循环为什么不会导致应用卡死？](zotero://open-pdf/0_LBA3MLCP/882)
+				- [7、使用 Handler 的 postDealy 后消息队列会有什么变化？](zotero://open-pdf/0_LBA3MLCP/882)
+				- [8、可以在子线程直接 new 一个 Handler 吗？怎么做？](zotero://open-pdf/0_LBA3MLCP/882)
+				- [9、Message 可以如何创建？哪种效果更好，为什么？](zotero://open-pdf/0_LBA3MLCP/883)
+			- [线程](zotero://open-pdf/0_LBA3MLCP/885)
+				- [1、线程池的好处？ 四种线程池的使用场景，线程池的几个参数的理解？](zotero://open-pdf/0_LBA3MLCP/885)
+				- [2、Android 中还了解哪些方便线程切换的类？](zotero://open-pdf/0_LBA3MLCP/887)
+				- [3、讲讲 AsyncTask 的原理](zotero://open-pdf/0_LBA3MLCP/887)
+				- [4、IntentService 有什么用 ？](zotero://open-pdf/0_LBA3MLCP/888)
+				- [5、直接在 Activity 中创建一个 thread 跟在 service 中创建一个 thread 之间](zotero://open-pdf/0_LBA3MLCP/888)
+				- [6、ThreadPoolExecutor 的工作策略 ？](zotero://open-pdf/0_LBA3MLCP/889)
+				- [7、Handler、Thread 和 HandlerThread 的差别？](zotero://open-pdf/0_LBA3MLCP/890)
+				- [8、ThreadLocal 的原理](zotero://open-pdf/0_LBA3MLCP/890)
+				- [9、多线程是否一定会高效（优缺点）](zotero://open-pdf/0_LBA3MLCP/892)
+				- [10、多线程中,让你做一个单例,你会怎么做](zotero://open-pdf/0_LBA3MLCP/893)
+				- [11、除了 notify 还有什么方式可以唤醒线程](zotero://open-pdf/0_LBA3MLCP/894)
+				- [12、什么是 ANR ? 什么情况会出现 ANR ？如何避免 ？ 在不看代码的情况](zotero://open-pdf/0_LBA3MLCP/895)
+			- [性能优化](zotero://open-pdf/0_LBA3MLCP/925)
+				- [1、图片的三级缓存中,图片加载到内存中,如果内存快爆了,会发生什么？怎么处](zotero://open-pdf/0_LBA3MLCP/925)
+				- [2、内存中如果加载一张 500\*500 的 png 高清图片.应该是占用多少的内存?](zotero://open-pdf/0_LBA3MLCP/925)
+				- [3、WebView 的性能优化 ?](zotero://open-pdf/0_LBA3MLCP/926)
+				- [4、Bitmap 如何处理大图，如一张 30M 的大图，如何预防 OOM？](zotero://open-pdf/0_LBA3MLCP/927)
+				- [5、内存回收机制与 GC 算法(各种算法的优缺点以及应用场景)；GC 原理时机](zotero://open-pdf/0_LBA3MLCP/929)
+				- [6、内存泄露和内存溢出的区别 ？AS 有什么工具可以检测内存泄露](zotero://open-pdf/0_LBA3MLCP/931)
+				- [7、性能优化,怎么保证应用启动不卡顿? 黑白屏怎么处理?](zotero://open-pdf/0_LBA3MLCP/932)
+				- [8、强引用置为 null，会不会被回收？](zotero://open-pdf/0_LBA3MLCP/934)
+				- [9、ListView 跟 RecyclerView 的区别](zotero://open-pdf/0_LBA3MLCP/934)
+				- [10、ListView 的 adapter 是什么 adapter](zotero://open-pdf/0_LBA3MLCP/936)
+				- [11、LinearLayout、FrameLayout、RelativeLayout 性能对比，为什么？](zotero://open-pdf/0_LBA3MLCP/937)
+			- [基础](zotero://open-pdf/0_LBA3MLCP/896)
+				- [1.Activity 是什么？](zotero://open-pdf/0_LBA3MLCP/896)
+				- [2.Activity 生命周期](zotero://open-pdf/0_LBA3MLCP/896)
+					- [2.1 Activity 的 4 种状态](zotero://open-pdf/0_LBA3MLCP/896)
+					- [2.2 Activity 的生命周期分析](zotero://open-pdf/0_LBA3MLCP/896)
+					- [异常情况下的生命周期](zotero://open-pdf/0_LBA3MLCP/901)
+					- [2.3 一些特殊情况下的生命周期分析](zotero://open-pdf/0_LBA3MLCP/904)
+						- [2.3.1 Activity 的横竖屏切换](zotero://open-pdf/0_LBA3MLCP/904)
+						- [2.3.2 什么时候 Activity 单独走 onPause()不走 onStop()？](zotero://open-pdf/0_LBA3MLCP/906)
+						- [2.3.3 什么时候导致 Activity 的 onDestory()不执行？](zotero://open-pdf/0_LBA3MLCP/907)
+					- [2.4 进程的优先级](zotero://open-pdf/0_LBA3MLCP/907)
+				- [3.Android 任务栈](zotero://open-pdf/0_LBA3MLCP/907)
+				- [4.Activity 的启动模式](zotero://open-pdf/0_LBA3MLCP/908)
+				- [5.Activity 组件之间的通信](zotero://open-pdf/0_LBA3MLCP/914)
+				- [6.scheme 跳转协议](zotero://open-pdf/0_LBA3MLCP/924)
+- 个人笔记
 	-

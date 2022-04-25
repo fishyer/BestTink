@@ -1,2 +1,11 @@
+- [GitHub Actions文档 - GitHub Docs](https://docs.github.com/cn/actions)
 - [GitHub Actions 入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+- GitHub Free	500 MB	2,000分钟
+	- 2000/30=66分钟，每天平均可使用66分钟
+	-
+- 查看自己的使用情况
+	- [Billing](https://github.com/settings/billing)
+-
+-
+-
 -
