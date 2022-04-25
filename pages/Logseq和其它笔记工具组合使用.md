@@ -49,3 +49,4 @@
 		- 很方便一键发布本地MarkDown文件夹到语雀
 	- WorkFlowy
 		- wf导出的大纲很方便导入到logseq里面
+- {{embed [[欢迎加入]]}}
