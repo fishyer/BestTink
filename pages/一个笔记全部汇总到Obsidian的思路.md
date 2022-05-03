@@ -1,0 +1,8 @@
+- ## Flomo-Notion：速记
+	- 感觉Obsidian不是很适合在手机端记录闪念，感觉用flomo在手机上记录起来更爽一点，
+	- Flomo记录的笔记，通过Flomo-Notion自动同步到Notion的数据库里面，然后，通过python脚本管理Notion笔记的方式，下载到本地的Obsidan文件夹下
+- ## 语雀：作为分享的博客
+	- 有js库可以上传obsidian的文件到语雀的数据库下
+- ## Other：其它
+	- Obsidian不像Notion那样有API可以调用，但是，我们可以借助坚果云的WebDav来实现类似的API功能
+	- 可以用python请求WebDav的方式上传或下载到坚果云里面的Obsidank库

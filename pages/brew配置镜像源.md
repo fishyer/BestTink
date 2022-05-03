@@ -1,0 +1,4 @@
+- brew配置镜像源
+- [Homebrew有比较快的源（mirror）吗？ - 知乎](https://www.zhihu.com/question/31360766)
+- [USTC Mirror Help — USTC Mirror Help 文档](https://mirrors.ustc.edu.cn/help/)
+-

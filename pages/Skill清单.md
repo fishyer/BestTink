@@ -1,0 +1,170 @@
+- Skill清单
+- 主要就是自己的技术类的笔记，先在wolai写好，完成品再分享到私人博客网站
+- 自定义IOC框架
+- 自定义ORM框架
+- 自定义RxJava之旅
+- 自定义Handler机制
+- Android-面向Holder编程
+- MVP+单元测试探索
+- 技术
+- Android
+- 1. abd命令备忘
+- 2. 3种消息传递机制的比较：Handler、BroadcastReceiver、EventBus
+- 3. 5种手势工具类
+- 4. 8种ScaleType
+- 5. 9种Interpolator
+- 6. 贝塞尔曲线学习
+- 7. 代理模式实现Android路由框架
+- 8. 仿QQ空间可拉伸头部特效
+- 9. 分组悬停列表-1：简单的Text
+- 10. 分组悬停列表-2：复杂的xml
+- 11. 发布Android Library项目到JCenter
+- 12. 滑动冲突解决方案
+- 13. 流式布局FlowLayout
+- 14. 3种计时器实现方法
+- 15. 案例篇：利用ProtoBuf文件，一键生成Java代码
+- 16. 设置textview中划线效果
+- 17. 属性动画备忘
+- 18. 像对象一样操作SP
+- 19. 友盟分享的那些坑
+- 20. Activity备忘
+- 21. Adapter的封装之路
+- 22. Android Stuidio与Eclipse项目源码之间的互转
+- 23. Android-面向Holder编程
+- 24. Android打包之多版本、多环境、多渠道
+- 25. Android读码计划
+- 26. Android高级大纲
+- 27. Android集成支付宝支付、微信支付、微信分享
+- 28. Android嵌套滑动机制
+- 29. AndroidStudio常用插件
+- 30. AndroidStudio常用快捷键
+- 31. AndroidStudio使用备忘
+- 32. Fragment备忘
+- 33. adb命令备忘
+- 34. 自定义视图-马赛克视图
+- 35. 自定义Behavior,实现滑动卡片
+- 36. Context备忘
+- 37. EditText备忘
+- 38. ListView的每个Item的飞入动画
+- 39. ProGuard备忘
+- 40. TextView备忘
+- 41. View备忘
+- 42. TextView行数监听器
+- 43. View的绘制流程
+- 44. View的手势分发
+- 45. View的学习案例（自定义StepView）
+- 46. ViewGroup的学习案例（自定义伪ViewPager）
+- 47. ViewPager滚动监听
+- 48. ViewPager模板类
+- 49. webview加载html文件
+- kotlin
+- 1. 使用拓展方法+内联函数，干掉模板代码
+- 2. 告别臃肿的Contract接口，kotlin实现极简MVP
+- 3. 异步任务的极简处理
+- Java
+- 1. Java与js交互
+- 3. Java高级大纲
+- 4. Java8新版日期库用法
+- 5. Java-注解
+- 6. Java-线程池
+- 7. Java-类的初始化顺序
+- 8. Java-克隆
+- 9. 定时任务ScheduledExecutorService的示例
+- 10. Java-代理
+- 11. Java-反射
+- 12. Java-泛型
+- 13. json转实体类
+- 14. Json转Map
+- 15. Guava字符串处理：连接，拆分，匹配，格式
+- 16. ScheduleAtFixedRate与Schedule的区别
+- Flutter
+- 1. 解决Flutter的Text的overflow属性不生效的问题
+- 2. Flutter技术调研-20190124
+- 3. Flutter集成到Android项目三部曲
+- 4. Flutter技术调研报告
+- 5. Flutter学习路线
+- Python
+- 1. Python操作MySql数据库
+- 2. Python基本语法
+- 3. Python实现简单爬虫
+- 前端
+- 1. JavaScript基础大纲
+- 2. 红包照片效果
+- 3. Web学习大纲
+- 设计模式与重构
+- 1. 单例模式
+- 2. 设计模式-5种创建型
+- 3. 设计模式-6大设计原则
+- 4. 设计模式-7种结构型
+- 5. 设计模式-11种行为
+- 6. 设计模式概览
+- 7. 重构备忘
+- 8. 我是如何将业务代码写优雅的
+- 算法与数据结构
+- 1. 7种排序算法
+-
+- 1. 二叉查找树图示
+- 2. 数据结构大纲
+- 3. 算法大纲
+- 4. 约瑟夫环问题
+- 5. 用Java实现二叉树
+- 数据库
+- 1. SQLite备忘
+- 2. SQLite使用备忘
+- 常用框架
+- 1. 基于 Volley搭建的网络请求框架和图片加载框架
+- 2. Okhttp基本用法和流程分析
+- 3. OkHttp实现全局过期token自动刷新
+- 4. OkHttp自定义重试次数
+- 5. Picasso源码解析
+- 6. 利用动态代理实现简单的RPC框架
+- 7. 自定义Handler机制
+- 8. 自定义IOC框架
+- 9. 自定义ORM框架
+- 10. 自定义RxJava之旅
+- 11. ButterKnife源码解析
+- 12. 自定义下拉刷新和上拉加载框架
+- 13. AOP系列01：利用ASM动态创建Class
+- 14. MVP+单元测试探索
+- 15. Retrofit基本用法和流程分析
+- 16. RxJava使用场景总结
+- 工具类
+- 1. ServiceFactory工厂类，实现依赖注入
+- 2. 第三方分享工具类
+- 3. 防止重复点击工具类
+- 4. 根据Uri获取文件绝对路径
+- 5. 日期工具类
+- 6. ActivityMonitor.kt
+- 7. StoreProductRichTextView.kt
+- 8. start_money.sh
+- 9. 网络状态工具类
+- 10. 软键盘监听工具类
+- 11. 应用版本工具类
+- 12. Log日志工具类
+- 13. PopupWindow工具类
+- 14. ServiceFactory工厂类，实现依赖注入
+- Git
+- 1. 怎样生成SSH 公钥
+- 2. 如何配置多个SSH
+- 3. 在Android Studio中使用Git进行版本管理
+- 其它
+- 1. 2016年，我的学习之路
+- 2. 常见的技术资源
+- 3. 番茄工作法
+- 4. 各种HelloWorld
+- 5. 搜索技巧
+- 6. 如何成为一个优秀程序员
+- 7. 谈阅读
+- 8. 我的编程知识体系
+- 9. 我的阅读大纲
+- 10. 我的知识管理探索
+- 11. 怎么成为一个架构师
+- 12. 正则表达式备忘
+- 13. 重新开始写博客
+- 14. 值得推荐的付费服务
+- 15. IDEA配置JavaWeb项目
+- 16. MarkDown语法学习
+- 17. 开发六大定律
+- 18. 适合程序员的写作技法
+- 19. Android读书计划
+- 20. REST风格

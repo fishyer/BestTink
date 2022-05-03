@@ -1,0 +1,19 @@
+- Android开发规范
+- > 在这几天改bug的过程中，发现了一些可以优化的地方，在此对我们的编码规范，做一下统一定义（以后我们可以考虑自定义Lint，做静态代码扫描，不符合规范的，一律不可以提交）。以后若发现新的bug或缺陷，都可以补充进来，逐步迭代完善我们的开发规范文档。
+- ## 一、强制级
+	- 1. 所有字符串转数字，都必须做校验
+	- 2. 所有的Fragment和Activity，都必须继承基类
+	- 3. xml中的所有字符串（非tools），都必须定义在strings.xml中，需要的要做好国际化
+	- 4. 所有的LoadingDialog，都必须使用基类中的显示和取消方法
+	- 5. 所有的RpcResponse，都必须先做判空处理
+	- 6. Fragment中的所有getContext/getActivity，都必须使用基类的getBaseActivity
+	- 7. 所有Toast显示，都必须使用ToastUtil工具类，防止连续弹出
+	- 8. 禁止通过 Intent 在 Android 基础组件之间传递大数据
+	- 9. 新建线程时，必须通过线程池工具类提供，不允许在应用中自行显式创建线程，同时做好线程命名，以方便后续调试
+- ## 二、推荐级
+	- 1. 所有的RecyclerView的Adapter，都推荐使用封装好的基类Adapter
+	- 2. 所有的Bean，都推荐使用kotlin定义
+	- 3. 新建的布局，都推荐使用ConstraintLayout约束布局，减少嵌套层级
+	- 4. 所有的Log，都推荐使用LogUtils
+	- 5. 所有的Fragment、Activity、Dialog等，都推荐按模块分包，而不是按类型分包
+	- 6. 推荐所有类不要超过400行，所有方法不要超过40行，如有超过，请考虑重构，多使用AS的重构快捷键

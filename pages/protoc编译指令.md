@@ -1,0 +1,5 @@
+- protoc编译指令
+- protoc -I=%s --descriptor_set_out=%s %s
+- 第一个参数：proto根目录路径
+- 第二个参数：desc输出文件路径
+- 第三个参数：proto文件路径

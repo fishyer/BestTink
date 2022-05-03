@@ -1,0 +1,30 @@
+- Google搜索
+- google常用搜索技巧
+	- site 站点
+	- link 反向链接
+	- inurl
+	- intitle
+- 高级搜索语法
+	- 1. 双引号,精确匹配，示例：`"what is css"`
+	- 2. -,排除关键词，示例：`"LeanCloud"-百度百科`
+	- 3. *,通配符模糊匹配，示例：
+	- 4. site:网址,指定站点，示例：
+	- 5. filetype:文件类型,指定文件类型，下载资料很有用，示例：
+	- 6. ..,搜索数字范围，示例：`如何*一本书`
+	- 7. OR,包含OR两边的任意关键词
+	- 8. AND,返回的结果是包含AND两边的关键词
+	- 9. inurl指令用于搜索查询词出现在URL中的页面
+	- 10. intitle: 指令找到的文件才是更准确的竟争页面
+	- 11. intext: 指返回的页面正文中包含关键词的页面
+	- 12. allintitle：搜索返回的是页面标题中包含多组关键词的文件
+	- 13. allintext：搜索返回的是页面正文中包含多组关键词的页面
+	- 14. related:查询与某个网站相关联或者相类似的页面
+- 参考资料
+	- [blog.jobbole.com](http://blog.jobbole.com/72211/)
+	- [高效搜索信息，你需要掌握这些谷歌搜索技巧](https://nextfe.com/google-search-tips/)
+	- [自从掌握了 Google 和 Baidu 的 16 个高级搜索技巧，再也没有解决不了的 bug 了! - SegmentFault 思否](https://segmentfault.com/a/1190000038432191)
+	- [使用Google搜索引擎的10个搜索技巧_世界只因有你-CSDN博客_怎么用google搜索引擎](https://blog.csdn.net/qq_34033853/article/details/79311303)
+	- [实打实的谷歌搜索技巧（干货满满） - 知乎](https://zhuanlan.zhihu.com/p/25525658)
+	- [最详细的GOOGLE搜索指令大全 - 知乎](https://zhuanlan.zhihu.com/p/136076792)
+	- [15 个提高 Google 搜索效率的小技巧 - 少数派](https://sspai.com/post/34150)
+	- [精选12个最实用的GOOGLE搜索技巧 - 外贸主动开发，买家关键人信息，邮件群发营销——麦穗搜索](https://www.51wheatsearch.com/gugejiqiao)

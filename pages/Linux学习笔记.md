@@ -1,0 +1,41 @@
+- Linux学习笔记
+- Mac本地配置LNMP环境、go、redis、monggodb
+- ssh登录免输入密码
+	- ssh -p 27638 root@104.128.88.110
+	- [COMPLETE] 5EBRVmKT1SHg
+	- CDX42WxZczxw
+	- 1-在自己的电脑上生成SSH密钥和公钥
+		- ssh-keygen -b 4096 -t rsa -C "fishyer"
+		- rsa和ed25519对比
+			- 结论
+				- 优先选择ed25519，否则选择rsa
+			- 参考资料
+				- [RSA，DSA，ECDSA，EdDSA和Ed25519的区别 - Librarookie - 博客园](https://www.cnblogs.com/cure/p/15389876.html)
+	- 2-将SSH公钥上传到Linux服务器
+		- ssh-copy-id -i ~/.ssh/id_rsa.pub -p 27638 root@104.128.88.110
+		- SSH公钥保存在远程Linux服务器的.ssh/authorized_keys文件中
+	- #FAQ
+		- 注意生成密钥的邮箱和登录ssh的账号比如root，没有关联，之前被别人的博客误导了
+		- centos7开启ssh服务
+			- 检查ssh服务状态
+				- service ssh status
+			- 安装ssh服务
+				- yum install openssh
+			- 查看ssh服务路径
+				- service ssh start
+			- 启动sh服务
+				- /etc/init.d/sshd start
+			- " https://diigo.com/0n2skp
+		- centos7设置中文man
+			- 查找man中文安装包
+				- yum list |grep man.*zh
+			- 执行安装命令
+				- yum install man-pages-zh-CN.noarch
+			- 编辑配置文件使中文包生效
+				- vi .bashrc
+					- alias cman='man -M /usr//share/man/zh_CN'
+				- 在命令行执行，为了使刚刚添加的alias生效
+					- source .bashrc
+			- 将/etc/locale.conf文件修改为LANG="zh_CN.UTF-8"
+				- 注销重启！
+			- " https://diigo.com/0n2sjd

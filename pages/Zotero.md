@@ -1,0 +1,15 @@
+- zotero插件
+	- zotfile
+		- 回复 @Johnny学 :哈希值问题可以用zotfile解决​
+		- 回复 @Johnny学 :就获取信息来说citation，更方便，zotero内置pdf阅读生成的链接是zotero的索引，不是跳转链接，这是真的痛点，一步工作变得至少两步​
+	- jasminum
+	- Mdnotes
+	- Better BibTex
+	- citation
+	- ZoteroQuickLook
+- zotero文献导入
+- zotero rss订阅
+- https://rsshub.app/zhihu/people/pins/yu-tian-ran
+- 请问你的那个最近7天的个性化搜索分类是怎么创建的啊？我在zotero没有找到。
+- Sweigart Al. Python编程快速上手—让繁琐工作自动化. San Francisco: No Starch Press, 2015.
+-

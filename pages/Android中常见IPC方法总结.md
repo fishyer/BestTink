@@ -1,0 +1,2 @@
+- Android中常见IPC方法总结
+- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210717180208.png)

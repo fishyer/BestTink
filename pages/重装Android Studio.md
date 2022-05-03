@@ -1,0 +1,20 @@
+- 下载AS
+	- [Download Android Studio and SDK tools  |  Android Developers](https://developer.android.com/studio)
+- 配置环境变量
+	- Android SDK 路径
+		- ~/Library/Android/sdk
+			-
+	- Java SDK 路径
+		- /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home
+	- bash文件路径
+		- ~/.bash_profile
+		- source ~/.bash_profile
+		- [OSX系统修改$PATH环境变量_autoliuweijie的博客-CSDN博客_macos path修改](https://blog.csdn.net/autoliuweijie/article/details/50477668)
+- adb wifi调试
+	- adb tcpip 5555
+	- adb devices
+	- adb -s '04157df4d349bf21' tcpip 5555
+	- adb connect 192.168.0.103:5555
+	- [你知道 adb 的无线方式开发模式吗？让你摆脱 USB 线的束缚 - 知乎](https://zhuanlan.zhihu.com/p/65406343)
+- 开发助手
+	- p5bcfre92do76f4pc208e41acr6f515a

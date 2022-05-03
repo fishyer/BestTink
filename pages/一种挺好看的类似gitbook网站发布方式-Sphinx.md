@@ -1,0 +1,5 @@
+- 一种挺好看的类似gitbook网站发布方式-Sphinx
+- 利用 Sphinx 构建，使用了 主题 由 Read the Docs开发.
+- 除额外注明的地方外，本文档按 CC BY-NC-SA 4.0 许可协议发布。
+- Markdown+Pandoc+Sphinx+GitHub+ReadtheDocs 来管理我的文章。
+- [通过ReadTheDocs与Github托管发布 — Docs like Code 1 documentation](https://sphinx-yirongzheng.readthedocs.io/en/latest/1-introduction/ReadTheDoc%E4%B8%8EGithub%E6%89%98%E7%AE%A1%E5%8F%91%E5%B8%83.html)

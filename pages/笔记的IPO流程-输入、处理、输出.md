@@ -1,0 +1,13 @@
+- 笔记的IPO流程-输入、处理、输出
+- Input
+	- WebPage
+	- Book
+	- Literature
+- Process
+	- Highlight-WebPage
+	- Highlight-Book
+	- Memo
+- Output
+	- Note
+	- Blog
+	- Project

@@ -1,0 +1,11 @@
+- Query
+  
+  - 技术文档
+    - [Queries](https://logseq.github.io/#/page/queries)
+  - 使用案例
+    - [[Query-统计所有的模板]]
+    - [[Query-统计所有的public]]
+      - query-table:: false
+  - 参考资料
+    - {{embed ((61adc91f-f804-4bdc-b57d-be0f31ced08c))}}
+    - -

@@ -1,0 +1,47 @@
+- 语雀-Token
+	- collapsed:: true
+	- common
+		- XGeE9xbRzSaUxXU2qu4T8wXl9WnWw7bbnEvpmoyy
+- 码云-Token
+	- collapsed:: true
+	- common
+		- 6cb29fb881b3e18d45589cea7c1a42f7
+- 阿里云OSS-Token
+	- collapsed:: true
+	- -
+- Notion-Token
+	- collapsed:: true
+	- -
+- Cubox-Token
+	- collapsed:: true
+	- https://cubox.pro/c/api/save/87tx1fli33xofven
+	- [Cubox](https://cubox.pro/web/setting/apps)
+- 坚果云-Token
+	- webdav
+	- common
+		- 服务器地址：
+			- https://dav.jianguoyun.com/dav/
+		- 账户：
+			- 630709658@qq.com
+		- 密码：
+			- amz9cm5nac6ugjie
+	- 技术文档
+		- [我的坚果云](https://www.jianguoyun.com/#/safety)
+		- -
+- 百度网盘-Token
+	- collapsed:: true
+	- 基本信息
+		- AppID:25295198
+		- 应用类别:软件
+		- 应用名称:baidupan-common
+		- 应用描述:个人网盘备份
+	- 密钥信息
+		- AppKey:uW89W147ZKFGMc592zg9fEYd9affkbn0
+		- SecretKey:ZWaGdUcjv2CvCgg4ejBUYdRq6ngWavrg
+		- SignKey:l=%QV+U-VU43s$eKrPdAAR0xbO3C2o55
+	- 技术文档
+		- [https://pan.baidu.com/union/doc/](https://pan.baidu.com/union/doc/)
+- 飞书-Token
+	- webhook
+- 邮箱-QQ邮箱-Token
+- 滴答清单

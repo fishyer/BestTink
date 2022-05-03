@@ -1,0 +1,22 @@
+- PDF阅读+笔记工作流的最佳实践
+- 搜索下载PDF书籍
+	- Zlibrary
+		- [数字图书馆。搜索书籍。免费下载书籍](https://zh.book4you.org/)
+		- Android端下载链接，好像是不用特殊网络
+			- 链接: https://pan.baidu.com/s/16KbWSvy8S6PAP3e2CjYAWQ 提取码: s5vm
+	- [超能搜 - 百度网盘搜索神器](https://www.chaonengsou.com/)
+	- 谷哥高级搜索 filetype:pdf
+	- 万能的淘宝，上面有买卖pdf资源的
+- 使用Calibre将epub、mobi等其它格式的电子书转换为pdf格式
+	- [calibre - E-book management](https://calibre-ebook.com/)
+- 导入到Zotero中阅读和标注
+	- 需要下载ZotFile插件
+	- [Zotero plugins](https://www.zotero.org/support/plugins)
+- 将书籍的目录和标注都导入到Logseq里面，方便后续进行主题阅读
+	- 生成目录md
+	- 生成标注md
+	- 测试主题阅读法
+		- 示例：自由
+- 未来的批量操作的计划
+	- 读取zotero的本地sqlite文件
+	- 使用python脚本来自动生成md，并存放在logseq目录下

@@ -1,0 +1,6 @@
+- yum install docker-latest
+-
+- pic
+- picgo
+- picgo0113
+-

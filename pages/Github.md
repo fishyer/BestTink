@@ -8,6 +8,321 @@
 - 仓库
 	- Github内推 https://github.com/android-cn/android-jobs
 	- Interview-Notebook：https://github.com/CyC2018/Interview-Notebook
-	-
+- 相关笔记
+  collapsed:: true
+	- Releases · yichengchen/clashX · GitHub
+	- GitHub - xulearn/coder2gwy: 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
+	- GitHub - it5200/flomoPlugin: flomoPlus
+	- GitHub - tianzhijiexian/Shatter: 代替fragment的轻量级解耦类，拥有和activity完全一致的生命周期
+	- Wang-Jun-Chao/leetcode: LeetCode算法题典
+	- 函数调用顺序以及函数耗时的Android库
+	- Level/leveldown: Pure C++ Node.js LevelDB binding. An abstract-leveldown compliant store.
+	- the-super-tiny-compiler-cn/super-tiny-compiler-chinese.js at master · starkwang/the-super-tiny-compiler-cn
+	- GitHub - ipython-contrib/jupyter_contrib_nbextensions: A collection of various notebook extensions for Jupyter
+	- GitHub - Louiszhai/tool: 开发效率提升：Mac生产力工具链推荐
+	- yhaolpz/FloatWindow: Andorid 任意界面悬浮窗，实现悬浮窗如此简单
+	- fishyer (fishyer)
+	- yanzhenjie/AndPermission: Permissions manager for Android platform.
+	- a1ickgu0/EudicWorkflows4Alfred: 欧路词典 Alfred Workflows 插件
+	- huiscool/eudic-lookup: 通过alfred workflow用欧路词典查词
+	- macOSConfig/Alfred at master · iHTCboy/macOSConfig
+	- fishyer/Pic: 我的图床
+	- wensonsmith/YoudaoTranslate: Alfred Youdao Translate Workflow
+	- Github
+	- The world's leading software development platform · GitHub
+	- Releases · yanue/V2rayU · GitHub
+	- JsonChao/Awesome-Android-Notebook: A complete plan for better android developers.（continuous updating ...）
+	- [Lepton -- 打造GitHub千星项目的经验分享] #tags: lepton
+	- 创建 Gist - GitHub Docs
+	- 欢迎反馈~ · Issue #9 · Higurashi-kagome/wereader
+	- 在 Git 中设置用户名 - GitHub Docs
+	- zoejane-issues-report-20180404.md
+	- zoomquiet-issues-report-20180404.md
+	- V2RayN使用教程 · 233boy/v2ray Wiki · GitHub
+	- wizicer/FinancialSupportForOpenSource: 开源项目挣钱实用手册
+	- 讨论：Markdown 真的合适吗？富文本是否更加合适？ · Issue #395 · slimkit/plus · GitHub
+	- xuexiangjys/XAOP:
+	- GitHub - xuexiangjys/XMark: 一个简易的埋点解决方案（基于JakeWharton的hugo基础上改造）
+	- public-apis/public-apis: A collective list of free APIs for use in software and web development.
+	- GitHub - youth5201314/XFrame: XFrame - Android快速开发框架：主要是封装有Http网络隔离框架、日志、缓存、加载等待、toast、页面状态布局管理、权限、自定义view等常用的集合框架，减少开发成本，提高软件体验！
+	- GitHub - tianma8023/PopupWindowCompat: 处理PopupWindow在Android 7.x中兼容性问题的示例
+	- GitHub - feelschaotic/AndroidKnowledgeSystem: The most complete Android advanced route knowledge map ⭐️你想要的最全 Android 进阶路线知识图谱+干货资料收集
+	- GitHub - vpncn/vpncn.github.io: 2020中国翻墙软件VPN推荐指南，以及对比SSR、蓝灯、WireGuard、V2ray、老王VPN等科学上网软件与翻墙方法的优缺点，中国最新科学上网翻墙VPN梯子推荐，稳定好用。
+	- 程序员必知的七个图形工具 · Issue #18 · phodal/articles
+	- tiddly-gittly/TiddlyGit-
+	- https://github.com/xitu/gold-miner/blob/master/TODO1/slidable-a-flutter-story.md
+	- Y
+	- ice1000/Kt2Dart
+	- 改bug的PR
+	- 中文版 Awesome VS Code
+	- 掘金翻译计划
+	- Android-Mainli/AndroidDemo: 日常Android Demo代码,相关分享
+	- AndroidAdvanceWithGeektime/JVMTI_Sample: JVMTI Sample
+	- FamliarMan/ASMStudy: 个人的字节码插桩学习工程，也能作为模板参照使用
+	- IDEA插件使用文档 · alibaba/p3c Wiki
+	- luckybilly/AndAOP: a gradle plugin project for android AOP
+	- luckybilly/AndroidLibs: 正在成为史上最全分类 Android 开源大全~~~~（长期更新 Star 一下吧）
+	- luckybilly/DebugController: android app debugger
+	- minminaya/GenaralRoundLayout: kotlin封装的通用圆角布局
+	- objectbox/objectbox-performance: Performance Benchmarking App for ObjectBox, SQLite(via Room and greenDAO), Realm
+	- zjw-swun/JVMTI_Demo: android p jvmti
+	- JavaNoober/BackgroundLibrary: A framework for directly generating shape through Tags, no need to write shape.xml again（通过标签直接生成shape，无需再写shape.xml）
+	- GitHub - mikepenz/Android-Iconics: Android-Iconics - Use any icon font, or vector (.svg) as drawable in your application.
+	- alibaba/p3c: Alibaba Java Coding Guidelines pmd implements and IDE plugin
+	- flutter_swiper/README-ZH.md at master · best-flutter/flutter_swiper
+	- DrKLO/Telegram: Telegram for Android source
+	- phobal/ivideo: 一个可以观看国内主流视频平台所有视频的客户端（Mac、Windows、Linux），包括 VIP 资源
+	- Git Stash 用法 · GitHub
+	- git 合并工具的使用 mergetool · Issue #12 · jerryni/blog
+	- flutter-go/api.md at master · alibaba/flutter-go
+	- FlutterRepo/hybrid_stack_manager: Hybrid stack management for native(ios/android) and flutter
+	- Pull Requests · flutter/flutter
+	- While1true/flutter_refresh: flutter refresh 上拉刷新 下拉加载 进度条
+	- ServiceFactory.java
+	- speedBuild.sh
+	- exyte/ReadabilityKit: Preview extractor for news, articles and full-texts in Swift
+	- huangzhibiao/BGFMDB: BGFMDB让数据的增删改查分别只需要一行代码即可,就是这么简单任性，本库几乎支持存储ios所有基本的自带数据类型.
+	- yanue/V2rayU: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift4.2编写,支持vmess,shadowsocks,socks5等服务协议, 支持二维码,剪贴板导入,手动配置,二维码分享等
+	- Android可多选流式布局
+	- XXApple/AndroidLibs: 正在成为史上最全分类 Android 开源代码大全~~~~（正在整理收集，不要着急~~先 Star 一下吧）
+	- Gist
+	- GitHub - leolin310148/ShortcutBadger: An Android library supports badge notification like iOS in Samsung, LG, Sony and HTC launchers.
+	- AndroidSwipeLayout: 侧滑删除
+	- robolectric/robolectric: Android Unit Testing Framework
+	- TKkk-iOSer/WeChatPlugin-iOS
+	- simple-android-framework/android_design_patterns_analysis: Android源码设计模式分析项目
+	- GitHub - TKkk-iOSer/WeChatPlugin-MacOS: 一款功能强大的 macOS 版微信小助手 v1.7.3 / A powerful assistant for wechat macOS
+	- hehonghui/android-tech-frontier: 【停止维护】一个定期翻译国外Android优质的技术、开源库、软件架构设计、测试等文章的开源项目
+	- GitHub - tamlok/vnote: A Vim-inspired note-taking application that knows programmers and Markdown better.
+	- Blankj/AndroidStandardDevelop: :star2: Best practices in Android develop(final).
+	- 国内各大平台架构GitHub - CameloeAnthony/AndroidArchitectureCollection: 安卓架构文章合集（a collection of android Architecture）
+	- GitHub - amitshekhariitbhu / Android-Debug-Database：用于调试android数据库和共享首选项的库 - 使调试更加重要
+	- JakeWharton/scalpel: A surgical debugging tool to uncover the layers under your app.
+	- mcxiaoke/RxDocs: Rx和RxJava文档中文翻译项目
+	- camsong/redux-in-chinese: Redux 中文文档
+	- Home · limedroid/XDroid Wiki
+	- google hosts
+	- add
+	- tesseract-ocr/tesseract: Tesseract Open Source OCR Engine (main repository)
+	- knightliao/disconf · GitHub
+	- jdeferred/jdeferred: Java Deferred/Promise library similar to JQuery.
+	- trip-to-iOS/Top-100.md at master · Aufree/trip-to-iOS
+	- 编程中文书籍索引
+	- Trinea/android-open-project: Collect and classify android open source projects 微信公众号：codekk
+	- 内存泄露
+	- wasabeef/awesome-android-ui: A curated list of awesome Android UI/UX libraries
+	- google/material-design-icons: Material Design icons by Google
+	- TeamStuQ/skill-map: StuQ 技能图谱
+	- singwhatiwanna/dynamic-load-apk: DL : dynamic load framework in android
+	- wukong/codelab.md at master · huichen/wukong
+	- Github
+	- tencentyun/clb-quic-demo: clb team contribute
+	- TraceReader/Trace.java at master · panhongwei/TraceReader
+	- Translation-Tools/README.md at master · shiweibsw/Translation-Tools
+	- Trojan/build.gradle at master · eleme/Trojan
+	- Trojan/README_CN.md at master · eleme/Trojan
+	- UETool/README_zh.md at master · eleme/UETool
+	- GitHub - wenmingvs/AndroidProcess: 判断App位于前台或者后台的6种方法
+	- 内网穿透Wisdom-Projects/holer: Holer exposes local servers behind NATs and firewalls to the public internet over secure tunnels.
+	- XAOP/App.java at master · xuexiangjys/XAOP
+	- XAOP/ClickUtils.java at master · xuexiangjys/XAOP
+	- XAOP/DebugLogAspectJ.java at master · xuexiangjys/XAOP
+	- xiaoyanger0825/BottomDialog: Android底部对话框
+	- xuyisheng/ShortcutHelper: a shortcut lib for easy use shortcut
+	- yangchong211/YCBlogs: 技术博客笔记大汇总【15年10月到至今】，包括Java基础及深入知识点，Android技术博客，Python，Go学习笔记等等，还包括平时开发中遇到的bug汇总，当然也在工作之余收集了大量的面试题，长期更新维护并且修正，持续完善……开源的文件是markdown格式的！同时也开源了生活博客，从12年起，积累共计47篇[近20万字]，转载请注明出处，谢谢！
+	- yangchong211/LifeHelper: 组件化综合案例，包含微信新闻，头条视频，美女图片，百度音乐，干活集中营，玩Android，豆瓣读书电影，知乎日报等等模块。架构模式：组件化+MVP+Rx+Retrofit+Desgin+Dagger2+阿里VLayout+腾讯X5+腾讯bugly。安装阿里编码规约插件，不断修正不合理代码和最大程度去除黄色警告！！！融合开发中需要的各种小案例！
+	- YoKeyword/Fragmentation: A powerful library that manage Fragment for Android!
+	- zhaomenghuan/flutter-mini-program: A Flutter UI Framework by parsing HTML and CSS，is for developing mini-program.
+	- zkwlx/DroidTelescope: DroidTelescope（DT），Android端App性能监控框架
+	- 三分钟快速接入 · Qihoo360/ArgusAPM Wiki
+	- 开源IM系统-YiChat
+	- 类Restful接口设计规范
+	- google面试计划
+	- mmin18/FlexLayout: A powerful Android layout view that use java expression in layout params to describe relative positions.
+	- GitHub - ACRA/acra: Application Crash Reports for Android
+	- luiing/Adsorbent: adsorbent of Recycler,Recycler Recycler,Recycler ViewPager Recycler
+	- oblac/jodd: Jodd! Lightweight. Java. Use what you like.
+	- MarcinMoskala/ActivityStarter: Simple Android Library, that provides easy way to start the Activities with arguments.
+	- MEiDIK/SlimAdapter: A slim   clean   typeable Adapter withoutVIEWHOLDER
+	- Meituan-Dianping/Shield: A declarative, efficient, and flexible Native framework for building user interfaces.
+	- mrrobot97/NetSpeed: A floating view on screen showing network speed.
+	- NashLegend / AnyPref
+	- OnlyYouMyLove/MVP: A demo teaches you how to write MVP architecture.
+	- Papeone / LifeStyle
+	- q876625596 / GenjiDialogV2
+	- qintongbaba/jvm
+	- qiujuer/ThreadGuide: Android and Java Thread guide~~
+	- razerdp/BasePopup: 亲，还在为PopupWindow烦恼吗？不如试试BasePopup，你会爱上他的~
+	- SusionSuc/AdvancedAndroid: (Android advanced plan) 一系列Android进阶文章。持续更新中.....
+	- JackyAndroid/AndroidInterview-Q-A: The top Internet companies android interview questions and answers
+	- GitHub - LittleFriendsGroup/AndroidSdkSourceAnalysis: android sdk 源码解析——旨在帮助Android开发者更好的学习Android！我们只是一群普通的程序员，但是，我们热爱分享，想热热闹闹的玩点有意义的事！如果
+	- tianzhijiexian/Android-Best-Practices: Android最佳实践示例
+	- Trending repositories on GitHub today
+	- GitHub - zenorocha/alfred-workflows: A collection of Alfred 3 workflows that will rock your world
+	- grpc/grpc-java: The Java gRPC implementation. HTTP/2 based RPC
+	- Hunter/README_ch.md at master · Leaking/Hunter
+	- hylander0/Iteedee.ApkReader: .NET library written in Cfor reading/parsing APK manifest (AndroidManifest.xml) and resource data (Resources.arsc)
+	- Idtk/Blog: Blog备份
+	- InsertKoinIO/koin: KOIN - a pragmatic lightweight dependency injection framework for Kotlin
+	- GitHub - ityouknow/awesome-spring-boot: Spring Boot Resources
+	- JeasonWong/CostTime: A lib to compute the method cost time.
+	- Android资源大全中文版，包括：图表、游戏开发、GUI、崩溃检测、调试工具等，由伯乐在线持续更新。
+	- kittinunf/fuel: The easiest HTTP networking library for Kotlin/Android
+	- kizitonwose/Time: Type-safe time calculations in Kotlin, powered by generics.
+	- koudle/FloatingLayer: 应用内悬浮窗
+	- lancet/README_zh.md at master · eleme/lancet
+	- lber19535/SourceAnalysis
+	- lihangleo2/ShadowLayout: 可定制化阴影的万能阴影布局ShadowLayout 2.0 震撼上线。效果赶超CardView。阴影支持x,y轴偏移，支持阴影扩散程度，支持阴影圆角，支持单边或多边不显示阴影；支持随意更改颜
+	- lijiankun24/Koala: 从 Java 字节码到 ASM 实践
+	- ViewPagerHelper: 这是一个，viewpager 的工具类，内置多种指示器，能够帮你快速完成，轮播图，app引导页，viewpager的tab指示器等等
+	- Logful
+	- LRH1993/android_interview: gitbook地址
+	- element | A Vue.js 2.0 UI Toolkit for Web
+	- shelll
+	- hackware1993/MagicIndicator: A powerful, customizable and extensible ViewPager indicator framework. As the best alternative of ViewPagerIndicator, TabLayout and PagerSlidingTabStrip —— 强大、可定制、易扩展的 ViewPager 指示器框架。是V
+	- 13046434521 (JTL)
+	- 5A59/MockNet: 以极简的方式在 Android 本地创建服务器用来接口测试和接口开发(An excellent tool for creating local server on Android.)
+	- 7449/AndroidDevelop: This is my Android development Demo collection
+	- AdvancedAndroid/kotlin最佳实践.md at master · SusionSuc/AdvancedAndroid
+	- AdvancedAndroid/Presenter与View的解耦探讨.md at master · SusionSuc/AdvancedAndroid
+	- WangGanxin/LoadDataLayout: App公共组件：加载数据Layout，高效开发必备！
+	- GitHub - android-cjj/BeautifulRefreshLayout: A bueautiful RefreshLayout
+	- android-cjj/SourceAnalysis: the source code
+	- android-classyshark/ApkReader.java at master · google/android-classyshark
+	- android-cn/android-jobs: 2018 年最新内推！我们相信来到这里的，无论工程师还是招聘者都是靠谱的！微信公众号:codekk，
+	- android-notes/Cockroach at master
+	- android-toy/Shadow源码解析.md at master · ChenSiLiang/android-toy
+	- android-ui · GitHub Topics
+	- AppJoint/AppJointPlugin.groovy at master · PrototypeZ/AppJoint
+	- AppJoint/README_zh.md at master · PrototypeZ/AppJoint
+	- armcha/Kadapter
+	- hubot-bearychat: BearyChat Adapter for Hubot
+	- bingoogolapple (王浩)
+	- BGABanner-Android · GitHub
+	- GitHub - bingoogolapple/BGAQRCode-Android: QRCode 扫描二维码、扫描条形码、相册获取图片后识别、生成带 Logo 二维码、支持微博微信 QQ 二维码扫描样式
+	- AOP工具 - GitHub - BryanSharp/hibeaver: HiBeaver is an android plugin for AOP design by modifying project byte code during build of the package.
+	- chadguo/VerticalViewPager: A vertical scroll ViewPager implementation. Use with scrollable views(ListView, ScrollView, RecyclerView).
+	- chaychan/TouTiao: 精仿今日头条
+	- GitHub - ChenYXin/TakePicAndGallery: Android拍照及图片裁剪、调用系统相册（兼容6.0权限处理及7.0以上文件管理）
+	- Compare · didi/booster
+	- crossoverone / StatusBarUtil
+	- czy1121/settingscompat: 特殊权限(Special Permissions)兼容库，悬浮窗权限(SYSTEM_ALERT_WINDOW)与系统设置修改权限(WRITE_SETTINGS)
+	- dalong982242260/BottomTabDemo: app底部切换tab控件，可以加载本地和网络图片
+	- danledian/SegmentedControl: 自定义View实现的分段选择控件
+	- dcloudio/mui: 最接近原生APP体验的高性能框架
+	- docs/api_v2.md at master · qingmang-team/docs
+	- 多条件筛选菜单
+	- DOT语言学习笔记#13
+	- drakeet/MultiType: An Android library to create multiple item types list views easily and flexibly
+	- DropDownMenu/README-cn.md at master · baiiu/DropDownMenu
+	- 设计辅助工具 - github - UETool
+	- epic/README_cn.md at master · tiann/epic
+	- ezbuy/tgen
+	- FastAndrUtils/FActivityLifecycleCallbacks.java at master · 570622566/FastAndrUtils
+	- fengzhizi715/SAF-AOP: android的AOP框架，支持android studio、gradle最新版本
+	- Floo/README_CN.md at master · drakeet/Floo
+	- FragmentRigger/README-CN.md at master · JingYeoh/FragmentRigger
+	- francistao/LearningNotes: Enjoy Learning.
+	- from-java-to-kotlin/README-ZH.md at master · MindorksOpenSource/from-java-to-kotlin
+	- geelaro/Monitor: 一个Android性能监测工具
+	- genius158/PullRefreshLayout: 下拉刷新，上拉加载，真实的回弹(overscroll)效果(媲美qq)，且大小只有37KB(是其他主流刷新库或回弹库的1/2,1/3,甚至是1/4)，同时，自定义header和footer，可以实现任何你想的到
+	- GMTC/Android内存泄露自动化链路分析组件Probe at master · izhangxb/GMTC
+	- GodBlessYou/README_CN.md at master · ximsfei/GodBlessYou
+	- goweii/AnyLayer: 用于替代Android自带Dialog和PopupWindow
+	- graviton-browser/graviton-browser: Graviton is an experimental app browser for multi-language JVM apps
+	- gybin02/jet-aop: android AOP library, use annotation, aspectJ，and soon on;
+	- Home · captain-miao/AndroidAgeraTutorial Wiki
+	- Home · Qihoo360/ArgusAPM Wiki
+	- hugo/build.gradle at master · JakeWharton/hugo
+	- hugo/HugoActivity.java at master · JakeWharton/hugo
+	- Meituan-Dianping/Logan: Logan is a lightweight case logging system based on mobile platform.
+	- Banner: Android广告图片轮播控件，支持无限循环和多种主题，可以灵活设置轮播样式、动画、轮播和切换时间、位置、图片加载框架等
+	- AndroidGodEye/README_zh.md at master · Kyson/AndroidGodEye
+	- arvinljw/SocialHelper: QQ、微信、微博登陆和分享
+	- VirtualXposed/CHINESE.md at vxp · android-hacker/VirtualXposed
+	- lenve/vhr: 微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。
+	- AspectJ Gradle 插件 - GitHub - HujiangTechnology/gradle_plugin_android_aspectjx: A Android gradle plugin that effects AspectJ on Android project and can hook methods in Kotlin, aar and jar file.
+	- GitHub - jaywcjlove/handbook: 放置我的笔记、搜集、摘录、实践，保持好奇心。看文需谨慎，后果很严重。
+	- android-blog/一种成功的xml资源命名规范.md at master · thinkSky1206/android-blog
+	- jobbole/awesome-java-cn: Java资源大全中文版，包括开发库、开发工具、网站、博客、微信、微博等，由伯乐在线持续更新。
+	- lipangit/JiaoZiVideoPlayer: Android VideoPlayer MediaPlayer VideoView MediaView Float View And Fullscreen.高度自定义的开源安卓视频框架
+	- Release 2.3.0-beta.5 · Molunerfinn/PicGo
+	- 如何使用github发现优秀的开源项目 · Issue #77 · iuap-design/blog
+	- byoungd/English-level-up-tips-for-Chinese: 可能是让你受益匪浅的英语进阶指南
+	- 《Chrome插件开发全攻略》配套完整Demo，欢迎clone体验
+	- GitHub - Snailclimb/JavaGuide: 【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。
+	- ARouter/README_CN.md at master · alibaba/ARouter
+	- Kodein-Framework/Kodein-DI: Painless Kotlin Dependency Injection
+	- dreymonde/AppFolder:
+	- arrow-kt/arrow: Functional companion to Kotlin's Standard Library
+	- nosarthur/gita: Manage multiple git repos side by side for sanity
+	- didi/booster:
+	- GitHub - android-notes/Cockroach: 打不死的小强,永不crash的Android
+	- KunMinX/Jetpack-MVVM-Best-Practice: 是 难得一见 的 Jetpack MVVM 最佳实践！在 以简驭繁 的代码中，对 视图控制器 乃至 标准化开发模式 形成正确、深入的理解！
+	- KunMinX/Relearn-Android: 重学安卓：你是想在含糊、冗长的网文中痛苦地打滚，还是跟随我的文字呼吸新鲜的空气？
+	- GitHub - ttscoff/popclipextensions: Brett's PopClip Extensions
+	- 如何看待“到我的收藏夹里吃灰吧”？ - 知乎
+	- 如何看待“到我的收藏夹里吃灰吧”？ - 知乎
+	- Chrome插件：一款跨平台收藏工具 - 知乎
+	- 新年养成好习惯，只差这8款工具的距离。 - 知乎
+	- Pinbox - 跨平台网络收藏工具
+	- 你手机上最神奇的软件是什么？ - 知乎
+	- 在2020，什么工具能取代Evernote/印象笔记？ - 知乎
+	- 在2020，什么工具能取代Evernote/印象笔记？ - 知乎
+	- Chrome扩展推荐：恭喜Pinbox荣获本月“最令人惊喜的网络收藏夹”！ - 知乎
+	- 房价真的已经到顶了吗？ - 知乎
+	- Pinbox 用户手册 - Pinbox 发现
+	- Chrome 网上应用店 - pinbox
+	- Pinbox 一款极简主义风格的网络收藏夹 - 掘金
+	- pinbox: 我用过最好的收藏工具 - 掘金
+	- Pinbox - 跨平台收藏工具
+	- 风靡全球人人在夸的笔记应用，到底好用在哪？| Notion - 知乎
+	- clashx 不能用了！求救，怎么回事？ - 知乎
+	- clashX如何续费？ - 知乎
+	- 精致又高效地使用Mac（软件篇） - 知乎
+	- Pinbox - 随时随地收藏互联网
+	- 2017 年，我用 Airtable 这款表格神器建了一个「量化自我」数据库 - 知乎
+	- Pinbox - 跨平台收藏工具
+	- 利用 Liner 和 Evernote「精读」网页文章 - 知乎"读书时你就不能偷懒，不能舒舒服服地躺在那里看书，不能看完这本书以后纸上还干干净净、整整齐齐的。不对！这本书要大卸八块、五马分尸，进入资料夹以后才算真的看完了。——李敖"
+	- 笔记软件及剪藏：Obsidian与Markdownload - 知乎
+	- 中国的底牌：万一美国动手了，我们能否顶得住？ - 知乎
+	- 能力强的人，都在用什么样的学习方法？ - 知乎
+	- A股指数和个股全线下跌，行情结束了吗？ - 知乎
+	- 如何用更少的时间学习更多的知识 - 知乎
+	- 有哪些不错的大型项目代码浏览工具？ - 知乎
+	- 怎么样整理、巩固平常积累的零碎知识？ - 知乎
+	- 怎么样整理、巩固平常积累的零碎知识？ - 知乎
+	- 如何有效地进行资料整理？ - 知乎
+	- 知乎高质量回答的提供者们是怎样搜集资料的？ - 知乎
+	- 反应趋势交易系统 (RTS) - 知乎
+	- 哪些东西买了之后，会让人因生活质量和幸福感提升而感觉相见恨晚？ - 知乎
+	- 知乎 - 有问题，就会有答案
+	- 你们有哪些极简的人生建议？ - 知乎
+	- 为了更好地理解世界，个人需要建立怎样的知识体系？ - 知乎
+	- 有哪些「王炸级别」的家居神器，让你疯狂吹爆？ - 知乎
+	- 节约复习时间的有效办法都有哪些？ - 知乎
+	- 接下来国家会拉动哪个领域？我们该怎么把握？ - 知乎
+	- 丁仲礼院士：中国“碳中和”框架路线图研究（中科院学部“碳中和”咨询项目简介） - 知乎
+	- 当教师有前途吗？ - 知乎
+	- 如何看待14岁男孩被高中生多次勒索后跳江身亡， 涉事学生称「报警好了，我未成年」？ - 知乎
+	- 你的每日私人成长暗器是什么？ - 知乎
+	- 如何看待超市诬陷五岁女孩偷东西，家长要求道歉被拒，经理却振振有词推脱！超市违法吗？受害者该如何维权？ - 知乎
+	- 从这篇文章开始，印象笔记将不再是“收藏的仓库” - 知乎
+	- 如何构建收藏知识体系？ - 知乎
+	- 你有什么值得分享的高效学习方法？ - 知乎
+	- 帮朋友做了2个设计，按理至少要8K-1W的设计费，结果事情结束了，就给了2K，怎么委婉表示嫌少？ - 知乎
+	- 面试题系列：Java 夺命连环16问 - 知乎
+	- 有哪些值得长期坚持下去的好习惯？ - 知乎
+	- 构建一个知识体系时，有哪些高效的技巧？ - 知乎
+	- 如何看待从来不发脾气的男生？ - 知乎
+	- 如何评价 Peak Labs 出品的 2019 版 Magi 搜索引擎？ - 知乎
+	- 千亿巨头、现金流危机、大变局：你应该明白地价和房价的深刻关系 - 知乎
+	- 给大家推荐一个很好的google学术镜像网站（包括谷歌学术镜像、谷歌搜索镜像） - 知乎
+	- 国内如何使用谷歌（google）搜索引擎进行搜索？ - 知乎
+	- 推荐谷歌镜像站 学术 github 等 - 知乎
+	- 你用什么软件做笔记？ - 知乎
+	- 投名状：起底香港精英阶层的隐秘心机 - 知乎
+	- 有没有一篇分析世界格局最透彻的雄文？ - 知乎
+	- 今融道 - 知乎
 -
 -

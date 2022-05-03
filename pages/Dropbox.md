@@ -1,0 +1,3 @@
+- [下载 - Dropbox](https://www.dropbox.com/downloading?type=full)
+- Mac端可能首次启动时无法登录，注意配置下软件的网络代理设置
+-

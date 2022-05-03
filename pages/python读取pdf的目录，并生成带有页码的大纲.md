@@ -1,0 +1,18 @@
+- 1.下载PDF书籍
+	- -
+	- [WorldBrain's Memex插件，全文搜索浏览过的网页，添加网页内容注释-文章-扩展迷](https://www.extfans.com/articles/949)
+		- #Annotation
+			- 一、网页注释
+			- 二、网页全文检索
+- [软件分享 篇一：掏空老底——10年老用户的Chrome扩展推荐，总有一款用得上_服务软件_什么值得买](https://post.smzdm.com/p/a5kq8w4x/)
+	- #Annotation
+		- Tampermonkey：打开脚本新世界的大门
+		- 什么值得买：购物资讯
+		- 二箱：以图搜图
+		- [[Memex]]：网页浏览记录、书签的全文搜索
+		- 地址栏搜索切换——AddressBar
+		- 猫抓：网页视频嗅探下载
+		- FatKun：图片批量下载 [[Eagle]] [[Billfish]]
+		- 声海盗：网页音乐下载
+		- 一叶：和浏览相同网页的人聊天
+		- 侧边栏书签：书签栏美化工具

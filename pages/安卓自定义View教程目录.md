@@ -1,0 +1,24 @@
+- 安卓自定义View教程目录 [http://www.gcssloop.com/customview/CustomViewIndex/](http://www.gcssloop.com/customview/CustomViewIndex/)
+- 基础篇
+- 安卓自定义View基础 - 坐标系
+- 安卓自定义View基础 - 角度弧度
+- 安卓自定义View基础 - 颜色
+- 进阶篇
+- 安卓自定义View进阶 - 分类和流程
+- 安卓自定义View进阶 - Canvas之绘制图形
+- 安卓自定义View进阶 - Canvas之画布操作
+- 安卓自定义View进阶 - Canvas之图片文字
+- 安卓自定义View进阶 - Path之基本操作
+- 安卓自定义View进阶 - Path之贝塞尔曲线
+- 安卓自定义View进阶 - Path完结篇
+- 安卓自定义View进阶 - PathMeasure
+- 安卓自定义View进阶 - Matrix原理
+- 安卓自定义View进阶 - Matrix详解
+- 安卓自定义View进阶 - Matrix Camera
+- 安卓自定义View进阶 - 事件分发机制原理
+- 安卓自定义View进阶 - 事件分发机制详解
+- 安卓自定义View进阶 - MotionEvent详解
+- 安卓自定义View进阶 - 特殊控件的事件处理方案
+- 安卓自定义View进阶 - 多点触控详解
+- 安卓自定义View进阶 - 手势检测(GestureDecetor)
+- 安卓自定义View进阶 - 缩放手势检测(ScaleGestureDecetor)

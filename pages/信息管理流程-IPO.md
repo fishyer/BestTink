@@ -1,0 +1,27 @@
+- 信息管理流程-IPO
+- Input-输入：
+	- 闪念-飞书
+	- 任务-滴答清单/OmniFocus
+	- 笔记-Obsidian
+	- 图片-Eagle(Mac) 坚果云网盘(Android/阿里云盘)
+	- 书签-Chrome
+	- 摘抄-Copy'Em(Mac) 讯飞输入法(Android)
+	- 常用输入源
+		- 微信读书笔记
+		- 得到听书笔记
+		- 极客时间专栏笔记
+		- 慕课视频笔记
+- Process-处理：
+	- WorkFlowy-最简洁的笔记工具
+		- 优点
+			- 一切皆是节点，输入毫无压力，适合渐进式搭建知识体系
+			- 树状结构，方便拖动，整理毫无压力
+			- 搜索功能配合星标功能，很方便聚焦
+			- 支持双向链接，其实用得少
+		- 缺点
+			- 不是很方便插入图片和代码，替代方案：图片用本地图片路径、代码用gists路径
+			- 外链在chrome中打开很慢，不适合在其它地方链接它，不过很适合它去链接其它地方，可以用来管理各种网络资源和本地资源
+- Output
+	- 飞书/语雀/wolai-在线MarkDown工具
+		- -
+			- [obsidian://open?vault=Obsidian%20Help&amp;file=%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%2F%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BD%A0%E7%9A%84%E7%AC%94%E8%AE%B0](obsidian://open?vault=Obsidian%20Help&file=%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%2F%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BD%A0%E7%9A%84%E7%AC%94%E8%AE%B0)

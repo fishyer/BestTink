@@ -15,3 +15,1628 @@
 	- VSCode的优势
 		- 有Zhihu On VSCode插件，可
 	-
+- obsidian
+- obsidian必备插件
+	- obsidian必备插件
+	  collapsed:: true
+		- " 嘴上云笔记99% 16:19:07
+			- 看板插件+
+			- checklist插件+
+			- dataview+
+			- super charged link插件+
+			- calendar+
+			- dayplanner。
+			- 俺日常管理基本上就用这些组合拳[表情] 目前很安逸。 "
+			- super charged link 着实不错, 感谢推荐, 看板一直在用, 后面两个没有尝试的兴趣, 最后两个用过卸载了
+		- Chrome插件-undisposition-点击阿里云图床的图片链接时不下载图片，直接在浏览器显示图片
+			- ![](<a href="https://yupic.oss-cn-shanghai.aliyuncs.com/20210720193900.png">https://yupic.oss-cn-shanghai.aliyuncs.com/20210720193900.png</a>)
+		- obsidian怎么查看file的元信息
+		- dateview
+		- calendar
+		- kanban
+		- text expand
+		- anki
+		- sortable 表格
+		- Python lab
+		- Excalidraw
+		- search on internet
+		- outliner
+		- refactor 重构
+		- leaflet 地图
+		- ubdisposition
+		- write preview
+		- folder note 页面嵌套
+		- Charts 图表
+		- Tag wrangler 标签重命名
+		- Recent Files 最近打开历史
+		- Journey 两个笔记的关系
+		- -
+- Obsidian插件
+  collapsed:: true
+	- [[Obsidian]]
+	- 目前还达不到[[codemirror]]插件的渲染效果
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202111110726315.png)
+	- [[Customizable Menu]]
+	- 怎么感觉这个插件和[[Customizable Sidebar]]好像
+	- [[怎么离线安装Obsidian插件]]
+- obsidian插件汇总
+  collapsed:: true
+	- >本文是从[Johnny学OB](https://ob.pory.app/)抓取过来的数据。
+	- ## 1-Calendar
+	- Obsidian的简单日历小部件
+	- 总下载次数：111364
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/calendar.zip)
+	- ## 2-Advanced Tables
+	- 改进的表格导航、格式和操作
+	- 总下载次数：108655
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/table-editor-obsidian.zip)
+	- ## 3-Sliding Panes (Andy Matuschak Mode)
+	- 滑动窗格（AndyMatuschak模式）作为插件
+	- 总下载次数：70574
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/sliding-panes-obsidian.zip)
+	- ## 4-Dataview
+	- 对您的保管库进行高级查询，以了解数据痴迷者。
+	- 总下载次数：62146
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/dataview.zip)
+	- ## 5-Templater
+	- 创建和使用模板
+	- 总下载次数：55391
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/templater-obsidian.zip)
+	- ## 6-Kanban
+	- 在Obsidian中创建降价支持的看板
+	- 总下载次数：51333
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-kanban.zip)
+	- ## 7-Mind Map
+	- 使用Markmap将Markdown笔记显示为思维导图。
+	- 总下载次数：50434
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-mind-map.zip)
+	- ## 8-Outliner
+	- 像在Workflowy或RoamResearch中一样使用您的列表。
+	- 总下载次数：47352
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-outliner.zip)
+	- ## 9-Obsidian Git
+	- 使用git备份您的保管库。
+	- 总下载次数：40335
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-git.zip)
+	- ## 10-Day Planner
+	- 一个Obsidian插件，用于从Markdown笔记中的任务列表中规划和管理番茄钟计时器。
+	- 总下载次数：39739
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-day-planner.zip)
+	- ## 11-Natural Language Dates
+	- 基于自然语言创建日期链接
+	- 总下载次数：37964
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/nldates-obsidian.zip)
+	- ## 12-Note Refactor
+	- 将笔记内容提取到新笔记中并拆分笔记
+	- 总下载次数：34814
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/note-refactor-obsidian.zip)
+	- ## 13-Admonition
+	- Obsidian.md的警告块样式内容
+	- 总下载次数：31724
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-admonition.zip)
+	- ## 14-Paste URL into selection
+	- 将URL“粘贴到”选定的文本中。
+	- 总下载次数：31030
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/url-into-selection.zip)
+	- ## 15-Checklist
+	- 将所有文件的清单合并到一个视图中
+	- 总下载次数：31010
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-checklist-plugin.zip)
+	- ## 16-Excalidraw
+	- 一个用于编辑和查看Excalidraw绘图的Obsidian插件
+	- 总下载次数：30743
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-excalidraw-plugin.zip)
+	- ## 17-Editor Syntax Highlight
+	- 在代码块中显示语法高亮显示编辑器
+	- 总下载次数：30008
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/cm-editor-syntax-highlight-obsidian.zip)
+	- ## 18-Better Word Count
+	- 计算编辑器中所选文本的字数。
+	- 总下载次数：26676
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/better-word-count.zip)
+	- ## 19-Emoji Toolbar
+	- 快速搜索表情符号并将其插入到您的编辑器中。
+	- 总下载次数：25679
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-emoji-toolbar.zip)
+	- ## 20-Tag Wrangler
+	- 从标签窗格重命名、合并、切换和搜索标签
+	- 总下载次数：23017
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/tag-wrangler.zip)
+	- ## 21-Ozan's Image in Editor Plugin
+	- 您可以在粘贴后立即在编辑器中查看图像，而无需预览笔记。
+	- 总下载次数：22434
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/oz-image-plugin.zip)
+	- ## 22-Minimal Theme Settings
+	- 控制最小主题中的颜色和字体
+	- 总下载次数：21191
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-minimal-settings.zip)
+	- ## 23-Citations
+	- 自动从Zotero库中搜索和插入引文
+	- 总下载次数：20322
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-citation-plugin.zip)
+	- ## 24-Hotkeys++
+	- 用于在Obsidian中执行常见操作的其他热键
+	- 总下载次数：19082
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/hotkeysplus-obsidian.zip)
+	- ## 25-Periodic Notes
+	- 创建/管理您的每日、每周和每月笔记
+	- 总下载次数：18442
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/periodic-notes.zip)
+	- ## 26-Find unlinked files
+	- 查找未在任何位置链接的文件，否则会丢失在您的Vault中
+	- 总下载次数：17289
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/find-unlinked-files.zip)
+	- ## 27-Markdown prettifier
+	- 修复并重新格式化丑陋的Markdown。
+	- 总下载次数：16718
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/markdown-prettifier.zip)
+	- ## 28-QuickAdd
+	- 快速将新笔记或内容添加到您的保管库。
+	- 总下载次数：16018
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/quickadd.zip)
+	- ## 29-Review
+	- 将当前笔记的链接添加到未来日期（或过去的日期，你的时间旅行者）的每日笔记。
+	- 总下载次数：14693
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/review-obsidian.zip)
+	- ## 30-Recent Files
+	- 显示最近打开的文件列表
+	- 总下载次数：14458
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/recent-files-obsidian.zip)
+	- ## 31-PDF to Markdown
+	- 将PDF的文本（标题、段落、列表等）保存到Markdown文件。
+	- 总下载次数：14134
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/pdf-to-markdown-plugin.zip)
+	- ## 32-Dictionary
+	- 这是黑曜石笔记工具的多语言词典。
+	- 总下载次数：13379
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-dictionary-plugin.zip)
+	- ## 33-Tasks
+	- Obsidian的任务管理
+	- 总下载次数：13035
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-tasks-plugin.zip)
+	- ## 34-Hider
+	- 隐藏UI元素，例如工具提示、状态、标题栏等
+	- 总下载次数：12612
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-hider.zip)
+	- ## 35-Copy button for code blocks
+	- 代码块的复制按钮
+	- 总下载次数：12508
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/code-block-copy.zip)
+	- ## 36-Spaced Repetition
+	- 通过查看抽认卡和整个笔记来对抗遗忘曲线。
+	- 总下载次数：11873
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-spaced-repetition.zip)
+	- ## 37-Rollover Daily Todos
+	- 此插件会将您上次每日笔记中任何未选中的复选框滚动到今天的笔记中
+	- 总下载次数：11696
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-rollover-daily-todos.zip)
+	- ## 38-Tracker
+	- 跟踪笔记中的出现次数和数字
+	- 总下载次数：11633
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-tracker.zip)
+	- ## 39-Obsidian_to_Anki
+	- 这是一个Anki集成插件！专为高效批量导出而设计。
+	- 总下载次数：11171
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-to-anki-plugin.zip)
+	- ## 40-Style Settings
+	- 提供用于调整主题、插件和片段CSS变量的控件
+	- 总下载次数：10541
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-style-settings.zip)
+	- ## 41-Slated
+	- 任务管理和重复
+	- 总下载次数：10329
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/slated-obsidian.zip)
+	- ## 42-Folder Note
+	- 将描述注释添加到文件夹
+	- 总下载次数：10235
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/folder-note-plugin.zip)
+	- ## 43-PDF Highlights
+	- 将PDF中的突出显示、下划线和注释提取到Obsidian中
+	- 总下载次数：10218
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-extract-pdf-highlights.zip)
+	- ## 44-Obsidian Charts
+	- 此插件可让您使用Chartist作为后端创建图表！
+	- 总下载次数：9622
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-charts.zip)
+	- ## 45-Icons Plugin
+	- 为笔记添加图标
+	- 总下载次数：9427
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-icons-plugin.zip)
+	- ## 46-Advanced Appearance
+	- 更改颜色、字体和其他外观设置
+	- 总下载次数：9107
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-advanced-appearance.zip)
+	- ## 47-Buttons
+	- 在Obsidian笔记中创建按钮以运行命令、打开链接和插入模板
+	- 总下载次数：8910
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/buttons.zip)
+	- ## 48-Quick Switcher++
+	- 增强的快速切换器、搜索打开的面板和符号。
+	- 总下载次数：8816
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/darlal-switcher-plus.zip)
+	- ## 49-Cycle through Panes
+	- 使用`ctrl+Tab`在打开的窗格中循环，就像浏览器中的选项卡一样！
+	- 总下载次数：8768
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/cycle-through-panes.zip)
+	- ## 50-Juggl
+	- 向Obsidian添加完全交互式、可样式化和可扩展的图形视图。
+	- 总下载次数：8565
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/juggl.zip)
+	- ## 51-Convert url to preview (iframe)
+	- 将url（例如youtube）转换为iframe（预览）
+	- 总下载次数：8327
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/convert-url-to-iframe.zip)
+	- ## 52-Reading Time
+	- 将当前笔记的阅读时间添加到Obsidian的状态栏
+	- 总下载次数：8240
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-reading-time.zip)
+	- ## 53-Workbench
+	- 保留知识材料的工作台。
+	- 总下载次数：8089
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/workbench-obsidian.zip)
+	- ## 54-Todoist Sync Plugin
+	- 在Obsidian笔记中实现Todoist任务。
+	- 总下载次数：7859
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/todoist-sync-plugin.zip)
+	- ## 55-Markdown Formatting Assistant
+	- 该插件为Markdown提供了一个简单的编辑器，此外还有一个命令行界面。命令行界面有助于加快工作流程。
+	- 总下载次数：7335
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-markdown-formatting-assistant-plugin.zip)
+	- ## 56-Text {{expand}}
+	- 搜索并粘贴/嵌入已建立文件的链接
+	- 总下载次数：7054
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mrj-text-expand.zip)
+	- ## 57-Typewriter Scroll Obsidian Plugin
+	- 打字机风格的滚动，使视图在编辑器中居中。
+	- 总下载次数：6691
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/cm-typewriter-scroll-obsidian.zip)
+	- ## 58-File Tree Alternative Plugin
+	- 这个插件允许你有一个替代的文件树视图。
+	- 总下载次数：6691
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/file-tree-alternative.zip)
+	- ## 59-Obsidian TODO | Text-based GTD
+	- Obsidian中基于文本的GTD。从您的保险库中收集所有未完成的待办事项，并将它们显示在“今天”、“计划”、“收件箱”和“某天/也许”列表中。
+	- 总下载次数：6655
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-plugin-todo.zip)
+	- ## 60-Kindle Highlights
+	- 使用您的亚马逊登录名或上传您的我的剪报文件同步您的Kindle图书亮点
+	- 总下载次数：6424
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-kindle-plugin.zip)
+	- ## 61-Obsidian Tabs
+	- 新窗格在选项卡式视图中打开。
+	- 总下载次数：6402
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-tabs.zip)
+	- ## 62-Autocomplete
+	- 此插件提供文本自动完成功能以提高打字速度。
+	- 总下载次数：6306
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-autocomplete-plugin.zip)
+	- ## 63-Table of Contents
+	- 为笔记创建目录。
+	- 总下载次数：6242
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-plugin-toc.zip)
+	- ## 64-Extract Highlights
+	- 允许将笔记中的所有==亮点==提取到剪贴板中
+	- 总下载次数：6201
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/extract-highlights-plugin.zip)
+	- ## 65-Flashcards
+	- Anki集成。
+	- 总下载次数：6196
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/flashcards-obsidian.zip)
+	- ## 66-Fullscreen Focus Mode
+	- 添加在全屏焦点模式下查看单个文档叶子的命令
+	- 总下载次数：6088
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-fullscreen-plugin.zip)
+	- ## 67-Media Extended
+	- 改进在Obsidian中播放的媒体（视频/音频）
+	- 总下载次数：5987
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/media-extended.zip)
+	- ## 68-Vimrc Support
+	- 使用ObsidianVim命令自动加载启动文件。
+	- 总下载次数：5777
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-vimrc-support.zip)
+	- ## 69-Smart Random Note
+	- 以更好的控制打开随机音符
+	- 总下载次数：5687
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/smart-random-note.zip)
+	- ## 70-Pane Relief
+	- 每个窗格的历史记录、窗格移动+导航的热键等
+	- 总下载次数：5666
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/pane-relief.zip)
+	- ## 71-Enhancing mindmap
+	- 这是一个用于黑曜石的增强思维导图插件。您可以在Markdown上编辑思维导图。
+	- 总下载次数：5607
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-enhancing-mindmap.zip)
+	- ## 72-Obsidian Leaflet
+	- 笔记中的交互式地图
+	- 总下载次数：5552
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-leaflet-plugin.zip)
+	- ## 73-Zoom
+	- 放大标题和列表。
+	- 总下载次数：5516
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-zoom.zip)
+	- ## 74-Obsidian Pandoc
+	- 这是Obsidian的Pandoc导出插件。它提供了导出到格式的命令，例如DOCX、ePub和PDF。
+	- 总下载次数：5503
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pandoc.zip)
+	- ## 75-Vantage - Advanced search builder
+	- 在Obsidian中构建高级搜索查询。
+	- 总下载次数：5490
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/vantage-obsidian.zip)
+	- ## 76-Journey
+	- 发现笔记之间的故事
+	- 总下载次数：5390
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-journey-plugin.zip)
+	- ## 77-Timelines
+	- 使用指定的标签组合创建所有笔记的时间线视图
+	- 总下载次数：5389
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-timelines.zip)
+	- ## 78-LanguageTool Integration
+	- 借助语言工具进行高级拼写/语法检查
+	- 总下载次数：5242
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-languagetool-plugin.zip)
+	- ## 79-Search on Internet
+	- 添加上下文菜单项以根据笔记标题搜索互联网
+	- 总下载次数：5111
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/search-on-internet.zip)
+	- ## 80-Better PDF Plugin
+	- 将pdf页面插入、缩放、旋转和剪切到您的笔记中
+	- 总下载次数：5000
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/better-pdf-plugin.zip)
+	- ## 81-Breadcrumbs
+	- 使用面包屑路径或矩阵视图可视化保管库的层次结构
+	- 总下载次数：4820
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/breadcrumbs.zip)
+	- ## 82-cMenu
+	- Obsidian.md插件，它添加了一个最小的文本编辑器模式，以获得更流畅的书写/编辑体验✍🏽。
+	- 总下载次数：4756
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/cmenu-plugin.zip)
+	- ## 83-Readwise Official
+	- 官方Readwise\<-\>黑曜石集成。
+	- 总下载次数：4704
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/readwise-official.zip)
+	- ## 84-Hotkey Helper
+	- 从社区插件选项卡轻松查看和访问任何插件的设置或热键分配（和冲突）
+	- 总下载次数：4656
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/hotkey-helper.zip)
+	- ## 85-Show Whitespace
+	- 在编辑器中显示空格
+	- 总下载次数：4584
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/cm-show-whitespace-obsidian.zip)
+	- ## 86-System Dark Mode
+	- 自动使用操作系统的设置在明暗模式之间切换
+	- 总下载次数：4498
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-system-dark-mode.zip)
+	- ## 87-Filename Heading Sync
+	- Obsidian插件，用于将文件名与文件的第一个标题保持同步
+	- 总下载次数：4420
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-filename-heading-sync.zip)
+	- ## 88-Maximise Active Pane
+	- 只需用活动窗格填充工作区
+	- 总下载次数：4257
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/maximise-active-pane-obsidian.zip)
+	- ## 89-Show Current File Path
+	- 在状态栏中显示当前打开文件的完整路径
+	- 总下载次数：4228
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-show-file-path.zip)
+	- ## 90-Advanced Obsidian URI
+	- ObsidianURI的高级模式
+	- 总下载次数：4150
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-advanced-uri.zip)
+	- ## 91-MetaEdit
+	- MetaEdit可帮助您管理元数据。
+	- 总下载次数：3682
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/metaedit.zip)
+	- ## 92-Hotkeys for templates
+	- 添加热键以插入特定模板
+	- 总下载次数：3636
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-hotkeys-for-templates.zip)
+	- ## 93-Footlinks
+	- 将url从正文提取到页脚。
+	- 总下载次数：3596
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/footlinks.zip)
+	- ## 94-Focus Mode
+	- 为Obsidian添加对焦模式。
+	- 总下载次数：3500
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-focus-mode.zip)
+	- ## 95-Latex Environments
+	- 允许在数学环境中快速插入和更改乳胶环境。
+	- 总下载次数：3296
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-latex-environments.zip)
+	- ## 96-Gallery
+	- 交互式卡片，如图像画廊显示
+	- 总下载次数：3236
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-gallery.zip)
+	- ## 97-Auto Link Title
+	- 这个插件会自动从网络上获取链接的标题
+	- 总下载次数：3158
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-auto-link-title.zip)
+	- ## 98-Jump to link
+	- 此插件允许使用热键打开当前文档中的链接
+	- 总下载次数：3127
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mrj-jump-to-link.zip)
+	- ## 99-Remember cursor position
+	- 记住每个音符的光标和滚动位置
+	- 总下载次数：3104
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/remember-cursor-position.zip)
+	- ## 100-Footnote Shortcut
+	- 让在Obsidian中创建脚注更有趣！
+	- 总下载次数：3074
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-footnotes.zip)
+	- ## 101-Meld Encrypt
+	- 在笔记中隐藏秘密
+	- 总下载次数：2987
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/meld-encrypt.zip)
+	- ## 102-Embedded Note Titles
+	- 在每个音符上方插入音符文件名作为H1标题
+	- 总下载次数：2966
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-embedded-note-titles.zip)
+	- ## 103-Sort & Permute lines
+	- 对整个文件或选择中的行进行排序和置换。
+	- 总下载次数：2945
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-sort-and-permute-lines.zip)
+	- ## 104-Add links to current note
+	- 此插件添加了一个命令，允许在所选笔记的底部添加指向当前笔记的链接
+	- 总下载次数：2884
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mrj-crosslink-between-notes.zip)
+	- ## 105-Dangling links panel
+	- 添加一个面板，显示Vault中的任何悬空链接。
+	- 总下载次数：2867
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-dangling-links.zip)
+	- ## 106-Collapse All
+	- 这个插件添加了一个按钮来折叠文件资源管理器中的所有文件夹。
+	- 总下载次数：2814
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-collapse-all-plugin.zip)
+	- ## 107-Readwise Community
+	- 将Readwise突出显示同步到您的笔记中
+	- 总下载次数：2777
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-readwise.zip)
+	- ## 108-Wikilinks to MDLinks (Markdown Links)
+	- 将维基链接转换为降价链接，反之亦然
+	- 总下载次数：2771
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/wikilinks-to-mdlinks-obsidian.zip)
+	- ## 109-Discordian Theme
+	- Discordian主题的细粒度控制
+	- 总下载次数：2730
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/discordian-plugin.zip)
+	- ## 110-PlantUML
+	- 生成PlantUML图
+	- 总下载次数：2617
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-plantuml.zip)
+	- ## 111-Supercharged Links
+	- 使用目标笔记的frontmatter属性值将属性添加到内部链接
+	- 总下载次数：2598
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/supercharged-links-obsidian.zip)
+	- ## 112-Annotator
+	- 一个用黑曜石阅读和注释PDF和EPUB的插件。
+	- 总下载次数：2567
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-annotator.zip)
+	- ## 113-CSV Editor
+	- 在Obsidian中编辑CSV文件
+	- 总下载次数：2535
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/csv-obsidian.zip)
+	- ## 114-Metatable
+	- 将整个frontmatter部分显示为可折叠表格
+	- 总下载次数：2477
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-metatable.zip)
+	- ## 115-Table Extended
+	- 使用MultiMarkdown6语法启用扩展表支持
+	- 总下载次数：2458
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/table-extended.zip)
+	- ## 116-Status Bar Pomodoro Timer
+	- 将番茄钟计时器添加到您的状态栏。
+	- 总下载次数：2441
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-statusbar-pomo.zip)
+	- ## 117-Obsidian Query Language
+	- 这个插件允许你在Obsidian中查询笔记和表示数据
+	- 总下载次数：2410
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-query-language.zip)
+	- ## 118-Automatically Reveal Active File
+	- 此插件将自动在侧面导航中显示当前活动的文件。
+	- 总下载次数：2335
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-reveal-active-file.zip)
+	- ## 119-File path to URI
+	- 将文件路径转换为​​uri，以便更轻松地使用Obsidian之外的本地文件链接
+	- 总下载次数：2310
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-file-path-to-uri.zip)
+	- ## 120-Clear Unused Images
+	- 清除Markdown笔记中不再使用的图像以节省空间。
+	- 总下载次数：2298
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/oz-clear-unused-images.zip)
+	- ## 121-Comments
+	- 在笔记的评论之间添加、跟踪和轻松导航
+	- 总下载次数：2272
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-comments.zip)
+	- ## 122-Extract url content
+	- 提取url将内容转换为Markdown
+	- 总下载次数：2252
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/extract-url.zip)
+	- ## 123-Daily Activity
+	- 这将输出今天在活动文件中更改/创建的文件列表
+	- 总下载次数：2231
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/daily-activity.zip)
+	- ## 124-Advanced Mobile Toolbar
+	- 增强了ObsidianMobile的工具栏
+	- 总下载次数：2225
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/advanced-toolbar.zip)
+	- ## 125-Contextual Typography
+	- 此插件在包含子标签名称的预览模式下向所有顶级div添加data-tag-name属性，允许上下文排版样式。
+	- 总下载次数：2222
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-contextual-typography.zip)
+	- ## 126-Extended MathJax
+	- 启用其他MathJax包并为MathJax添加全局序言
+	- 总下载次数：2218
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-latex.zip)
+	- ## 127-Imgur Plugin
+	- 此插件将剪贴板中的图像上传到imgur.com并将上传的图像嵌入到您的笔记中
+	- 总下载次数：2105
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-imgur-plugin.zip)
+	- ## 128-Vault Statistics
+	- 带有Vault统计信息的状态栏项目，例如笔记、文件、附件和链接的数量
+	- 总下载次数：2087
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-vault-statistics-plugin.zip)
+	- ## 129-Text Expander
+	- 直接在编辑器中展开文本快捷方式、运行shell命令和python脚本
+	- 总下载次数：2081
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-text-expander.zip)
+	- ## 130-Link indexer
+	- 根据各种条件生成带链接的索引注释
+	- 总下载次数：2058
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-link-indexer.zip)
+	- ## 131-Dice Roller
+	- 为您的笔记添加一点随机性！
+	- 总下载次数：1978
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-dice-roller.zip)
+	- ## 132-Neo4j Graph View
+	- 使用Neo4j进行高级图形可视化和查询的插件。
+	- 总下载次数：1970
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/neo4j-graph-view.zip)
+	- ## 133-Budget WYSIWYG
+	- 这是一个插件，可根据您是否正在输入，自动在预览模式和源模式之间切换。
+	- 总下载次数：1916
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-budget-wysiwyg.zip)
+	- ## 134-Reminder
+	- 使用提醒管理降价待办事项。
+	- 总下载次数：1909
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-reminder-plugin.zip)
+	- ## 135-Indentation Lines
+	- 为有序和无序列表创建连接线。
+	- 总下载次数：1903
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-indent-lines.zip)
+	- ## 136-tq
+	- 基于文件的任务管理
+	- 总下载次数：1868
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/tq-obsidian.zip)
+	- ## 137-Prettier Format
+	- 笔记的自定义格式。
+	- 总下载次数：1867
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-plugin-prettier.zip)
+	- ## 138-Zoottelkeeper Plugin
+	- 它在您的Vault中的所有文件夹中维护索引文件：如果您创建/删除/移动笔记，索引文件将自动更新。它可用于在图表视图中显示文件夹
+	- 总下载次数：1859
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/zoottelkeeper-obsidian-plugin.zip)
+	- ## 139-Activity History
+	- 跟踪指定项目的活动，Github之类的活动板
+	- 总下载次数：1845
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-activity-history.zip)
+	- ## 140-Text Format
+	- 格式化所选文本上/下/大写
+	- 总下载次数：1838
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-text-format.zip)
+	- ## 141-Discord Rich Presence
+	- 更新您的Discord状态，向您的朋友展示您在Obsidian中的工作。
+	- 总下载次数：1794
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-discordrpc.zip)
+	- ## 142-Smart Typography
+	- 将引号转换为卷曲引号，将破折号转换为长破折号，将句点转换为省略号。
+	- 总下载次数：1777
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-smart-typography.zip)
+	- ## 143-DEVONlink - Open or reveal notes in DEVONthink
+	- 在DEVONthink中打开或显示当前笔记。
+	- 总下载次数：1766
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/DEVONlink-obsidian.zip)
+	- ## 144-File Explorer Note Count
+	- 该插件可帮助您查看文件资源管理器中每个文件夹下的笔记数量。
+	- 总下载次数：1751
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/file-explorer-note-count.zip)
+	- ## 145-Active note to window title
+	- 此插件在窗口标题中显示当前打开的笔记
+	- 总下载次数：1742
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/open-note-to-window-title.zip)
+	- ## 146-macOS Keyboard Navigation
+	- 在Obsidian中启用alt+↑和alt+↓键盘导航。
+	- 总下载次数：1739
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/macOS-keyboard-nav-obsidian.zip)
+	- ## 147-Emoji Shortcodes
+	- 这个插件可以使用MarkdownEmojiShortcodes:smile:，就像在Slack或Discord中一样
+	- 总下载次数：1695
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/emoji-shortcodes.zip)
+	- ## 148-RTL Support
+	- 从右到左(RTL)文本方向支持阿拉伯语、希伯来语和波斯语等语言。
+	- 总下载次数：1671
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-rtl.zip)
+	- ## 149-css snippets
+	- 加载和管理css片段
+	- 总下载次数：1663
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/css-snippets.zip)
+	- ## 150-Shortcuts extender
+	- 使用快捷键输入特殊符号，无需语言切换
+	- 总下载次数：1662
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/shortcuts-extender.zip)
+	- ## 151-Daily Stats
+	- 跟踪您的每日字数
+	- 总下载次数：1651
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-daily-stats.zip)
+	- ## 152-Relative Line Numbers
+	- 在编辑器模式下启用相对行号
+	- 总下载次数：1512
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-relative-line-numbers.zip)
+	- ## 153-Better footnote
+	- Obsidian的脚注弹出框
+	- 总下载次数：1500
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/better-fn.zip)
+	- ## 154-Dangerzone Writing
+	- 这个插件很危险！当你启动它时，你必须不停地写100秒。如果您停下来思考并环顾四周，3秒后插件将删除您在此笔记中所写的内容。
+	- 总下载次数：1488
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/dangerzone-writing-plugin.zip)
+	- ## 155-txt as md
+	- 在Obsidian中将txt文件编辑为markdown
+	- 总下载次数：1481
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/txt-as-md-obsidian.zip)
+	- ## 156-Text Snippets
+	- 加快打字速度的片段
+	- 总下载次数：1477
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/text-snippets-obsidian.zip)
+	- ## 157-Note Folder Autorename
+	- 将笔记转换为文件夹，并在移动或重命名时自动移动/重命名其文件夹
+	- 总下载次数：1438
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/note-folder-autorename.zip)
+	- ## 158-Charts View
+	- Obsidian的图表视图插件，基于AntDesignCharts，这是一个React图表库。
+	- 总下载次数：1396
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-chartsview-plugin.zip)
+	- ## 159-Banners
+	- 将横幅图片添加到您的笔记中！
+	- 总下载次数：1394
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-banners.zip)
+	- ## 160-Homepage
+	- 在启动时打开指定的笔记。
+	- 总下载次数：1367
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/homepage.zip)
+	- ## 161-Obsidian Pomodoro Plugin
+	- 这是一个用于Obsidian的简单番茄钟插件。
+	- 总下载次数：1358
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pomodoro-plugin.zip)
+	- ## 162-Commits
+	- 跟踪和显示黑曜石保险库或指定项目中的提交。
+	- 总下载次数：1356
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-commits.zip)
+	- ## 163-Obsidian Image Toolkit
+	- 单击图像时，它会显示在一个弹出层中，您可以查看、拖动、缩放、旋转图像。
+	- 总下载次数：1341
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-image-toolkit.zip)
+	- ## 164-Quick Explorer
+	- 使用鼠标或键盘从标题栏执行文件浏览器操作（并查看您当前的文件路径）
+	- 总下载次数：1325
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/quick-explorer.zip)
+	- ## 165-Completed Area
+	- 将已完成的待办事项移动到单独的已完成区域。
+	- 总下载次数：1294
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/completed-area.zip)
+	- ## 166-CSV Table
+	- 将CSV数据呈现为笔记中的表格。
+	- 总下载次数：1263
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-csv-table.zip)
+	- ## 167-Find and replace in selection
+	- 在选定的文本中查找您要查找的内容并将其替换为指定的文本
+	- 总下载次数：1227
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/find-and-replace-in-selection.zip)
+	- ## 168-Code block from selection
+	- 为所选文本添加代码块。
+	- 总下载次数：1223
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/code-block-from-selection.zip)
+	- ## 169-Search++
+	- 允许在活动笔记上插入文本上下文搜索结果，该插件基于MrJackphil的插件mrj-text-expand-witb-text。
+	- 总下载次数：1202
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/searchpp.zip)
+	- ## 170-Obsidian Orthography
+	- Obsidian插件，用于检查和修复文本中的拼写错误
+	- 总下载次数：1174
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-orthography.zip)
+	- ## 171-Longform
+	- Obsidian插件，可帮助您编写和编辑小说、剧本和其他长期项目。
+	- 总下载次数：1157
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/longform.zip)
+	- ## 172-Page Heading From Links
+	- 将标题从文件名插入到空白页中
+	- 总下载次数：1150
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/page-heading-from-links.zip)
+	- ## 173-Export To TeX
+	- 以适合粘贴到TeX文档的格式导出Vault文件
+	- 总下载次数：1116
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-export-to-tex.zip)
+	- ## 174-Copy Block Link
+	- 从Obsidian的右键菜单中获取块和标题的链接。
+	- 总下载次数：1095
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-copy-block-link.zip)
+	- ## 175-Map View
+	- 笔记的交互式地图视图。
+	- 总下载次数：1093
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-map-view.zip)
+	- ## 176-Completed Task Display
+	- 提供用于显示或隐藏已完成任务的控件
+	- 总下载次数：1085
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/completed-task-display.zip)
+	- ## 177-Pluck
+	- 从网页在Obsidian中快速创建笔记。
+	- 总下载次数：1047
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pluck.zip)
+	- ## 178-Word Splitting for Simplified Chinese in Edit
+		- Mode
+	- Obsidian内置CodeMirror编辑器支持简体中文分词的补丁
+	- 总下载次数：1044
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/cm-chs-patch.zip)
+	- ## 179-Consistent attachments and links
+	- 移动笔记附件并自动更新链接
+	- 总下载次数：1030
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/consistent-attachments-and-links.zip)
+	- ## 180-Music Sheet Code Blocks
+	- 直接从代码块渲染乐谱
+	- 总下载次数：1023
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/music-code-blocks.zip)
+	- ## 181-Things Logbook
+	- 将您的事物日志与您的日常笔记同步
+	- 总下载次数：1015
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/things-logbook.zip)
+	- ## 182-Leader Hotkeys
+	- 为任何命令（如tmux或vim）添加领导者热键支持
+	- 总下载次数：1015
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/leader-hotkeys-obsidian.zip)
+	- ## 183-Readwise Mirror
+	- 将您的Readwise库直接镜像到黑曜石保险库
+	- 总下载次数：999
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/readwise-mirror.zip)
+	- ## 184-Tidy Footnotes
+	- 无缝地整理脚注。
+	- 总下载次数：996
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-tidy-footnotes.zip)
+	- ## 185-Privacy Glasses
+	- 提供一个功能区图标和命令来模糊屏幕文本以获得更好的隐私
+	- 总下载次数：991
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/privacy-glasses.zip)
+	- ## 186-Open vault in VSCode
+	- 用于将Vault作为VisualStudioCode工作区打开的功能区按钮和命令
+	- 总下载次数：986
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/open-vscode.zip)
+	- ## 187-Customizable Sidebar
+	- 此插件允许向Obsidian的侧边栏功能区添加任何命令。
+	- 总下载次数：961
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/customizable-sidebar.zip)
+	- ## 188-Hotkeys for specific files
+	- 为特定文件设置热键，只需使用键盘即可打开它们。
+	- 总下载次数：959
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-hotkeys-for-specific-files.zip)
+	- ## 189-Argument Map with Argdown
+	- 允许您编写argdown代码块并在预览中查看地图
+	- 总下载次数：949
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-argdown-plugin.zip)
+	- ## 190-Incremental Writing
+	- 随着时间的推移，逐步复习笔记和块。
+	- 总下载次数：944
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-incremental-writing.zip)
+	- ## 191-Taskbone OCR
+	- 从图像中提取文本并使其可用于搜索。
+	- 总下载次数：927
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/taskbone-ocr-plugin.zip)
+	- ## 192-Diagrams
+	- 在黑曜石中创建和编辑Draw.io图表
+	- 总下载次数：904
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/drawio-obsidian.zip)
+	- ## 193-Pocket integration
+	- 访问您的袖珍清单条目并轻松为其创建笔记
+	- 总下载次数：903
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pocket.zip)
+	- ## 194-Related Notes Finder
+	- 一个Obsidian插件，添加了用于查找相关笔记的额外功能。
+	- 总下载次数：896
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-related-notes-finder.zip)
+	- ## 195-Easy Typing
+	- 打字时自动格式化
+	- 总下载次数：867
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/easy-typing-obsidian.zip)
+	- ## 196-Underline
+	- 使用快捷方式添加下划线
+	- 总下载次数：865
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-underline.zip)
+	- ## 197-AidenLx's Folder Note
+	- 向带有文件夹注释的文件夹添加描述、摘要和更多信息。
+	- 总下载次数：860
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/alx-folder-note.zip)
+	- ## 198-Plugin Changelogs
+	- 阅读Obsidian中的插件更新日志
+	- 总下载次数：851
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/plugin-changelogs.zip)
+	- ## 199-Aut-O-Backups
+	- 整个保管库的自动Dropbox备份。
+	- 总下载次数：851
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-dropbox-backups.zip)
+	- ## 200-Toggl Track Integration
+	- 添加与TogglTrackAPI的集成以在Obsidian中管理您的计时器。
+	- 总下载次数：850
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-toggl-integration.zip)
+	- ## 201-Org Mode
+	- 为Obsidian添加组织模式支持。
+	- 总下载次数：849
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-org-mode.zip)
+	- ## 202-Hotkeys for starred files
+	- 为前9个加星标的文件设置一个单独的热键，只需使用键盘即可打开它们。
+	- 总下载次数：843
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-shortcuts-for-starred-files.zip)
+	- ## 203-metatemplates
+	- 使用YAMLfront-matter从模板生成注释
+	- 总下载次数：839
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-metatemplates.zip)
+	- ## 204-Todo.txt support
+	- 对todo.txt文件的原生支持
+	- 总下载次数：820
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/todo-txt.zip)
+	- ## 205-NoteTweet
+	- 发布来自Obsidian的推文。
+	- 总下载次数：794
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/notetweet.zip)
+	- ## 206-Habit Tracker
+	- 这个黑曜石插件创建了一个简单的月视图，用于可视化您的打卡记录。
+	- 总下载次数：780
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-habit-tracker.zip)
+	- ## 207-Tag Page Preview
+	- 单击标签会打开一个对话框，列出使用该标签的页面
+	- 总下载次数：765
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/tag-page-preview.zip)
+	- ## 208-5e Statblocks
+	- 在Obsidian.md中创建5e风格的统计块
+	- 总下载次数：764
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-5e-statblocks.zip)
+	- ## 209-Snippets plugin
+	- 从黑曜石执行简单的脚本/片段。这个插件是实验性的
+	- 总下载次数：742
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/snippets.zip)
+	- ## 210-Obsidian42 - WordNet Dictionary
+	- 将普林斯顿大学开发的大型英语词汇数据库WordNet引入Obsidian。
+	- 总下载次数：740
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-wordnet-plugin.zip)
+	- ## 211-2Hop Links Plugin
+	- 此插件将显示链接2hop的页面。
+	- 总下载次数：725
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-2hop-links-plugin.zip)
+	- ## 212-Media Extended BiliBili Plugin
+	- 为MediaExtended插件添加高级bilibili视频支持
+	- 总下载次数：702
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mx-bili-plugin.zip)
+	- ## 213-Unique attachments
+	- 重命名附件，使其名称唯一（基于文件内容的散列）
+	- 总下载次数：700
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/unique-attachments.zip)
+	- ## 214-Electron Window Tweaker
+	- 调整各种电子窗口设置。
+	- 总下载次数：696
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-electron-window-tweaker.zip)
+	- ## 215-Recall
+	- 一个灵活且可配置的间隔重复插件，具有多种算法可供选择。
+	- 总下载次数：684
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-recall.zip)
+	- ## 216-Timeline
+	- 用于建立伟大的时间表
+	- 总下载次数：681
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-timeline.zip)
+	- ## 217-Obsidian markmind
+	- Obsidian的思维导图、大纲和pdf注释工具。（闭源）
+	- 总下载次数：675
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-markmind.zip)
+	- ## 218-Apple Reminders
+	- 一个试图将Apple提醒带入Obsidian的插件。
+	- 总下载次数：652
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-apple-reminders-plugin.zip)
+	- ## 219-Obsidian Icon Folder
+	- 此插件允许您向文件夹添加图标。
+	- 总下载次数：651
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-icon-folder.zip)
+	- ## 220-Format Hotkeys
+	- Obsidian的Google文档样式格式热键
+	- 总下载次数：650
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/format-hotkeys-obsidian.zip)
+	- ## 221-Icon Swapper
+	- 允许更换Obsidian的默认图标
+	- 总下载次数：649
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-icon-swapper.zip)
+	- ## 222-Sidebar Expand on Hover
+	- 这个Obsidian插件基于鼠标悬停在左侧功能区上扩展或折叠侧边栏。
+	- 总下载次数：641
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-sidebar-expand-on-hover.zip)
+	- ## 223-Temple
+	- 一个用于在Obsidian中进行模板化的插件，由Nunjucks提供支持。
+	- 总下载次数：638
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-temple.zip)
+	- ## 224-Youglish Plugin
+	- 使用YouTube来改善您的发音。YouGlish插件为您提供快速、公正的答案，了解真实的人和上下文中的说话方式。
+	- 总下载次数：638
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-youglish-plugin.zip)
+	- ## 225-Obsidian Advanced New File
+	- 这是一个在所选文件夹中创建笔记的插件。
+	- 总下载次数：636
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-advanced-new-file.zip)
+	- ## 226-Block Reference Counts
+	- 创建一个按钮，其中包含对给定块、链接或标题的引用数。单击该按钮会显示Vault中的参考表
+	- 总下载次数：635
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/block-reference-count.zip)
+	- ## 227-QR Code Generator Plugin
+	- 这是一个二维码生成器
+	- 总下载次数：624
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-qrcode-plugin.zip)
+	- ## 228-Dynamic Table of Contents
+	- 一个Obsidian插件，用于生成与您的文档大纲保持同步的目录。
+	- 总下载次数：619
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-dynamic-toc.zip)
+	- ## 229-Obsidian Rich Links
+	- RichLinks插件，可让您将笔记中的URL转换为丰富的链接预览
+	- 总下载次数：616
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-rich-links.zip)
+	- ## 230-Force note view mode by front matter
+	- 这个插件允许通过使用frontmatter:YAMLblockwith'obsidian_ui_mode'作为键来强制笔记的查看模式。
+	- 总下载次数：598
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-view-mode-by-frontmatter.zip)
+	- ## 231-Code Block Enhancer
+	- 增强黑曜石降价代码块，提供复制按钮、行号、语言名称提示等。
+	- 总下载次数：596
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-code-block-enhancer.zip)
+	- ## 232-Add Codemirror's matchbrackets.js
+	- 这个插件添加了matchbrackets.js，它允许在Vim模式下使用`di[`或`ya(`命令
+	- 总下载次数：593
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mrj-add-codemirror-matchbrackets.zip)
+	- ## 233-Linter
+	- 这个Obsidian插件对你的Markdown文件应用一致的样式。
+	- 总下载次数：586
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-linter.zip)
+	- ## 234-query2table
+	- 将查询返回的文件表示为它们的YAMLfrontmatter表
+	- 总下载次数：567
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-query2table.zip)
+	- ## 235-Image auto upload Plugin
+	- 此插件通过PicGo从剪贴板上传图像
+	- 总下载次数：559
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-image-auto-upload-plugin.zip)
+	- ## 236-Embedded Code Title
+	- 这是一个Obsidian插件，可以将标题嵌入到代码块中。
+	- 总下载次数：554
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-embedded-code-title.zip)
+	- ## 237-Jupyter
+	- 使用jupyter在Obsidian中运行python代码。
+	- 总下载次数：547
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-jupyter.zip)
+	- ## 238-YouHaveBeenStaring
+	- 在状态栏中告诉您盯着黑曜石金库的时间。好吧-至少你的保险库打开多久。
+	- 总下载次数：522
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/youhavebeenstaring-plugin.zip)
+	- ## 239-Theme Picker
+	- 快速预览并选择已安装的主题
+	- 总下载次数：515
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/theme-picker.zip)
+	- ## 240-CodeMirror Options
+	- 配置各种CodeMirror选项，例如文本选择行为和语法突出显示
+	- 总下载次数：512
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-codemirror-options.zip)
+	- ## 241-Ledger
+	- 纯文本会计
+	- 总下载次数：505
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/ledger-obsidian.zip)
+	- ## 242-Initiative Tracker
+	- Obsidian.md的TTRPG计划跟踪器
+	- 总下载次数：497
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/initiative-tracker.zip)
+	- ## 243-Copy Image and URL in Preview
+	- 在预览模式下复制URL上下文菜单
+	- 总下载次数：496
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/copy-url-in-preview.zip)
+	- ## 244-Adjacency Matrix Maker
+	- 创建保险库的交互式邻接矩阵
+	- 总下载次数：487
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/adjacency-matrix-maker.zip)
+	- ## 245-Obsidian42 - Jump-to-Date
+	- 用于快速导航日期的弹出式日历。
+	- 总下载次数：486
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-jump-to-date-plugin.zip)
+	- ## 246-Regex Pipeline
+	- 允许用户设置自定义正则表达式规则以自动格式化笔记
+	- 总下载次数：484
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-regex-pipeline.zip)
+	- ## 247-Chesser
+	- 国际象棋游戏查看器/编辑器
+	- 总下载次数：478
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/chesser-obsidian.zip)
+	- ## 248-Grandfather
+	- 一个简单的插件，用于在状态栏上显示时间和日期。
+	- 总下载次数：471
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-grandfather.zip)
+	- ## 249-Vault Changelog
+	- 在您的Vault中维护最近编辑的文件的更改日志
+	- 总下载次数：462
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-vault-changelog.zip)
+	- ## 250-Stopwatch Plugin
+	- 在黑曜石上显示秒表！
+	- 总下载次数：456
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-stopwatch-plugin.zip)
+	- ## 251-Obsidian Pangu
+	- 一个小插件旨在增加汉字和英文字母之间的空间，对于排版强迫症的人来说是一个福音。
+	- 总下载次数：433
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pangu.zip)
+	- ## 252-Various Complements
+	- 此插件使您可以补充Markdown文件中的输入
+	- 总下载次数：419
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/various-complements.zip)
+	- ## 253-Highlight Public Notes
+	- 该插件通过将注释着色为红色来警告注释是公开的（基于frontmatter属性）。
+	- 总下载次数：414
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-highlightpublicnotes-plugin.zip)
+	- ## 254-Folder Note Core
+	- 为文件夹笔记提供核心功能和API
+	- 总下载次数：398
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/folder-note-core.zip)
+	- ## 255-Python lab plugin
+	- 一个用于试验python脚本等的界面。
+	- 总下载次数：396
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/python-lab-plugin.zip)
+	- ## 256-Number Headings
+	- 自动编号或重新编号Obsidian文档中的标题。
+	- 总下载次数：393
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/number-headings-obsidian.zip)
+	- ## 257-Fountain
+	- 黑曜石喷泉支架
+	- 总下载次数：390
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-fountain.zip)
+	- ## 258-React Components
+	- 在笔记中编写和使用React(Jsx)组件。
+	- 总下载次数：382
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-react-components.zip)
+	- ## 259-Open cards in imdone from obsidian.
+	- 从黑曜石的来源打开imdone看板中的卡片。在源头上用黑曜石打开来自imdone的卡片。
+	- 总下载次数：379
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/imdone-obsidian-plugin.zip)
+	- ## 260-Ghost Fade Focus
+	- 专注于当前线，其他人如鬼魅般褪色！
+	- 总下载次数：367
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/ghost-fade-focus.zip)
+	- ## 261-Kroki
+	- 渲染Kroki图。
+	- 总下载次数：361
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-kroki.zip)
+	- ## 262-Code Copy
+	- 向代码块添加按钮以复制其中的代码。修剪空格。
+	- 总下载次数：361
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-code-copy.zip)
+	- ## 263-Obsidian title index
+	- 一个简单的插件，可以将序列号添加到您的Markdown标题中。
+	- 总下载次数：350
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-title-index.zip)
+	- ## 264-Markdown Furigana
+	- Obsidian的Furigana渲染插件的简单降价。
+	- 总下载次数：341
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-markdown-furigana.zip)
+	- ## 265-Julian Date Quick Insert
+	- 添加一个快捷方式来插入当前的儒略日期以进行天文观测。
+	- 总下载次数：340
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-juliandate.zip)
+	- ## 266-Mochi Cards Exporter
+	- 从黑曜石中将Markdown笔记导出到Mochi卡
+	- 总下载次数：336
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mochi-cards-exporter.zip)
+	- ## 267-Garble Text
+	- Obsidian中的乱码将整个应用程序中的所有内容（笔记、侧边栏等）都变成了线条，这样您就可以在不暴露敏感数据的情况下截取屏幕截图。
+	- 总下载次数：322
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/garble-text.zip)
+	- ## 268-Gist
+	- 这是一个插件显示GitHub要点。
+	- 总下载次数：322
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-gist.zip)
+	- ## 269-Apply Patterns
+	- 将自定义的查找和替换模式连续应用于文本。
+	- 总下载次数：318
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-apply-patterns.zip)
+	- ## 270-Hide Sidebars When Narrow
+	- 当您的窗口很窄时自动隐藏侧边栏。
+	- 总下载次数：317
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-hide-sidebars-when-narrow.zip)
+	- ## 271-JSONifier
+	- JSON.stringify()或JSON.parse()突出显示文本并复制到剪贴板。
+	- 总下载次数：312
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-jsonifier.zip)
+	- ## 272-Better File Link
+	- 一个插件，用于为笔记添加更好的外部文件链接。
+	- 总下载次数：311
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-file-link.zip)
+	- ## 273-Macros
+	- 将多个命令组合成一个宏并设置延迟。
+	- 总下载次数：307
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/macro-plugin.zip)
+	- ## 274-koncham workspace
+	- 黑曜石工作区管理
+	- 总下载次数：301
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/koncham-workspace.zip)
+	- ## 275-Open with
+	- 此插件允许您添加多个其他程序来打开笔记。
+	- 总下载次数：299
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/open-with.zip)
+	- ## 276-Cursor Location
+	- 这将显示光标的位置（字符和行号）。
+	- 总下载次数：287
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-cursor-location-plugin.zip)
+	- ## 277-Markdown Attributes
+	- 为Obsidian.md中的元素添加Markdown属性
+	- 总下载次数：278
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/markdown-attributes.zip)
+	- ## 278-Spotlight
+	- 具有随机注释或来自Vault/指定项目中的注释块或具有特定标签组合的块。
+	- 总下载次数：277
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-spotlight.zip)
+	- ## 279-PaperCut
+	- 以最简单的方式表达想法……否则
+	- 总下载次数：267
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-paper-cut.zip)
+	- ## 280-Card View Mode
+	- 启用以卡片形式查看笔记。
+	- 总下载次数：266
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-card-view-mode.zip)
+	- ## 281-Open Link With
+	- 在Obsidian中使用特定浏览器打开外部链接
+	- 总下载次数：258
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-open-link-with.zip)
+	- ## 282-Find & Replace in Selection
+	- 替换当前选择中的文本
+	- 总下载次数：258
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-find-and-replace-in-selection.zip)
+	- ## 283-Podcast Note
+	- 播客笔记可让您自动将播客信息添加到笔记中。
+	- 总下载次数：258
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/podcast-note.zip)
+	- ## 284-Auto pair chinese symbol
+	- 自动配对中国符号
+	- 总下载次数：257
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-auto-pair-chinese-symbol.zip)
+	- ## 285-Shell commands
+	- 您可以预先定义要经常运行的系统命令，并为它们分配热键。例如打开外部应用程序。
+	- 总下载次数：241
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-shellcommands.zip)
+	- ## 286-Amazing Marvin
+	- 一个简单的插件来帮助从AmazingMarvin获取数据
+	- 总下载次数：235
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-amazingmarvin-plugin.zip)
+	- ## 287-Hover External Link
+	- 将鼠标悬停在外部链接上以查看目标URL。
+	- 总下载次数：230
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/hover-external-link.zip)
+	- ## 288-Stille
+	- 专注于你的写作，一次一节。
+	- 总下载次数：224
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-stille.zip)
+	- ## 289-Furigana
+	- 假名和\<ruby\>的辅助插件
+	- 总下载次数：216
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-furigana.zip)
+	- ## 290-Chessboard Viewer
+	- 在笔记预览中渲染国际象棋位置图。
+	- 总下载次数：212
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-chessboard.zip)
+	- ## 291-Obsidian Anki Sync
+	- 用于制作抽认卡并将它们同步到Anki的Obsidian插件。
+	- 总下载次数：201
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/ObsidianAnkiSync.zip)
+	- ## 292-Min3ditorHotkeys
+	- 受编码编辑器启发的其他编辑器热键
+	- 总下载次数：196
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-min3ditorhotkeys-plugin.zip)
+	- ## 293-Carry-Forward
+	- 从笔记复制文本，链接回其复制的源，或复制链接到笔记块。
+	- 总下载次数：192
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-carry-forward.zip)
+	- ## 294-Static File Server
+	- 托管黑曜石子文件夹作为静态文件服务器。
+	- 总下载次数：187
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-static-file-server.zip)
+	- ## 295-File Explorer Markdown Titles
+	- 在文件资源管理器中显示笔记的第一个Markdown标题
+	- 总下载次数：187
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/file-explorer-markdown-titles.zip)
+	- ## 296-Obsidian Trello
+	- 将Trello卡片连接到Obsidian笔记。
+	- 总下载次数：179
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-trello.zip)
+	- ## 297-CustomJS
+	- 在桌面和移动设备上重用自定义javascript。
+	- 总下载次数：174
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/customjs.zip)
+	- ## 298-Multi-line Formatting
+	- 将格式应用到所选文本，处理分段符。
+	- 总下载次数：173
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/multi-line-formatting.zip)
+	- ## 299-Liquid Templates
+	- 使用LiquidJS标签支持创建模板
+	- 总下载次数：169
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/liquid-templates.zip)
+	- ## 300-ini Editor
+	- 在Obsidian中编辑ini文件
+	- 总下载次数：169
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/ini-obsidian.zip)
+	- ## 301-Customizable Menu
+	- 允许您向Obsidian的右键单击菜单添加任何命令。
+	- 总下载次数：165
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/customizable-menu.zip)
+	- ## 302-Command Alias
+	- 这个插件为Obsidian命令提供别名。
+	- 总下载次数：163
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-command-alias-plugin.zip)
+	- ## 303-Image Uploader
+	- 该插件可以在粘贴时自动将剪贴板中的图像上传到任何图像托管。
+	- 总下载次数：159
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-image-uploader.zip)
+	- ## 304-Paste to Current Indentation
+	- 该插件允许在任何缩进级别将文本粘贴和标记为块引用。
+	- 总下载次数：157
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-paste-to-current-indentation.zip)
+	- ## 305-Workspaces Plus
+	- 快速切换和管理工作区
+	- 总下载次数：157
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/workspaces-plus.zip)
+	- ## 306-Random Structural Diary
+	- 这是一个从准备好的问题列表中随机选择问题的插件。它允许您每次回答不同的问题。
+	- 总下载次数：149
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/random-structural-diary-plugin.zip)
+	- ## 307-HackerNews
+	- 定期从HackerNews获取并显示头条新闻。
+	- 总下载次数：148
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-hackernews.zip)
+	- ## 308-mdx as md
+	- 在Obsidian中将mdx文件编辑为Markdown
+	- 总下载次数：142
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mdx-as-md-obsidian.zip)
+	- ## 309-Obsidian Task Archiver
+	- 使用日期树将已完成的任务移动到存档
+	- 总下载次数：139
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-task-archiver.zip)
+	- ## 310-Relative Find
+	- 此插件可让您相对于光标位置进行搜索。
+	- 总下载次数：138
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-relative-find.zip)
+	- ## 311-Activity Logger
+	- 记录您的活动，例如创建笔记、修改笔记、删除笔记等。
+	- 总下载次数：137
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-activity-logger.zip)
+	- ## 312-Luhman
+	- 用于处理以Luhman风格ID作为文件名的zettelkasten的命令
+	- 总下载次数：130
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/luhman.zip)
+	- ## 313-Daf Yomi
+	- 准备DafYomi笔记
+	- 总下载次数：108
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-daf-yomi.zip)
+	- ## 314-Phone to Roam to Obsidian
+	- phonetoroam.com的Obsidian客户端
+	- 总下载次数：107
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/phone-to-roam-to-obsidian.zip)
+	- ## 315-Reset Font Size
+	- 添加按钮和命令以将字体大小重置为其默认值。
+	- 总下载次数：105
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-reset-font-size.zip)
+	- ## 316-Go to Line
+	- 此插件提供转到行命令
+	- 总下载次数：101
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-go-to-line.zip)
+	- ## 317-Beeminder Word Count Plugin
+	- 将字数直接从黑曜石md文件发布到Beeminder
+	- 总下载次数：88
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/beeminder-word-count-plugin.zip)
+	- ## 318-Editor Commands Remap
+	- 将热键映射到编辑器命令。
+	- 总下载次数：84
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/editor-commands-remap.zip)
+	- ## 319-Random To-Do
+	- 打开一个包含自定义待办事项标记的随机文件，或在其位置的随机标记。
+	- 总下载次数：83
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-random-todo.zip)
+	- ## 320-Daily Named Folder
+	- 类似于每日笔记，但嵌套在带有单行摘要的每日文件夹中。更好的附件管理和可浏览性。
+	- 总下载次数：69
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-daily-named-folder.zip)
+	- ## 321-Vim Input Method Switch
+	- 启用Vim键盘映射时，使用fcitx-remote切换输入法。
+	- 总下载次数：65
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-vim-im-switch-plugin.zip)
+	- ## 322-Wavedrom
+	- 用于创建波形图的简单插件。
+	- 总下载次数：51
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-wavedrom.zip)
+	- ## 323-Scales and Chords
+	- 在您的黑曜石保险库中捕获音乐标签符号。和弦成为模态图像的可点击链接（由scales-chords.com提供）
+	- 总下载次数：51
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/scales-chords.zip)
+	- ## 324-Enhance Copy Note
+	- 增强本地黑曜石笔记复制。
+	- 总下载次数：30
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/copy-note.zip)
+	- ## 325-Obsimian
+	- 用于测试Obsidian插件的Obsidian模拟框架。
+	- 总下载次数：20
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsimian-exporter.zip)
+	- ## 326-Window Collapse
+	- 这个插件提供了一种简单的方法来折叠侧边栏而不进入全屏。
+	- 总下载次数：7
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/window-collapse.zip)
+	- ## 327-Simple Embeds
+	- 预览文件时用嵌入替换Twitter和YouTube链接。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/simple-embeds.zip)
+	- ## 328-Obsidian ReadItLater
+	- 从剪贴板收集有趣的信息到您的保险库。一个网站会被转换成MD、推文和Youtube视频嵌入，纯文本只会保存到一个新的通知中。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-read-it-later.zip)
+	- ## 329-Obsidian42 - Text Transporter
+	- 用于处理Vault中文本的高级文本工具
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian42-text-transporter.zip)
+	- ## 330-MarginNote Companion
+	- 一个连接MarginNote3和Obsidian的Obsidian插件
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/marginnote-companion.zip)
+	- ## 331-URI Commands
+	- 从Obsidian命令面板执行URI。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/uri-commands.zip)
+	- ## 332-Netwik
+	- 联合金库。此插件提供对全球笔记网络的访问。任何人都可以创建、查看或编辑笔记。所有更改将在所有参与者之间同步
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/netwik.zip)
+	- ## 333-Update frontmatter time on edit
+	- 保持前台内容与上次编辑时间同步
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/update-time-on-edit.zip)
+	- ## 334-Metadata Extractor
+	- 元数据导出（按计划）以与第三方应用程序（如启动器或图形分析软件）集成。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/metadata-extractor.zip)
+	- ## 335-Prominent Starred Files
+	- 在文件资源管理器中突出显示加星标的笔记
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-prominent-starred-files.zip)
+	- ## 336-Nomnoml Diagram
+	- 在黑曜石笔记中绘制nomnoml图
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-nomnoml-diagram.zip)
+	- ## 337-Task Collector (TC)
+	- 管理文档中已完成的任务
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-task-collector.zip)
+	- ## 338-Code Editor Shortcuts
+	- 添加在VisualStudioCode或SublimeText等代码编辑器中常见的键盘快捷键（热键）
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-editor-shortcuts.zip)
+	- ## 339-Quick Latex for Obsidian
+	- 一个简单的插件来简化和加速乳胶数学打字。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/quick-latex.zip)
+	- ## 340-OzanShare Publish
+	- 从您的保险库中单击一下即可发布您的降价笔记。（闭源）
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/ozanshare-publish.zip)
+	- ## 341-Map of Content
+	- 自动为您的保管库生成内容地图
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/map-of-content.zip)
+	- ## 342-Itinerary
+	- 通过根据笔记中的事件信息呈现日历，让您更轻松地计划旅行或事件。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-itinerary.zip)
+	- ## 343-Local images
+	- 本地图片插件会在你的笔记中找到所有外部图片的链接，然后将图片下载并保存到本地，最后调整你笔记中的图片链接指向保存的图片文件。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-local-images.zip)
+	- ## 344-Vocabulary View
+	- 写下一些单词及其解释，并以词汇测试风格进行预览
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-vocabulary-view.zip)
+	- ## 345-Snippet Commands
+	- 将自定义css片段注册为命令（您可以将热键绑定到该命令）
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/snippet-commands-obsidian.zip)
+	- ## 346-Plotly
+	- 使用此插件，您可以在笔记中嵌入Plotly图表。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-plotly.zip)
+	- ## 347-Obsidian42 - BRAT
+	- 轻松安装测试版插件进行测试。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian42-brat.zip)
+	- ## 348-Key Promoter
+	- 通过在使用鼠标时显示它们来学习键盘快捷键
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/key-promoter.zip)
+	- ## 349-Obsidian Live sync
+	- 黑曜石实时同步插件。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-livesync.zip)
+	- ## 350-JavaScript Init
+	- 在Obsidian加载时或任何其他时间运行JavaScript。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-javascript-init.zip)
+	- ## 351-Wikipedia
+	- 获取维基百科第一部分的注释标题或搜索词。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-wikipedia.zip)
+	- ## 352-Another Quick Switcher
+	- 这是一个Obsidian插件，它是Quickswitcher的另一种选择。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-another-quick-switcher.zip)
+	- ## 353-Lumberjack 🪓🪵
+	- 记录你的想法！Lumberjack添加了URL命令来帮助您解决效率低下的问题并正确编写。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/lumberjack-obsidian.zip)
+	- ## 354-Vale
+	- 使用Vale检查您的文档的风格一致性。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-vale.zip)
+	- ## 355-Link Headers Directly
+	- 链接标题时，预览模式将仅显示标题，而不显示笔记名称。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/link-headers-directly.zip)
+	- ## 356-Hypothesis Highlights
+	- 同步您的假设亮点
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-hypothesis-plugin.zip)
+	- ## 357-Obsidian Link Converter
+	- 扫描保管库中的所有链接并将它们转换为所需的格式。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-link-converter.zip)
+	- ## 358-MySnippets
+	- MySnippets是一个插件，它添加了一个状态栏菜单，允许用户快速打开和关闭他们的片段🖌。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/mysnippets-plugin.zip)
+	- ## 359-Meld Calc
+	- 做数学！评估笔记中的数学表达式。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/meld-calc.zip)
+	- ## 360-Pipe tricks
+	- 添加对Wikilink管道技巧的支持。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pipe-tricks.zip)
+	- ## 361-Quote of the Day
+	- 在编辑器中插入随机引号
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/quote-of-the-day.zip)
+	- ## 362-Pikt
+	- 一个用于渲染pikchr代码块的黑曜石插件
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/obsidian-pikt.zip)
+	- ## 363-Improved VimCursor
+	- 改进了黑曜石中光标的体验
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/improved-vimcursor.zip)
+	- ## 364-Tabout
+	- 轻松地从链接或其他Markdown格式字符中“退出”。
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/tabout.zip)
+	- ## 365-Fantasy Calendar
+	- 黑曜石中的幻想日历！
+	- 总下载次数：
+	- [下载地址](https://gitee.com/whghcyx/obsidian-plugin/blob/master/plugin/fantasy-calendar.zip)
+- Obsidian技巧
+  collapsed:: true
+	- [[Obsdian]]
+	- ## 将同一主题的笔记归档到同一个文件夹下
+	- 目前的限制条件：
+	- 1. Obsidian不支持批量拖动，只能单个拖动
+	- 2. Obsidian无法建立多个文件列表，没法像系统的文件管理器一样在两个文件窗口之间拖动
+	- 3. 在系统的文件管理器里拖动笔记文件的话，会导致引用不会自动更新
+	- 目前的解决方案：
+	- 1. 先将工作区布局修改文件列表窗口和搜索窗口上下对半分，拖动图标即可实现，效果如图
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20210908143721.png)
+	- 2. 再在搜索窗口里面搜索想要拖动的文件
+		- 搜索条件为：`file:Mac - path:01-Low/Mac`
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20210908143741.png)
+		- 搜索结果为：
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20210908143513.png)
+	- 3. 最后，一个个拖动下面的搜索结果文件到上面即可
+	- ## 如何设置一个好用的Obsidian工作区布局
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20210908143434.png)
+	- 左侧：文件导航区，上面是文件列表，下面是标签、星标、搜索、最近打开
+	- 中间：编辑区
+	- 右侧：辅助工具区，上面是速记区，中间是任务区，下面是日历区
+		- 速记区就是一个文件窗口拖动到这里的，但这个文件是我的布局的亮点
+			- 本文件就是一个与当前编辑区无关的闪念快速记录的地方，可能是一些问题、一些临时任务、一些小想法等等，用空行分割
+			- 通过前面加一个 == 来高亮，可以表示该行记录已经被处理了，可以将处理结果记录在下一行，会跟着一起被高亮
+			- 第二天早上，可以将已经被处理的记录都迁移到昨日的日志里面沉淀下来，或者是到主题笔记下面沉淀也可以
+		- 任务区不同于速记区，里面的都是重要任务，速记区里面的都是临时任务，是使用CheckList插件来过滤Todo列表里面的加了 # todo 的待处理任务
+		- 日历区是使用Calendar生成的，很方便点击创建日志和周报
+	- ## 如何设置一个好用的每日速记模板
+	- ## 如何在单个文件里增强编辑
+	- 比如做一些多行编辑、批量替换、删除所有空行等
+	- 可以设置md文件的默认打开模式为Sublime，然后用快捷键一键选择用默认方式打开，在Sublime里面来把笔记当做一个普通的文本文件来处理即可
+	- Sublime里面有丰富的插件，比Obsidian的插件更丰富
+- Obsidian聚合
+  collapsed:: true
+	- [如何安装obsdiain插件 - 知乎](https://zhuanlan.zhihu.com/p/369323836)
+	- [00.06 obsidian的收费政策 - Obsidian群分享](http://jackiegeek.gitee.io/obsidian-chinese-help/00%20%E6%96%B0%E6%89%8B%E5%85%A5%E9%97%A8/00.06%20obsidian%E7%9A%84%E6%94%B6%E8%B4%B9%E6%94%BF%E7%AD%96/)
+	- [2021年新教程 - Obsidian中文教程 - Obsidian Publish](https://publish.obsidian.md/chinesehelp/01+2021%E6%96%B0%E6%95%99%E7%A8%8B/2021%E5%B9%B4%E6%96%B0%E6%95%99%E7%A8%8B)
+	- [Johnny学OB 第34集 用OB搭建个人数字主页，高效整合你的工作、生活和学习，挽回那些被浪费的时间 | Obsidian 教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1k341117vt)
+	- 本期视频提到的插件：
+	- Homepages
+	- Buttons
+	- Advanced Obsidian URI
+	- Tasks
+	- Recent Files
+	- Kanban
+	- 插件下载请访问：[Johnny学OB](https://ob.pory.app/)
+	- 本期视频提到的工具：
+	- Mytexttools (https://mytexttools.com/)
+	- Tableconvert (https://tableconvert.com/)
+	- ## 补充
+	- [Johnny学OB 第34集 用OB搭建个人数字主页，高效整合你的工作、生活和学习，挽回那些被浪费的时间 | Obsidian 教程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1k341117vt)
+	- 本期视频提到的插件：
+	- Homepages
+	- Buttons
+	- Advanced Obsidian URI
+	- Tasks
+	- Recent Files
+	- Kanban
+	- 插件下载请访问：https://ob.pory.app/
+	- 本期视频提到的工具：
+	- Mytexttools (https://mytexttools.com/)
+	- Tableconvert (https://tableconvert.com/)
+- Obsidian元数据
+  collapsed:: true
+	- ---
+	- aliases: ObsidianMetadata
+	- reviewed: false
+	- ---
+	- Thoughts:: It was decent.
+	- Rating:: 6
+	- [[Obsidian]]
+	- `=this.file.aliases`
+	- ## 默认的元数据
+	- `file.name`: 该文件标题(字符串)。
+	- `file.folder`: 该文件所在的文件夹的路径(字符串)。
+	- `file.path`: 该文件的完整路径(字符串)。
+	- `file.link`: 该文件的一个链接(链接)。
+	- `file.size`: 该文件的大小(bytes)(数字)
+	- `file.ctime`: 该文件的创建日期(日期和时间)。
+	- `file.cday`: 该文件的创建日期(仅日期)。
+	- `file.mtime`: 该文件最后编辑日期(日期和时间)。
+	- `file.mday`: 该文件最后编辑日期(仅日期)。
+	- `file.tags`: 笔记中所有标签组成的数组。子标签按每个级别进行细分，所以`#Tag/1/A`将会在数组中储存为`[#Tag, #Tag/1, #Tag/1/A]`。
+	- `file.etags`: 笔记中所有显式标签组成的数组；不同于`file.tags`，不包含子标签。
+	- `file.outlinks`: 该文件所有外链(outgoing link)组成的数组。
+	- `file.aliases`: 笔记中所有别名组成的数组。
+	- ## 自定义的元数据
+	- ```text
+	- ---
+	- duration: 4 hours
+	- reviewed: false
+	- ---
+	- # Movie X
+	- **Thoughts**:: It was decent.
+	- **Rating**:: 6
+	- ```
+	- `=this.file`
+- Obsidian怎么合并两个笔记？
+  collapsed:: true
+	- 使用核心插件"笔记重组"即可
+- obsidian支持任意格式附件么？
+- Obsidian知识网络
+  collapsed:: true
+	- 0 每日工作笔记
+	- 0 Daily note | 工作笔记
+	- 1 Inbox | 笔记待处理
+	- 2 Note | 笔记
+	- 3 Knowledge | 主题知识库
+	- 4 Project | 当前项目
+	- 5 Review | 复盘记录
+	- z Attachments | 附件
+	- z Template | 模板
+-
+-
+-
+-

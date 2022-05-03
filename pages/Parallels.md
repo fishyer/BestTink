@@ -1,0 +1,10 @@
+- 安装备忘
+	- ==
+	- 老大！
+	- 关于您购买的订单号：2601589791142170630 请接收
+	- Intel最新PD软件：
+	- 迅雷：https://pan.xunlei.com/s/VMzZN_TaDOWeeh08uy67VsS3A1 提取码：xksh
+	- 百度：https://pan.baidu.com/s/1DL5NNWDpZgUwT7LXs9tGUQ 提取码: mi2s
+	- 没有百度会员推荐迅雷 迅雷下载速度比较快
+	- ==
+-

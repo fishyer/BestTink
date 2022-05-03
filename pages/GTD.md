@@ -8,6 +8,7 @@
 	- [时间管理方法论 | 帮助中心 - 滴答清单](https://help.dida365.com/tasks)
 	- [Topbook | 高效生活视频书](https://topbook.cc/content)
 - 笔记
+  collapsed:: true
 	- 关于GTD，Getting Things Done，不能是做完，而是做好
 	- 当下人们的两种状态：累成狗，闲成猪
 	- 对不同的任务，其实应该有不同的应对方法
@@ -21,6 +22,7 @@
 	- 人找书，很难，但书找书，却很容易
 	- 第一性原理，把事情简化为最基本的事实
 - 卡片
+  collapsed:: true
 	- GTD的2个目的
 	  collapsed:: true
 		- 1.清空大脑，不再混乱
@@ -178,4 +180,167 @@
 			- 插图
 				- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180436025.png)
 				- ![Replaced by Image Uploder](https://yupic.oss-cn-shanghai.aliyuncs.com/202204180436096.png)
+- 其它相关笔记
+  collapsed:: true
+	- [[OKR + GTD + Note => Logseq - 知乎]]
+	  collapsed:: true
+	- [[我的「工具箱」——关于工具和它背后的哲学]]
+	  collapsed:: true
+	- [[把工具当朋友，不想写作的仓管不是个好读者 - 少数派]]
+	- [[如何利用滴答清单搭建自己的任务管理体系？]]
+	- [[广收集、零整理、重搜索——我的 Evernote 使用流程 - 少数派]]
+	- [[我的「工具箱」——关于工具和它背后的哲学（本文随着本人使用经验，和软件更新持续修正、删减） - 作业部落 Cmd Markdown 编辑阅读器]]
+	- [[5 款模块化笔记工具全方位对比！都是神器，选《Notion》还是《Roam Research》？ | 爱范儿]]
+	- [[如何快速上手一款 IDE - VSC 配置指南和插件推荐 | 小胡子哥的个人网站]]
+	- [[任务管理效率低？5 个提效秘籍送给你]]
+	- [[OB到底是什么？——关于Obsidian的一些思考，还有一点关于Airtable - 哔哩哔哩]]
+	- [[广收集、零整理、重搜索——我的 Evernote 使用流程 - 少数派]]
+	- [[我的「工具箱」——关于工具和它背后的哲学（本文随着本人使用经验，和软件更新持续修正、删减） - 作业部落 Cmd Markdown 编辑阅读器]]
+	- [[网页标注工具：像看书一样看网页，无标注，不阅读]]
+	- [[反熵增思维模型 –降低精神熵提升幸福体验 - 知乎]]
+	- [[建立人生秩序（心流）书评]]
+- 其它相关书签
+  collapsed:: true
+	- [《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？ | 吕立青的博客](https://blog.jimmylv.info/2017-02-20-gtd-best-practice-137/)
+	- [GTD 对个人效率的提高和「7个习惯」学后感 | Sivan's Blog](https://lightcss.com/gtd-personal-productivity-and-7-habits/)
+	- [GTD 心法 « 学而时嘻之](https://www.geekonomics10000.com/289)
+	- [GTD实践2周年后一些体会 - 申龙斌的程序人生 - 博客园](https://www.cnblogs.com/speeding/p/3265727.html)
+	- [从迷茫到清晰你需要《只管去做》 | 小强的时间管理博客](http://www.gtdlife.com/2017/4888/zhiguanquzuo/)
+	- [一张图抓住时间管理的关键理念 | 小强的时间管理博客](http://www.gtdlife.com/2014/3636/one-pic-time-management/)
+	- [如何使用Omnifocus做时间管理 2 清空收集篮 | 小强的时间管理博客](http://www.gtdlife.com/2013/3167/how-to-improve-productivity-use-omnifocus2/)
+	- [如何使用Omnifocus做时间管理 1 相处哲学 | 小强的时间管理博客](http://www.gtdlife.com/2013/3157/how-to-improve-productivity-use-omnifocus/)
+	- [如何使用Omnifocus做时间管理 3 职场新人 | 小强的时间管理博客](http://www.gtdlife.com/2013/3232/httpwww-gtdlife-com20133167how-to-improve-productivity-use-omnifocus3/)
+	- [如何使用Omnifocus做时间管理 4 多项目管理 | 小强的时间管理博客](http://www.gtdlife.com/2014/3291/how-to-improve-productivity-use-omnifocus4/)
+	- [重新认识我们的清单:什么是清单？你需要数字清单还是实物清单？ | 小强的时间管理博客](http://www.gtdlife.com/2008/748/rediscover-our-list-1/)
+	- [Doit.im简单介绍和使用感受](https://www.mifengtd.cn/articles/doit-im-gtd-experience.html)
+	- [时间管理的乐趣 | 小强的时间管理博客](http://www.gtdlife.com/2013/3112/delight-of-time-management/)
+	- [好多在线课想听但没有时间听怎么办？ | 小强的时间管理博客](http://www.gtdlife.com/2016/4632/xiangtingke-mei-shijian/)
+	- [GTD”引子”清单（官方最新） – 知常学社](http://www.zhichangxueshe.com/1694)
+	- [《搞定1&3》GTD时间管理系统，掌控的5个步骤与6个层次视角](https://www.douban.com/note/448028052/)
+	- [时间管理02：GTD五步完成时间管理的质变](https://www.douban.com/note/629714596/?dt_dapp=1)
+	- [对于拖延行为及 GTD 方法论的杂想 - 少数派](https://sspai.com/post/39646)
+	- [Doit.im（最符合 GTD 理念的事务管理应用） - 作业部落 Cmd Markdown 编辑阅读器](https://www.zybuluo.com/jianshu/note/420012)
+	- [(1 封私信 / 2 条消息) 如何用 OmniFocus 實現 GTD？ - 知乎](https://www.zhihu.com/question/26824289/answer/57231465)
+	- [小强的时间管理博客 | 高效率，慢生活](http://www.gtdlife.com/)
+	- 时间管理02：GTD五步完成时间管理的质变 https://www.douban.com/note/629714596/?dt_dapp=1
+	- 《搞定1&3》GTD时间管理系统，掌控的5个步骤与6个层次视角 https://www.douban.com/note/448028052/
+	- GTD”引子”清单（官方最新） http://www.zhichangxueshe.com/1694
+	- GTD实践2周年后一些体会 https://www.cnblogs.com/speeding/p/3265727.html
+	- 《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？ https://blog.jimmylv.info/2017-02-20-gtd-best-practice-137/
+	- 重新认识我们的清单:什么是清单？你需要数字清单还是实物清单？ | 小强的时间管理博客 http://www.gtdlife.com/2008/748/rediscover-our-list-1/
+	- GTD 对个人效率的提高和「7个习惯」学后感 http://lightcss.com/gtd-personal-productivity-and-7-habits/
+	- [《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？ | 吕立青的博客](https://blog.jimmylv.info/2017-02-20-gtd-best-practice-137/)
+	- [GTD 对个人效率的提高和「7个习惯」学后感 | Sivan's Blog](https://lightcss.com/gtd-personal-productivity-and-7-habits/)
+	- [GTD 心法 « 学而时嘻之](https://www.geekonomics10000.com/289)
+	- [GTD实践2周年后一些体会 - 申龙斌的程序人生 - 博客园](https://www.cnblogs.com/speeding/p/3265727.html)
+	- [从迷茫到清晰你需要《只管去做》 | 小强的时间管理博客](http://www.gtdlife.com/2017/4888/zhiguanquzuo/)
+	- [一张图抓住时间管理的关键理念 | 小强的时间管理博客](http://www.gtdlife.com/2014/3636/one-pic-time-management/)
+	- [如何使用Omnifocus做时间管理 2 清空收集篮 | 小强的时间管理博客](http://www.gtdlife.com/2013/3167/how-to-improve-productivity-use-omnifocus2/)
+	- [如何使用Omnifocus做时间管理 1 相处哲学 | 小强的时间管理博客](http://www.gtdlife.com/2013/3157/how-to-improve-productivity-use-omnifocus/)
+	- [如何使用Omnifocus做时间管理 3 职场新人 | 小强的时间管理博客](http://www.gtdlife.com/2013/3232/httpwww-gtdlife-com20133167how-to-improve-productivity-use-omnifocus3/)
+	- [如何使用Omnifocus做时间管理 4 多项目管理 | 小强的时间管理博客](http://www.gtdlife.com/2014/3291/how-to-improve-productivity-use-omnifocus4/)
+	- [重新认识我们的清单:什么是清单？你需要数字清单还是实物清单？ | 小强的时间管理博客](http://www.gtdlife.com/2008/748/rediscover-our-list-1/)
+	- [Doit.im简单介绍和使用感受](https://www.mifengtd.cn/articles/doit-im-gtd-experience.html)
+	- [时间管理的乐趣 | 小强的时间管理博客](http://www.gtdlife.com/2013/3112/delight-of-time-management/)
+	- [好多在线课想听但没有时间听怎么办？ | 小强的时间管理博客](http://www.gtdlife.com/2016/4632/xiangtingke-mei-shijian/)
+	- [GTD”引子”清单（官方最新） – 知常学社](http://www.zhichangxueshe.com/1694)
+	- [《搞定1&3》GTD时间管理系统，掌控的5个步骤与6个层次视角](https://www.douban.com/note/448028052/)
+	- [时间管理02：GTD五步完成时间管理的质变](https://www.douban.com/note/629714596/?dt_dapp=1)
+	- [对于拖延行为及 GTD 方法论的杂想 - 少数派](https://sspai.com/post/39646)
+	- [Doit.im（最符合 GTD 理念的事务管理应用） - 作业部落 Cmd Markdown 编辑阅读器](https://www.zybuluo.com/jianshu/note/420012)
+	- [(1 封私信 / 2 条消息) 如何用 OmniFocus 實現 GTD？ - 知乎](https://www.zhihu.com/question/26824289/answer/57231465)
+	- [小强的时间管理博客 | 高效率，慢生活](http://www.gtdlife.com/)
+	- [(8 封私信 / 80 条消息) Omnifocus还是My Life Organized(MLO)? - 知乎](https://www.zhihu.com/question/22282216" TAGS="Android,GTD)
+	- [10分钟学会使用GTD做任务管理 - 少数派](https://sspai.com/post/40172" TAGS="Android,GTD)
+	- [【搞定GTD】打造高效的OmniFocus系统 - 申龙斌的程序人生 - 博客园](http://www.cnblogs.com/speeding/archive/2012/07/17/2594932.html" TAGS="Android,GTD)
+	- [专属GTD系统炼成记- 前传：个人管理的理论架构 - 少数派](https://sspai.com/post/40165" TAGS="Android,GTD)
+	- [专属GTD系统炼成记-1.用Applescript打造Omnifocus评分工具 - 少数派](https://sspai.com/post/39779" TAGS="Android,GTD)
+	- [从番茄钟到清单应用再到日历 ：GTD 是怎么让你变得从未有过的专注和高效？| Minder 计划#004](http://www.sohu.com/a/127119809_494920" TAGS="Android,GTD)
+	- [使用 Evernote 构建桌面 GTD 系统 – Cloudlet](https://cloudlet.info/t/284" TAGS="Android,GTD)
+	- [关于GTD的思考 - 掘金](https://juejin.im/post/5a8704865188257a836c380a" TAGS="Android,GTD)
+	- [如何养成GTD的七个习惯之①——随时记录，完整收集 - 知乎](https://zhuanlan.zhihu.com/p/26588584" TAGS="Android,GTD)
+	- [怎么让一天有36小时](https://www.mifengtd.cn/articles/how_to_have_a_36_hour_day.html" TAGS="Android,GTD)
+	- [我的 GTD 系统塞满过期任务，怎么破？ - 少数派](https://sspai.com/post/39253" TAGS="Android,GTD)
+	- [抛掉专业化，给GTD加一点温度——Things 3 - 简书](https://www.jianshu.com/p/27722ac1c047" TAGS="Android,GTD)
+	- [谈谈 GTD - 少数派](https://sspai.com/post/34310" TAGS="Android,GTD)
+	- [多去感受这个世界，你的生活就能慢下来 | 小强的时间管理博客](http://www.gtdlife.com/2016/4642/fangmansudu/" TAGS="Android,GTD)
+	- [本周热门笔记TOP10 | GTD时间轴模板](https://mp.weixin.qq.com/s?__biz=MjM5OTA3MjUwMA==&mid=2651194316&idx=1&sn=654857ac7f753abffeddbd187db752df&chksm=bd33a4578a442d410ac669b1f537fa2b196f7ab04f74b03e675674486dcfc8b9421c3b6496f9&mpshare=1&scene=24&srcid=0905GetZlrkbvpomGAhKL736&sharer_sharetime=1630834504887&sharer_shareid=b7c991d3cd23094f535ad602a652c37b&ascene=14&devicetype=android-30&version=28000f35&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AfkziV1ccKlj8ri3JaEDsvA%3D&pass_ticket=Guutk%2BrQaQweM6zr1fFPDgkyeehKNvvSN2qYUXEF3ec6E%2Br%2Bus82bj04WPtm5Laf&wx_header=1" TAGS="Android,GTD)
+	- [如何用对GTD工具？这有一份分类指南！](http://mp.weixin.qq.com/s?__biz=MzAwNzQ5NDYxNA==&mid=2649906839&idx=1&sn=eed3587f7638c871f1065ae99fc3a9d8&chksm=837bb02eb40c3938b2f53377710ba11f9c7b18d2e26a5b11c9f4014bf4c916c9722f955c2a87&mpshare=1&scene=1&srcid=1117eUnfwSGccW7h50ZZ2Zpz&sharer_sharetime=1637142441564&sharer_shareid=b7c991d3cd23094f535ad602a652c37b#rd" TAGS="Android,GTD)
+	- [用 GTD 的方法结束稍后读 - 少数派](https://sspai.com/post/33933)
+	- [GTD高效工具之 WorkFlowy 推荐 - 程序员大本营 (1)](https://www.pianshen.com/article/70971655859/" TAGS="Android,GTD,workflowy)
+	- [一年多的GTD和自我管理之路 - 云+社区 - 腾讯云 (1)](https://cloud.tencent.com/developer/article/1485861?from=article.detail.1662424" TAGS="Android,GTD,workflowy)
+	- [淺談時間管理法 GTD，及專案工具 Trello、Wunderlist 與 Workflowy (1)](https://techsoup-taiwan.blogspot.com/2014/09/gtd-trellowunderlist-workflowy.html" TAGS="Android,GTD,workflowy)
+	- [workflowy帮你快速驱动日常工作 - 知乎](https://zhuanlan.zhihu.com/p/21254492" TAGS="Android,GTD,workflowy)
+	- [以 GTD 模式使用 Workflowy – Cloudlet](https://cloudlet.info/t/992" TAGS="Android,GTD,workflowy)
+	- [滴水穿石——GTD管理 - 知乎](https://zhuanlan.zhihu.com/timomomo" TAGS="Android,GTD,workflowy)
+	- [GTD高效工具之 WorkFlowy 推荐 - 华为云](https://www.huaweicloud.com/articles/e879e5776da8005734ae999ea87b8560.html" TAGS="Android,GTD,workflowy)
+	- [GTD高效工具之 WorkFlowy 推荐 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1662424" TAGS="Android,GTD,workflowy)
+	- [GTD高效工具之 WorkFlowy 推荐 - Frytea's Blog](https://blog.frytea.com/archives/169/" TAGS="Android,GTD,workflowy)
+	- [ Logseq - 知乎](https://zhuanlan.zhihu.com/p/369386414" TAGS="Android,GTD,logseq,workflowy)
+	- [2 个月 0 评论，青小蛙看了也头痛](https://mp.weixin.qq.com/s?__biz=MjM5NDMwMTI2MA==&mid=2651664930&idx=1&sn=610c3cf73ef97f86952e7cdb3fa642c0&chksm=bd7046018a07cf17270bb4cc868c65ccd6e0fd9a58a2bc78cde89ec190fe62de3c6de89417ca&sessionid=0&scene=126&clicktime=1623850348&enterid=1623850348&ascene=3&devicetype=android-29&version=2800063d&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AaSNK4iMGJQRkc3vYrLNVhI%3D&pass_ticket=o5ujeNkAY%2B4iz%2BaoQ2CLI1T9O8gHj9AqGpJ7gaQnRFYBtkmwlzrMP6IRNeS6TUWG&wx_header=1" TAGS="Android,GTD)
+	- [OKR和GTD®](https://mp.weixin.qq.com/s/cCrk24kz1u3RqWN307oC6w" TAGS="Android,GTD)
+	- [Todo清单、微软TODO、番茄todo、滴答清单、奇妙清单，哪个待办事项App更好用？ - 知乎](https://www.zhihu.com/question/436838825" TAGS="Android,GTD)
+	- [《滴答清单与GTD时间管理》专栏目录](https://zhuanlan.zhihu.com/p/21638555?utm_source=cn.ticktick.task&utm_medium=social&utm_oi=38400975437824" TAGS="Android,GTD)
+	- [【GTD探索】Doit.im里的GTD：6个流程3层高度——听易仁《如何使用Doit.im实现GTD全流程》感知](http://www.360doc.com/content/13/0501/17/11878839_282240400.shtml" TAGS="Android,GTD)
+	- [关于GTD的20个误区](https://mp.weixin.qq.com/s?__biz=MzUyMTg3NzMwNA==&mid=2247483674&idx=1&sn=a93f6a58795e5c0a3cc14d796ac92e17&chksm=f9d5234dcea2aa5b277d8bca8803aaf41807d49ab4dabe5b014a0d19219deea2e7e2c9f6a206&scene=21&ascene=0&devicetype=android-29&version=2800063b&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AXDsdNRXI%2F9e71K6rtd%2Bx%2B0%3D&pass_ticket=o7nyhG3HQ29g0cyk5jm7VMv%2FwmQMPYZxLsOmqYxVIfPLQLuvBppD0WLpVGsULYMg&wx_header=1" TAGS="Android,GTD)
+	- [印象笔记的GTD之路](https://mp.weixin.qq.com/s?__biz=MzUyMTg3NzMwNA==&mid=2247483959&idx=1&sn=b5126fb86a858b47f934869aba17df2a&chksm=f9d52060cea2a9768ec7146c9953ee66428c560b96ae847c267c97212c12ee7ef80d40ace6de&mpshare=1&scene=24&srcid=&sharer_sharetime=1573836935425&sharer_shareid=b7c991d3cd23094f535ad602a652c37b&ascene=14&devicetype=android-29&version=2800063b&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AT%2FNiCx5ZvVYwXbZ4S%2Fi%2FVA%3D&pass_ticket=o7nyhG3HQ29g0cyk5jm7VMv%2FwmQMPYZxLsOmqYxVIfPLQLuvBppD0WLpVGsULYMg&wx_header=1" TAGS="Android,GTD)
+	- [可能是最美的GTD待办事项APP——Todo清单](https://zhuanlan.zhihu.com/p/89349263" TAGS="Android,GTD)
+	- [常用GTD App 指南](https://mp.weixin.qq.com/s/_N3L6V1nbnUSQZzgZdU7oA" TAGS="Android,GTD)
+	- [快速多变的信息时代，做事为什么需要用流程？](https://mp.weixin.qq.com/s/ZgkcPuW8zMexxsO7T0kg1w" TAGS="Android,GTD)
+	- [拯救项目经理个人时间的5个技巧](https://zhuanlan.zhihu.com/p/48048963" TAGS="Android,GTD)
+	- [逗总出品：GTD最全面教程，从入门到精通](https://zhuanlan.zhihu.com/p/42694082?utm_source=cn.ticktick.task&utm_medium=social&utm_oi=38400975437824" TAGS="Android,GTD)
+	- [滴答清单与GTD-更新日志 目录 - 知乎专栏](https://link.zhihu.com/?target=http%3A//timehack.net/" TAGS="Android,GTD)
+	- [知行会GTD](https://mp.weixin.qq.com/s?__biz=MzA4NjM1NDMzNw==&mid=213380317&idx=1&sn=07247889ec5f45ffd7f95c701cd85511&mpshare=1&scene=1&srcid=0517AQ3nhWZZe2n7jBsL7SmR#rd" TAGS="Android,GTD)
+	- [等了三年的 Things 3，也许是你入门 GTD 最好的选择 - 少数派](https://sspai.com/post/38979" TAGS="Android,GTD)
+	- [《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？ - 少数派](https://sspai.com/post/39960" TAGS="Android,GTD)
+	- [上班第一周遇到“节后综合症”？这招亲测可用 | 小强的时间管理博客](http://www.gtdlife.com/2017/4653/niandujihua/" TAGS="Android,GTD)
+	- [低品质勤奋者是怎么做无效复盘的？ | 小强的时间管理博客](http://www.gtdlife.com/2017/4669/yuefupan-2/" TAGS="Android,GTD)
+	- [ZTD：一种更简单、可行、高效的效率系统 - 简书](https://www.jianshu.com/p/6acd8e474d75" TAGS="Android,GTD)
+	- [案例：这位职场妈妈用了三招让年度计划更靠谱 | 小强的时间管理博客](http://www.gtdlife.com/2017/4677/zhichangmama-niandujihua/" TAGS="Android,GTD)
+	- [每周回顾：GTD和实现目标的关键](https://www.mifengtd.cn/articles/weekly-review-key-to-gtd-and-achieving.html" TAGS="Android,GTD)
+	- [[GTD]六個高度的檢視 @ twhsi的BLOG :: 隨意窩 Xuite日誌](https://blog.xuite.net/twhsi/Blog/expert-view/4342010" TAGS="Android,GTD)
+	- [搞定GTD - 把握视角：六个高度 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/article/1051518" TAGS="Android,GTD)
+	- [光阴真贱，日月如缩——选购GTD软件来做好时间计划管理_服务软件_什么值得买](https://post.smzdm.com/p/aoo6gzq9/" TAGS="Android,GTD)
+	- [实践GTD三周年后的体会 - 申龙斌的程序人生 - 博客园](https://www.cnblogs.com/speeding/p/gtd-three-years.html" TAGS="Android,GTD)
+	- [褪墨・时间管理](http://www.mifengtd.cn/" TAGS="Android,GTD)
+	- [结合Doit.im谈谈GTD中的几个清单 | 李参的个人成长空间](http://www.lishen.me/archives/295" TAGS="Android,GTD)
+	- [小强的时间管理博客 | 高效率，慢生活](http://www.gtdlife.com/" TAGS="Android,GTD)
+	- [巧用Due弥补GTD提醒缺陷 - Thinkbond - 博客园](http://www.cnblogs.com/thinkbond/p/4227556.html" TAGS="Android,GTD)
+	- [如何养成GTD的七个习惯之⑥——把人生变成一个个项目](https://zhuanlan.zhihu.com/p/32076794" TAGS="Android,GTD)
+	- [如何养成GTD的七个习惯之⑤——每周回顾](https://zhuanlan.zhihu.com/p/33805189" TAGS="Android,GTD)
+	- [滴答清单与GTD](https://zhuanlan.zhihu.com/timehack" TAGS="Android,GTD)
+	- [如何养成GTD的七个习惯之①——随时记录，完整收集](https://zhuanlan.zhihu.com/p/26588584?utm_medium=social&utm_source=wechat_session" TAGS="Android,GTD)
+	- [如何养成GTD的七个习惯之②——及时清空inbox](https://zhuanlan.zhihu.com/p/31398385?utm_medium=social&utm_source=wechat_session" TAGS="Android,GTD)
+	- [如何用 OmniFocus 實現 GTD？](https://www.zhihu.com/question/26824289/answer/57231465" TAGS="Android,GTD)
+	- [Doit.im（最符合 GTD 理念的事务管理应用）](https://www.zybuluo.com/jianshu/note/420012" TAGS="Android,GTD)
+	- [对于拖延行为及 GTD 方法论的杂想](https://sspai.com/post/39646" TAGS="Android,GTD)
+	- [时间管理02：GTD五步完成时间管理的质变](https://www.douban.com/note/629714596/?dt_dapp=1" TAGS="Android,GTD)
+	- [《搞定1&3》GTD时间管理系统，掌控的5个步骤与6个层次视角](https://www.douban.com/note/448028052/" TAGS="Android,GTD)
+	- [GTD”引子”清单（官方最新）](http://www.zhichangxueshe.com/1694" TAGS="Android,GTD)
+	- [20条独特的方法运用80/20法则](https://www.mifengtd.cn/articles/20_ways_to_use_the_80_20_rule.html" TAGS="Android,GTD)
+	- [知识分享–开始进行《时间管理》类图书主题阅读](http://www.read.org.cn/html/1242-gtd-book-read.html)
+	- [小强的时间管理博客](http://www.gtdlife.com/2016/4632/xiangtingke-mei-shijian/" TAGS="Android,GTD)
+	- [如何用Doit实现GTD全流程](http://blog.hiddenwangcc.com/archives/1238" TAGS="Android,GTD)
+	- [时间管理的乐趣](http://www.gtdlife.com/2013/3112/delight-of-time-management/" TAGS="Android,GTD)
+	- [Doit.im：简约而不简单，专注数年的GTD工具（86折优惠）](https://xbeta.info/doitim.htm" TAGS="Android,GTD)
+	- [Doit.im简单介绍和使用感受](https://www.mifengtd.cn/articles/doit-im-gtd-experience.html" TAGS="Android,GTD)
+	- [重新认识我们的清单:什么是清单？你需要数字清单还是实物清单？ | 小强的时间管理博客](http://www.gtdlife.com/2008/748/rediscover-our-list-1/" TAGS="Android,GTD)
+	- [如何使用Omnifocus做时间管理 4 多项目管理](http://www.gtdlife.com/2014/3291/how-to-improve-productivity-use-omnifocus4/" TAGS="Android,GTD)
+	- [如何使用Omnifocus做时间管理 3 职场新人](http://www.gtdlife.com/2013/3232/httpwww-gtdlife-com20133167how-to-improve-productivity-use-omnifocus3/" TAGS="Android,GTD)
+	- [如何使用Omnifocus做时间管理 1 相处哲学](http://www.gtdlife.com/2013/3157/how-to-improve-productivity-use-omnifocus/" TAGS="Android,GTD)
+	- [如何使用Omnifocus做时间管理 2 清空收集篮](http://www.gtdlife.com/2013/3167/how-to-improve-productivity-use-omnifocus2/" TAGS="Android,GTD)
+	- [一张图抓住时间管理的关键理念](http://www.gtdlife.com/2014/3636/one-pic-time-management/" TAGS="Android,GTD)
+	- [高效时间管理－介绍GTD](http://www.rosoo.net/a/201110/15148.html" TAGS="Android,GTD)
+	- [数码荔枝| MyLifeOrganized[Win]效率GTD任务管理todo待办事项-淘宝网](https://item.taobao.com/item.htm?spm=a1z10.4-c-s.w4004-15090511743.4.181971204TU0hh&id=579994279721" TAGS="Android,GTD)
+	- [从迷茫到清晰你需要《只管去做》 | 小强的时间管理博客](http://www.gtdlife.com/2017/4888/zhiguanquzuo/" TAGS="Android,GTD)
+	- [GTD 心法 «  学而时嘻之](https://www.geekonomics10000.com/289" TAGS="Android,GTD)
+	- [GTD实践2周年后一些体会 - 申龙斌的程序人生 - 博客园](https://www.cnblogs.com/speeding/p/3265727.html" TAGS="Android,GTD)
+	- [重新认识我们的清单:什么是清单？你需要数字清单还是实物清单？ - 万大侠 - 博客园](https://www.cnblogs.com/wanqian/p/3572574.html" TAGS="Android,GTD)
+	- [GTD 对个人效率的提高和「7个习惯」学后感 | Sivan's Blog](https://lightcss.com/gtd-personal-productivity-and-7-habits/" TAGS="Android,GTD)
+	- [《搞定》最佳实践：如何利用滴答清单（TickTick）实践 GTD 理念？ | 吕立青的博客](https://blog.jimmylv.info/2017-02-20-gtd-best-practice-137/" TAGS="Android,GTD)
+	- [我的GTD习惯 - 少数派](https://sspai.com/post/31582" TAGS="Android,GTD)
+	- [OKR + GTD + Note => Logseq - 知乎](https://zhuanlan.zhihu.com/p/369386414)
+	- 人生管理 愿景管理 目标管理 项目管理 任务管理 时间管理
+	- [《滴答清单与GTD时间管理》专栏目录 - 知乎](https://zhuanlan.zhihu.com/p/21638555)
+	- [OKR + GTD + Note => Logseq · 构建我的被动收入](https://www.bmpi.dev/self/okr-gtd-note-logseq/)
 -

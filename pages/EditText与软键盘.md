@@ -1,0 +1,17 @@
+- EditText与软键盘
+- 界面配置
+	- stateUnspecified:界面没有设置"android:windowSoftInputMode"时的状态.这个状态是弹出有EditText的界面时时不弹出软键盘的,当EditText获取焦点的时候弹出软件盘
+	- stateUnchanged:状态不改变,意思就是和上一个界面相同,上一个界面弹出软键盘,跳转到这个界面时,软键盘也是弹出状态.
+	- stateHidden:隐藏键盘,弹出这个界面的时候,不管上个界面是什么状态,这个界面的软键盘都是隐藏的.
+	- stateAlwaysHidden:一直隐藏(跟上面的区别未知,试不出来).
+	- stateVisible:强制弹出软键盘.跳转到界面后,没有EditText也弹出键盘.
+	- stateAlwaysVisible:一直显示键盘(同上).
+- 内容相关
+	- adjustUnspecified:算是默认方式.如果界面没有被ScrowView包裹,键盘会挡住一部分内容,如果界面被ScrowView包裹了,会让ScrowView中的内容滚动,以放下软键盘.
+	- adjustResize:主界面会缩放,用来放置软键盘(见[图1][图2]).
+	- adjustPan:主界面不会缩放,会向上移来放置软键盘(见[图3][图4]).
+- 在Activity中添加配置
+	- SOFT_INPUT_ADJUST_NOTHING: 不调整(输入法完全直接覆盖住,未开放此参数);
+	- SOFT_INPUT_ADJUST_PAN:把整个Layout顶上去露出获得焦点的EditText,不压缩多余空间
+	- SOFT_INPUT_ADJUST_RESIZE: 整个Layout重新编排,重新分配多余空间;
+	- SOFT_INPUT_ADJUST_UNSPECIFIED: 系统自己根据内容自行选择上两种方式的一种执行(默认配置).

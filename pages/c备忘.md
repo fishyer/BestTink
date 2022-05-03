@@ -1,0 +1,543 @@
+- common库说明
+	- api
+		- 网络接口定义
+	- app
+		- BaseApplication、BaseActivity等UI框架
+	- bean
+		- 实体类
+	- constant
+		- 常量
+	- dialog
+		- 弹窗
+	- event
+		- 事件
+	- exception
+		- 异常
+	- lib
+		- 各种第三方库的拓展
+	- helper
+		- 各种业务辅助类
+	- template
+		- 各种UI模板类
+	- util
+		- 工具类
+	- web
+		- 网络框架
+	- widget
+		- 自定义控件
+- conda
+- Container 坐标系
+  collapsed:: true
+	- AlignmentDirectional
+	- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194333.png)
+	- FractionalOffset
+	- ![image_1](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194337.png)
+- Context备忘
+  collapsed:: true
+	- #Context继承关系
+	- ![](1458573-146e591ddb1db0b9.png)
+	- #Context使用场景
+	- ![](1458573-b9aa05b1efd8a228.png)
+	- >1. application context 可以启动 Activity， 但是前提是需要创建一个新任务。在某些情况下，我们可以使用这种方式实现某种特殊目的，这种方式会创建一个非标准的回退栈，一般不推荐使用，至少不是一个好的实践。
+	- 2. 这个是合法的调用，但是 inflation 获得的 View 只会应用系统的主题，而不是当前 app 的自定义主题。
+	- 3. 在 4.2 及以上系统版本中， 允许注册 receiver 为 null 的广播监听，主要目的是为了获取 sticky broadcast 的当前值。
+- Context的继承结构和区别
+- Context使用场景
+  collapsed:: true
+	- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194345.png)
+- CoordinatorLayout+ Behavior的流程
+- crm版本迭代
+  collapsed:: true
+	- [版本迭代](#versions)
+	- [FAQ](#faq)
+	- <h4 id="versions">Versions：</h4>
+	- v0.8.2
+	- [ ] 需求待确认
+	- <br />
+	- v0.8.1
+	- [x] [API] 用户邀请，邀请短信下发（附带登陆账号信息）
+	- [x] 用户登录，登出，详情
+	- [x] [定时脚本] 客户数据同步
+	- [x] [API] 客户数据分离（分区域和类型）
+	- [x] 公海客户数据（近30天订单数、金额、有效拜访统计展示，**每天凌晨两点跑前一天数据，延迟1天**）
+	- [x] 私海客户数据（近30天订单数、金额、有效拜访统计展示，**实时统计**获取）
+	- [x] 认领新注册客户（**当天开发［注册且下载搜布app］**，必须在开发当天认领，若开发但未认领，凌晨两点统一同步到公海）
+	- [x] 公海客户抢入私海（私海客户数量限制为已下单客户200，未下单客户30）
+	- [x] [定时脚本] 私海客户掉公海（连续15天不拜访，60天没有交易记录［进入私海后产生过订单交易的客户］，30天没有交易记录［未产生订单交易的客户］，掉入公海后3天内不能再次拉入同一销售的私海）
+	- [x] 本月、上月销售数据统计（销售额、销售订单数**［分拉新客户和老客户，销售提成比例不同］**；有效拜访数**［包括公海和私海拜访数］**、有效拜访客户数、总成交客户数、拉新成交客户数）
+	- [x] 客户详情（跟进记录、订单记录）
+	- [x] 订单列表
+	- [x] 订单详情
+	- [x] 跟进／拜访（指有效拜访）（列表、新增）
+	- [x] 客户关联联系人列表、新增、更新、删除
+	- <h4 id="faq">FAQ:</h4>
+	- **Q**
+	- 公、私海客户来源
+	- **A**
+	- 公海客户来源于已注册搜布App的有效用户（status取值为1）
+	- 私海客户来源有两个：1）从公海抢入 2）直接认领
+	- <br />
+	- **Q**
+	- 数据如何分离
+	- **A**
+	- 销售顾问按照负责的客户类型分为负责采购商端的销售顾问和负责供应商端的销售顾问，并且根据区域划分为广州、湖州和柯桥（柯桥为绍兴市辖区，实际记录区域／城市信息为绍兴）的销售顾问
+	- <br />
+	- **Q**
+	- 供应商既可以销售，也可以采购（且采购占比不小），那么，对于负责供应商端的销售顾问的业绩统计如何计算
+	- **A**
+	- 只需计算供应商销售业绩，不计算供应商的采购业绩
+	- <br />
+	- **Q**
+	- 销售业绩相关数据的统计维度是什么
+	- **A**
+	- CRM统计销售业绩，是按照统计时间段内已成交订单作为统计的数据来源，并且会进行有效性判断（判定该订单在下单时是否属于该销售）
+	- <br />
+	- **Q**
+	- 公海客户列表展示数据
+	- **A**
+	- 统计并展示近30天成交的订单数、金额、有效拜访数据
+	- 会在每天凌晨两点统计前一天数据，延迟1天展示
+	- <br />
+	- **Q**
+	- 私海客户列表展示数据
+	- **A**
+	- 统计并展示近30天成交订单数、金额、有效拜访数据
+	- 私海列表数据为实时统计
+	- <br />
+	- **Q**
+	- 认领新注册客户有何限制
+	- **A**
+	- 该客户必须为当天开发［注册且下载搜布app］
+	- 开发该客户的销售必须在开发当天认领该客户（只保留一天认领期），若开发但未认领，凌晨两点统一同步到公海
+	- <br />
+	- **Q**
+	- 何为有效拜访／跟进
+	- **A**
+	- 拜访／跟进方式为上门拜访，且客户关联联系人手机号有效
+	- <br />
+	- **Q**
+	- 公海客户本身已有近30天的销售额和订单记录，当客户从公海转入到销售顾问的私海名下后，这些数据是否归该销售顾问所有？
+	- **A**
+	- 公海业绩都不算
+	- 若1-10号A顾问在销售，则这10天算A顾问的业绩，在公海期间就不算提成
+	- 而接下来20-30号转入顾问B的私海，则这10天算顾问B 的业绩
+	- <br />
+	- **Q**
+	- 私海客户数量限制
+	- **A**
+	- 私海客户数量限制为已下单客户［进入私海后产生过订单交易的客户］200，未下单客户［进入私海后未产生过订单交易的客户］30
+	- <br />
+	- **Q**
+	- 私海客户掉公海规则
+	- **A**
+	- 连续15天不拜访，60天没有交易记录［进入私海后产生过订单交易的客户］，30天没有交易记录［进入私海后未产生过订单交易的客户］，掉入公海后3天内不能再次拉入同一销售顾问的私海
+	- <br />
+	- **Q**
+	- 关于私海客户以及掉公海的再说明
+	- **A**
+	- 销售顾问获取的私海客户，默认都是未下单客户（即该销售获取该客户后还未产生任何实际订单），该类私海客户数限制为30个，掉公海时间为30天
+	- 当私海客户在该销售顾问名下产生订单，则成为已下单客户，该类私海客户数限制为200个，掉公海时间为60天
+	- 即最多私海客户数为230个，其中未下单客户为30个，已下单客户数载最理想的情况下可以达到230个
+	- <br />
+	- **Q**
+	- 关于产生过订单交易或已下单客户在说明
+	- **A**
+	- 产生过订单交易或已下单客户是指产生过订单状态为交易成功（数据库记录status为4）的订单记录
+	- <br />
+	- **Q**
+	- App订单自动确认收货时间
+	- **A**
+	- App订单自动确认收货时间为7天，但实际确认收货时间会因退款等原因造成更长时间的延期
+	- <br />
+	- **Q**
+	- 销售顾问拜访公海客户，在拜访过程中，若该客户被其他销售顾问抢入私海，这个拜访记录如何填写
+	- **A**
+	- 若有需要，主管介入解决（后续可加申诉通道）
+	- <br />
+	- **Q**
+	- 客户更改角色、地址，如采购转供应、绍兴转广州，并且已存在于某销售顾问的私海里，如何处理？
+	- **A**
+	- _需要确认_
+	- <br />
+- crontab
+- crontab命令详解 含启动 重启 停止-VPSWe
+  collapsed:: true
+	- # [crontab命令详解 含启动/重启/停止-VPSWe](https://www.vpswe.com/linux/219.html)
+	- crontab命令常见于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令。该命令从标准输入设备读取指令，并将其存放于“crontab”文件中，以供之后读取和执行。该词来源于希腊语 chronos(χρνο)，原意是时间。通常，crontab储存的指令被守护进程激活， crond常常在后台运行，每一分钟检查是否有预定的作业需要执行。这类作业一般称为cron jobs。
+	- 一、简介
+	- crontab文件包含送交cron守护进程的一系列作业和指令。每个用户可以拥有自己的crontab文件；同时，操作系统保存一个针对整个系统的crontab文件，该文件通常存放于/etc或者/etc之下的子目录中，而这个文件只能由系统管理员来修改。crontab文件的每一行均遵守特定的格式，由空格或tab分隔为数个领域，每个领域可以放置单一或多个数值。
+	- Linux下的任务调度分为两类，系统任务调度和用户任务调度。
+	- 系统任务调度：系统周期性所要执行的工作，比如写缓存数据到硬盘、日志清理等。在/etc目录下有一个crontab文件，这个就是系统任务调度的配置文件。
+	- /etc/crontab文件包括下面几行：
+	- \[root@localhost ~\]# cat /etc/crontab
+	- SHELL=/bin/bash
+	- PATH=/sbin:/bin:/usr/sbin:/usr/bin
+	- MAILTO=""HOME=/
+	- # run-parts
+	- 51 \* \* \* \* root run-parts /etc/cron.hourly
+	- 24 7 \* \* \* root run-parts /etc/cron.daily
+	- 22 4 \* \* 0 root run-parts /etc/cron.weekly
+	- 42 4 1 \* \* root run-parts /etc/cron.monthly
+	- \[root@localhost ~\]#
+	- 前四行是用来配置crond任务运行的环境变量，第一行SHELL变量指定了系统要使用哪个shell，这里是bash，第二行PATH变量指定了系统执行命令的路径，第三行MAILTO变量指定了crond的任务执行信息将通过电子邮件发送给root用户，如果MAILTO变量的值为空，则表示不发送任务执行信息给用户，第四行的HOME变量指定了在执行命令或者脚本时使用的主目录。第六至九行表示的含义将在下个小节详细讲述。这里不在多说。
+	- 用户任务调度：用户定期要执行的工作，比如用户数据备份、定时邮件提醒等。用户可以使用 crontab 工具来定制自己的计划任务。所有用户定义的crontab 文件都被保存在 /var/spool/cron目录中。其文件名与用户名一致。
+	- 使用者权限文件：
+	- 文件：
+	- /etc/cron.deny
+	- 说明：
+	- 该文件中所列用户不允许使用crontab命令
+	- 文件：
+	- /etc/cron.allow
+	- 说明：
+	- 该文件中所列用户允许使用crontab命令
+	- 文件：
+	- /var/spool/cron/
+	- 说明：
+	- 所有用户crontab文件存放的目录,以用户名命名
+	- crontab文件的含义：
+	- 用户所建立的crontab文件中，每一行都代表一项任务，每行的每个字段代表一项设置，它的格式共分为六个字段，前五段是时间设定段，第六段是要执行的命令段，格式如下：
+	- minute   hour   day   month   week   command
+	- 其中：
+	- minute： 表示分钟，可以是从0到59之间的任何整数。
+	- hour：表示小时，可以是从0到23之间的任何整数。
+	- day：表示日期，可以是从1到31之间的任何整数。
+	- month：表示月份，可以是从1到12之间的任何整数。
+	- week：表示星期几，可以是从0到7之间的任何整数，这里的0或7代表星期日。
+	- command：要执行的命令，可以是系统命令，也可以是自己编写的脚本文件。
+	- [![Linux crontab](https://www.vpswe.com/wp-content/uploads/2015/04/Linux-crontab-300x249.png)](https://www.vpswe.com/wp-content/uploads/2015/04/Linux-crontab.png)
+	- 在以上各个字段中，还可以使用以下特殊字符：
+	- 星号（\*）：代表所有可能的值，例如month字段如果是星号，则表示在满足其它字段的制约条件后每月都执行该命令操作。
+	- 逗号（,）：可以用逗号隔开的值指定一个列表范围，例如，“1,2,5,7,8,9”
+	- 中杠（-）：可以用整数之间的中杠表示一个整数范围，例如“2-6”表示“2,3,4,5,6”
+	- 正斜线（/）：可以用正斜线指定时间的间隔频率，例如“0-23/2”表示每两小时执行一次。同时正斜线可以和星号一起使用，例如\*/10，如果用在minute字段，表示每十分钟执行一次。
+	- 二、crond服务
+	- 安装crontab：
+	- yum install crontabs
+	- 服务操作说明：
+	- /sbin/service crond start //启动服务
+	- /sbin/service crond stop //关闭服务
+	- /sbin/service crond restart //重启服务
+	- /sbin/service crond reload //重新载入配置
+	- 查看crontab服务状态：
+	- service crond status
+	- 手动启动crontab服务：
+	- service crond start
+	- 查看crontab服务是否已设置为开机启动，执行命令：
+	- ntsysv
+	- 加入开机自动启动：
+	- chkconfig –level 35 crond on
+	- 三、crontab命令详解
+	- 1．命令格式：
+	- crontab \[-u user\] file
+	- crontab \[-u user\] \[ -e | -l | -r \]
+	- 2．命令功能：
+	- 通过crontab 命令，我们可以在固定的间隔时间执行指定的系统指令或 shell script脚本。时间间隔的单位可以是分钟、小时、日、月、周及以上的任意组合。这个命令非常设合周期性的日志分析或数据备份等工作。
+	- 3．命令参数：
+	- \-u user：用来设定某个用户的crontab服务，例如，“-u ixdba”表示设定ixdba用户的crontab服务，此参数一般有root用户来运行。
+	- file：file是命令文件的名字,表示将file做为crontab的任务列表文件并载入crontab。如果在命令行中没有指定这个文件，crontab命令将接受标准输入（键盘）上键入的命令，并将它们载入crontab。
+	- \-e：编辑某个用户的crontab文件内容。如果不指定用户，则表示编辑当前用户的crontab文件。
+	- \-l：显示某个用户的crontab文件内容，如果不指定用户，则表示显示当前用户的crontab文件内容。
+	- \-r：从/var/spool/cron目录中删除某个用户的crontab文件，如果不指定用户，则默认删除当前用户的crontab文件。
+	- \-i：在删除用户的crontab文件时给确认提示。
+	- 4．常用方法：
+	- 1). 创建一个新的crontab文件
+	- 在考虑向cron进程提交一个crontab文件之前，首先要做的一件事情就是设置环境变量EDITOR。cron进程根据它来确定使用哪个编辑器编辑crontab文件。9 9 %的UNIX和LINUX用户都使用vi，如果你也是这样，那么你就编辑$ HOME目录下的. profile文件，在其中加入这样一行：
+	- EDITOR=vi; export EDITOR
+	- 然后保存并退出。不妨创建一个名为<user> cron的文件，其中<user>是用户名，例如， davecron。在该文件中加入如下的内容。
+	- # (put your own initials here)echo the date to the console every
+	- # 15minutes between 6pm and 6am
+	- 0,15,30,45 18-06 \* \* \* /bin/echo ‘date’ > /dev/console
+	- 保存并退出。确信前面5个域用空格分隔。
+	- 在上面的例子中，系统将每隔1 5分钟向控制台输出一次当前时间。如果系统崩溃或挂起，从最后所显示的时间就可以一眼看出系统是什么时间停止工作的。在有些系统中，用tty1来表示控制台，可以根据实际情况对上面的例子进行相应的修改。为了提交你刚刚创建的crontab文件，可以把这个新创建的文件作为cron命令的参数：
+	- $ crontab davecron
+	- 现在该文件已经提交给cron进程，它将每隔1 5分钟运行一次。
+	- 同时，新创建文件的一个副本已经被放在/var/spool/cron目录中，文件名就是用户名(即dave)。
+	- 2). 列出crontab文件
+	- 为了列出crontab文件，可以用：
+	- $ crontab -l
+	- 0,15,30,45,18-06 \* \* \* /bin/echo \`date\` > dev/tty1
+	- 你将会看到和上面类似的内容。可以使用这种方法在$ H O M E目录中对crontab文件做一备份：
+	- $ crontab -l > $HOME/mycron
+	- 这样，一旦不小心误删了crontab文件，可以用上一节所讲述的方法迅速恢复。
+	- 3). 编辑crontab文件
+	- 如果希望添加、删除或编辑crontab文件中的条目，而E D I TO R环境变量又设置为v i，那么就可以用v i来编辑crontab文件，相应的命令为：
+	- $ crontab -e
+	- 可以像使用v i编辑其他任何文件那样修改crontab文件并退出。如果修改了某些条目或添加了新的条目，那么在保存该文件时， c r o n会对其进行必要的完整性检查。如果其中的某个域出现了超出允许范围的值，它会提示你。
+	- 我们在编辑crontab文件时，没准会加入新的条目。例如，加入下面的一条：
+	- # DT:delete core files,at 3.30am on 1,7,14,21,26,26 days of each month
+	- 30 3 1,7,14,21,26 \* \* /bin/find -name “core’ -exec rm {} \\;
+	- 现在保存并退出。最好在crontab文件的每一个条目之上加入一条注释，这样就可以知道它的功能、运行时间，更为重要的是，知道这是哪位用户的作业。
+	- 现在让我们使用前面讲过的crontab -l命令列出它的全部信息：
+	- $ crontab -l
+	- # (crondave installed on Tue May 4 13:07:43 1999)
+	- # DT:ech the date to the console every 30 minites
+	- 0,15,30,45 18-06 \* \* \* /bin/echo \`date\` > /dev/tty1
+	- # DT:delete core files,at 3.30am on 1,7,14,21,26,26 days of each month
+	- 30 3 1,7,14,21,26 \* \* /bin/find -name “core’ -exec rm {} \\;
+	- 4). 删除crontab文件
+	- 要删除crontab文件，可以用：
+	- $ crontab -r
+	- 5). 恢复丢失的crontab文件
+	- 如果不小心误删了crontab文件，假设你在自己的$ H O M E目录下还有一个备份，那么可以将其拷贝到/var/spool/cron/<username>，其中<username>是用户名。如果由于权限问题无法完成拷贝，可以用：
+	- $ crontab <filename>
+	- 其中，<filename>是你在$ H O M E目录中副本的文件名。
+	- 我建议你在自己的$ H O M E目录中保存一个该文件的副本。我就有过类似的经历，有数次误删了crontab文件（因为r键紧挨在e键的右边）。这就是为什么有些系统文档建议不要直接编辑crontab文件，而是编辑该文件的一个副本，然后重新提交新的文件。
+	- 有些crontab的变体有些怪异，所以在使用crontab命令时要格外小心。如果遗漏了任何选项，crontab可能会打开一个空文件，或者看起来像是个空文件。这时敲delete键退出，不要按<Ctrl-D>，否则你将丢失crontab文件。
+	- 5．使用实例
+	- 实例1：每1分钟执行一次command
+	- 命令：
+	- \* \* \* \* \* command
+	- 实例2：每小时的第3和第15分钟执行
+	- 命令：
+	- 3,15 \* \* \* \* command
+	- 实例3：在上午8点到11点的第3和第15分钟执行
+	- 命令：
+	- 3,15 8-11 \* \* \* command
+	- 实例4：每隔两天的上午8点到11点的第3和第15分钟执行
+	- 命令：
+	- 3,15 8-11 \*/2 \* \* command
+	- 实例5：每个星期一的上午8点到11点的第3和第15分钟执行
+	- 命令：
+	- 3,15 8-11 \* \* 1 command
+	- 实例6：每晚的21:30重启smb
+	- 命令：
+	- 30 21 \* \* \* /etc/init.d/smb restart
+	- 实例7：每月1、10、22日的4 : 45重启smb
+	- 命令：
+	- 45 4 1,10,22 \* \* /etc/init.d/smb restart
+	- 实例8：每周六、周日的1 : 10重启smb
+	- 命令：
+	- 10 1 \* \* 6,0 /etc/init.d/smb restart
+	- 实例9：每天18 : 00至23 : 00之间每隔30分钟重启smb
+	- 命令：
+	- 0,30 18-23 \* \* \* /etc/init.d/smb restart
+	- 实例10：每星期六的晚上11 : 00 pm重启smb
+	- 命令：
+	- 0 23 \* \* 6 /etc/init.d/smb restart
+	- 实例11：每一小时重启smb
+	- 命令：
+	- \* \*/1 \* \* \* /etc/init.d/smb restart
+	- 实例12：晚上11点到早上7点之间，每隔一小时重启smb
+	- 命令：
+	- \* 23-7/1 \* \* \* /etc/init.d/smb restart
+	- 实例13：每月的4号与每周一到周三的11点重启smb
+	- 命令：
+	- 0 11 4 \* mon-wed /etc/init.d/smb restart
+	- 实例14：一月一号的4点重启smb
+	- 命令：
+	- 0 4 1 jan \* /etc/init.d/smb restart
+	- 实例15：每小时执行/etc/cron.hourly目录内的脚本
+	- 命令：
+	- 01   \*   \*   \*   \*     root run-parts /etc/cron.hourly
+	- 说明：
+	- run-parts这个参数了，如果去掉这个参数的话，后面就可以写要运行的某个脚本名，而不是目录名了
+	- 四、使用注意事项
+	- 1. 注意环境变量问题
+	- 有时我们创建了一个crontab，但是这个任务却无法自动执行，而手动执行这个任务却没有问题，这种情况一般是由于在crontab文件中没有配置环境变量引起的。
+	- 在crontab文件中定义多个调度任务时，需要特别注意的一个问题就是环境变量的设置，因为我们手动执行某个任务时，是在当前shell环境下进行的，程序当然能找到环境变量，而系统自动执行任务调度时，是不会加载任何环境变量的，因此，就需要在crontab文件中指定任务运行所需的所有环境变量，这样，系统执行任务调度时就没有问题了。
+	- 不要假定cron知道所需要的特殊环境，它其实并不知道。所以你要保证在shelll脚本中提供所有必要的路径和环境变量，除了一些自动设置的全局变量。所以注意如下3点：
+	- 1）脚本中涉及文件路径时写全局路径；
+	- 2）脚本执行要用到java或其他环境变量时，通过source命令引入环境变量，如：
+	- cat start\_cbp.sh
+	- #!/bin/sh
+	- source /etc/profile
+	- export RUN\_CONF=/home/d139/conf/platform/cbp/cbp\_jboss.conf
+	- /usr/local/jboss-4.0.5/bin/run.sh -c mev &
+	- 3）当手动执行脚本OK，但是crontab死活不执行时。这时必须大胆怀疑是环境变量惹的祸，并可以尝试在crontab中直接引入环境变量解决问题。如：
+	- 0 \* \* \* \* . /etc/profile;/bin/sh /var/www/java/audit\_no\_count/bin/restart\_audit.sh
+	- 2. 注意清理系统用户的邮件日志
+	- 每条任务调度执行完毕，系统都会将任务输出信息通过电子邮件的形式发送给当前系统用户，这样日积月累，日志信息会非常大，可能会影响系统的正常运行，因此，将每条任务进行重定向处理非常重要。
+	- 例如，可以在crontab文件中设置如下形式，忽略日志输出：
+	- 0 \*/3 \* \* \* /usr/local/apache2/apachectl restart >/dev/null 2>&1
+	- “/dev/null 2>&1”表示先将标准输出重定向到/dev/null，然后将标准错误重定向到标准输出，由于标准输出已经重定向到了/dev/null，因此标准错误也会重定向到/dev/null，这样日志输出问题就解决了。
+	- 3. 系统级任务调度与用户级任务调度
+	- 系统级任务调度主要完成系统的一些维护操作，用户级任务调度主要完成用户自定义的一些任务，可以将用户级任务调度放到系统级任务调度来完成（不建议这么做），但是反过来却不行，root用户的任务调度操作可以通过“crontab –uroot –e”来设置，也可以将调度任务直接写入/etc/crontab文件，需要注意的是，如果要定义一个定时重启系统的任务，就必须将任务放到/etc/crontab文件，即使在root用户下创建一个定时重启系统的任务也是无效的。
+	- 4. 其他注意事项
+	- 新创建的cron job，不会马上执行，至少要过2分钟才执行。如果重启cron则马上执行。
+	- 当crontab突然失效时，可以尝试/etc/init.d/crond restart解决问题。或者查看日志看某个job有没有执行/报错tail -f /var/log/cron。
+	- 千万别乱运行crontab -r。它从Crontab目录（/var/spool/cron）中删除用户的Crontab文件。删除了该用户的所有crontab都没了。
+	- 在crontab中%是有特殊含义的，表示换行的意思。如果要用的话必须进行转义\\%，如经常用的date ‘+%Y%m%d’在crontab里是不会执行的，应该换成date ‘+\\%Y\\%m\\%d’。
+	- 转载请注明：[VPSWe](https://www.vpswe.com/) » [crontab命令详解 含启动/重启/停止](https://www.vpswe.com/linux/219.html)
+- CSDN
+- CSS选择器
+  collapsed:: true
+	- ## CSS 选择器效率从高到低的排序如下
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20211027181856.png)
+- cubox
+- cubox-建议
+  collapsed:: true
+	- ![[Screenshot_2021-12-02-14-02-10-08.jpg]]
+	- ![[Screenshot_2021-12-02-14-03-24-08.jpg]]
+- Cubox-API
+  collapsed:: true
+	- Cubox-API
+		- -
+			- <a href="https://cubox.pro/c/api/save/87tx1fli33xofv">https://cubox.pro/c/api/save/87tx1fli33xofv</a>
+			- {
+			- "type":"url",
+			- "content":"<a href="https://apple.com">https://apple.com</a>",
+			- "title":"标题",
+			- "description":"描述",
+			- "tags":["标签A","标签B","标签C"],
+			- "folder":"收藏夹名称"
+			- }
+		- -
+- Cubox-Memo
+- cubox相关问题
+  collapsed:: true
+	- 每日记录，每周整理
+	- 整理cubox，删除没用的书签
+- DBA 技能图谱
+  collapsed:: true
+	- [#效能/思维导图](https://www.wolai.com/bZsW8dB2VWEAjThHoMwjfw)
+	- 软技能
+	- 能说
+	- 会写
+	- 数据库技能
+	- 理论知识
+	- B*树, B-树, hash 等和索引原始结构
+	- 事务 ACID
+	- MVCC
+	- 锁机制 行锁，死锁 ，mutex 锁
+	- innodb 读写相关操作的原理
+	- 分布式事务
+	- 备份 恢复
+	- xtrabackup
+	- mysqldump
+	- mydumper/myloader
+	- mysqlpump/mysqlimport
+	- 5.7 版本
+	- rsync /qpress 压缩
+	- 高可用
+	- HA
+	- MHA
+	- keepalive
+	- PXC
+	- zookeeper
+	- sharding
+	- 水平拆分
+	- 垂直拆分
+	- 中间件
+	- TDDL
+	- Cobar
+	- OneProxy
+	- Atlas
+	- mongo 乐视
+	- Mycat
+	- fabric
+	- 优化
+	- 原则 空间换时间
+	- 业务逻辑设计
+	- 库/表结构 索引设计
+	- 慢查询
+	- 拆分
+	- 工具集
+	- pt-tools
+	- orzdba ，iotop，mytop
+	- pstack
+	- 关联软件
+	- 消息队列
+	- nsq ,RabbitMq ,kafka
+	- 缓存
+	- memcache ，tair ，redis
+	- DNS
+	- 搜索
+	- ELK, Solr
+	- 开发语言
+	- python，shell，perl
+	- java，C/C++ ，go
+	- 硬件
+	- RAID卡
+	- 读写策略
+	- WB
+	- WT
+	- FORCE WB
+	- BBU
+	- SSD
+	- 网卡
+	- PCI-E /NVMe
+	- linux 基础
+	- 常用命令 <a href="[http://note.youdao.com/noteshare?id=25555d715fb3ef7e28cd3a5845110240&sub=5DBD721E676A470AB4A2D213E6951DDF](http://note.youdao.com/noteshare?id=25555d715fb3ef7e28cd3a5845110240&sub=5DBD721E676A470AB4A2D213E6951DDF)">[http://note.youdao.com/noteshare?id=25555d715fb3ef7e28cd3a5845110240&sub=5DBD721E676A470AB4A2D213E6951DDF](http://note.youdao.com/noteshare?id=25555d715fb3ef7e28cd3a5845110240&sub=5DBD721E676A470AB4A2D213E6951DDF)</a>
+	- 文件系统
+	- ext4
+	- xfs
+	- io 调度http://note.youdao.com/noteshare?id=c1a995cb4355ed027f2a538c9b328c78&amp;sub=53FBB488CD884821A75E109F20E2B5B6
+	- deadline ，noop，cfq
+	- Made by 杨一
+	- 运维工具
+	- 部署
+	- saltstack ,puppet，ansible
+	- 监控
+	- cati，zabbix，nigos
+	- 数据库类型
+	- 关系型
+	- oracle,MySQL,DB2 ,SQLServer
+	- KV型
+	- Redis ，RocksDB
+	- 文档型
+	- MongoDB
+	- 列存储
+	- HBase,Cassandra
+	- 内存数据库
+	- SQLite ，TimesTen
+	- 网络
+	- TCP/IP协议
+	- 工具
+	- tcpdump
+	- ss
+- Devonthink-wiki
+- Diigo
+- DIKW模型
+  collapsed:: true
+	- "
+	- DIKW体系就是关于资料(Data)、资讯(Information)、知识(Knowledge)及智慧(Wisdom)的体系。当中每一层比下一层赋予某些特质。资料层是最基本的。资讯层加入内容。知识层加入“如何去使用”，智慧层加入“什么时候才用”。如此，DIKW体系是一个模型让我们了解分析、重要性及概念工作上的极限。DIKW体系常用于资讯科学及知识管理
+	- DIKW体系透过以下的步骤来协助研究及分析： 原始观察及量度获得了资料。 分析资料间的关系获得了资讯。这些资讯可以回答简单问题，譬如：谁？什么？哪里？什么时候？为什么？资讯是信息，意味着有听众及目的。 在行动上应用资讯产生了知识。知识可以回答“如何？”的问题。知识是一些可行的关系及习惯工作方式。 透过智者间的沟通及自我反省而利用知识会产生了智慧。我们可以利用智慧解答关于行动的为什么及什么时候的问题。智慧是关心未来。它含有暗示及滞后影响的意味。
+	- " https://diigo.com/0mg0o0
+	- [DIKW模型 - MBA智库百科](https://wiki.mbalib.com/wiki/DIKW%E6%A8%A1%E5%9E%8B)
+	- [DIKW体系 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/DIKW%E4%BD%93%E7%B3%BB)
+- Doit.im公司布局
+  collapsed:: true
+	- ![](01-Archive/Z-Other/Attachment/image-Doit.im公司布局/image.png)
+- Dokuwiki
+- DownloadManager的基本用法
+- Drawable分类
+  collapsed:: true
+	- ColorDrawable
+	- GradientDrawable
+	- BitmapDrawable
+	- NinePatchDrawable
+	- InsetDrawable
+	- ClipDrawable
+	- ScaleDrawable
+	- RotateDrawable
+	- AnimationDrawable
+	- LayerDrawable
+	- LevelListDrawable
+	- StateListDrawableselector
+	- TransitionDrawable
+- DrawerLayout禁止手动滑动
+  collapsed:: true
+	- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194405.png)
+- Dropbox
+  collapsed:: true
+	- [[网盘]]
+- Eagle
+  collapsed:: true
+	- 图片管理工具
+	- ## 功能说明
+	- ### 优点
+	- 1. 屏幕截图，并保留截图历史
+	- 2. 网络存图，并保留网络来源
+	- 3. 文件夹、标签、智能筛选
+	- 4. 丰富的多媒体预览格式
+	- 5. 方便去除重复图片
+	- 6. 方便以图搜图
+	- #### 不足之处
+	- 1. 图片标注
+	- 2. 无法将它设置为默认看图格式并自动实现打开即导入
+	- ## Eagle支持的格式
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20210908143757.png)
+	- [Eagle 支持哪些文件格式呢？ - 知识库 | Eagle](https://docs-cn.eagle.cool/article/18-what-kind-of-files-do-eagle-support)
+	- ## Eagle 产品路线图 | Trello
+	- [Eagle 产品路线图 | Trello](https://trello.com/b/YgBOPQ6x/eagle-%E4%BA%A7%E5%93%81%E8%B7%AF%E7%BA%BF%E5%9B%BE)
+	- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202111151900022.png)

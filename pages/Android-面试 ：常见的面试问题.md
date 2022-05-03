@@ -1,0 +1,17 @@
+- 面试常问
+	- Handler 机制及底层实现：Handler、Looper、MessageQueue
+	- Binder 机制及底层实现：ServiceManager
+	- Android中的IPC方式：Bundle、文件共享、Messager、AIDL、ContentProvider、Socket
+	- ListView的常用优化技巧：复用、闪烁
+	- Bitmap的加载：Config、CompressFormat
+	- Bitmap的缓存：LruCache、DiskLruCache
+	- 超级大图的局部加载：BitmapRegionDecoder
+	- AsyncTask的工作原理
+	- MVC、MVP、MVVM的区别
+	- 6.0运行时权限处理方案
+	- OOM的原因和解决方案
+	- 自己实现ListView
+	- 自己实现FrameLayout
+	- 自己实现LinearLayout
+	- 自己实现RelativeLayout
+- [今日头条面试问题](https://www.wolai.com/fishyer/cjiRGp289BcpNsQ15QTV4o)

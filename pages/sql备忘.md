@@ -1,0 +1,12 @@
+- sql备忘
+- 重置mariadb数据库初始密码
+- mysqladmin -u root flush-privileges password 123456
+- 安装mysql
+- sudo yum install mysql sudo yum install mysql-community-server
+- 连接本地数据库
+- mysql -u root -p123456
+- 跳过密码验证
+- C:\ProgramData\MySQL\MySQL Server 8.0
+- 在配置文件添加
+- [mysql]
+- skip-name-resolve

@@ -1,0 +1,11 @@
+- docker备忘
+- fishyer
+- 630709658@qq.com
+- shpE=UXdwNHZw=4
+- 找不到ttf文件时，输入这个
+- docker run -it --name docker_vm --privileged --pid=host debian nsenter -t 1 -m -u -n -i sh
+- /Users/yutianran/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw
+- /var/lib/docker/volumes/cb82e1d93fb72700025c9b974fd25a71e1c4f0dc590ff98f6522e3ec79852045/_data
+- cat /proc/version
+- ~/Library/Containers/com.docker.docker/Data/vms/0
+- https://rsshub.fishyer.com/bilibili/user/dynamic/481831994

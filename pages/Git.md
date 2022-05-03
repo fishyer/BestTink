@@ -34,5 +34,27 @@
 			- git init –bare
 		-
 -
+	- [[git备忘]]
+	- [[git init 和 git init –bare 的区别]]
+	- Git版本管理
+		-
+		- 怎样生成SSH 公钥
+		- 如何配置多个SSH
+		- 在Android Studio中使用Git进行版本管理
+	- [[git备忘]]
+	- [[git更新忽略文件]]
+	- github
+	- Github Action
+		- 参考资料
+		- 1. [Github Action你值得了解的~ - 掘金](https://juejin.cn/post/6844904048794042382)
+		- 2. [4个提高效率的GitHub Actions技巧-InfoQ](https://www.infoq.cn/article/ebfoucksujlm5aek8hoz)
+		- 3. [GitHub Actions 入门教程 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
+	- github镜像镜像网站
+		- ![[Screenshot_2021-12-02-03-48-15-85.jpg]]
+	- [[Github收藏]]
+	- Gitlab
+-
+-
+-
 -
 -

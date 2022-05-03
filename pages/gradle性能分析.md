@@ -1,0 +1,2 @@
+- gradle性能分析
+- ./gradlew :app:assembleP15Debug --profile

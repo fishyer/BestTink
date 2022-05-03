@@ -1,0 +1,267 @@
+- Flutter
+-
+- Dart
+- 解决Flutter的Text的overflow属性不生效的问题
+- Flutter技术调研-20190124
+- Flutter集成到Android项目三部曲
+- Flutter技术调研报告
+- Flutter学习路线
+- Flutter布局
+	- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194432.png)
+	- ![image_1](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194435.png)
+- Flutter动画
+	- Flutter动画
+	- ![clipboard](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194447.png)
+- Flutter生命周期
+	- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194539.png)
+- Flutter项目结构
+	- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194629.png)
+	- ![image_1](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719194631.png)
+- Flutter常用第三方库
+	- | | |
+	- |---|---|
+	- |库|功能|
+	- |dio|网络框架|
+	- |shared_preferences|本地数据缓存|
+	- |fluttertoast|toast|
+	- |flutter_redux|redux|
+	- |device_info|设备信息|
+	- |connectivity|网络链接|
+	- |flutter_markdown|markdown解析|
+	- |json_annotation|json模板|
+	- |json_serializable|json模板|
+	- |url_launcher|启动外部浏览器|
+	- |iconfont|字库图标|
+	- |share|系统分享|
+	- |flutter_spinkit|加载框样式|
+	- |get_version|版本信息|
+	- |flutter_webview_plugin|全屏的webview|
+	- |sqflite|数据库|
+	- |flutter_statusbar|状态栏|
+	- |flutter_svg|svg|
+	- |photo_view|图片预览|
+	- |flutter_slidable|侧滑|
+	- |flutter_cache_manager|缓存管理|
+	- |path_provider|本地路径|
+	- |permission_handler|权限|
+	- |scope_model|状态管理和共享|
+- Flutter图谱
+	- [#效能/思维导图](https://www.wolai.com/bZsW8dB2VWEAjThHoMwjfw)
+	- Flutter技术调研-20190124
+	- Flutter简介
+	- Flutter作为谷歌最近推出的跨平台开发框架，可以快速在iOS、Android以及Fuchsia上构建高质量的原生用户界面
+	- Flutter架构图
+	- Flutter的编译机制
+	- Flutter的渲染机制
+	- Flutter项目结构介绍
+	- 已使用Flutter的团队
+	- 美团
+	- 闲鱼
+	- 腾讯NOW直播
+	- Github等国外大厂
+	- 本次调研的目标
+	- 搞定打包成aar，集成到老Android项目
+	- 已完成，可以导出aar包
+	- 搞定集成grpc
+	- 搞定多Item布局的列表，实现App首页效果
+	- Flutter的优势
+	- 跨平台，同一套代码适用于Android和ios两个平台，可以节省开发资源、测试资源
+	- 原生性能，使用Skia作为其2D渲染引擎，既不使用WebView，也不使用操作系统的原生控件，这样不仅可以保证在Android和iOS上UI的一致性，而且也可以避免对原生控件依赖而带来的限制及高昂的维护成本
+	- 开发效率高，Flutter的热重载可以快速地进行测试、构建UI、添加功能并更快地修复错误
+	- 从底层C++到高层Dart，可扩展性高
+	- 整体开发环境要求不高，轻量编辑器+模拟器即可完成开发
+	- 目前已发现的问题
+	- 重要问题
+	- 其官方编程语言为Dart，是一门全新的语言。所以说，上手成本比较高，对于移动端开发人员，语言以及框架都是全新的，整个技术栈的积累也都得从头开始
+	- 编译后的包体积较大
+	- 第三方工具库，目前还比较欠缺，需要自己造轮子
+	- 错误提示信息不够友好，难以定位到具体代码行
+	- 遇到问题的寂寞，目前应用的人群还较少，有时候遇到问题在社区里面搜不到解决方案
+	- Flutter如何导出库给ios原生应用使用，需要调研
+	- 一般问题
+	- CPU架构兼容性问题，默认生成的库文件只支持armeabi-v7a
+	- 多个Feature同时请求时，可能有的收不到回调
+	- WebView的支持很弱
+	- 音视频的支持很弱
+	- 整体API像Android ,对iOS开发者上手可能不是非常友好
+	- 图片资源的多倍率适配问题，必须提供一倍图，会增大应用体积
+	- 如何在Flutter中实现悬停效果，需要调研
+	- 如何在Flutter中实现富文本效果，需要调研
+	- Flutter和Android/ios之间的通讯机制，需要调研
+	- Flutter的国际化支持，需要调研
+	- Fluter UI实现嵌套层次太多，可阅读程度不高（很低 ）
+	- 境外环境依赖（有国内镜像），新建项目 dart package get 不稳定
+	- Flutter的设计图标准，比如像素值，和Android和ios的设计标准有区别
+	- 图片和文字混排，实现比较麻烦
+	- ListView的视图复用机制，需要调研，感觉View多了会有点卡顿
+	- 网络图片的缓存机制，需要调研，目前Image所以支持网络图片，但是关于它的缓存，还不清楚
+	- Demo调研结果
+	- Dart语法上手难度：中等，Dart的语法和响应式编程理念和原生开发还是有一定差别
+	- UI实现难度：低，在绘制复杂页面方便，比原生更有优势，自定义组件非常方便
+	- 布局层次
+	- API丰富性：一般，目前成熟的第三方库还比较少
+	- 性能：较好
+	- 帧率：目前只绘制了首页，FPS基本在50fps以上
+	- 内存：首页内存占用在60m左右
+	- 安装包体积：较大，仅仅绘制了一个首页，安装包就达到了15M。Android项目集成Flutter之前，apk体积是22M，集成Flutter之后，apk体积是32M，增加了10M。
+	- IDE支持：低，目前只支持Android Studio和VSCode，不支持XCode
+	- Demo信息
+	- git项目地址
+	- APK体验地址
+	- Demo用到的组件
+	- StatelessWidget-无状态组件
+	- StatefulWidget-有状态组件
+	- Image-图片
+	- Icon-图标
+	- Text-文字
+	- Container-容器组件，内置Padding、宽高、背景、边框等细节操作
+	- Center-居中显示Layout
+	- Column-纵向排列Layout
+	- Row-横向排列Layout
+	- Wrap-横向排列Layout，自动换行
+	- CustomScrollView-支持嵌套滚动子控件的滚动视图
+	- SliverToBoxAdapter-包装普通控件，适配CustomScrollView
+	- ListView-单一的List组件，不支持PullRefresh
+	- GideView-网格组件
+	- Divider-分割线组件
+	- 其它控件，当前未使用的
+	- SafeArea-刘海屏安全区域
+	- Expanded-内容扩充Layout
+	- Padding-支持内边距组件
+	- CupertinoPageScaffold-iOS风格页面组，包含一个TabBar和一个Content
+	- CupertinoNavigationBar-iOS风格NavigationBar
+	- CupertinoTabScaffold-iOS风格Tab选项卡容器组件
+	- CupertinoActivityIndicator-iOS风格菊花
+	- CupertinoButton-iOS风格按钮
+	- CupertinoTextField-iOS风格Input
+	- SingleChildScrollView-单子元素ScrollView
+	- CupertinoPicker-iOS风格滚轮选择器
+	- GestureDetector-手势组件，包含点击等
+	- Flutter学习路线
+	- 学习路线
+	- 10步，每一个学习都以自己亲身实现写出了Demo为准，光看资料不算完成
+	- 1.参考https://flutterchina.club/setup-macos/，搭建Flutter开发环境，安装默认项目到设备
+	- 2.通读Dart语法一遍：<a href="[https://juejin.im/post/5c52a386f265da2de25b5c36，要求上面所有代码，必须自己敲一遍](https://juejin.im/post/5c52a386f265da2de25b5c36%EF%BC%8C%E8%A6%81%E6%B1%82%E4%B8%8A%E9%9D%A2%E6%89%80%E6%9C%89%E4%BB%A3%E7%A0%81%EF%BC%8C%E5%BF%85%E9%A1%BB%E8%87%AA%E5%B7%B1%E6%95%B2%E4%B8%80%E9%81%8D)">[https://juejin.im/post/5c52a386f265da2de25b5c36，要求上面所有代码，必须自己敲一遍](https://juejin.im/post/5c52a386f265da2de25b5c36%EF%BC%8C%E8%A6%81%E6%B1%82%E4%B8%8A%E9%9D%A2%E6%89%80%E6%9C%89%E4%BB%A3%E7%A0%81%EF%BC%8C%E5%BF%85%E9%A1%BB%E8%87%AA%E5%B7%B1%E6%95%B2%E4%B8%80%E9%81%8D)</a>
+	- 3.实现一个简单的HelloWorld页面，目的是熟悉Flutter的项目结构和StatelessWidget组件，通读Flutter的所有UI组件一遍：<a href="[https://juejin.im/post/5c18d181f265da611f07a128，要求记住flutter的常用UI组件的继承关系](https://juejin.im/post/5c18d181f265da611f07a128%EF%BC%8C%E8%A6%81%E6%B1%82%E8%AE%B0%E4%BD%8Fflutter%E7%9A%84%E5%B8%B8%E7%94%A8UI%E7%BB%84%E4%BB%B6%E7%9A%84%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB)">[https://juejin.im/post/5c18d181f265da611f07a128，要求记住flutter的常用UI组件的继承关系](https://juejin.im/post/5c18d181f265da611f07a128%EF%BC%8C%E8%A6%81%E6%B1%82%E8%AE%B0%E4%BD%8Fflutter%E7%9A%84%E5%B8%B8%E7%94%A8UI%E7%BB%84%E4%BB%B6%E7%9A%84%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB)</a>
+	- 4.实现页面跳转、传参、接收返回值，目的是熟悉Navigator组件
+	- 5.实现一个ezbuy-Mine页面，暂不要求交互，但是页面的样式要大致实现，主要目的是熟悉基本UI组件，尤其是布局、文本、图片，
+	- 6.实现一个ezbuy-Home页面，要求包含交互：下拉刷新和上拉加载更多，主要目的是熟悉复杂列表视图、滚动嵌套、手势
+	- 7.实现一个简单登录页面的Http请求，服务端自己写，主要目的是熟悉Flutter的输入框、Dart的异步编程(async/await/Future)、网络请求、json解析、响应式编程(StatefulWidget/setState)
+	- 8.实现一个简单登录页面的grpc请求，protobuf文件和服务端也自己写，主要目的是熟悉grpc插件的用法
+	- 9.实现读取SP的简单页面，不准用第三方插件，自己用MethodChannel实现Flutter调用原生的功能
+	- 10.实现Flutter项目接入宿主Android容器，主要目的是熟悉Flutter静态路由和Android原生传参给FlutterView
+	- 下一步的调研计划
+	- 调研必须有输出，实践性的要有代码产出，理论性的要有wiki产出，没有产出的调研，就是耍流氓
+	- 写一个国际化的demo，实现多语言切换
+	- 写一个自定义View的Demo，熟悉绘图三剑客：canvas、path、paint
+	- 写一个网络图片缓存的demo，并了解其实现原理和内存占用
+	- 阅读源码，了解Flutter的渲染机制，如何从Widget-&gt;Element-&gt;RenderObject
+	- 了解Dart的异步机制，深入理解async/await/Future的原理
+	- flutter问题
+	- canvas竟然没办法画文字
+	- transform属性的Matrix4有机会肯定好好分析分析
+	- Flutter分享-第2版
+	- 什么是Flutter？
+	- Google推出的移动UI框架
+	- 跨平台，支持ios和Android，一套代码，两个平台，减少开发成本、测试成本
+	- 未来有可能支持web、windows、mac
+	- 使用Dart语言开发，高度类似Java、swift、js,方便迁移
+	- Flutter的优势是什么？
+	- 性能高
+	- 没有中间商，直接使用Skia
+	- RN是先
+	- AOT提前编译
+	- 虚拟Dom,局部刷新
+	- Widget就是虚拟Dom
+	- Element负责比较两颗虚拟Dom树的差异-diff算法
+	- 把差异应用到真正的Dom(RenderObject)树上-patch算法
+	- 单线程，消息队列，无锁
+	- Flutter的4种Runner
+	- UI Runner：Dart的Root isolate
+	- Platform Runner：
+	- 性能对比
+	- 开发快
+	- 热重载，JIT秒级预览
+	- 声明式UI
+	- React
+	- VUE
+	- swiftUI
+	- kotlin Anko
+	- Jetpack Compose
+	- 丰富的组件
+	- 现代开发语言Dart
+	- 函数式
+	- 协程await async
+	- 混入mixins
+	- 开发效率对比
+	- 目前有哪些公司在用？
+	- 闲鱼
+	- 腾讯Now直播
+	- 美团
+	- 京东商城等国内一系列大厂
+	- 怎么集成到原生项目？
+	- 生成编译产物
+	- 导入到原生工程
+	- 注意插件问题
+	- 目前项目中已实现的效果
+	- 轮播图
+	- 表格
+	- 下拉刷新
+	- 复杂列表等等
+	- 实际Demo体验
+	- Flutter笔记
+	- Flutter背景介绍
+	- 什么是Flutter
+	- Flutter与RN比较
+	- Flutter编译原理
+	- Flutter渲染原理
+	- Flutter为什么使用Dart
+	- Flutter初体验：首页模块
+	- Android端
+	- ios端
+	- Flutter的编程范式
+	- 组合
+	- 函数式
+	- 声明式
+	- 响应式
+	- 协程
+	- Flutter项目结构
+	- pub依赖
+	- lib
+	- assets资源
+	- 插件
+	- Flutter基本组件
+	- 可视组件
+	- 布局组件
+	- 容器组件
+	- 滚动组件
+	- 功能组件
+	- 自定义组件
+	- Flutter集成到原生项目
+	- 路由机制
+	- 通讯机制
+	- 自定义插件
+	- 本地打包和导入到原生项目
+	- Flutter目前存在的问题
+	- so库兼容性问题，默认生成的库文件只支持armeabi-v7a，生成的v8缺少文件
+	- 无反射，无法json自动序列化
+	- 国际化支持不够简洁
+	- 富文本效果比较麻烦
+	- WebView的支持很弱
+	- 移动端跨平台技术Flutter实践
+	- 什么是Flutter
+	- Flutter的开发
+	- Flutter的集成
+- Flutter学习资源
+	- 第三方类库中心 [https://pub.flutter-io.cn/](https://pub.flutter-io.cn/)
+	- Dart语法预览：[http://dart.goodev.org/guides/language/language-tour](http://dart.goodev.org/guides/language/language-tour)Dart编码规范 [http://dart.goodev.org/guides/language/effective-dart](http://dart.goodev.org/guides/language/effective-dart)
+	- 《Flutter实战》 [https://book.flutterchina.club/](https://book.flutterchina.club/)
+	- Flutter中文网 [https://flutterchina.club/widgets-intro/](https://flutterchina.club/widgets-intro/)
+	- 组件查看：
+	- Material：[https://flutterchina.club/widgets/material/](https://flutterchina.club/widgets/material/)类别：[https://flutterchina.club/widgets/](https://flutterchina.club/widgets/)索引：[https://flutterchina.club/widgets/widgetindex/](https://flutterchina.club/widgets/widgetindex/)
+	- awesome-flutter-cn:[https://github.com/crazycodeboy/awesome-flutter-cn](https://github.com/crazycodeboy/awesome-flutter-cn)
+	- Dart学习笔记：[http://www.cndartlang.com/dart/page/5](http://www.cndartlang.com/dart/page/5)
+	- Flutter学习七日总结-张风捷特烈 [https://juejin.im/post/5c1f358cf265da61223a54c7#heading-1](https://juejin.im/post/5c1f358cf265da61223a54c7#heading-1)
+	- Flutter完整开发实战详解-恋猫月亮 [https://github.com/CarGuo/GSYGithubAppFlutter](https://github.com/CarGuo/GSYGithubAppFlutter)
+	- Flutter实战-燃烧的鱼丸 [https://segmentfault.com/u/yuwanhenshu/posts?sort=created](https://segmentfault.com/u/yuwanhenshu/posts?sort=created)
+	- json To Dart：[https://javiercbk.github.io/json_to_dart/](https://javiercbk.github.io/json_to_dart/)

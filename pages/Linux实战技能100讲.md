@@ -1,0 +1,13 @@
+- #目录
+	-
+- #高亮
+	- clear和Ctrl+L等价
+	- man帮助命令
+	- ls -l 查看文件列表
+	- ls -l -r -t和ls -lrt等价
+	- cd时按tab键可补全路径
+	- psd显示当前路径
+	- cd -回到上次路径
+	- cd.. 回到上级目录
+	- mkdir -p /a/b/c 直接创建多级目录
+	-

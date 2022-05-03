@@ -1,0 +1,3 @@
+- aptx和sbc aac 蓝牙耳机的区别
+- 蓝牙编码知多少？SBC、AAC、aptX、LDAC，HWA - 知乎: <a href="https://zhuanlan.zhihu.com/p/206686074">https://zhuanlan.zhihu.com/p/206686074</a>
+- 安卓手机，显而易见，选择支持aptX或者LADC编码的耳机

@@ -1,4 +1,5 @@
 - 资料
+  collapsed:: true
 	- [Mac系统自带批量重命名功能，忍不住夸一下 | MacFlow](https://macflow.net/p/781.html)
 	- [众多Mac Gif屏幕录制软件中，我为何独爱「LICEcap」这一款 | MacFlow](https://macflow.net/p/285.html)
 	- [Photoshop 更新，原生支持 Apple Silicon，提速50% | MacFlow](https://macflow.net/p/1978.html)

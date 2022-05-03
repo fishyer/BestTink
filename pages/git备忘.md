@@ -1,0 +1,202 @@
+- 参考：
+- [Pro Git（中文版）](<a href="[http://git.oschina.net/progit/index.html](http://git.oschina.net/progit/index.html)">[http://git.oschina.net/progit/index.html](http://git.oschina.net/progit/index.html)</a>)
+- [Git - Book](<a href="[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2)">[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2)</a>)
+- [在 Git 中设置用户名 - GitHub Docs](<a href="[https://docs.github.com/cn/github/using-git/setting-your-username-in-git](https://docs.github.com/cn/github/using-git/setting-your-username-in-git)">[https://docs.github.com/cn/github/using-git/setting-your-username-in-git](https://docs.github.com/cn/github/using-git/setting-your-username-in-git)</a>)
+- [Git 常用命令整理 - Just Code - ITeye博客](<a href="[https://www.iteye.com/blog/justcoding-1830388](https://www.iteye.com/blog/justcoding-1830388)">[https://www.iteye.com/blog/justcoding-1830388](https://www.iteye.com/blog/justcoding-1830388)</a>)
+- [Git详解之二 Git基础 - Git - 服务器软件 - 深度开源](<a href="[https://www.open-open.com/lib/view/open1328069733264.html](https://www.open-open.com/lib/view/open1328069733264.html)">[https://www.open-open.com/lib/view/open1328069733264.html](https://www.open-open.com/lib/view/open1328069733264.html)</a>)
+- 初始化项目时，允许不相关历史合并
+- git pull origin main --allow-unrelated-histories
+- 合并3个commit为一个
+- git rebase -i Head~3
+- 之后将主commit用pick标记 ，其它的用s标记
+- 之后重写commit合并信息即可
+- 重写commit信息
+- git commit --amend
+- 撤销上一次commit
+- 文件和索引页回退，也撤销commit信息
+- git reset —-hard HEAD~1
+- 保留文件和索引，只撤销commit信息
+- git reset --soft HEAD~1
+- 本地删除远端已经删除的分支
+- git remote update origin —prune
+- 查看当前分支所有提交者及其提交次数，按次数由高到低排序
+- git log | grep “^Author: “ | awk ‘{print $2}’ | sort | uniq -c | sort -k1,1nr
+- git查看log
+- git log --pretty=format:”%s %an %ad"
+- git log —since=5.days
+- git log --pretty=format:"%s %an %ad" —since=1.days --author=Yutianran
+- 配置用户信息
+- git config —global <a href="[http://user.name/](http://user.name/)">user.name</a> Fishyer
+- git config —global user.email [fishyer@foxmail.com](mailto:fishyer@foxmail.com)
+- 查看配置信息
+- git config —list
+- 生成ssh密钥
+- 参考：<a href="[https://gitee.com/help/articles/4181#article-header0](https://gitee.com/help/articles/4181#article-header0)">[https://gitee.com/help/articles/4181#article-header0](https://gitee.com/help/articles/4181#article-header0)</a>
+- ssh-keygen -t rsa -C "[fishyer@foxmail.com](mailto:fishyer@foxmail.com)"
+- 按照提示完成三次回车，即可生成 ssh key
+- 通过查看 ~/.ssh/id_rsa.pub 文件内容，获取public key，添加到指定的托管仓库中
+- 添加后，在终端（Terminal）中输入托管仓库网址，添加主机到本机SSH可信列表
+- ssh -T [git@github.com](mailto:git@github.com)
+- Git配置多个SSH-Key
+- 参考：<a href="[https://gitee.com/help/articles/4229#article-header0](https://gitee.com/help/articles/4229#article-header0)">[https://gitee.com/help/articles/4229#article-header0](https://gitee.com/help/articles/4229#article-header0)</a>
+- 生成一个公司用的SSH-Key
+- ssh-keygen -t rsa -C 'xxxxx@company.com' -f ~/.ssh/gitee_id_rsa
+- 生成一个github用的SSH-Key
+- ssh-keygen -t rsa -C 'xxxxx@qq.com' -f ~/.ssh/github_id_rsa
+- 在 ~/.ssh 目录下新建一个config文件，添加如下内容（其中Host和HostName填写git服务器的域名，IdentityFile指定私钥的路径）
+- # gitee
+- Host <a href="[http://gitee.com](http://gitee.com)">gitee.com</a>
+- HostName <a href="[http://gitee.com](http://gitee.com)">gitee.com</a>
+- PreferredAuthentications publickey
+- IdentityFile ~/.ssh/gitee_id_rsa
+- # github
+- Host [github.com](http://github.com)
+- HostName [github.com](http://github.com)
+- PreferredAuthentications publickey
+- IdentityFile ~/.ssh/github_id_rsa
+- 用ssh命令分别测试
+- ssh -T [git@gitee.com](mailto:git@gitee.com)
+- ssh -T [git@github.com](mailto:git@github.com)
+- 克隆线上仓库到本地仓库
+- git clone [git@github.com](mailto:git@github.com):fishyer/SuperAdapter.git
+- 提交三部曲
+- 添加
+- git add .
+- 提交
+- git commit -m “备注信息”
+- 推送
+- git push origin main
+- git文件的四个区域
+- A[工作区]
+- B[缓存区]
+- C[本地仓库]
+- D[远程仓库]
+- 连接线上仓库
+- git remote add origin [git@github.com](mailto:git@github.com):fishyer/SuperAdapter.git
+- 查看当前连接的远程仓库
+- git remote -v
+- 本地查看提交历史
+- git log
+- 编辑忽略文件
+- vim .gitignore
+- 检查当前文件状态
+- git status
+- 已缓存状态：Changes to be committed
+- 未缓存状态：Changes not staged for commit
+- 只有已缓存的才能成功推送！
+- 推送故障:ß执行以下代码，再次推送即可
+- git config —global push.default matching
+- 基于当前分支，创建新分支
+- git checkout -b develop master
+- 添加Submodule
+- git submodule init
+- git submodule add {submodule_gitpath} {submodule_dir}
+- git submodule update
+- git基本用法
+- remote
+- branch
+- tag
+- git进阶用法
+- merge
+- rebase
+- reset
+- 查看历史中的多个 commit：log
+- 查看详细改动
+- git log -p
+- 查看大致改动
+- git log --stat
+- 查看具体某个 commit
+- git show
+- 查看commit
+- 要看最新 commit ，直接输入
+- git show
+- 要看指定 commit ，输入
+- git show [commitId]
+- 如果还要指定文件，在 git show 的最后加上文件名
+- 查看未提交的内容：diff
+- 查看暂存区和上一条 commit 的区别
+- git diff --staged（或 --cached）
+- 查看工作目录和暂存区的区别
+- git diff 不加选项参数
+- 查看工作目录和上一条 commit 的区别
+- git diff HEAD...
+- 移除已经add到缓存的文件
+- git rm --cached "文件路径"，不删除物理文件，仅将该文件从缓存中删除
+- git rm --f  "文件路径"，不仅将该文件从缓存中删除，还会将物理文件删除（不会回收到垃圾桶)
+- 临时切换分支，缓存当前分支的内容
+- 保存
+- git stash -u
+- 取回
+- git stash pop
+- 找回已删除的分支
+- git reflog
+- 合并有冲突时，命令行解决冲突
+- git merge develop
+- git mergetool
+- git merge --continue
+- git status
+- [[git更新忽略文件]]
+- 查看git配置
+- config的三种级别：系统级、用户级、目录级
+- git config --system
+- git config --global
+- git config
+- 查看当前的config
+- git config --list
+- 查看用户信息
+- git config <a href="[http://user.name](http://user.name)">user.name</a>
+- git config user.email
+- 修改用户信息
+- git config <a href="[http://user.name](http://user.name)">user.name</a> "yourname"
+- git config user.email "[youremail@xxx.com](mailto:youremail@xxx.com)"
+- 一个不错的查看git log的命令
+- git log --graph --pretty='format:%C(red)%d%C(reset) %C(yellow)%h%C(reset) %ar %C(green)%aN%C(reset) %s
+- 修改上一次的commit
+- 其实就是生成一条新的commit替换了原commit
+- git commit -—amend
+- 提交代码前，先整理下commit
+- 合并最近3个commit为一个
+- git rebase -i Head~3
+- 之后将主commit用pick标记 ，其它的用s标记
+- 之后重写commit合并信息即可
+- 直接reset --soft，只撤销commit信息，然后重新commit即可
+- 强制更新远程分支
+- git push -f
+- merge和rebase的区别
+- merge相当于用两个分支自动生成一次merge commit
+- rebase相当于把子分支上的commit逐个提交到主分支上，不会自动生成merge commit
+- 自定义mergetool
+- git config --global merge.tool meld
+- git config --global mergetool.meld.path "/c/Program Files (x86)/Meld/Meld.exe"
+- mergeftool 配置,修改~/.gitconfig
+- merge.tool=meld
+- mergetool.meld.path=C:/Program Files (x86)/Meld/Meld.exe
+- 让git mergetool不再生成备份文件（*.orig）\
+- git config --global  mergetool.keepbackup false
+- 添加子仓库
+- git submudule add {子仓库的本地文件夹} {子仓库的远程地址}
+- 更新子仓库
+- 1. 查看当前submodule版本号
+- git submodule status
+- 2. 更新submodule
+- git submodule update
+- 3. 提交三部曲
+- git add .
+- git commit -m "更新submodule"
+- git push
+- 注意：更新子仓库后，主仓库并不会自动更新，必须切换回主仓库add commit push一遍才行
+- 查看两个分支的共同祖先了
+- git merge-base origin/develop feature
+- 移除已加入暂存区的文件
+- git update-index --assume-unchanged PATH
+- ## git
+- 版本管理工具
+- ## 网站
+- github
+- Gitlab
+- 码云
+- ## 工具
+- TortoiseGit
+- sourcetree
+- vscode
+- 网盘

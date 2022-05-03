@@ -1,0 +1,71 @@
+- 摘要
+	- 1.代码重构
+	- 2.网络框架
+	- 3.场景设计
+	- 4.编码规范
+	- 5.异常管理
+	- 6.代码混淆
+	- 7.持续集成
+	- 8.竞品技术
+	- 9.项目管理
+	- 10.日常问题
+	- 11.无线团队
+- 目录
+	- 第1篇 基础篇
+		- 第1章 Android触摸事件传递机制
+		- 第2章 Android View的绘制流程
+		- 第3章 Android动画机制
+		- 第4章 Support Annotation Library使用详解
+		- 第5章 Percent Support Library使用详解
+		- 第6章 Design Support Library使用详解
+		- 第7章 AndroidStudio中的NDK开发
+		- 第8章 Gradle必知必会
+		- 第9章 通过Gradle打包发布函数库到JCenter和MavenCenter
+		- 第10章 Builder模式详解
+		- 第11章 注解在Android中的应用
+		- 第12章 ANR产生的原因及其定位分析
+		- 第13章 Android异步处理技术
+		- 第14章 Android数据序列化方案研究
+		- 第15章 Android WebView Java和JavaScript交互详解
+	- 第2篇 系统架构篇
+		- 第16章 MVP模式及其在Android中的应用
+		- 第17章 MVVM模式及Android DataBinding实战
+		- 第18章 观察者模式的拓展：事件总线
+		- 第19章 书写简洁规范的代码
+		- 第20章 基于开源框架搭建自己的技术堆栈
+	- 第3篇 经验总结篇
+		- 第21章 64K方法数限制原理与解决方案
+		- 第22章 Android插件框架机制研究与实践
+		- 第23章 推送机制实现原理详解
+		- 第24章 APP瘦身经验总结
+		- 第25章 Android Crash日志收集原理与实践
+	- 第4篇 新技术篇
+		- 第26章 函数式编程思想及其在Android中的应用
+		- 第27章 依赖注入及其在Android中的应用
+		- 第28章 Android世界中的Swift：Kotlin在Android中的应用
+		- 第29章 ReactNative For Android 入门指南
+		- 第30章 Android在线热修复方案研究
+		- 第31章 面向切面编程及其在Android中的应用
+		- 第32章 基于Facebook Buck改造Android构建系统
+	- 第5篇 性能优化篇
+		- 第33章 代码优化
+		- 第34章 图片优化
+		- 第35章 电量优化
+		- 第36章 布局优化
+		- 第37章 网络优化
+	- 第6篇 移动安全篇
+		- 第38章 Android混淆机制详解
+		- 第39章 Android反编译机制详解
+		- 第40章 客户端敏感信息隐藏技术研究
+		- 第41章 Android加固技术研究
+		- 第42章 Android安全编码
+	- 第7章 工具篇
+		- 第43章 Android调试工具Facebook Stetho
+		- 第44章 内存泄露检测函数库 LeakCanary
+		- 第45章 基于Facebook Redex实现Android APK的压缩和优化
+		- 第46章 AndroidStudio你所需要知道的功能
+	- 第8篇 测试篇
+		- 第47章 Android单元测试框架简介
+		- 第48章 Android UI自动化测试框架简介
+		- 第49章 Android静态代码分析实战
+		- 第50章 基于Jenkins+Gradle搭建Android持续集成编译环境

@@ -16,3 +16,14 @@
 	  在七牛云上申请的只是测试域名服务，只有一个月的有效期。如果想继续使用就需要绑定自己的域名，而且这个域名还需要备案。 于是我在腾讯云上注册了两年的zhangferry.com这个域名。填写资料时，我看到系统提示域名要进行备案，备案过程中又发现，要有绑定腾讯云服务才能进行备案。？？我只是要域名并不需要云服务啊。隐约感觉好像被下套了，需要解决的问题一个套一个。我还怀着侥幸的心理看了下腾讯云服务的价格，用不起用不起。。。 看到提示说如果不备案域名，三个月后会被回收，有点慌。询问客服之后得知，服务器在国内且没有备案的情况下才会被回收，因为我的博客是搭在Github上的，所以可以不备案，松了一口气，域名保住了。但是，不备案七牛云又不干了，what f。。。
 	  " https://diigo.com/0oa766
 	-
+- PicGo
+- [使用PicGo搭建图床_mixley的专栏-CSDN博客](https://blog.csdn.net/mixley/article/details/118559967)
+- PicGo
+- [使用PicGo搭建图床_mixley的专栏-CSDN博客](https://blog.csdn.net/mixley/article/details/118559967)
+- PicGo-Github配置
+	- 参考：<a href="[https://juejin.cn/post/6844904078468710413](https://juejin.cn/post/6844904078468710413)">[https://juejin.cn/post/6844904078468710413](https://juejin.cn/post/6844904078468710413)</a>
+	- 仓库：fishyer/Pic
+	- 分支：main
+	- Token：61e9bbf2039dbd785ec58b7bb34c298e60988f28
+- PicGO使用Github搭建图床
+	- ![[Screenshot_2021-12-02-06-13-09-66.jpg]]

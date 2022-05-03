@@ -1,0 +1,9 @@
+- [#编程/Java](https://www.wolai.com/gf8ggVQ7Jv1iWEKfpLLFyN)
+- ## 1.高并发架构
+- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195009.png)
+- ## 2.分布式技术
+- ![image_1](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195013.png)
+- ## 3.性能优化
+- ![image_2](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195016.png)
+- ## 4.大数据云计算
+- ![image_3](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195020.png)

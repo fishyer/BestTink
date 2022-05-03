@@ -1,0 +1,30 @@
+- 链接服务器
+	- ssh -p 27638 root@104.128.88.110
+	- 5EBRVmKT1SHg
+- 查看指定进程
+	- ps aux | grep nginx
+- 添加权限
+	- chmod -Rf 777 ./*
+- 下载
+	- wget https://static.kodcloud.com/update/download/kodbox.1.26.zip
+- 解压
+	- unzip kodbox.1.26.zip
+	- tar zxvf kodbox.1.26.zip
+- 安装ss5
+	- wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
+	- bash install.sh –-port=8899 –-user=fishyer –-passwd=vps2850
+	- 输出信息
+		- Dante Version:        v1.3.2
+		- Socks5 Info:
+			- 104.128.88.110:8899
+			- 172.17.0.1:8899
+		- Socks5 User&Passwd:   fishyer:vps2850
+	- 参考资料
+		- [CentOS搭建Socks5代理一键脚本 - 鱼CC-IT](https://ccito.cn/14.html)
+- 查看文件夹大小
+	- du -shc *
+- 测试
+-
+-
+-
+-

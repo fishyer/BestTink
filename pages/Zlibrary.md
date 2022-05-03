@@ -1,0 +1,8 @@
+- Zlibrary 搜书神器
+- 下载
+	- https://zh.sa1lib.org/
+- 转换为PDF
+	- calibre
+- 打开后会自动查找可用网站
+	- 1lib.domains
+		- https://hk1lib.org/?signAll=1&ts=0512

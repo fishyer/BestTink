@@ -10,4 +10,24 @@
 - SSH配置
 	- [生成/添加SSH公钥 - Gitee.com](https://gitee.com/help/articles/4181#article-header0)
 		- ssh-keygen -t rsa -C "fishyer@foxmail.com"
+- [Linux工具快速教程 — Linux Tools Quick Tutorial](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html#)
+- [[Linux常用命令]]
+- cat命令
+  collapsed:: true
+	- // 服务器导入
+	- cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+- scp和cat命令
+  collapsed:: true
+	- 本机拷贝到服务器
+		- scp -P 27638 /Users/yutianran/Documents/test.txt root@104.128.88.110:~/test/
+	- 服务器拷贝到本机
+		- scp -P 27638 root@104.128.88.110:~/test/test.txt /Users/yutianran/Documents/test02.txt
+		- scp -P 27638 root@104.128.88.110:~/test/test.txt /Users/yutianran/Documents/test02.txt
+- 1
+-
+-
+-
+-
+-
+-
 -

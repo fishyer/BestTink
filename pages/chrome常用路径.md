@@ -1,0 +1,9 @@
+- 快捷键设置
+- chrome://extensions/shortcuts
+- 书签管理
+- chrome://bookmarks
+- 拓展管理
+- chrome://extensions
+- 实验功能开关
+- chrome://flags
+- [[chrome]]

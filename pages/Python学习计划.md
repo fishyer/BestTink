@@ -1,0 +1,17 @@
+- [[Python]]
+- [[学习计划]]
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image.png)
+- ## 第一阶段：Python核心编程
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_1.png)
+- ## 第二阶段：python和Linux高级编程
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_2.png)
+- ## 第三阶段：前端开发
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_3.png)
+- ## 第四阶段：Web开发
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_4.png)
+- ## 第五阶段：爬虫开发
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_5.png)
+- ## 第六阶段：人工智能
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_6.png)
+- ## 第七阶段：面试强化
+- ![](01-Archive/Z-Other/Attachment/image-Python学习计划/image_7.png)
