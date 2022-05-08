@@ -1,3 +1,0 @@
-- AndroidStudio模板路径
-- C:\Program Files\Android\Android Studio\plugins\android\lib\templates
--

@@ -1,9 +1,0 @@
-- Splash启动图优化
-- 优化后：无黑底
-- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195521.png)
-- 冷启动：650ms
-- 热启动：170ms
-- 优化前：有黑底
-- ![image_1](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195524.png)
-- 冷启动：620ms
-- 热启动：120ms

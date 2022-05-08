@@ -1,6 +1,0 @@
-- Activity的启动模式
-	- standard
-	- singleTop
-	- singleTask
-	- singleInstance
-- IntentFilter

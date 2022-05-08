@@ -1,3 +1,0 @@
--
-- Android 开源大全 [https://github.com/XXApple/AndroidLibs](https://github.com/XXApple/AndroidLibs)
--

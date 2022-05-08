@@ -1,7 +1,0 @@
-- 使用notion创建博客的2种方法
-- 1. 使用notion本身的page
-	- [如何为 Notion 公开页面自定义域名 | 一日一技 - 少数派](https://sspai.com/post/58441)
-- 2. 只把notion当数据库，自己渲染
-	- [用 Notion 部署你的个人博客 —— 基于 Nobelium + Vercel 的个人博客搭建指南 - 少数派](https://sspai.com/post/66678)
-- 参考资料
-	- [Fruition: Free, Open Source Toolkit for Building Websites with Notion](https://fruitionsite.com/)

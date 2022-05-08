@@ -1,2 +1,0 @@
-- emoji网站
-- [Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站](https://www.emojiall.com/zh-hans)

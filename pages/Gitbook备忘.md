@@ -1,5 +1,0 @@
-- Gitbook备忘
-- [GitBook - Where software teams break knowledge silos.](https://www.gitbook.com/)
-- [GitBook 教程（中文版）_w3cschool](https://www.w3cschool.cn/gitbook/)
-- [GitBook使用教程 - 掘金](https://juejin.cn/post/7017663651066839071)
-- [ToutyRater/toutyrater.github.io](https://github.com/ToutyRater/toutyrater.github.io)

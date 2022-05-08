@@ -1,7 +1,0 @@
-- Android进程间通信方式
-- 1. 通过Intent在Activity、Service或BroadcastReceiver间进行进程间通信，可通过Intent传递数据
-- 2. AIDL方式
-- 3. Messenger方式
-- 4. 利用ContentProvider
-- 5. Socket方式
-- 6. 基于文件共享的方式

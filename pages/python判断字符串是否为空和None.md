@@ -1,5 +1,0 @@
-- [python判断字符串是否为空和None - 道法自然﹑ - 博客园](https://www.cnblogs.com/hello-wei/p/12504548.html)
-- 1、使用字符串长度判断 len(s) ==0 则字符串为空
-- 2、isspace判断是否字符串全部是空格
-- 3、字符串去空格及去指定字符 去两边空格：str.strip() 去左空格：str.lstrip() 去右空格：str.rstrip()
-- 4、python 中 没有NULL 这个值 ， 与之对应的就是None

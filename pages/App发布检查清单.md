@@ -1,7 +1,0 @@
-- App发布检查清单
-- UnitTest测试基本方法
-- UITest测试业务流程
-- MonkeyTest测试稳定性
-- 不保留活动模式检查Fragment恢复机制
-- LeakCanary内存泄漏检查
-- Lint代码规范检查

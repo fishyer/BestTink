@@ -1,4 +1,0 @@
-- Gist-Github配置
-- 参考：
-- [使用GitHub Gist+Sublime Text 3管理代码片段 - 简书](<a href="[https://www.jianshu.com/p/0db36a1ca8fa](https://www.jianshu.com/p/0db36a1ca8fa)">[https://www.jianshu.com/p/0db36a1ca8fa](https://www.jianshu.com/p/0db36a1ca8fa)</a>)
-- Token：da8223dfe206e6ec4448fd9767650881a6dc3ad2

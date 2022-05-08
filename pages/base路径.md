@@ -1,8 +1,0 @@
-- [shell有哪些？Zsh和Bash的区别是什么？ - 简书](https://www.jianshu.com/p/a891af6f87e0)
-- /bin/bash
-- cat /etc/shells
-- 切换terminal
-	- #zsh
-	- $ chsh -s /usr/local/bin/zsh
-	- #自带shell
-	- $ chsh -s /usr/local/bin/sh

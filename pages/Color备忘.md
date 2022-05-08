@@ -1,6 +1,0 @@
-- Color(0xffcbf231)
-- Colors.lightBlue
-- Color.fromARGB(100, 81, 211, 253),
-- Color randomARGB(){ Random random = new Random(); int r = 30 + random.nextInt(200); int g = 30 + random.nextInt(200); int b = 30 + random.nextInt(200); int a = 50 + random.nextInt(200); return Color.fromARGB(a, r, g, b); }
-- 作者：张风捷特烈
-- 链接：[https://juejin.im/post/5c1b7af2518825566d237655](https://juejin.im/post/5c1b7af2518825566d237655)来源：掘金

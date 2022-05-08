@@ -1,5 +1,0 @@
-- 更新忽略文件后，更新整个缓存区
-- .gitignore
-- git rm -r --cached .
-- git add .
-- git commit -m 'update .gitignore'

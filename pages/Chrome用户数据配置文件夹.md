@@ -1,1 +1,0 @@
-- Mac OS X: ~/Library/Application Support/Google/Chrome/Default

@@ -1,6 +1,0 @@
-- ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195039.png)
-- 线程A与线程B之间如要通信的话，必须要经历下面2个步骤：
-- 1. 首先，线程A把本地内存A中更新过的共享变量刷新到主内存中去。
-- 2. 然后，线程B到主内存中去读取线程A之前已更新过的共享变量。
-- 从java源代码到最终实际执行的指令序列，会分别经历下面三种重排序：
-- ![image_1](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719195042.png)

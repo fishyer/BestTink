@@ -1,2 +1,0 @@
-- protoc命令
-- protoc -I=C:\Users\DELL\Desktop\gitlab\protobuf-gen\app\gen\proto. --descriptor_set_out=C:\Users\DELL\Desktop\gitlab\protobuf-gen\app\gen\desc\user.desc C:\Users\DELL\Desktop\gitlab\protobuf-gen\app\gen\proto\user.proto

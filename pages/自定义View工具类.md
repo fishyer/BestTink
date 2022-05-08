@@ -1,6 +1,0 @@
-- Configuration
-- ViewConfiguration
-- GestureDetector
-- VelocityTracter
-- Scroller
-- ViewDragHelper

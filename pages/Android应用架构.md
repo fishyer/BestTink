@@ -1,6 +1,0 @@
-- Android应用架构
-- XAOP
-- Shatter
-- ARouter
-- Dragger2
-- JUnit+Truth+Mockito

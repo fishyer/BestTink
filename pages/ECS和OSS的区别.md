@@ -1,4 +1,0 @@
-- ECS和OSS的区别
-- [阿里云5大基础产品简介(ECS、RDS、OSS、SLB、CDN)_qq_3304559116的博客-CSDN博客_阿里云五大产品](https://blog.csdn.net/qq_42521751/article/details/116161826)
-- ECS云服务器，适合存放关系型数据库
-- OSS对象存储，适合存放大型音视频文件

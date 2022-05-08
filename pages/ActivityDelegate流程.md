@@ -1,2 +1,0 @@
-- 先走每个Delegete的init流程，在init中添加它所嵌套的子Delegate
-- 然后在Activity.onCreate时，将所有的Delegate添加到Activity上面
